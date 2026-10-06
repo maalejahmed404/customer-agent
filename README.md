@@ -1,22 +1,20 @@
-# Customer Agent — assistant pour les comptes clients
+# Customer Agent
 
-Une équipe commerciale se connecte et pose des questions sur **un** compte client :
-*« Qu'a dit le client sur le prix ? »*, *« Où en est la contestation de facture ? »*,
-*« Écris un email de relance à Hélène. »*
+Assistant de questions-réponses sur l'historique d'un compte client (transcriptions d'appels
+et emails), destiné à une équipe commerciale.
 
-- Les réponses viennent **uniquement** des appels et des emails de ce compte.
-- Chaque réponse **cite ses sources** `[1]`, `[2]`, et chaque source ouvre l'appel ou l'email complet.
-- L'assistant **se souvient de la conversation** (on peut poser des questions de relance).
-- Un email rédigé par l'assistant **n'est jamais envoyé** sans l'accord d'un humain.
+- Les réponses s'appuient uniquement sur les appels et emails du compte de l'utilisateur.
+- Chaque réponse cite ses sources `[1]`, `[2]` ; chaque source ouvre l'appel ou l'email complet.
+- La conversation est mémorisée, ce qui permet les questions de relance.
+- Un email rédigé par l'assistant n'est envoyé qu'après validation par un humain.
 
-Stack : LangGraph · MCP (FastMCP) · FastAPI · MongoDB · Streamlit · Azure Container Apps.
-Modèles : Gemma 4 31B sur Lightning AI (chat), Voyage AI `voyage-4-large` (embeddings).
+**Stack** : LangGraph · MCP (FastMCP) · FastAPI · MongoDB · Streamlit · Azure Container Apps
+**Modèles** : Gemma 4 31B sur Lightning AI (chat) · Voyage AI `voyage-4-large` (embeddings)
 
-Documentation : [architecture et décisions techniques](docs/ARCHITECTURE.md) · [conception du déploiement Azure](docs/DEPLOIEMENT.md)
+**Documentation** : [architecture et décisions techniques](docs/ARCHITECTURE.md) ·
+[conception du déploiement Azure](docs/DEPLOIEMENT.md)
 
----
-
-## 1. L'architecture en une image
+## Architecture
 
 ```
   Navigateur
@@ -24,7 +22,7 @@ Documentation : [architecture et décisions techniques](docs/ARCHITECTURE.md) ·
       ▼
   ┌───────────┐ /login, /chat ┌───────────────────┐ outils MCP  ┌────────────┐
   │    ui     │ ────────────► │        api        │ ──────────► │ mcp_server │
-  │ Streamlit │ /actions ...  │ FastAPI           │ + token JWT │ FastMCP    │
+  │ Streamlit │ /actions ...  │ FastAPI           │ + jeton JWT │ FastMCP    │
   └───────────┘               │ + agent LangGraph │             └─────┬──────┘
                               └──┬─────────────┬──┘                   │
                                  │             │                      │
@@ -34,209 +32,138 @@ Documentation : [architecture et décisions techniques](docs/ARCHITECTURE.md) ·
                                                │
                                            ingestion
 
-  Voyage AI (embeddings) est appelé par mcp_server (questions) et ingestion (documents).
+  Voyage AI (embeddings) est appelé par mcp_server (requêtes) et ingestion (documents).
 ```
 
-**Une seule image Docker**, lancée avec une commande différente pour chaque service :
+Une seule image Docker, lancée avec une commande différente par service :
 
-| Service    | Dossier                 | Commande de démarrage                               | Port |
-|------------|-------------------------|-----------------------------------------------------|------|
-| ui         | `ui/`                   | `streamlit run ui/streamlit_app.py`                 | 8501 |
-| api        | `api/` + `agent/`       | `uvicorn api.main:app --port 8000`                  | 8000 |
-| mcp        | `mcp_server/`           | `python -m mcp_server.server`                       | 8001 |
-| ingestion  | `ingestion/`            | `python -m ingestion.ingest data/accounts`          | —    |
+| Service   | Code              | Commande                                   | Port |
+|-----------|-------------------|--------------------------------------------|------|
+| ui        | `ui/`             | `streamlit run ui/streamlit_app.py`        | 8501 |
+| api       | `api/`, `agent/`  | `uvicorn api.main:app --port 8000`         | 8000 |
+| mcp       | `mcp_server/`     | `python -m mcp_server.server`              | 8001 |
+| ingestion | `ingestion/`      | `python -m ingestion.ingest data/accounts` | —    |
 
-> L'agent LangGraph n'a **pas** de serveur à lui : c'est une bibliothèque Python que
-> l'API appelle dans `POST /chat`. Il tourne donc **dans** le conteneur `api`.
+L'agent LangGraph est une bibliothèque appelée par `POST /chat` : il s'exécute dans le
+conteneur `api`.
 
----
+### Traitement d'une question
 
-## 2. L'arborescence
+![Graphe LangGraph](docs/agent_graph.png)
+
+1. `ui` envoie `POST /chat` avec la question et le jeton JWT.
+2. `api` vérifie le jeton et en extrait l'`account_id`.
+3. `planner` : le LLM produit un plan de recherche structuré (requêtes, filtres). Une
+   salutation ne déclenche aucune recherche.
+4. `retriever` : les recherches du plan partent en parallèle vers le serveur MCP, avec un
+   jeton du même compte. Les résultats sont fusionnés par Reciprocal Rank Fusion puis
+   tronqués à 12 000 caractères.
+5. `responder` : le LLM répond à partir des sources numérotées et les cite.
+6. `email_drafter`, si un email est demandé : le brouillon est enregistré comme action
+   `pending`, à approuver ou refuser dans l'interface.
+
+### Invariants
+
+- L'`account_id` provient du jeton JWT, jamais du corps d'une requête ni d'un argument
+  d'outil. Toute requête MongoDB est filtrée dessus.
+- L'agent ne peut que proposer un email. L'envoi exige l'approbation d'un utilisateur du
+  même compte, via l'API.
+- Le contenu des appels et emails est traité comme une donnée, pas comme une instruction :
+  il est placé dans le message utilisateur, entre délimiteurs aléatoires
+  (`shared/guards.py`).
+
+## Organisation du code
 
 ```
-customer-agent/
-│
-├── shared/                  CODE COMMUN (utilisé par tous les services)
-│   ├── config.py            les réglages (lus dans les variables d'environnement / .env)
-│   ├── database.py          connexion MongoDB + création des index
-│   ├── search.py            les 4 requêtes de lecture (mots-clés, sens, récents, un document)
-│   ├── security.py          mots de passe + tokens JWT
-│   ├── embeddings.py        appel à Voyage AI (texte -> vecteur)
-│   └── guards.py            garde-fous contre l'injection de prompt
-│
-├── ingestion/               CHARGER LES DONNÉES          (Azure : Job "ingest")
-│   ├── chunking.py          découper un long texte en morceaux
-│   └── ingest.py            fichiers JSON -> interactions + chunks + embeddings
-│
-├── mcp_server/              LES OUTILS DE RECHERCHE      (Azure : Container App "mcp")
-│   └── server.py            4 outils MCP, le compte est lu dans le token
-│
-├── agent/                   L'AGENT LANGGRAPH            (tourne dans le Container App "api")
-│   ├── state.py             l'état du graphe + Plan + EmailDraft
-│   ├── prompts.py           tous les prompts envoyés au LLM
-│   ├── llm.py               le client LLM (API compatible OpenAI)
-│   ├── mcp_client.py        appelle les outils du serveur MCP, en parallèle
-│   ├── graph.py             assemble les nœuds en graphe
-│   └── nodes/
-│       ├── planner.py       1. décide quoi chercher
-│       ├── retriever.py     2. lance les recherches, fusionne les résultats
-│       ├── responder.py     3. répond en citant les sources
-│       └── email_drafter.py 4. rédige un email -> action "pending"
-│
-├── actions/                 VALIDATION HUMAINE DES EMAILS
-│   ├── approval.py          pending -> approved -> sent  /  rejected
-│   └── email_sender.py      envoi SMTP (ou collection "outbox" en démo)
-│
-├── api/                     L'API HTTP                   (Azure : Container App "api")
-│   ├── main.py              crée l'app FastAPI, liste des endpoints
-│   ├── dependencies.py      get_current_user (lit le JWT), get_agent (crée l'agent)
-│   ├── schemas.py           format des requêtes (LoginRequest, ChatRequest)
-│   ├── users.py             créer / authentifier un utilisateur
-│   └── routes/
-│       ├── login.py         POST /login
-│       ├── chat.py          POST /chat
-│       ├── interactions.py  GET  /interactions/{id}
-│       └── actions.py       GET  /actions, POST /actions/{id}/approve|reject
-│
-├── ui/                      L'INTERFACE WEB              (Azure : Container App "ui")
-│   └── streamlit_app.py
-│
-├── scripts/create_user.py   créer un utilisateur en ligne de commande
-├── examples/                un autre client MCP (preuve que les outils sont réutilisables)
-├── infra/                   Bicep : la description de l'infrastructure Azure
-├── data/accounts/           jeu de données synthétique (10 comptes, en français)
-├── docs/                    architecture, déploiement, schéma du graphe LangGraph
-├── tests/                   49 tests (pytest)
-│
-├── Dockerfile               l'image unique
-├── docker-compose.yml       tout lancer en local
-├── requirements.txt         les dépendances Python
-└── .env.example             modèle du fichier de configuration
+shared/            configuration, accès MongoDB, recherche, sécurité, garde-fous
+ingestion/         découpage, embeddings, écriture idempotente des interactions
+mcp_server/        quatre outils de recherche en lecture seule, compte lu dans le jeton
+agent/             graphe LangGraph : state, prompts, client MCP, nœuds
+  nodes/           planner, retriever, responder, email_drafter
+actions/           cycle pending → approved → sent / rejected, envoi SMTP ou outbox
+api/               FastAPI : login, chat, interactions, actions
+ui/                interface Streamlit
+scripts/           création d'utilisateur en ligne de commande
+examples/          client MCP indépendant utilisant les mêmes outils
+infra/             Bicep : Azure Container Apps
+data/accounts/     jeu de données synthétique en français (10 comptes)
+tests/             49 tests pytest
 ```
 
----
+## Lancer en local
 
-## 3. Par où commencer la lecture ?
+Les commandes s'exécutent depuis la racine du dépôt. Trois variables sont à renseigner
+dans `.env` : `JWT_SECRET`, `LLM_API_KEY`, `VOYAGE_API_KEY`.
 
-Lisez dans cet ordre, chaque fichier ne dépend que des précédents :
-
-1. `shared/config.py` — tous les réglages.
-2. `shared/database.py` puis `shared/search.py` — comment on stocke et on cherche.
-3. `ingestion/chunking.py` puis `ingestion/ingest.py` — comment les données arrivent.
-4. `mcp_server/server.py` — les outils de recherche exposés en MCP.
-5. `agent/state.py` → `agent/graph.py` → `agent/nodes/` (planner, retriever, responder, email_drafter).
-6. `actions/approval.py` — la validation humaine.
-7. `api/main.py` puis `api/routes/` — les endpoints.
-8. `ui/streamlit_app.py` — l'interface.
-
----
-
-## 4. Le trajet d'une question
-
-![Le graphe LangGraph](docs/agent_graph.png)
-
-1. **ui** envoie `POST /chat` avec la question et le token JWT.
-2. **api** vérifie le token et prend l'`account_id` **dans le token** (jamais dans la requête).
-3. **agent / planner** : le LLM transforme la question en plan (quelles recherches, quels filtres).
-   Pour « Bonjour », il n'y a pas de recherche.
-4. **agent / retriever** : chaque recherche du plan est envoyée **en même temps** au serveur **mcp**,
-   avec un token du compte de l'utilisateur. Les résultats sont fusionnés (reciprocal rank fusion)
-   puis coupés à 12 000 caractères.
-5. **agent / responder** : le LLM répond à partir des sources numérotées et les cite `[1]`, `[2]`.
-6. **agent / email_drafter** (seulement si un email est demandé) : le brouillon est enregistré
-   comme action `pending`. Il apparaît dans l'interface avec **Approuver** / **Refuser**.
-
-Pour régénérer l'image du graphe :
-`python -c "from agent.graph import build_graph; open('docs/agent_graph.png','wb').write(build_graph().get_graph().draw_mermaid_png())"`
-
----
-
-## 5. Lancer en local
-
-Toutes les commandes se lancent **depuis le dossier `customer-agent/`**
-(sinon Python ne trouve pas les modules `shared`, `api`...).
-
-### Avec Docker (le plus simple)
+### Avec Docker
 
 ```powershell
-copy .env.example .env        # remplir JWT_SECRET, LLM_API_KEY, VOYAGE_API_KEY
+copy .env.example .env
 docker compose up --build -d
 docker compose run --rm api python -m ingestion.ingest data/accounts/account_1.json
 docker compose run --rm api python -m scripts.create_user camille@vendor.fr mon-mot-de-passe 1
 ```
 
-Ouvrir http://localhost:8501 et se connecter. L'utilisateur ci-dessus appartient au compte 1
-(le jeu de données a les comptes 1 à 10). Documentation de l'API : http://localhost:8000/docs
+L'interface est sur http://localhost:8501, la documentation de l'API sur
+http://localhost:8000/docs. L'utilisateur créé appartient au compte 1 ; le jeu de données
+contient les comptes 1 à 10.
 
-### Sans Docker (3 terminaux)
+### Sans Docker
 
-Il faut quand même un MongoDB : `docker compose up -d mongo` (ou n'importe quel MongoDB 7+).
+MongoDB 7+ est requis (`docker compose up -d mongo` suffit).
 
 ```powershell
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt -r requirements-dev.txt
-copy .env.example .env        # remplir JWT_SECRET, LLM_API_KEY, VOYAGE_API_KEY
+copy .env.example .env
 
 python -m ingestion.ingest data/accounts/account_1.json
 python -m scripts.create_user camille@vendor.fr mon-mot-de-passe 1
 
-python -m mcp_server.server             # terminal 1 (port 8001)
-uvicorn api.main:app --port 8000        # terminal 2 (port 8000)
-streamlit run ui/streamlit_app.py       # terminal 3 (port 8501)
+python -m mcp_server.server             # port 8001
+uvicorn api.main:app --port 8000        # port 8000
+streamlit run ui/streamlit_app.py       # port 8501
 ```
 
-> Voyage AI sans moyen de paiement est limité à 3 requêtes par minute : charger les 10 comptes
-> prend alors très longtemps. Commencez par un seul compte (`account_1.json`).
+Sans moyen de paiement, un compte Voyage AI est limité à 3 requêtes par minute :
+l'ingestion des dix comptes devient très longue. Un seul compte suffit pour essayer.
 
----
+### Utiliser les outils depuis un autre client MCP
 
-## 6. Les tests
+Le serveur MCP est indépendant de l'agent. Tout client MCP peut l'interroger en
+Streamable HTTP sur `http://localhost:8001/mcp` avec l'en-tête
+`Authorization: Bearer <jeton>` obtenu par `POST /login`, et ne voit que le compte du jeton.
+
+```powershell
+python examples/mcp_client_example.py camille@vendor.fr mon-mot-de-passe "Hôpital Manager"
+```
+
+## Tests
 
 ```powershell
 docker compose up -d mongo
 pytest -q
 ```
 
-49 tests, **aucune clé API nécessaire** (le LLM et les embeddings sont remplacés par des faux,
-voir `tests/fakes.py`). Sans MongoDB, les tests qui en ont besoin sont ignorés (« skipped »).
+49 tests, sans clé d'API : le LLM et les embeddings sont remplacés par des doubles
+déterministes (`tests/fakes.py`). MongoDB est réel, car la recherche lexicale dépend de son
+index texte ; sans MongoDB, les tests concernés sont ignorés. L'intégration continue les
+exécute à chaque push.
 
-| Fichier de test        | Ce qu'il vérifie                                                     |
-|------------------------|----------------------------------------------------------------------|
-| `test_security.py`     | mots de passe, tokens (expiré, mauvais secret...)                    |
-| `test_guards.py`       | injection de prompt, caractères cachés, adresses email               |
-| `test_ingestion.py`    | découpage, pas de doublons, chaque chunk pointe vers sa source       |
-| `test_search.py`       | recherches par mots-clés et par sens, filtres, isolation des comptes |
-| `test_mcp_server.py`   | le vrai serveur MCP : token obligatoire, compte lu dans le token, parallélisme |
-| `test_agent.py`        | le graphe : plan, fusion, citations, pannes, mémoire de conversation |
-| `test_actions.py`      | un email n'est jamais envoyé sans humain, et une seule fois          |
-| `test_api.py`          | login, le compte vient du token, conversations séparées par utilisateur |
+| Fichier              | Ce qui est vérifié                                                    |
+|----------------------|-----------------------------------------------------------------------|
+| `test_security.py`   | mots de passe, jetons expirés ou signés avec un autre secret          |
+| `test_guards.py`     | injection de prompt, caractères invisibles, adresses email            |
+| `test_ingestion.py`  | découpage, idempotence, lien de chaque passage vers sa source         |
+| `test_search.py`     | recherche lexicale et sémantique, filtres, isolation entre comptes    |
+| `test_mcp_server.py` | serveur réel : jeton obligatoire, compte lu dans le jeton, parallélisme |
+| `test_agent.py`      | plan, fusion, citations, pannes, mémoire de conversation              |
+| `test_actions.py`    | aucun envoi sans validation humaine, un seul envoi par action         |
+| `test_api.py`        | login, compte dérivé du jeton, conversations séparées par utilisateur |
 
----
+## Déploiement
 
-## 7. Quatre règles à retenir
-
-1. **L'`account_id` vient toujours du token JWT**, jamais du corps d'une requête ni d'un argument
-   d'outil. Toute requête MongoDB commence par `{"account_id": ...}`.
-2. **L'agent ne peut que proposer** un email (`actions/approval.py → propose`). Seul un humain,
-   via l'API, peut l'approuver.
-3. **Les textes des emails et appels sont des données, pas des instructions** : ils vont dans le
-   message utilisateur, entre des marqueurs aléatoires (`shared/guards.py`).
-4. **On importe le module, pas la fonction** : `from shared import database` puis
-   `database.get_db()`. Ça permet aux tests de remplacer la fonction (`monkeypatch.setattr`).
-
----
-
-## 8. Choix techniques, en bref
-
-| Choix | Pourquoi |
-|---|---|
-| Planifier puis chercher en parallèle (pas de boucle ReAct) | 2 appels LLM par question, latence prévisible, chaque étape testable seule |
-| LangGraph | la mémoire de conversation est gérée par le checkpointer MongoDB, sans code maison |
-| Recherche par mots-clés **et** par sens | les mots-clés trouvent `FAC-2291`, le sens trouve « problème de facturation » |
-| Similarité cosinus en numpy | quelques centaines de chunks par compte : exact et instantané, pas d'index vectoriel |
-| MCP pour les outils | n'importe quel client MCP (Claude Desktop, autre agent...) peut réutiliser les outils |
-| MongoDB | appels et emails de formes différentes, index texte français, checkpointer LangGraph officiel |
-| API LLM compatible OpenAI | changer de fournisseur = changer 3 variables d'environnement |
-| Azure Container Apps | trafic en rafales : chaque app descend à 0 réplica quand personne ne l'utilise |
-
+L'infrastructure Azure est décrite dans `infra/main.bicep` : trois Container Apps (`ui`
+publique, `api` et `mcp` internes) avec mise à l'échelle à zéro, et un job d'ingestion.
+Les décisions et la procédure sont dans [docs/DEPLOIEMENT.md](docs/DEPLOIEMENT.md).
