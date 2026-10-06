@@ -1,18 +1,6 @@
-// =====================================================================================
-// Déploiement sur Azure Container Apps  (voir docs/DEPLOIEMENT.md)
-// =====================================================================================
-// Ce fichier crée :
-//   - un espace de logs (Log Analytics)
-//   - un environnement Container Apps (le "réseau" commun des apps)
-//   - 3 Container Apps construites depuis la MÊME image Docker :
-//       ui   Streamlit                      PUBLIC   port 8501   -> ui/
-//       api  FastAPI + agent LangGraph      interne  port 8000   -> api/ + agent/
-//       mcp  serveur MCP (outils)           interne  port 8001   -> mcp_server/
-//   - 1 Job manuel "ingest" (même image) qui charge data/accounts dans MongoDB
-//
-// NON créés ici (services externes, passés en paramètres) :
-//   MongoDB Atlas, le LLM (API compatible OpenAI), Voyage AI.
-// =====================================================================================
+// Azure Container Apps : ui (publique), api et mcp (internes), job d'ingestion.
+// Une seule image pour les quatre. MongoDB Atlas, le LLM et Voyage AI sont externes
+// et passés en paramètres. Conception : docs/DEPLOIEMENT.md
 
 param location string = resourceGroup().location
 
@@ -70,7 +58,6 @@ var domain = env.properties.defaultDomain
 var mcpHost = exposeMcp ? 'mcp.${domain}' : 'mcp.internal.${domain}'
 
 // ----------------------------------------------------------------- réglages communs
-// Les valeurs sensibles sont des "secrets" Container Apps (jamais en clair dans l'app).
 var secrets = [
   { name: 'registry-password', value: registryPassword }
   { name: 'mongo-uri', value: mongoUri }
@@ -83,7 +70,6 @@ var registries = [
   { server: registryServer, username: registryUsername, passwordSecretRef: 'registry-password' }
 ]
 
-// Les variables d'environnement lues par shared/config.py
 var envVars = [
   { name: 'MONGO_URI', secretRef: 'mongo-uri' }
   { name: 'JWT_SECRET', secretRef: 'jwt-secret' }
@@ -197,7 +183,6 @@ resource ui 'Microsoft.App/containerApps@2024-03-01' = {
 }
 
 // ----------------------------------------------------------------- job "ingest"
-// Lancer avec : az containerapp job start -g <groupe> -n ingest
 resource ingest 'Microsoft.App/jobs@2024-03-01' = {
   name: 'ingest'
   location: location

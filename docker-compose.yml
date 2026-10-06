@@ -1,7 +1,6 @@
-# Lancer tout en local : docker compose up --build   ->   http://localhost:8501
-# Même découpage que sur Azure : 3 conteneurs (ui, api, mcp) + MongoDB.
+# Pile locale : docker compose up --build  ->  http://localhost:8501
 
-x-app: &app            # réglages communs aux 3 conteneurs
+x-app: &app
   build: .
   image: customer-agent
   env_file: .env
@@ -16,19 +15,19 @@ services:
     ports: ["27017:27017"]
     volumes: [mongo-data:/data/db]
 
-  mcp:                 # serveur MCP (outils de recherche)
+  mcp:
     <<: *app
     command: python -m mcp_server.server
-    ports: ["8001:8001"]   # ouvert pour que d'autres clients MCP puissent l'utiliser
+    ports: ["8001:8001"]   # exposé pour les clients MCP externes
     depends_on: [mongo]
 
-  api:                 # API FastAPI + agent LangGraph
+  api:
     <<: *app
     command: uvicorn api.main:app --host 0.0.0.0 --port 8000
     ports: ["8000:8000"]
     depends_on: [mongo, mcp]
 
-  ui:                  # interface Streamlit
+  ui:
     <<: *app
     command: streamlit run ui/streamlit_app.py --server.address 0.0.0.0 --server.port 8501
     ports: ["8501:8501"]
