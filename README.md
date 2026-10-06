@@ -12,8 +12,7 @@ Une équipe commerciale se connecte et pose des questions sur **un** compte clie
 Stack : LangGraph · MCP (FastMCP) · FastAPI · MongoDB · Streamlit · Azure Container Apps.
 Modèles : Gemma 4 31B sur Lightning AI (chat), Voyage AI `voyage-4-large` (embeddings).
 
-➡️ **Les choix techniques et leur justification : [CHOIX_TECHNIQUES.md](CHOIX_TECHNIQUES.md)**
-➡️ **Déploiement sur Azure : [DEPLOIEMENT_AZURE.md](DEPLOIEMENT_AZURE.md)**
+Documentation : [architecture et décisions techniques](docs/ARCHITECTURE.md) · [conception du déploiement Azure](docs/DEPLOIEMENT.md)
 
 ---
 
@@ -106,7 +105,7 @@ customer-agent/
 ├── examples/                un autre client MCP (preuve que les outils sont réutilisables)
 ├── infra/                   Bicep : la description de l'infrastructure Azure
 ├── data/accounts/           jeu de données synthétique (10 comptes, en français)
-├── docs/agent_graph.png     le dessin du graphe LangGraph
+├── docs/                    architecture, déploiement, schéma du graphe LangGraph
 ├── tests/                   49 tests (pytest)
 │
 ├── Dockerfile               l'image unique

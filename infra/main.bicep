@@ -1,5 +1,5 @@
 // =====================================================================================
-// Déploiement sur Azure Container Apps  (explications : DEPLOIEMENT_AZURE.md)
+// Déploiement sur Azure Container Apps  (voir docs/DEPLOIEMENT.md)
 // =====================================================================================
 // Ce fichier crée :
 //   - un espace de logs (Log Analytics)

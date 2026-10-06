@@ -8,7 +8,7 @@ UTILISATION (depuis le dossier customer-agent/)
     Exemple : python -m scripts.create_user camille@vendor.fr mon-mot-de-passe 1
 
     Pour créer l'utilisateur dans MongoDB Atlas (Azure) plutôt qu'en local, définir
-    d'abord la variable MONGO_URI (voir DEPLOIEMENT_AZURE.md, étape 2).
+    d'abord la variable MONGO_URI (voir docs/DEPLOIEMENT.md, section 5).
 """
 
 import asyncio
