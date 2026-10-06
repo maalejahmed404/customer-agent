@@ -1,0 +1,959 @@
+{
+  "tenant_name": "Bibliovia Solutions",
+  "account_name": "Éditions Lumière & Cie",
+  "calls": [
+    {
+      "date": "2025-01-13",
+      "call_name": "Appel de qualification (barrage secrétariat) — tentative de joindre Directeur de la production",
+      "transcript": "Commercial (Aurélie): Bonjour, Aurélie Chassagne de Bibliovia Solutions. Je cherche à joindre Vincent Morel, s'il vous plaît.\n\nBarrage (Nathalie): Bonjour monsieur. Elle est en réunion, c'est de la part de qui ?\n\nCommercial (Aurélie): Nous travaillons avec plusieurs acteurs de l'édition sur un taux de retours libraires de 24 %. Je souhaitais simplement valider si le sujet est d'actualité chez vous.\n\nBarrage (Nathalie): Alors là, elle enchaîne les réunions toute la semaine. Je note votre nom.\n\nCommercial (Aurélie): Est-ce que le sujet taux de retours libraires est un chantier ouvert chez vous cette année ? Ça m'éviterait de vous déranger pour rien.\n\nBarrage (Nathalie): Je crois qu'il y a un groupe de travail là-dessus, oui.\n\nCommercial (Aurélie): Je comprends. Quel serait le meilleur moment pour la rappeler, plutôt en début de semaine ?\n\nBarrage (Nathalie): Essayez le jeudi en fin de journée, elle est plus disponible.\n\nCommercial (Aurélie): Parfait, je vous remercie. Je lui envoie un mail aujourd'hui en mettant votre nom en référence, si vous permettez.\n\nBarrage (Nathalie): Oui, pas de souci. Bonne journée.",
+      "summary": "Tentative de contact avec Vincent Morel (Directeur de la production), filtrée par l'assistante. Le sujet taux de retours libraires semble bien être un chantier ouvert en interne. Créneau de rappel identifié et envoi d'un courriel de référence convenu.",
+      "crm_fields": [
+        {
+          "key": "Statut du contact",
+          "value": "Vincent Morel injoignable — filtré par Nathalie"
+        },
+        {
+          "key": "Nom du barrage",
+          "value": "Nathalie"
+        },
+        {
+          "key": "Meilleur moment pour rappeler",
+          "value": "Jeudi en fin de journée"
+        },
+        {
+          "key": "Prochaine action",
+          "value": "Relance sous 5 jours"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-20",
+      "call_name": "Appel de prospection — premier contact avec Directeur de la production",
+      "transcript": "Commercial (Aurélie): Bonjour Vincent Morel, Aurélie Chassagne de Bibliovia Solutions. Je vous appelle à froid, vous m'accordez quatre-vingt-dix secondes et vous me dites si ça mérite un vrai échange ?\n\nProspect (Vincent Morel): Bon... deux minutes, pas plus.\n\nCommercial (Aurélie): Merci. On travaille avec des structures de l'édition qui rencontrent toutes le même problème : un taux de retours libraires de 24 %. Est-ce que ça vous parle, ou est-ce que je suis complètement à côté ?\n\nProspect (Vincent Morel): On a déjà regardé ce type de solution il y a deux ans, ça n'avait rien donné.\n\nCommercial (Aurélie): Je m'en doute. Qu'est-ce qui n'avait pas fonctionné la dernière fois ?\n\nProspect (Vincent Morel): Le projet demandait six mois de paramétrage et deux ETP en interne. On a arrêté les frais.\n\nCommercial (Aurélie): C'est exactement le reproche qu'on entend le plus. Nous, on ne remplace rien : on se branche sur Bookflow en lecture seule, et on restitue par-dessus.\n\nCommercial (Aurélie): Je vous propose trente minutes pour comprendre votre fonctionnement actuel. Sans démonstration, juste des questions. Mardi ou jeudi ?\n\nProspect (Vincent Morel): Mardi matin plutôt. 9h30, avant que ça parte dans tous les sens.\n\nCommercial (Aurélie): C'est noté, je vous envoie ça dans la foulée avec un ordre du jour court. Merci du temps.",
+      "summary": "Premier échange avec Vincent Morel. La douleur pressentie est confirmée : un taux de retours libraires de 24 %. Le frein principal exprimé est la crainte d'un projet lourd nécessitant de remplacer Bookflow. L'argument de non-remplacement et d'une première restitution à trois semaines a permis d'obtenir un rendez-vous de découverte.",
+      "crm_fields": [
+        {
+          "key": "Douleur identifiée",
+          "value": "un taux de retours libraires de 24 %"
+        },
+        {
+          "key": "Concurrent mentionné",
+          "value": "EditPrev"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Session de formation"
+        },
+        {
+          "key": "Sentiment du prospect",
+          "value": "Méfiant — projets précédents échoués"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-27",
+      "call_name": "Appel de découverte (30 min) — cartographie des processus et des douleurs",
+      "transcript": "Commercial (Aurélie): Merci de votre temps, Vincent. On a trente minutes — l'objectif pour moi, c'est de comprendre comment vous fonctionnez aujourd'hui. Je ne vous montrerai rien, promis.\n\nProspect (Vincent Morel): Ça me va. J'avoue que je m'attendais à un diaporama.\n\nCommercial (Aurélie): Commençons par le concret : 1 200 références actives et 340 nouveautés par an, c'est bien ça ? Comment ça se pilote aujourd'hui ?\n\nCommercial (Aurélie): Vous aviez évoqué ce point : des pilons qui représentent 1,8 million d'euros par an. Ça se traduit comment concrètement ?\n\nProspect (Vincent Morel): Par de la tension sur les équipes, surtout. Et par des décisions prises à l'instinct.\n\nCommercial (Aurélie): Est-ce que vous arrivez à mettre un chiffre dessus ?\n\nProspect (Vincent Morel): On a estimé que le taux de retours libraires est à 24 %. L'objectif du comité, c'est 16 %.\n\nCommercial (Aurélie): Et si vous y arriviez, ça représente quoi pour Éditions Lumière & Cie ?\n\nProspect (Vincent Morel): Ça changerait la façon dont on est perçus en interne, très honnêtement.\n\nCommercial (Aurélie): Qui utiliserait l'outil au quotidien ?\n\nProspect (Vincent Morel): Principalement Amandine Costa et son équipe. Ce sont eux qui sont en première ligne.\n\nCommercial (Aurélie): Et quel est leur niveau d'appétence pour un nouvel outil ?\n\nProspect (Vincent Morel): Amandine est plutôt ouvert, mais son équipe est attachée à ses habitudes. Si c'est plus lourd que le tableur actuel, ça ne prendra pas.\n\nCommercial (Aurélie): C'est un point que je note en gros. L'adoption, c'est là que ces projets meurent.\n\nCommercial (Aurélie): Dernière question sur l'organisation : qui produit les chiffres présentés en réunion de direction ?\n\nProspect (Vincent Morel): C'est Amandine qui prépare, et moi qui présente. Avec le risque classique : je découvre parfois une incohérence en séance.\n\nCommercial (Aurélie): Combien de temps de la réunion part sur la fiabilité des chiffres plutôt que sur les décisions ?\n\nProspect (Vincent Morel): Trop. Et c'est ce qui m'agace le plus, parce que c'est du temps de direction perdu.\n\nCommercial (Aurélie): Sur les données elles-mêmes : quelle est la qualité de ce qui sort de Bookflow ?\n\nProspect (Vincent Morel): Inégale. Sur les douze derniers mois c'est correct, avant c'est plus douteux.\n\nCommercial (Aurélie): C'est important que vous le disiez maintenant plutôt que dans trois mois. On prévoit systématiquement une phase de fiabilisation.\n\nProspect (Vincent Morel): Voilà une réponse que je n'avais pas encore entendue.\n\nCommercial (Aurélie): Aucun algorithme ne rattrape une donnée absente. Il peut la signaler, c'est tout ce qu'on promet.\n\nCommercial (Aurélie): Sur le plan technique, à qui je dois parler ?\n\nProspect (Vincent Morel): Pierre-Yves Danic, Responsable IT. Je vous préviens, il est exigeant.\n\nCommercial (Aurélie): Tant mieux. Quelles sont ses contraintes habituelles ?\n\nProspect (Vincent Morel): L'hébergement des données, c'est son sujet numéro un. Avec les obligations contractuelles envers les auteurs et la SGDL, il n'a pas droit à l'erreur.\n\nCommercial (Aurélie): Autre point que vous avez soulevé : des à-valoir auteurs suivis dans quatre fichiers différents. C'est un sujet séparé, ou lié au reste ?\n\nProspect (Vincent Morel): C'est le même sujet vu sous un autre angle. Tout part du fait qu'on n'a pas de vision consolidée en temps utile.\n\nCommercial (Aurélie): Qui s'en aperçoit en premier, aujourd'hui ?\n\nProspect (Vincent Morel): Personne, honnêtement. On le découvre dans le reporting mensuel, un mois après.\n\nCommercial (Aurélie): Donc le vrai problème, c'est moins la mesure que le délai de la mesure.\n\nProspect (Vincent Morel): Exactement. On sait mesurer, on mesure trop tard.\n\nProspect (Vincent Morel): On s'appuie sur l'ERP éditorial Bookflow. C'est la source de vérité, mais tout ce qui est analyse se fait en dehors.\n\nCommercial (Aurélie): En dehors, c'est-à-dire ?\n\nProspect (Vincent Morel): Des extractions manuelles retraitées à la main. C'est artisanal, je le reconnais.\n\nCommercial (Aurélie): Combien de temps ça représente par semaine, à la louche ?\n\nProspect (Vincent Morel): Huit heures, sans compter les corrections quand on se trompe.\n\nCommercial (Aurélie): Si on ne fait rien, qu'est-ce qui se passe dans douze mois ?\n\nProspect (Vincent Morel): On continue à absorber. Mais avec la rentrée littéraire de septembre, on n'aura plus la marge qu'on avait avant.\n\nCommercial (Aurélie): C'est un argument qui pèse plus qu'un tableau de bord, ça.\n\nProspect (Vincent Morel): C'est celui que j'utilise en interne, oui. Le reste, ça intéresse peu.\n\nCommercial (Aurélie): Est-ce que vous regardez d'autres solutions en parallèle ?\n\nProspect (Vincent Morel): EditPrev nous a contactés, oui. On n'est allés nulle part pour l'instant.\n\nCommercial (Aurélie): Qu'est-ce que vous en avez retenu ?\n\nProspect (Vincent Morel): Un tarif attractif, mais le déploiement annoncé était de neuf mois. C'est trop long pour nous.\n\nCommercial (Aurélie): Je récapitule pour être sûr : un taux de retours libraires de 24 %, un taux de retours libraires à 24 % qu'il faut ramener à 16 %, une contrainte forte sur Bookflow, et une échéance liée à la rentrée littéraire de septembre. C'est fidèle ?\n\nProspect (Vincent Morel): C'est fidèle, oui. Vous avez bien écouté.\n\nCommercial (Aurélie): Prochaine étape, je propose une démonstration ciblée sur votre cas, avec Pierre-Yves présent. Quarante-cinq minutes.\n\nProspect (Vincent Morel): Parfait. Je bloque ça avec lui.",
+      "summary": "Découverte approfondie avec Vincent Morel. Le fonctionnement actuel repose sur Bookflow comme source de vérité, avec toute l'analyse réalisée en dehors, sous tableur. Le taux de retours libraires est mesuré à 24 % pour une cible de 16 %. Décideur économique identifié : Claire Lumière. Risque principal : l'adoption par les équipes de Amandine Costa, échaudées par des projets précédents. Échéance structurante : la rentrée littéraire de septembre. Démonstration ciblée programmée avec Pierre-Yves.",
+      "crm_fields": [
+        {
+          "key": "Système existant",
+          "value": "Bookflow — des tableaux de fabrication sous Excel"
+        },
+        {
+          "key": "Processus actuel",
+          "value": "Extractions manuelles retraitées sous tableur"
+        },
+        {
+          "key": "Douleurs quantifiées",
+          "value": "taux de retours libraires à 24 % (cible 16 %) ; des pilons qui représentent 1,8 million d'euros par an"
+        },
+        {
+          "key": "Décideur économique",
+          "value": "Claire Lumière (Présidente)"
+        },
+        {
+          "key": "Critère de décision",
+          "value": "Aucun remplacement de Bookflow ; adoption par les équipes terrain"
+        },
+        {
+          "key": "Échéance client",
+          "value": "la rentrée littéraire de septembre"
+        },
+        {
+          "key": "Taille de l'équipe",
+          "value": "24 utilisateurs cibles"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Session de formation"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-30",
+      "call_name": "Démonstration produit (45 min) — cas d'usage Bibliovia Tirage",
+      "transcript": "Commercial (Aurélie): Bonjour à tous. On est trois : Vincent, Pierre-Yves, et Élise côté Bibliovia. Quarante-cinq minutes, et on part de votre cas, pas d'un jeu de données de démonstration.\n\nResponsable IT (Pierre-Yves Danic): Très bien. J'ai des questions techniques, je les poserai au fil de l'eau.\n\nIngénieur avant-vente (Élise Roy): On a repris ce que Vincent nous a décrit : 1 200 références actives et 340 nouveautés par an, une source Bookflow, et le taux de retours libraires comme indicateur de tête. Voilà l'écran d'accueil.\n\nIngénieur avant-vente (Élise Roy): Voilà la partie qui intéresse Amandine : la vue quotidienne. Trois écrans maximum, pas de menu à quinze entrées.\n\nProspect (Vincent Morel): C'est volontairement simple ?\n\nIngénieur avant-vente (Élise Roy): Complètement. Les équipes de terrain n'ouvriront pas un outil qui demande une formation de deux jours. Ici, c'est vingt minutes.\n\nProspect (Vincent Morel): Si c'est vraiment ce niveau de simplicité, l'adoption devient jouable.\n\nProspect (Vincent Morel): Et si Claire me demande le chiffre du mois dernier pendant une réunion, je fais comment ?\n\nIngénieur avant-vente (Élise Roy): Vous ouvrez l'historique, il est figé. Le chiffre du mois dernier reste celui qui a été publié le mois dernier, même si les données sources ont bougé depuis.\n\nProspect (Vincent Morel): C'est exactement le problème qu'on a avec nos tableurs actuels.\n\nIngénieur avant-vente (Élise Roy): On garde les deux : la version publiée et la version actualisée, avec l'écart expliqué.\n\nResponsable IT (Pierre-Yves Danic): Question bête : qu'est-ce qui se passe si la source tombe ?\n\nIngénieur avant-vente (Élise Roy): L'outil continue de fonctionner sur la dernière donnée valide, et un bandeau signale la fraîcheur. On préfère afficher « donnée d'hier » que de faire croire que tout va bien.\n\nResponsable IT (Pierre-Yves Danic): Bonne réponse. J'ai vu des outils afficher des zéros dans ce cas-là.\n\nResponsable IT (Pierre-Yves Danic): Vous gérez les droits d'accès à quelle granularité ?\n\nIngénieur avant-vente (Élise Roy): Par périmètre et par rôle. Un directeur d'établissement ne voit que son périmètre, la direction voit le consolidé.\n\nResponsable IT (Pierre-Yves Danic): Et c'est piloté depuis notre annuaire ou dans votre outil ?\n\nIngénieur avant-vente (Élise Roy): Depuis votre annuaire, via les groupes existants. Vous ne gérez pas une deuxième liste d'utilisateurs.\n\nResponsable IT (Pierre-Yves Danic): Parfait, ça m'évite un chantier de gestion des habilitations.\n\nProspect (Vincent Morel): Est-ce qu'on peut voir ce que ça donne sur ce cas précis : des réimpressions décidées trop tard, à trois semaines de délai ?\n\nIngénieur avant-vente (Élise Roy): Bien sûr. Regardez : le système détecte l'écart quatre jours avant qu'il devienne visible dans vos indicateurs mensuels.\n\nProspect (Vincent Morel): Quatre jours d'avance, sur ce sujet-là, c'est énorme.\n\nResponsable IT (Pierre-Yves Danic): Et le modèle se base sur combien d'historique ?\n\nIngénieur avant-vente (Élise Roy): Douze à dix-huit mois idéalement. En dessous de six mois, on reste sur des règles simples, sans prétendre faire de la prévision.\n\nCheffe de fabrication (Amandine Costa): Question bête : est-ce que ça m'ajoute du travail ou est-ce que ça m'en enlève ?\n\nIngénieur avant-vente (Élise Roy): Cinq minutes le matin. Et ça remplace la consolidation que vous faites aujourd'hui à la main, donc le solde est largement positif.\n\nCheffe de fabrication (Amandine Costa): C'est ce que je voulais entendre. Parce que le dernier outil qu'on nous a installé nous a rajouté une saisie.\n\nIngénieur avant-vente (Élise Roy): Aucune saisie supplémentaire. On lit vos données existantes, on ne vous demande rien de neuf.\n\nResponsable IT (Pierre-Yves Danic): Comment vous récupérez les données de Bookflow ? Parce que l'API est très pauvre, je vous préviens.\n\nIngénieur avant-vente (Élise Roy): Trois modes possibles : API quand elle existe, lecture d'une réplique en base, ou dépôt de fichiers sur un espace sécurisé. Pour votre cas, la réplique en lecture seule est la plus simple.\n\nResponsable IT (Pierre-Yves Danic): Lecture seule, vraiment ? Aucune écriture ?\n\nIngénieur avant-vente (Élise Roy): Aucune. On ne modifie jamais votre système source. C'est un principe d'architecture.\n\nResponsable IT (Pierre-Yves Danic): D'accord. C'est déjà mieux que ce que j'avais anticipé.\n\nProspect (Vincent Morel): Et la restitution pour le comité de direction ?\n\nIngénieur avant-vente (Élise Roy): Export automatique, mensuel, au format que vous voulez. Vous pouvez même figer la version présentée pour éviter que les chiffres bougent entre deux réunions.\n\nProspect (Vincent Morel): Ça, c'est du vécu. Merci.\n\nProspect (Vincent Morel): Combien de temps avant d'avoir quelque chose d'exploitable, réellement ?\n\nIngénieur avant-vente (Élise Roy): Trois semaines pour la première restitution, à condition d'avoir l'accès aux données en semaine 1. Et je précise : exploitable ne veut pas dire complet.\n\nProspect (Vincent Morel): Qu'est-ce qui ne sera pas complet à trois semaines ?\n\nIngénieur avant-vente (Élise Roy): Les modèles prédictifs demandent plus d'historique fiabilisé. À trois semaines vous avez le constat et les écarts, pas la prévision. Celle-ci arrive vers le deuxième mois.\n\nProspect (Vincent Morel): Je préfère cette réponse à un « tout est prêt en quinze jours » auquel je ne crois pas.\n\nCommercial (Aurélie): On approche de la fin. Qu'est-ce qui vous manque pour vous projeter ?\n\nResponsable IT (Pierre-Yves Danic): Un point d'architecture dédié. Une démonstration, c'est bien, mais je veux voir les schémas.\n\nProspect (Vincent Morel): Et de mon côté, un ordre de grandeur budgétaire. Sinon je ne peux rien porter à Claire.\n\nCommercial (Aurélie): Compris. Je propose un point technique avec Pierre-Yves et Élise, et je vous envoie une fourchette budgétaire d'ici demain.",
+      "summary": "Démonstration réalisée sur les données et le contexte du compte. Les points qui ont porté : la traçabilité jusqu'à la donnée source et la simplicité de l'écran quotidien. Pierre-Yves a validé le principe de lecture seule sans écriture dans Bookflow. Restent à fournir le dossier d'architecture et une fourchette budgétaire.",
+      "crm_fields": [
+        {
+          "key": "Retour sur la démonstration",
+          "value": "Très positif sur la traçabilité des chiffres"
+        },
+        {
+          "key": "Objection technique",
+          "value": "Intégration à Bookflow et absence d'agent sur les serveurs"
+        },
+        {
+          "key": "Fonctionnalité déterminante",
+          "value": "Détection d'écart avec quatre jours d'avance"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Présentation de la proposition"
+        },
+        {
+          "key": "Sentiment des parties prenantes",
+          "value": "Vincent favorable ; Pierre-Yves réservé jusqu'à validation du dossier de conformité"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-03",
+      "call_name": "Atelier technique (1h) — architecture, flux de données et intégration Bookflow",
+      "transcript": "Ingénieur avant-vente (Élise Roy): Bonjour Pierre-Yves. Une heure, format atelier : je réponds à vos questions, pas de présentation commerciale.\n\nResponsable IT (Pierre-Yves Danic): Très bien. J'ai six points, on verra si on tient l'heure.\n\nResponsable IT (Pierre-Yves Danic): Le flux depuis Bookflow : fréquence, volume, et qui initie la connexion ?\n\nIngénieur avant-vente (Élise Roy): C'est vous qui initiez. Un connecteur déployé chez vous pousse les données vers notre plateforme en HTTPS sortant. Aucun flux entrant à ouvrir.\n\nResponsable IT (Pierre-Yves Danic): Bien. Mon RSSI refuse systématiquement les flux entrants.\n\nIngénieur avant-vente (Élise Roy): Fréquence par défaut : horaire. Configurable jusqu'au quart d'heure si le volume le justifie.\n\nResponsable IT (Pierre-Yves Danic): Authentification : on est sur un annuaire interne avec SSO. Vous supportez SAML ?\n\nIngénieur avant-vente (Élise Roy): SAML 2.0 et OpenID Connect, avec provisionnement automatique des comptes et rattachement aux groupes de votre annuaire.\n\nResponsable IT (Pierre-Yves Danic): Bien. Ça m'évite de gérer des comptes locaux.\n\nResponsable IT (Pierre-Yves Danic): Dernier point, et c'est celui qui me fait le plus peur : la reprise d'historique. Combien de temps et quel impact sur nos systèmes ?\n\nIngénieur avant-vente (Élise Roy): Une nuit de chargement pour douze mois, sur la réplique de lecture. Aucun impact sur votre production, puisqu'on ne touche pas à la base primaire.\n\nResponsable IT (Pierre-Yves Danic): Sur la réplique, d'accord. Et si la réplique prend du retard pendant le chargement ?\n\nIngénieur avant-vente (Élise Roy): On bride le débit. Le chargement dure plus longtemps mais votre réplique reste dans ses seuils. C'est paramétrable avec vous.\n\nResponsable IT (Pierre-Yves Danic): D'accord. C'est une réponse d'ingénieur, ça me va.\n\nResponsable IT (Pierre-Yves Danic): Environnements. Vous fournissez une recette séparée de la production ?\n\nIngénieur avant-vente (Élise Roy): Oui, deux environnements inclus. La recette est alimentée par un échantillon anonymisé de vos données.\n\nResponsable IT (Pierre-Yves Danic): L'anonymisation, c'est un mot que j'entends beaucoup. Concrètement ?\n\nIngénieur avant-vente (Élise Roy): Substitution des identifiants et des noms propres, décalage temporel aléatoire, conservation des distributions statistiques. La procédure est documentée et auditable.\n\nResponsable IT (Pierre-Yves Danic): Envoyez la procédure, je la ferai relire.\n\nResponsable IT (Pierre-Yves Danic): Hébergement. Où sont les données ? Avec les obligations contractuelles envers les auteurs et la SGDL, je n'ai aucune marge.\n\nIngénieur avant-vente (Élise Roy): Hébergement en France, chez un opérateur qualifié. Les données ne sortent pas de l'Union européenne, y compris pour les sauvegardes.\n\nResponsable IT (Pierre-Yves Danic): Et le support ? Parce que j'ai déjà vu des éditeurs héberger en Europe et faire du support depuis l'étranger avec un accès aux données.\n\nIngénieur avant-vente (Élise Roy): Support en France, accès tracé et nominatif, et journal consultable. On vous fournit la matrice des accès dans le dossier de conformité.\n\nResponsable IT (Pierre-Yves Danic): Envoyez-la-moi. C'est ce document qui décidera, pas la démonstration.\n\nResponsable IT (Pierre-Yves Danic): Supervision : comment je sais que le flux tourne, sans avoir à ouvrir votre interface ?\n\nIngénieur avant-vente (Élise Roy): Un point de contrôle exposé que vous interrogez depuis votre propre supervision, plus une alerte par courriel en cas d'échec de chargement.\n\nResponsable IT (Pierre-Yves Danic): Il me faut le second, mais surtout le premier. Je veux que ça remonte dans mes écrans, pas dans une boîte mail que personne ne lit.\n\nIngénieur avant-vente (Élise Roy): C'est prévu. Je vous envoie le format de réponse pour que vous l'intégriez à votre outil.\n\nResponsable IT (Pierre-Yves Danic): Réversibilité. Si on arrête au bout d'un an, je récupère quoi ?\n\nIngénieur avant-vente (Élise Roy): L'intégralité de vos données, au format CSV et Parquet, plus le dictionnaire de données. Sous trente jours, et c'est contractuel.\n\nResponsable IT (Pierre-Yves Danic): Notez-le dans le contrat, pas dans un courriel.\n\nResponsable IT (Pierre-Yves Danic): Montées de version. Vous imposez vos fenêtres ou on négocie ?\n\nIngénieur avant-vente (Élise Roy): Mises à jour mensuelles, annoncées quinze jours avant, en dehors de vos heures ouvrées. Vous pouvez décaler une fenêtre par trimestre.\n\nResponsable IT (Pierre-Yves Danic): Prévoyez une période de gel sur nos pics d'activité, sinon ça va poser problème.\n\nIngénieur avant-vente (Élise Roy): C'est courant, on le contractualise dans l'annexe de service.\n\nIngénieur avant-vente (Élise Roy): Il vous reste des points bloquants ?\n\nResponsable IT (Pierre-Yves Danic): Non. Sous réserve du dossier de conformité, je n'ai pas d'objection technique.\n\nIngénieur avant-vente (Élise Roy): Je vous envoie le dossier complet aujourd'hui. Merci pour la qualité des questions.",
+      "summary": "Atelier technique avec Pierre-Yves Danic. Architecture validée : connecteur en flux HTTPS sortant, aucun flux entrant à ouvrir, lecture seule sur Bookflow. Hébergement France et exigences les obligations contractuelles envers les auteurs et la SGDL confirmés. Point de vigilance partagé : deux semaines de fiabilisation des données seront nécessaires avant restitution présentable.",
+      "crm_fields": [
+        {
+          "key": "Environnement technique",
+          "value": "Bookflow, annuaire interne avec SSO (SAML 2.0)"
+        },
+        {
+          "key": "Méthode d'intégration",
+          "value": "Connecteur en flux HTTPS sortant, lecture seule, fréquence horaire"
+        },
+        {
+          "key": "Contrainte de sécurité",
+          "value": "Aucun flux entrant ; les obligations contractuelles envers les auteurs et la SGDL"
+        },
+        {
+          "key": "Validation technique",
+          "value": "Favorable sous réserve du rapport d'audit"
+        },
+        {
+          "key": "Prochaine action technique",
+          "value": "Transmission du dossier d'architecture et de conformité"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-10",
+      "call_name": "Revue de sécurité (45 min) — conformité, hébergement et sous-traitance",
+      "transcript": "Commercial (Aurélie): Bonjour, merci de nous recevoir. L'objet du point, c'est votre revue de sécurité avant contractualisation.\n\nResponsable IT (Pierre-Yves Danic): Exact. J'ai relu votre dossier. J'ai quatre points, dont deux sérieux.\n\nIngénieur avant-vente (Élise Roy): Allons-y dans l'ordre.\n\nResponsable IT (Pierre-Yves Danic): Premier point : la sous-traitance. Vous listez un hébergeur et un prestataire de supervision. Le second a-t-il accès aux données ?\n\nIngénieur avant-vente (Élise Roy): Non. Il supervise l'infrastructure, pas les données applicatives. Le cloisonnement est documenté en annexe 3 et audité annuellement.\n\nResponsable IT (Pierre-Yves Danic): D'accord, mais je veux voir le dernier rapport d'audit.\n\nIngénieur avant-vente (Élise Roy): Il vous sera transmis sous accord de confidentialité, c'est la procédure standard.\n\nResponsable IT (Pierre-Yves Danic): Deuxième point : la durée de conservation. Avec les obligations contractuelles envers les auteurs et la SGDL, je dois pouvoir justifier chaque durée.\n\nIngénieur avant-vente (Élise Roy): Configurable par catégorie de données. Par défaut trente-six mois pour l'historique métier, treize mois pour les journaux techniques.\n\nResponsable IT (Pierre-Yves Danic): Il faut qu'on descende à vingt-quatre mois sur l'historique métier. C'est notre politique interne.\n\nIngénieur avant-vente (Élise Roy): C'est un paramètre, pas un développement. On peut l'inscrire dans l'annexe technique.\n\nResponsable IT (Pierre-Yves Danic): Troisième point : le chiffrement. Au repos et en transit, avec quelles clés ?\n\nIngénieur avant-vente (Élise Roy): AES-256 au repos, TLS 1.3 en transit. Gestion des clés dans un module dédié, avec rotation annuelle. Option clé client si vous le souhaitez.\n\nResponsable IT (Pierre-Yves Danic): Ça me convient.\n\nResponsable IT (Pierre-Yves Danic): Dernier point, et c'est le plus important : en cas de réquisition par une autorité étrangère, quelle est votre position ?\n\nIngénieur avant-vente (Élise Roy): Société de droit français, capital français, hébergement français. Nous ne sommes pas soumis aux législations extraterritoriales. C'est précisément la raison pour laquelle plusieurs de nos clients du de l'édition nous ont retenus.\n\nResponsable IT (Pierre-Yves Danic): Bien. Avis favorable de ma part, avec les deux réserves qu'on vient d'évoquer.\n\nCommercial (Aurélie): Merci. Je fais suivre le rapport dès aujourd'hui.",
+      "summary": "Revue de sécurité. Quatre points examinés : sous-traitance, durée de conservation, chiffrement et exposition aux législations extraterritoriales. La durée de conservation sera ramenée à 24 mois sur l'historique métier. Avis favorable sous réserve de la communication du rapport d'audit annuel.",
+      "crm_fields": [
+        {
+          "key": "Exigence de conformité",
+          "value": "les obligations contractuelles envers les auteurs et la SGDL"
+        },
+        {
+          "key": "Localisation de l'hébergement",
+          "value": "France — opérateur qualifié, aucune sortie de l'UE"
+        },
+        {
+          "key": "Durée de conservation",
+          "value": "24 mois sur l'historique métier (demande client), 13 mois sur les journaux"
+        },
+        {
+          "key": "Statut de validation sécurité",
+          "value": "Avis favorable sous réserve"
+        },
+        {
+          "key": "Documents demandés",
+          "value": "Rapport d'audit annuel sous accord de confidentialité"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-17",
+      "call_name": "Présentation de la proposition commerciale (25 min)",
+      "transcript": "Commercial (Aurélie): Bonjour à tous. Vingt-cinq minutes pour dérouler la proposition. Claire, je sais que votre temps est compté.\n\nPrésidente (Claire Lumière): J'ai vingt minutes. Allez à l'essentiel : combien, et pour quel retour ?\n\nCommercial (Aurélie): Trois éléments. Un : le périmètre — 1 200 références actives et 340 nouveautés par an, 24 utilisateurs, le module Bibliovia Tirage. Deux : le tarif — 72 000 euros par an. Trois : les frais de mise en service, 12 500 euros, une seule fois.\n\nPrésidente (Claire Lumière): C'est plus que ce que j'avais en tête. Justifiez-moi ce montant.\n\nCommercial (Aurélie): Sur la base du gain : le taux de retours libraires passe de 24 % à 16 %, ce qui représente 244 000 euros par an. L'investissement est amorti en neuf mois.\n\nPrésidente (Claire Lumière): Vos chiffres, c'est votre modèle ou c'est du constaté chez d'autres clients ?\n\nProspect (Vincent Morel): Les chiffres sont les nôtres, Claire. On les a construits ensemble.\n\nPrésidente (Claire Lumière): Bon. Ça change la conversation.\n\nPrésidente (Claire Lumière): Deux réserves malgré tout. La première : les frais de mise en service. Je n'aime pas payer pour un démarrage.\n\nCommercial (Aurélie): C'est audible. Je peux proposer une clause de sortie à douze mois si les objectifs de service ne sont pas tenus.\n\nPrésidente (Claire Lumière): Faites-moi une proposition révisée sur cette base et je la regarde.\n\nCommercial (Aurélie): Vous l'avez demain matin. Merci pour votre temps.",
+      "summary": "Présentation de la proposition à Claire Lumière : 72 000 € par an, 12 500 € de frais de mise en service. Le business case s'appuie sur les données du client (taux de retours libraires de 24 % à 16 %), ce qui a nettement renforcé la crédibilité. Deux réserves exprimées : les frais de mise en service et la durée d'engagement.",
+      "crm_fields": [
+        {
+          "key": "Montant proposé",
+          "value": "72 000 € par an"
+        },
+        {
+          "key": "Frais de mise en service",
+          "value": "12 500 € non récurrents"
+        },
+        {
+          "key": "Périmètre",
+          "value": "1 200 références actives et 340 nouveautés par an — module Bibliovia Tirage"
+        },
+        {
+          "key": "Retour sur investissement",
+          "value": "244 000 € par an, amortissement en neuf mois"
+        },
+        {
+          "key": "Objection principale",
+          "value": "Durée d'engagement"
+        },
+        {
+          "key": "Date de clôture prévue",
+          "value": "2025-03-29"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-24",
+      "call_name": "Négociation commerciale — tarif, engagement et conditions de paiement",
+      "transcript": "Commercial (Aurélie): Bonjour Claire. On se parle pour converger. Vous avez la proposition révisée sous les yeux ?\n\nPrésidente (Claire Lumière): Oui. On est encore loin. Mon plafond, c'est clair.\n\nCommercial (Aurélie): Dites-moi où est l'écart.\n\nPrésidente (Claire Lumière): Je ne peux pas dépasser 56 000 euros la première année. Au-delà, ça passe en conseil, et le conseil ne se réunit qu'en mars.\n\nPrésidente (Claire Lumière): Les engagements de service. Qu'est-ce qui se passe si vous ne les tenez pas ?\n\nCommercial (Aurélie): Avoir sur la facture suivante, proportionnel à l'indisponibilité, et déclenchement automatique — vous n'avez pas à le réclamer.\n\nPrésidente (Claire Lumière): C'est rare. La plupart des éditeurs attendent qu'on réclame.\n\nCommercial (Aurélie): C'est calculé et appliqué par nos systèmes. Et le rapport de disponibilité vous est envoyé chaque mois, que vous le demandiez ou non.\n\nPrésidente (Claire Lumière): Bien. Ça, ça compte dans mon arbitrage.\n\nPrésidente (Claire Lumière): Et EditPrev nous propose 46 000 euros.\n\nCommercial (Aurélie): Je ne doute pas du chiffre. Sur quel périmètre ? Parce que leur offre à ce prix ne couvre pas l'intégration à votre système existant.\n\nPrésidente (Claire Lumière): À vérifier. Vincent, tu as le détail ?\n\nProspect (Vincent Morel): Leur offre de base ne couvre pas l'intégration, non. Il faut ajouter un forfait de projet.\n\nPrésidente (Claire Lumière): La revalorisation annuelle. Je ne veux pas d'indexation ouverte.\n\nCommercial (Aurélie): Je peux plafonner à 3 % par an sur la durée de l'engagement.\n\nPrésidente (Claire Lumière): Plafonnez à 2 % et on ne parle plus.\n\nCommercial (Aurélie): 2 %, je peux le défendre. C'est ma dernière concession sur ce point.\n\nCommercial (Aurélie): Si je descends à 59 000 euros, est-ce que vous signez cette semaine ?\n\nPrésidente (Claire Lumière): Sur le principe oui, mais je veux la clause de sortie à douze mois.\n\nCommercial (Aurélie): Je peux tenir ce prix contre un engagement de deux ans et une référence publique si les résultats sont au rendez-vous.\n\nPrésidente (Claire Lumière): La référence, d'accord, mais elle passe par ma direction de la communication.\n\nPrésidente (Claire Lumière): Le périmètre. Est-ce que je peux démarrer plus petit et étendre ensuite ?\n\nCommercial (Aurélie): Oui. Je vous le déconseille pour une raison simple : le coût de mise en service est le même, et vous le paierez deux fois si on refait un chantier dans six mois.\n\nPrésidente (Claire Lumière): D'accord. Alors chiffrez-moi les deux, je veux voir l'écart.\n\nCommercial (Aurélie): Je vous envoie les deux scénarios chiffrés, avec le point de bascule.\n\nPrésidente (Claire Lumière): Les conditions de paiement. Trente jours, c'est trop court pour notre trésorerie.\n\nCommercial (Aurélie): Je peux aller à soixante jours date de facture, avec facturation annuelle à la date anniversaire.\n\nPrésidente (Claire Lumière): Soixante jours fin de mois, et c'est réglé.\n\nCommercial (Aurélie): Soixante jours fin de mois, d'accord. Je le fais inscrire.\n\nCommercial (Aurélie): Récapitulons : 59 000 euros la première année, engagement de deux ans, frais de mise en service réduits de moitié, paiement à soixante jours. C'est bien ce qu'on acte ?\n\nPrésidente (Claire Lumière): C'est ça. Envoyez le contrat, je le transmets au juridique.\n\nCommercial (Aurélie): Je l'envoie ce soir. Merci pour la franchise de l'échange.",
+      "summary": "Négociation avec Claire Lumière. Convergence obtenue à 59 000 € pour l'année 1, contre un engagement de 24 mois, des frais de mise en service réduits de moitié, un paiement à 60 jours fin de mois et une indexation plafonnée. Reste le passage au service juridique.",
+      "crm_fields": [
+        {
+          "key": "Montant négocié",
+          "value": "59 000 € (année 1)"
+        },
+        {
+          "key": "Plafond budgétaire",
+          "value": "56 000 € — au-delà, passage en conseil"
+        },
+        {
+          "key": "Concessions accordées",
+          "value": "Frais de mise en service réduits de 50 %, indexation plafonnée à 2 %"
+        },
+        {
+          "key": "Conditions de paiement",
+          "value": "60 jours fin de mois"
+        },
+        {
+          "key": "Durée d'engagement",
+          "value": "24 mois"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Atelier technique"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-03",
+      "call_name": "Point juridique (35 min) — clauses de responsabilité et réversibilité",
+      "transcript": "Commercial (Aurélie): Bonjour Maître. On est là pour les points de rédaction relevés par vos services.\n\nJuridique (Maître Dassonville): Bonjour. J'ai quatre demandes de modification. Trois sont fermes.\n\nJuridique (Maître Dassonville): Premièrement : le plafond de responsabilité. Vous proposez le montant annuel du contrat. C'est insuffisant au regard de nos enjeux.\n\nCommercial (Aurélie): C'est notre standard. Que proposez-vous ?\n\nJuridique (Maître Dassonville): Le double, et un plafond distinct pour les manquements à la protection des données.\n\nCommercial (Aurélie): Sur la protection des données, nous acceptons un plafond distinct. Sur le reste, je dois obtenir un accord interne.\n\nJuridique (Maître Dassonville): Deuxièmement : le délai de correction en cas de manquement au contrat de service. Trente jours, c'est trop long pour un outil que Vincent utilisera quotidiennement.\n\nCommercial (Aurélie): Quinze jours pour les incidents majeurs, trente pour le reste. Acceptable ?\n\nJuridique (Maître Dassonville): Dix jours pour les majeurs. Au-delà, la résiliation est de plein droit.\n\nCommercial (Aurélie): Dix jours, d'accord, à condition que la qualification de « majeur » soit définie dans l'annexe de service et pas laissée à l'appréciation.\n\nJuridique (Maître Dassonville): C'est raisonnable. Je fais rédiger la définition.\n\nJuridique (Maître Dassonville): Troisièmement : la réversibilité. Votre rédaction actuelle mentionne « un format exploitable ». C'est trop vague.\n\nCommercial (Aurélie): Nous précisons : CSV et Parquet, avec dictionnaire de données, sous trente jours calendaires à compter de la demande.\n\nJuridique (Maître Dassonville): Écrivez-le tel quel et le point est levé.\n\nJuridique (Maître Dassonville): Quatrièmement, et c'est ma demande souple : le droit applicable et le tribunal compétent.\n\nCommercial (Aurélie): Droit français. Sur le tribunal, nous sommes ouverts à votre juridiction.\n\nJuridique (Maître Dassonville): Très bien. Je valide sous réserve de la relecture de la version consolidée.\n\nCommercial (Aurélie): Merci Maître. Je fais circuler la version modifiée dès demain.",
+      "summary": "Point juridique. Plafond de responsabilité porté à deux fois le montant annuel, délai de correction ramené à 10 jours pour les incidents majeurs avec définition contractuelle, réversibilité précisée (CSV et Parquet sous 30 jours). Droit français retenu. Version consolidée attendue.",
+      "crm_fields": [
+        {
+          "key": "Plafond de responsabilité",
+          "value": "2 fois le montant annuel, plafond distinct sur les données"
+        },
+        {
+          "key": "Délai de correction",
+          "value": "10 jours pour les incidents majeurs, 30 jours pour les autres"
+        },
+        {
+          "key": "Clause de réversibilité",
+          "value": "CSV et Parquet + dictionnaire de données, sous 30 jours"
+        },
+        {
+          "key": "Droit applicable",
+          "value": "Droit français — tribunal de commerce de Lyon"
+        },
+        {
+          "key": "Statut juridique",
+          "value": "Version consolidée en relecture"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-10",
+      "call_name": "Point de synchronisation avec le sponsor interne (15 min)",
+      "transcript": "Commercial (Aurélie): Bonjour Vincent, appel court. Où en est-on en interne ?\n\nProspect (Vincent Morel): On est bien, mais le calendrier a glissé d'une semaine.\n\nCommercial (Aurélie): Dites-moi tout.\n\nProspect (Vincent Morel): Un directeur d'un autre service a demandé à voir l'outil avant de valider. Ce n'était pas prévu.\n\nCommercial (Aurélie): Qu'est-ce qui vous serait utile de ma part ?\n\nProspect (Vincent Morel): Une note d'une page, chiffrée, que je puisse faire circuler sans avoir à la retravailler.\n\nCommercial (Aurélie): Je m'en occupe. Vous voulez que je vous la relise avant ?\n\nProspect (Vincent Morel): Envoyez, je fais le reste.\n\nCommercial (Aurélie): Merci Vincent. Franchement, sans vous ce dossier n'avancerait pas.",
+      "summary": "Point court avec Vincent. Le dossier avance mais un aléa interne décale le calendrier. Appui fourni sous forme d'un document synthétique destiné à circuler en interne sans retravail.",
+      "crm_fields": [
+        {
+          "key": "Santé du sponsor interne",
+          "value": "Solide — porte le dossier en interne"
+        },
+        {
+          "key": "Blocage interne",
+          "value": "Claire en déplacement — signature décalée"
+        },
+        {
+          "key": "Appui demandé",
+          "value": "Créneau de 20 min en visioconférence"
+        },
+        {
+          "key": "Date de signature prévue",
+          "value": "2025-03-28"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-17",
+      "call_name": "Comité d'investissement (40 min) — présentation du dossier",
+      "transcript": "Présidente (Claire Lumière): Bien. On a quarante minutes. Vincent présente, Bibliovia répond aux questions.\n\nProspect (Vincent Morel): Merci. Le constat, vous le connaissez : un taux de retours libraires de 24 %. Le taux de retours libraires est à 24 %, l'objectif est 16 %. On a évalué trois solutions, on en recommande une.\n\nResponsable IT (Pierre-Yves Danic): Sur le plan technique, l'avis est favorable. Pas d'agent installé, aucune écriture dans nos systèmes, hébergement français. Les réserves initiales sont levées.\n\nPrésidente (Claire Lumière): Ma question est simple : qu'est-ce qui garantit qu'on n'aura pas un projet de plus qui s'enlise ?\n\nCommercial (Aurélie): Le fait qu'on ne remplace rien. Les projets qui échouent sont ceux qui demandent de changer Bookflow. Nous, on se branche dessus et on part.\n\nPrésidente (Claire Lumière): Combien de temps de mes équipes ça consomme ?\n\nProspect (Vincent Morel): On a estimé un tiers de temps plein sur trois mois, principalement Pierre-Yves pour la connexion et moi pour le paramétrage métier.\n\nCheffe de fabrication (Amandine Costa): Je voudrais ajouter un point du terrain. Mon équipe a déjà vu passer des outils qui ont ajouté du travail au lieu d'en enlever. J'ai posé la question, on m'a montré l'écran quotidien : trois vues, pas quinze. Là, je signe.\n\nPrésidente (Claire Lumière): Bien. Je suis favorable, sous réserve du plafond budgétaire dont on a parlé.\n\nProspect (Vincent Morel): Merci. Je reviens vers vous avec le calendrier de démarrage.",
+      "summary": "Passage en comité d'investissement. Vincent a porté le dossier, Pierre-Yves a rendu un avis technique favorable, et Amandine Costa a apporté le point de vue terrain, décisif sur la question de l'adoption. Décision favorable sous réserve du plafond budgétaire.",
+      "crm_fields": [
+        {
+          "key": "Décision du comité",
+          "value": "Favorable sous réserve du plafond budgétaire"
+        },
+        {
+          "key": "Objection du décideur",
+          "value": "Risque d'enlisement au vu des deux projets précédents"
+        },
+        {
+          "key": "Charge interne estimée",
+          "value": "20 jours-homme sur le premier trimestre"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Passage en comité"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-26",
+      "call_name": "Appel de confirmation de signature",
+      "transcript": "Commercial (Aurélie): Bonjour Claire, je ne vous prends que cinq minutes.\n\nPrésidente (Claire Lumière): C'est signé. Le parapheur est parti ce matin.\n\nCommercial (Aurélie): Excellente nouvelle. Merci de votre confiance.\n\nPrésidente (Claire Lumière): Il l'a été. Maintenant, j'attends des résultats, pas des tableaux de bord.\n\nCommercial (Aurélie): C'est noté, et c'est légitime. Le premier jalon, c'est le taux de retours libraires mesuré à trois mois. On s'y engage.\n\nPrésidente (Claire Lumière): Bien. Un point d'attention : le bon de commande porte le numéro BC-2025-7539, il doit figurer sur toutes les factures. Sinon la comptabilité les rejette, et je ne peux rien pour vous.\n\nCommercial (Aurélie): C'est enregistré : BC-2025-7539 sur chaque facture. La facturation démarre au 2025-04-10.\n\nPrésidente (Claire Lumière): Parfait. Bonne continuation.",
+      "summary": "Contrat signé par Claire Lumière. Bon de commande BC-2025-7539 à faire figurer impérativement sur toutes les factures. Attente exprimée clairement : des résultats mesurables, à commencer par le taux de retours libraires à trois mois.",
+      "crm_fields": [
+        {
+          "key": "Statut du contrat",
+          "value": "Signé"
+        },
+        {
+          "key": "Numéro de bon de commande",
+          "value": "BC-2025-7539"
+        },
+        {
+          "key": "Date de début de facturation",
+          "value": "2025-04-10"
+        },
+        {
+          "key": "Signataire",
+          "value": "Claire Lumière (Présidente)"
+        },
+        {
+          "key": "Valeur du contrat",
+          "value": "59 000 € (année 1) — engagement 24 mois"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-31",
+      "call_name": "Passage de relais commercial vers l'équipe Customer Success (20 min)",
+      "transcript": "Commercial (Aurélie): Bonjour à tous. Appel de passage de relais : je vous présente Karim Zaoui, qui sera votre interlocutrice à partir d'aujourd'hui.\n\nCSM (Karim Zaoui): Bonjour Vincent. J'ai lu l'ensemble du dossier, je ne vais pas vous refaire raconter votre histoire.\n\nProspect (Vincent Morel): Ça, ça fait plaisir. D'habitude on repart de zéro avec l'équipe suivante.\n\nCSM (Karim Zaoui): Ce que j'ai retenu : votre indicateur de tête est le taux de retours libraires, aujourd'hui à 24 %, objectif 16 %. Le risque principal identifié, c'est l'adoption par l'équipe de Amandine. C'est bien ça ?\n\nProspect (Vincent Morel): C'est exactement ça. Et c'est effectivement là que ça peut coincer.\n\nCSM (Karim Zaoui): Donc voilà ce que je propose : on ne déploie pas partout d'un coup. On commence par un périmètre restreint, on obtient un résultat visible, et on s'en sert pour convaincre le reste.\n\nProspect (Vincent Morel): C'est la bonne approche.\n\nCSM (Karim Zaoui): Calendrier : lancement le 2025-04-12, connexion des données la semaine suivante, première restitution trois semaines après. Formation de Amandine et son équipe juste avant.\n\nResponsable IT (Pierre-Yves Danic): De mon côté, il me faut les prérequis techniques par écrit dès cette semaine.\n\nCSM (Karim Zaoui): Vous les aurez demain. Une seule demande de ma part : un référent unique côté métier pour les questions du quotidien.\n\nProspect (Vincent Morel): Ce sera Amandine. Je le préviens.\n\nCommercial (Aurélie): Parfait. Je reste dans la boucle mais je m'efface. Bonne route à tous.",
+      "summary": "Passage de relais vers Karim Zaoui. Le contexte du compte a été transmis en amont, ce qui a évité au client de réexpliquer sa situation. Stratégie retenue : déploiement par périmètre restreint pour obtenir un résultat visible avant généralisation. Référent métier désigné : Amandine Costa.",
+      "crm_fields": [
+        {
+          "key": "CSM assigné",
+          "value": "Karim Zaoui"
+        },
+        {
+          "key": "Risque principal identifié",
+          "value": "Adoption par l'équipe de Amandine Costa"
+        },
+        {
+          "key": "Indicateur de succès",
+          "value": "taux de retours libraires de 24 % à 16 %"
+        },
+        {
+          "key": "Date de lancement",
+          "value": "2025-04-14"
+        }
+      ]
+    },
+    {
+      "date": "2025-04-03",
+      "call_name": "Réunion de lancement projet (1h) — calendrier et prérequis",
+      "transcript": "CSM (Karim Zaoui): Bonjour à tous, réunion de lancement. Objectif du jour : caler le calendrier et lever les prérequis.\n\nProspect (Vincent Morel): Allons-y. J'ai bloqué une heure.\n\nCSM (Karim Zaoui): Phase 1 : connexion à Bookflow et reprise de douze mois d'historique. Phase 2 : paramétrage métier avec vous. Phase 3 : formation et mise en service.\n\nResponsable IT (Pierre-Yves Danic): La connexion, je peux la faire cette semaine. La reprise d'historique dépendra du volume : on est sur combien de lignes ?\n\nCSM (Karim Zaoui): Un flux HTTPS sortant vers notre plateforme, rien d'autre. La liste des adresses est dans le document que je vous ai envoyé.\n\nResponsable IT (Pierre-Yves Danic): D'accord. Je fais la demande aujourd'hui, ça prend deux jours chez nous.\n\nCSM (Karim Zaoui): Sur le paramétrage : Vincent, il me faut vos règles de calcul actuelles. Même si elles sont dans un tableur, envoyez-les telles quelles.\n\nProspect (Vincent Morel): Elles sont dans un tableur, effectivement. Et personne ne sait vraiment qui les a écrites.\n\nCSM (Karim Zaoui): C'est toujours le cas. C'est justement l'occasion de les remettre à plat.\n\nCheffe de fabrication (Amandine Costa): Question pratique : mon équipe devra faire une double saisie pendant la transition ?\n\nCSM (Karim Zaoui): En parallèle pendant trois semaines, le temps de vérifier que les chiffres concordent. Ensuite on coupe.\n\nCheffe de fabrication (Amandine Costa): Ça me va. C'était ma crainte principale.\n\nCheffe de fabrication (Amandine Costa): Concrètement, ma production s'arrête pendant le démarrage ?\n\nCSM (Karim Zaoui): À aucun moment. Vos systèmes continuent de tourner, on lit à côté. Le seul moment sensible, c'est la bascule, et elle se fait un vendredi soir.\n\nCheffe de fabrication (Amandine Costa): Et si la bascule se passe mal ?\n\nCSM (Karim Zaoui): On ne coupe rien : votre fonctionnement actuel reste disponible trois semaines de plus. Le retour arrière, c'est simplement de continuer comme avant.\n\nCheffe de fabrication (Amandine Costa): D'accord. Là, je suis rassuré.\n\nResponsable IT (Pierre-Yves Danic): Une contrainte que je dois signaler : nous avons un gel informatique sur une partie de la période.\n\nCSM (Karim Zaoui): Sur quelles dates exactement ?\n\nResponsable IT (Pierre-Yves Danic): Toute la période de la rentrée littéraire de septembre. C'est une règle interne, je n'ai pas la main.\n\nCSM (Karim Zaoui): Alors on avance la connexion technique et on décale la formation après le gel. Je réajuste le plan et je vous le renvoie demain.\n\nResponsable IT (Pierre-Yves Danic): Merci de ne pas essayer de passer en force. Ça a été tenté avant vous.\n\nProspect (Vincent Morel): Qui fait quoi en cas de blocage ? Je ne veux pas qu'on se renvoie la balle.\n\nCSM (Karim Zaoui): Un responsable par phase, de chaque côté. Côté vous : Pierre-Yves sur la technique, Amandine sur le métier. Côté nous : moi, avec un binôme identifié en cas d'absence.\n\nProspect (Vincent Morel): Bien. Et si ça bloque entre les deux ?\n\nCSM (Karim Zaoui): Vous et moi, au point hebdomadaire. Si ça dépasse deux semaines, on remonte au niveau supérieur des deux côtés. C'est écrit dans le plan projet.\n\nProspect (Vincent Morel): Quels sont les risques que vous identifiez, honnêtement ?\n\nCSM (Karim Zaoui): Trois. La qualité de l'historique, qu'on ne connaîtra vraiment qu'au chargement. La disponibilité de vos équipes en cette période. Et l'adoption, qui est toujours le vrai sujet.\n\nProspect (Vincent Morel): Je préfère qu'on le dise maintenant. Je vais bloquer les jours formellement.\n\nCSM (Karim Zaoui): Point de suivi hebdomadaire, trente minutes, le mardi. Prochaine étape : connexion technique avant le 2025-04-10.",
+      "summary": "Réunion de lancement. Trois phases calées : connexion et reprise de 12 mois d'historique, paramétrage métier, formation et mise en service. Prérequis techniques transmis à Pierre-Yves. Point rassurant pour les utilisateurs : aucune double saisie, fonctionnement en parallèle pendant trois semaines.",
+      "crm_fields": [
+        {
+          "key": "Phase du projet",
+          "value": "Phase 2 — paramétrage métier"
+        },
+        {
+          "key": "Prérequis techniques",
+          "value": "Règles de pare-feu sortantes, machine virtuelle 2 vCPU / 4 Go"
+        },
+        {
+          "key": "Référent métier",
+          "value": "Amandine Costa"
+        },
+        {
+          "key": "Rythme de suivi",
+          "value": "Point hebdomadaire de 30 minutes, le mardi"
+        },
+        {
+          "key": "Prochaine échéance",
+          "value": "2025-04-16"
+        }
+      ]
+    },
+    {
+      "date": "2025-04-25",
+      "call_name": "Session de formation utilisateurs (1h30)",
+      "transcript": "CSM (Karim Zaoui): Bonjour à tous. Session de prise en main, une heure trente. Vous êtes 8 aujourd'hui.\n\nCheffe de fabrication (Amandine Costa): Toute l'équipe est là, plus deux personnes de l'équipe voisine qui voulaient voir.\n\nCSM (Karim Zaoui): Parfait. Je vous préviens : on ne fera pas le tour de toutes les fonctionnalités. On va faire les trois choses que vous ferez tous les jours.\n\nCheffe de fabrication (Amandine Costa): Bonne approche. La dernière formation qu'on a eue durait deux jours, on n'a rien retenu.\n\nCSM (Karim Zaoui): Première chose : votre vue du matin. Vous ouvrez, vous voyez les écarts de la veille, vous savez quoi traiter en priorité.\n\nCheffe de fabrication (Amandine Costa): Attendez — les écarts sont classés par ordre d'importance ?\n\nCSM (Karim Zaoui): Vous pouvez la modifier, et surtout vous pouvez commenter. Le commentaire reste visible pour l'équipe, ça évite que trois personnes traitent le même sujet.\n\nCheffe de fabrication (Amandine Costa): Ah, ça c'est utile. Aujourd'hui on se marche dessus régulièrement.\n\nCSM (Karim Zaoui): Deuxième chose : le commentaire justement. Chaque écart peut être annoté. C'est ce qui construit votre mémoire collective.\n\nUtilisateur (Karine): Et les commentaires, ils restent combien de temps ?\n\nCSM (Karim Zaoui): Tout l'historique est conservé et cherchable. C'est souvent ce que les équipes finissent par préférer à la partie analytique.\n\nUtilisateur (Karine): Franchement, si ça marche comme ça, c'est déjà mieux que nos courriels.\n\nCSM (Karim Zaoui): Troisième chose : l'export pour vos réunions. Un bouton, un fichier, figé à la date. Plus de chiffres qui bougent entre deux réunions.\n\nCheffe de fabrication (Amandine Costa): Ce point-là seul justifie la formation, honnêtement.\n\nUtilisateur (Karine): Et si je me trompe ? Est-ce que je peux annuler une action ?\n\nCSM (Karim Zaoui): Rien d'irréversible. Vous ne pouvez pas modifier les données sources, et tout ce que vous annotez est historisé avec votre nom et la date.\n\nUtilisateur (Karine): Historisé avec mon nom ? Ça veut dire qu'on peut voir qui a écrit quoi ?\n\nCSM (Karim Zaoui): C'est une trace de travail, pas une trace de surveillance. Aucun indicateur individuel n'est produit, et je peux vous le montrer dans les paramètres.\n\nCheffe de fabrication (Amandine Costa): C'est un point important pour l'équipe, merci de l'avoir clarifié.\n\nCheffe de fabrication (Amandine Costa): Comment on fait quand quelqu'un arrive dans l'équipe ?\n\nCSM (Karim Zaoui): Le compte est créé automatiquement depuis votre annuaire. Pour la prise en main, il y a un parcours guidé de vingt minutes dans l'outil.\n\nCheffe de fabrication (Amandine Costa): Deux pages, c'est réaliste. Les manuels de cent pages, personne ne les lit.\n\nUtilisateur (Karine): Est-ce que ça marche sur téléphone ? Parce que je suis rarement à mon bureau.\n\nCSM (Karim Zaoui): Sur mobile, vous avez la vue du jour et les alertes. Le reste est pensé pour un écran large.\n\nUtilisateur (Karine): C'est déjà ce dont j'ai besoin. Merci pour l'honnêteté.\n\nCSM (Karim Zaoui): Voilà, c'est tout pour aujourd'hui. Trois choses. Vous avez mon numéro, et je passe faire un point dans quinze jours.",
+      "summary": "Session de prise en main avec l'équipe de Amandine. Format volontairement resserré sur trois usages quotidiens plutôt qu'un tour complet des fonctionnalités. Les fonctions de commentaire et d'export figé ont été les plus appréciées.",
+      "crm_fields": [
+        {
+          "key": "Participants",
+          "value": "8 personnes de l'équipe Amandine"
+        },
+        {
+          "key": "Format de la session",
+          "value": "Prise en main sur trois cas d'usage quotidiens"
+        },
+        {
+          "key": "Retour des utilisateurs",
+          "value": "Positif — format court apprécié"
+        },
+        {
+          "key": "Prochaine session",
+          "value": "2025-05-23"
+        }
+      ]
+    },
+    {
+      "date": "2025-05-08",
+      "call_name": "Point d'avancement hebdomadaire (30 min)",
+      "transcript": "CSM (Karim Zaoui): Bonjour Vincent, point hebdomadaire. Trente minutes.\n\nProspect (Vincent Morel): Bonjour. On a du mieux, mais aussi deux points d'attention.\n\nProspect (Vincent Morel): Claire m'a demandé où on en était. Qu'est-ce que je lui dis ?\n\nCSM (Karim Zaoui): Dites-lui que le taux de retours libraires est à 20%, que la trajectoire est conforme, et qu'on tiendra l'objectif de 16 % au trimestre.\n\nProspect (Vincent Morel): Vous vous engagez là-dessus ? Parce que c'est moi qui prends si ça dérape.\n\nCSM (Karim Zaoui): Je m'engage sur la transparence, pas sur le miracle. Si ça dérape, vous le saurez la semaine où ça dérape.\n\nProspect (Vincent Morel): C'est ce que je voulais entendre.\n\nCSM (Karim Zaoui): Un sujet remonté par le terrain cette semaine : le temps de chargement de la vue consolidée est jugé trop long.\n\nProspect (Vincent Morel): Combien de temps, concrètement ?\n\nCSM (Karim Zaoui): Huit secondes en moyenne. Ce n'est pas bloquant, mais sur un usage quotidien c'est ce qui fait qu'on arrête d'ouvrir un outil.\n\nCSM (Karim Zaoui): Un correctif est prévu à la prochaine mise à jour. En attendant, j'ai pré-calculé la vue la plus utilisée.\n\nProspect (Vincent Morel): Merci d'avoir traité ça avant que je le remonte.\n\nCSM (Karim Zaoui): Question de planification : vous avez une période à éviter pour les mises à jour ?\n\nProspect (Vincent Morel): Les fins de mois. C'est là qu'on produit les chiffres, on ne peut pas se permettre une indisponibilité.\n\nCSM (Karim Zaoui): Je le note comme période de gel, et je le fais inscrire dans notre calendrier de déploiement pour que ce ne soit pas oublié.\n\nProspect (Vincent Morel): Parfait.\n\nProspect (Vincent Morel): J'ai un retour de Amandine : ils aimeraient pouvoir filtrer par équipe, pas seulement par périmètre global.\n\nCSM (Karim Zaoui): C'est faisable en paramétrage, sans développement. Je peux le faire cette semaine.\n\nProspect (Vincent Morel): Faites, ça leur fera un signal positif.\n\nCSM (Karim Zaoui): Point de vigilance : la qualité des données sur les trois derniers mois d'historique. Il y a des trous.\n\nProspect (Vincent Morel): Ça ne m'étonne pas. C'est la période où on a changé de responsable de saisie.\n\nCSM (Karim Zaoui): On peut soit les exclure du calcul, soit les signaler explicitement. Je recommande de les signaler : c'est moins confortable mais plus honnête.\n\nProspect (Vincent Morel): Signalez-les. Je préfère assumer un trou qu'un chiffre faux.\n\nProspect (Vincent Morel): On m'a demandé si on pouvait comparer nos résultats à ceux du secteur.\n\nCSM (Karim Zaoui): Oui, sur une base anonymisée. Je vous préviens : la comparaison sectorielle est à manier avec prudence, les périmètres ne sont jamais strictement identiques.\n\nProspect (Vincent Morel): C'est bien que vous le précisiez, parce que ce sera utilisé en comité.\n\nCSM (Karim Zaoui): Je vous prépare ça avec les réserves méthodologiques écrites en clair.\n\nCSM (Karim Zaoui): Sur les chiffres : le taux de retours libraires est passé de 24 % à 20%. On est sur la bonne trajectoire.\n\nProspect (Vincent Morel): Bien. Mais je veux comprendre : c'est l'outil ou c'est l'effet de la saison ?\n\nCSM (Karim Zaoui): Question légitime. On a isolé les deux effets dans l'annexe du rapport.\n\nProspect (Vincent Morel): Merci de le dire. Ça me permet de ne pas survendre en interne.\n\nCSM (Karim Zaoui): Prochaines actions : je programme la session manquante, et on refait un point le 2025-05-15.\n\nProspect (Vincent Morel): Parfait, merci.",
+      "summary": "Point d'avancement hebdomadaire. Le taux de retours libraires progresse (20%). L'adoption reste inégale selon les équipes. Une demande d'évolution a été remontée. La part réelle de l'amélioration a été distinguée de l'effet saisonnier, ce qui a été apprécié.",
+      "crm_fields": [
+        {
+          "key": "Indicateur suivi",
+          "value": "taux de retours libraires : 20% (départ 24 %)"
+        },
+        {
+          "key": "Taux d'adoption",
+          "value": "72 % d'utilisateurs actifs hebdomadaires"
+        },
+        {
+          "key": "Point de vigilance",
+          "value": "Adoption faible sur le site secondaire"
+        },
+        {
+          "key": "Demande d'évolution",
+          "value": "Filtrage par équipe en complément du périmètre global"
+        },
+        {
+          "key": "Prochain point",
+          "value": "2025-05-15"
+        }
+      ]
+    },
+    {
+      "date": "2025-05-23",
+      "call_name": "Appel support technique — incident déclaré par l'équipe métier",
+      "transcript": "Cheffe de fabrication (Amandine Costa): Bonjour, on a un problème : une alerte s'est déclenchée à tort sur tout le périmètre. Mon équipe est à l'arrêt sur ce point.\n\nCSM (Karim Zaoui): Bonjour, je prends. Depuis quand exactement ?\n\nCheffe de fabrication (Amandine Costa): Depuis hier après-midi je crois, mais on ne s'en est rendu compte que ce matin.\n\nCSM (Karim Zaoui): J'ai l'anomalie sous les yeux. Laissez-moi cinq minutes.\n\nCSM (Karim Zaoui): Diagnostic : un seuil paramétré en valeur absolue au lieu d'un pourcentage. Aucune donnée n'est perdue, c'est important de le dire.\n\nCheffe de fabrication (Amandine Costa): Bon. Combien de temps pour revenir à la normale ?\n\nCSM (Karim Zaoui): Résolution : correction du paramétrage et revue de l'ensemble des seuils avec l'équipe.\n\nCheffe de fabrication (Amandine Costa): Autre chose pendant que je vous ai : mon équipe demande si on peut exporter la vue filtrée, et pas seulement la vue complète.\n\nCSM (Karim Zaoui): Pas aujourd'hui. Je le remonte au produit — c'est la troisième fois qu'on me le demande ce mois-ci, ça pèsera.\n\nCheffe de fabrication (Amandine Costa): Merci. Tenez-moi au courant même si la réponse est non.\n\nCheffe de fabrication (Amandine Costa): Est-ce qu'on peut se fier à ce qui a été affiché entre-temps ?\n\nCSM (Karim Zaoui): Non, et c'est important : tout ce qui a été affiché depuis hier soir doit être considéré comme non valide. Je relance un recalcul complet sur la période.\n\nCheffe de fabrication (Amandine Costa): D'accord. Je préviens l'équipe de ne pas s'en servir ce matin.\n\nCSM (Karim Zaoui): Je vous confirme par écrit dès que le recalcul est terminé, que vous puissiez rediffuser avec une base propre.\n\nCheffe de fabrication (Amandine Costa): Est-ce que ça peut se reproduire ?\n\nCSM (Karim Zaoui): Non, une fois le correctif déployé. Mais je préfère être prudent : je maintiens une surveillance renforcée pendant deux semaines.\n\nCheffe de fabrication (Amandine Costa): C'est ce que j'attendais comme réponse. Merci de ne pas botter en touche.\n\nCSM (Karim Zaoui): Je laisse le ticket ouvert quarante-huit heures et je vous confirme le retour à la normale.\n\nCheffe de fabrication (Amandine Costa): Très bien, merci.",
+      "summary": "Incident signalé par Amandine Costa. Diagnostic posé rapidement, aucune perte de données. Résolution communiquée par écrit avec la cause et l'action corrective, de façon à pouvoir être partagée en interne.",
+      "crm_fields": [
+        {
+          "key": "Symptôme déclaré",
+          "value": "Incident signalé par l'équipe métier"
+        },
+        {
+          "key": "Cause identifiée",
+          "value": "Requête non optimisée"
+        },
+        {
+          "key": "Résolution",
+          "value": "Correctif déployé et contrôle ajouté"
+        },
+        {
+          "key": "Impact sur l'adoption",
+          "value": "Faible"
+        },
+        {
+          "key": "Numéro de ticket",
+          "value": "TIC-54826"
+        }
+      ]
+    },
+    {
+      "date": "2025-06-09",
+      "call_name": "Point d'avancement hebdomadaire (30 min)",
+      "transcript": "CSM (Karim Zaoui): Bonjour Vincent, point hebdomadaire. Trente minutes.\n\nProspect (Vincent Morel): Allez-y, je vous écoute.\n\nCSM (Karim Zaoui): Un sujet remonté par le terrain cette semaine : le temps de chargement de la vue consolidée est jugé trop long.\n\nProspect (Vincent Morel): C'est bloquant ou c'est de l'inconfort ?\n\nCSM (Karim Zaoui): De l'inconfort, mais l'inconfort quotidien finit par tuer l'adoption. Je le traite comme un vrai sujet.\n\nCSM (Karim Zaoui): Un correctif est prévu à la prochaine mise à jour. En attendant, j'ai pré-calculé la vue la plus utilisée.\n\nProspect (Vincent Morel): Merci d'avoir traité ça avant que je le remonte.\n\nProspect (Vincent Morel): Claire m'a demandé où on en était. Qu'est-ce que je lui dis ?\n\nCSM (Karim Zaoui): Dites-lui que le taux de retours libraires est à 20%, que la trajectoire est conforme, et qu'on tiendra l'objectif de 16 % au trimestre.\n\nProspect (Vincent Morel): Vous vous engagez là-dessus ? Parce que c'est moi qui prends si ça dérape.\n\nCSM (Karim Zaoui): Je m'engage sur la transparence, pas sur le miracle. Si ça dérape, vous le saurez la semaine où ça dérape.\n\nProspect (Vincent Morel): C'est ce que je voulais entendre.\n\nCSM (Karim Zaoui): Côté adoption : soixante-dix pour cent des utilisateurs se connectent au moins trois fois par semaine.\n\nProspect (Vincent Morel): Qui sont les trente pour cent qui ne l'utilisent pas ?\n\nCSM (Karim Zaoui): Principalement l'équipe du site secondaire. Ils n'ont pas eu la formation, c'est un oubli de notre côté.\n\nProspect (Vincent Morel): C'est ce que je craignais. Il faut qu'on coupe l'ancien tableur, sinon ça ne bougera jamais.\n\nProspect (Vincent Morel): J'ai un retour de Amandine : ils aimeraient pouvoir filtrer par équipe, pas seulement par périmètre global.\n\nCSM (Karim Zaoui): C'est faisable en paramétrage, sans développement. Je peux le faire cette semaine.\n\nProspect (Vincent Morel): Faites, ça leur fera un signal positif.\n\nCSM (Karim Zaoui): Question de planification : vous avez une période à éviter pour les mises à jour ?\n\nProspect (Vincent Morel): Les fins de mois. C'est là qu'on produit les chiffres, on ne peut pas se permettre une indisponibilité.\n\nCSM (Karim Zaoui): Je le note comme période de gel, et je le fais inscrire dans notre calendrier de déploiement pour que ce ne soit pas oublié.\n\nProspect (Vincent Morel): Parfait.\n\nProspect (Vincent Morel): On m'a demandé si on pouvait comparer nos résultats à ceux du secteur.\n\nCSM (Karim Zaoui): Oui, sur une base anonymisée. Je vous préviens : la comparaison sectorielle est à manier avec prudence, les périmètres ne sont jamais strictement identiques.\n\nProspect (Vincent Morel): C'est bien que vous le précisiez, parce que ce sera utilisé en comité.\n\nCSM (Karim Zaoui): Je vous prépare ça avec les réserves méthodologiques écrites en clair.\n\nCSM (Karim Zaoui): Sur les chiffres : le taux de retours libraires est passé de 24 % à 20%. On est sur la bonne trajectoire.\n\nProspect (Vincent Morel): Bien. Mais je veux comprendre : c'est l'outil ou c'est l'effet de la saison ?\n\nCSM (Karim Zaoui): Question légitime. On a isolé les deux effets dans l'annexe du rapport.\n\nProspect (Vincent Morel): Merci de le dire. Ça me permet de ne pas survendre en interne.\n\nCSM (Karim Zaoui): Point de vigilance : la qualité des données sur les trois derniers mois d'historique. Il y a des trous.\n\nProspect (Vincent Morel): Je sais d'où ça vient. On a eu une migration en interne à ce moment-là.\n\nCSM (Karim Zaoui): On peut soit les exclure du calcul, soit les signaler explicitement. Je recommande de les signaler : c'est moins confortable mais plus honnête.\n\nProspect (Vincent Morel): Signalez-les. Je préfère assumer un trou qu'un chiffre faux.\n\nCSM (Karim Zaoui): Je vous envoie le compte rendu ce soir. Prochain point le 2025-06-16.\n\nProspect (Vincent Morel): Parfait, merci.",
+      "summary": "Point d'avancement hebdomadaire. Le taux de retours libraires progresse (20%). L'adoption reste inégale selon les équipes. Une demande d'évolution a été remontée. La part réelle de l'amélioration a été distinguée de l'effet saisonnier, ce qui a été apprécié.",
+      "crm_fields": [
+        {
+          "key": "Indicateur suivi",
+          "value": "taux de retours libraires : 20% (départ 24 %)"
+        },
+        {
+          "key": "Taux d'adoption",
+          "value": "72 % d'utilisateurs actifs hebdomadaires"
+        },
+        {
+          "key": "Point de vigilance",
+          "value": "Trous d'historique sur trois mois"
+        },
+        {
+          "key": "Demande d'évolution",
+          "value": "Filtrage par équipe en complément du périmètre global"
+        },
+        {
+          "key": "Prochain point",
+          "value": "2025-06-16"
+        }
+      ]
+    },
+    {
+      "date": "2025-06-23",
+      "call_name": "Appel de courtoisie — vérification de bonne réception",
+      "transcript": "Commercial (Aurélie): Bonjour Vincent, appel rapide, je voulais juste vérifier que vous aviez bien reçu le document.\n\nProspect (Vincent Morel): Oui, reçu ce matin. Je le lis ce week-end.\n\nCommercial (Aurélie): Aucun souci. Est-ce que je le renvoie à une autre adresse pour éviter ça ?\n\nProspect (Vincent Morel): Non, c'est bon. Je vous rappelle en début de semaine prochaine.\n\nCommercial (Aurélie): Entendu. Bonne fin de journée.",
+      "summary": "Appel court de vérification de bonne réception du document envoyé. Prochaine relance calée.",
+      "crm_fields": [
+        {
+          "key": "Type d'interaction",
+          "value": "Appel court"
+        },
+        {
+          "key": "Document concerné",
+          "value": "Proposition commerciale"
+        },
+        {
+          "key": "Prochaine action",
+          "value": "Programmation du point suivant"
+        }
+      ]
+    },
+    {
+      "date": "2025-07-07",
+      "call_name": "Appel support technique — incident déclaré par l'équipe métier",
+      "transcript": "Cheffe de fabrication (Amandine Costa): Bonjour, j'appelle parce que l'application est très lente depuis ce matin. C'est bloquant pour nous ce matin.\n\nCSM (Karim Zaoui): Je regarde tout de suite. Ça a commencé quand ?\n\nCheffe de fabrication (Amandine Costa): Ce matin en arrivant. Hier soir tout allait bien.\n\nCSM (Karim Zaoui): Je vois la trace dans les journaux. Je vous rappelle dans dix minutes avec un diagnostic.\n\nCSM (Karim Zaoui): Voilà : la cause, c'est une requête non optimisée déclenchée par un nouveau filtre personnalisé. Ce n'est pas de votre fait, et ce n'est pas une perte de données.\n\nCheffe de fabrication (Amandine Costa): D'accord. Et on répare comment ?\n\nCSM (Karim Zaoui): Résolution : correctif déployé le jour même, temps de réponse revenu sous la seconde.\n\nCSM (Karim Zaoui): Je profite de l'appel : comment ça se passe globalement pour votre équipe ?\n\nCheffe de fabrication (Amandine Costa): Mieux qu'au démarrage. Il a fallu trois semaines pour que les habitudes changent.\n\nCSM (Karim Zaoui): C'est utile à savoir. Je remonte le point positif à l'équipe, ça leur fait du bien aussi.\n\nCheffe de fabrication (Amandine Costa): Volontiers. Prévoyez plutôt le mardi, c'est notre jour le plus calme.\n\nCheffe de fabrication (Amandine Costa): Et les données de la période concernée, elles sont fiables ?\n\nCSM (Karim Zaoui): Les données sont intactes en base. C'est l'affichage qui était figé. Après recalcul, vous retrouverez les bonnes valeurs.\n\nCheffe de fabrication (Amandine Costa): Bon. Je vais devoir refaire un point que j'ai envoyé hier soir.\n\nCSM (Karim Zaoui): Je vous confirme par écrit dès que le recalcul est terminé, que vous puissiez rediffuser avec une base propre.\n\nCheffe de fabrication (Amandine Costa): Est-ce que ça peut se reproduire ?\n\nCSM (Karim Zaoui): Non, une fois le correctif déployé. Mais je préfère être prudent : je maintiens une surveillance renforcée pendant deux semaines.\n\nCheffe de fabrication (Amandine Costa): C'est ce que j'attendais comme réponse. Merci de ne pas botter en touche.\n\nCheffe de fabrication (Amandine Costa): Autre chose pendant que je vous ai : mon équipe demande si on peut exporter la vue filtrée, et pas seulement la vue complète.\n\nCSM (Karim Zaoui): C'est déjà possible, mais ce n'est pas évident à trouver. C'est un défaut d'interface de notre côté, pas un manque de fonctionnalité.\n\nCheffe de fabrication (Amandine Costa): Montrez-moi où, ça m'évitera de le redemander.\n\nCheffe de fabrication (Amandine Costa): Je ne vous cache pas que ça fait mauvais effet. J'ai défendu l'outil en interne.\n\nCSM (Karim Zaoui): Je l'entends, et vous avez raison de le dire. Je vous envoie une note écrite avec la cause et l'action corrective, que vous puissiez la montrer à Vincent.\n\nCheffe de fabrication (Amandine Costa): Ça m'aiderait, oui. Merci de le prendre au sérieux.\n\nCSM (Karim Zaoui): Je laisse le ticket ouvert quarante-huit heures et je vous confirme le retour à la normale.\n\nCheffe de fabrication (Amandine Costa): Très bien, merci.",
+      "summary": "Incident signalé par Amandine Costa. Diagnostic posé rapidement, aucune perte de données. Résolution communiquée par écrit avec la cause et l'action corrective, de façon à pouvoir être partagée en interne.",
+      "crm_fields": [
+        {
+          "key": "Symptôme déclaré",
+          "value": "Incident signalé par l'équipe métier"
+        },
+        {
+          "key": "Cause identifiée",
+          "value": "Changement de configuration côté client"
+        },
+        {
+          "key": "Résolution",
+          "value": "Rétabli le jour même"
+        },
+        {
+          "key": "Impact sur l'adoption",
+          "value": "Nul, transparence appréciée"
+        },
+        {
+          "key": "Numéro de ticket",
+          "value": "TIC-21501"
+        }
+      ]
+    },
+    {
+      "date": "2025-07-25",
+      "call_name": "Point d'avancement hebdomadaire (30 min)",
+      "transcript": "CSM (Karim Zaoui): Bonjour Vincent, point hebdomadaire. Trente minutes.\n\nProspect (Vincent Morel): Bonjour. J'ai des retours du terrain, plutôt bons.\n\nCSM (Karim Zaoui): Un sujet remonté par le terrain cette semaine : le temps de chargement de la vue consolidée est jugé trop long.\n\nProspect (Vincent Morel): C'est bloquant ou c'est de l'inconfort ?\n\nCSM (Karim Zaoui): De l'inconfort, mais l'inconfort quotidien finit par tuer l'adoption. Je le traite comme un vrai sujet.\n\nCSM (Karim Zaoui): Un correctif est prévu à la prochaine mise à jour. En attendant, j'ai pré-calculé la vue la plus utilisée.\n\nProspect (Vincent Morel): Merci d'avoir traité ça avant que je le remonte.\n\nProspect (Vincent Morel): J'ai un retour de Amandine : ils aimeraient pouvoir filtrer par équipe, pas seulement par périmètre global.\n\nCSM (Karim Zaoui): Ça demande un petit développement. Je le remonte au produit avec votre appui, ça pèsera plus lourd.\n\nProspect (Vincent Morel): Faites, ça leur fera un signal positif.\n\nCSM (Karim Zaoui): Point de vigilance : la qualité des données sur les trois derniers mois d'historique. Il y a des trous.\n\nProspect (Vincent Morel): Je sais d'où ça vient. On a eu une migration en interne à ce moment-là.\n\nCSM (Karim Zaoui): On peut soit les exclure du calcul, soit les signaler explicitement. Je recommande de les signaler : c'est moins confortable mais plus honnête.\n\nProspect (Vincent Morel): Signalez-les. Je préfère assumer un trou qu'un chiffre faux.\n\nProspect (Vincent Morel): Claire m'a demandé où on en était. Qu'est-ce que je lui dis ?\n\nCSM (Karim Zaoui): Dites-lui que le taux de retours libraires est à 20%, que la trajectoire est conforme, et qu'on tiendra l'objectif de 16 % au trimestre.\n\nProspect (Vincent Morel): Vous vous engagez là-dessus ? Parce que c'est moi qui prends si ça dérape.\n\nCSM (Karim Zaoui): Je m'engage sur la transparence, pas sur le miracle. Si ça dérape, vous le saurez la semaine où ça dérape.\n\nProspect (Vincent Morel): C'est ce que je voulais entendre.\n\nCSM (Karim Zaoui): Côté adoption : soixante-dix pour cent des utilisateurs se connectent au moins trois fois par semaine.\n\nProspect (Vincent Morel): Et les trente pour cent restants ?\n\nCSM (Karim Zaoui): Ce sont les profils les plus anciens. Ils continuent avec leur tableur en parallèle.\n\nProspect (Vincent Morel): Programmez une session pour eux. Je ferai passer le message moi-même.\n\nCSM (Karim Zaoui): Question de planification : vous avez une période à éviter pour les mises à jour ?\n\nProspect (Vincent Morel): Oui, toute la période autour de la rentrée littéraire de septembre. À ce moment-là, on ne touche à rien.\n\nCSM (Karim Zaoui): Je le note comme période de gel, et je le fais inscrire dans notre calendrier de déploiement pour que ce ne soit pas oublié.\n\nProspect (Vincent Morel): Parfait.\n\nProspect (Vincent Morel): On m'a demandé si on pouvait comparer nos résultats à ceux du secteur.\n\nCSM (Karim Zaoui): C'est possible sur des indicateurs agrégés et anonymisés. Je ne vous donnerai jamais les chiffres nominatifs d'un autre client.\n\nProspect (Vincent Morel): Compris. Donnez-moi un ordre de grandeur, pas un classement.\n\nCSM (Karim Zaoui): Je vous prépare ça avec les réserves méthodologiques écrites en clair.\n\nCSM (Karim Zaoui): Je vous envoie le compte rendu ce soir. Prochain point le 2025-08-01.\n\nProspect (Vincent Morel): Ça me va. À la semaine prochaine.",
+      "summary": "Point d'avancement hebdomadaire. Le taux de retours libraires progresse (20%). L'adoption reste inégale selon les équipes. Une demande d'évolution a été remontée. La part réelle de l'amélioration a été distinguée de l'effet saisonnier, ce qui a été apprécié.",
+      "crm_fields": [
+        {
+          "key": "Indicateur suivi",
+          "value": "taux de retours libraires : 20% (départ 24 %)"
+        },
+        {
+          "key": "Taux d'adoption",
+          "value": "72 % d'utilisateurs actifs hebdomadaires"
+        },
+        {
+          "key": "Point de vigilance",
+          "value": "Trous d'historique sur trois mois"
+        },
+        {
+          "key": "Demande d'évolution",
+          "value": "Filtrage par équipe en complément du périmètre global"
+        },
+        {
+          "key": "Prochain point",
+          "value": "2025-08-01"
+        }
+      ]
+    },
+    {
+      "date": "2025-08-08",
+      "call_name": "Revue trimestrielle d'activité (1h) — résultats, adoption et plan d'action",
+      "transcript": "CSM (Karim Zaoui): Bonjour à tous. Revue trimestrielle. Une heure, et je voudrais qu'on passe le plus de temps possible sur ce qui ne va pas, pas sur ce qui va.\n\nPrésidente (Claire Lumière): Ça change des présentations habituelles. Allez-y.\n\nCSM (Karim Zaoui): Les chiffres d'abord. Le taux de retours libraires est passé de 24 % à 16 %. L'objectif du trimestre est atteint.\n\nPrésidente (Claire Lumière): Ça, c'est votre mesure. Est-ce que le contrôle de gestion confirme ?\n\nProspect (Vincent Morel): Sur le trimestre, on estime le gain à 61 000 euros. Là aussi, c'est le chiffre du contrôle de gestion.\n\nPrésidente (Claire Lumière): Et le point négatif, puisque vous l'avez annoncé ?\n\nCSM (Karim Zaoui): Deux choses. L'adoption sur le site secondaire reste faible, autour de quarante pour cent. Et on a eu deux incidents ce trimestre, dont un de notre fait.\n\nPrésidente (Claire Lumière): J'apprécie que vous le disiez avant que je le découvre. Qu'est-ce que vous faites ?\n\nCSM (Karim Zaoui): Sur l'adoption : une session dédiée et un référent local identifié. Sur le support : nous avons renforcé l'équipe, et je m'engage sur un point mensuel de suivi des délais.\n\nProspect (Vincent Morel): Sur le terrain, le changement le plus visible, c'est qu'on ne passe plus les réunions à discuter de la fiabilité des chiffres. On discute des décisions.\n\nPrésidente (Claire Lumière): Bien. Je reste vigilant sur les incidents, mais le bilan est positif.\n\nCSM (Karim Zaoui): Pour le trimestre prochain, je propose qu'on regarde l'extension à l'ensemble des références. Je vous prépare un cadrage.\n\nPrésidente (Claire Lumière): Envoyez, on regardera au budget.",
+      "summary": "Revue trimestrielle avec Claire Lumière. Objectif atteint sur le taux de retours libraires (24 % → 16 %), gain trimestriel de 61 000 € validé par le contrôle de gestion. Les points négatifs ont été présentés spontanément, ce qui a renforcé la relation. Ouverture d'une piste d'extension.",
+      "crm_fields": [
+        {
+          "key": "Résultat trimestriel",
+          "value": "taux de retours libraires : 24 % → 16 % — objectif atteint"
+        },
+        {
+          "key": "Gain estimé",
+          "value": "61 000 € sur le trimestre (validé par le contrôle de gestion)"
+        },
+        {
+          "key": "Point négatif assumé",
+          "value": "Deux incidents dont un imputable à l'éditeur ; adoption inégale"
+        },
+        {
+          "key": "Plan d'action",
+          "value": "Session dédiée site secondaire + suivi mensuel des délais de support"
+        },
+        {
+          "key": "Opportunité d'extension",
+          "value": "l'ensemble des références"
+        }
+      ]
+    },
+    {
+      "date": "2025-08-21",
+      "call_name": "Point d'avancement hebdomadaire (30 min)",
+      "transcript": "CSM (Karim Zaoui): Bonjour Vincent, point hebdomadaire. Trente minutes.\n\nProspect (Vincent Morel): Bonjour. J'ai des retours du terrain, plutôt bons.\n\nCSM (Karim Zaoui): Sur les chiffres : le taux de retours libraires est passé de 24 % à 20%. On est sur la bonne trajectoire.\n\nProspect (Vincent Morel): C'est déjà mieux que ce que j'espérais à ce stade.\n\nCSM (Karim Zaoui): Question légitime. On a isolé les deux effets dans l'annexe du rapport.\n\nProspect (Vincent Morel): Merci de le dire. Ça me permet de ne pas survendre en interne.\n\nCSM (Karim Zaoui): Un sujet remonté par le terrain cette semaine : le temps de chargement de la vue consolidée est jugé trop long.\n\nProspect (Vincent Morel): Combien de temps, concrètement ?\n\nCSM (Karim Zaoui): Huit secondes en moyenne. Ce n'est pas bloquant, mais sur un usage quotidien c'est ce qui fait qu'on arrête d'ouvrir un outil.\n\nCSM (Karim Zaoui): Un correctif est prévu à la prochaine mise à jour. En attendant, j'ai pré-calculé la vue la plus utilisée.\n\nProspect (Vincent Morel): Merci d'avoir traité ça avant que je le remonte.\n\nCSM (Karim Zaoui): Point de vigilance : la qualité des données sur les trois derniers mois d'historique. Il y a des trous.\n\nProspect (Vincent Morel): Ça ne m'étonne pas. C'est la période où on a changé de responsable de saisie.\n\nCSM (Karim Zaoui): On peut soit les exclure du calcul, soit les signaler explicitement. Je recommande de les signaler : c'est moins confortable mais plus honnête.\n\nProspect (Vincent Morel): Signalez-les. Je préfère assumer un trou qu'un chiffre faux.\n\nCSM (Karim Zaoui): Côté adoption : soixante-dix pour cent des utilisateurs se connectent au moins trois fois par semaine.\n\nProspect (Vincent Morel): Qui sont les trente pour cent qui ne l'utilisent pas ?\n\nCSM (Karim Zaoui): Principalement l'équipe du site secondaire. Ils n'ont pas eu la formation, c'est un oubli de notre côté.\n\nProspect (Vincent Morel): Programmez une session pour eux. Je ferai passer le message moi-même.\n\nProspect (Vincent Morel): J'ai un retour de Amandine : ils aimeraient pouvoir filtrer par équipe, pas seulement par périmètre global.\n\nCSM (Karim Zaoui): C'est faisable en paramétrage, sans développement. Je peux le faire cette semaine.\n\nProspect (Vincent Morel): Faites, ça leur fera un signal positif.\n\nProspect (Vincent Morel): Claire m'a demandé où on en était. Qu'est-ce que je lui dis ?\n\nCSM (Karim Zaoui): Dites-lui que le taux de retours libraires est à 20%, que la trajectoire est conforme, et qu'on tiendra l'objectif de 16 % au trimestre.\n\nProspect (Vincent Morel): Vous vous engagez là-dessus ? Parce que c'est moi qui prends si ça dérape.\n\nCSM (Karim Zaoui): Je m'engage sur la transparence, pas sur le miracle. Si ça dérape, vous le saurez la semaine où ça dérape.\n\nProspect (Vincent Morel): C'est ce que je voulais entendre.\n\nCSM (Karim Zaoui): Question de planification : vous avez une période à éviter pour les mises à jour ?\n\nProspect (Vincent Morel): Oui, toute la période autour de la rentrée littéraire de septembre. À ce moment-là, on ne touche à rien.\n\nCSM (Karim Zaoui): Je le note comme période de gel, et je le fais inscrire dans notre calendrier de déploiement pour que ce ne soit pas oublié.\n\nProspect (Vincent Morel): Parfait.\n\nCSM (Karim Zaoui): Prochaines actions : je programme la session manquante, et on refait un point le 2025-08-28.\n\nProspect (Vincent Morel): Parfait, merci.",
+      "summary": "Point d'avancement hebdomadaire. Le taux de retours libraires progresse (20%). L'adoption reste inégale selon les équipes. Une demande d'évolution a été remontée. La part réelle de l'amélioration a été distinguée de l'effet saisonnier, ce qui a été apprécié.",
+      "crm_fields": [
+        {
+          "key": "Indicateur suivi",
+          "value": "taux de retours libraires : 20% (départ 24 %)"
+        },
+        {
+          "key": "Taux d'adoption",
+          "value": "72 % d'utilisateurs actifs hebdomadaires"
+        },
+        {
+          "key": "Point de vigilance",
+          "value": "Adoption faible sur le site secondaire"
+        },
+        {
+          "key": "Demande d'évolution",
+          "value": "Filtrage par équipe en complément du périmètre global"
+        },
+        {
+          "key": "Prochain point",
+          "value": "2025-08-28"
+        }
+      ]
+    },
+    {
+      "date": "2025-08-29",
+      "call_name": "Négociation de renouvellement de contrat",
+      "transcript": "CSM (Karim Zaoui): Bonjour Claire. Le contrat arrive à échéance le 2025-10-28, je voulais qu'on en parle en avance.\n\nPrésidente (Claire Lumière): Très bien. J'ai justement une revue de nos abonnements en cours.\n\nCSM (Karim Zaoui): Le bilan de l'année : le taux de retours libraires est passé de 24 % à 16 %, soit un gain estimé à 244 000 euros. Le taux d'utilisation est de 72 pour cent.\n\nPrésidente (Claire Lumière): D'accord. Et vous proposez quoi pour la suite ?\n\nCSM (Karim Zaoui): Reconduction à 60 000 euros, soit l'indexation plafonnée prévue au contrat. Pas de mauvaise surprise.\n\nPrésidente (Claire Lumière): Vous pouvez faire un geste si je passe à trois ans ?\n\nCSM (Karim Zaoui): Un engagement de trois ans permet de neutraliser l'indexation la première année.\n\nPrésidente (Claire Lumière): Trois ans, ça m'engage beaucoup. Envoyez les deux options et je trancherai.\n\nCSM (Karim Zaoui): Je vous envoie les deux scénarios. Et je profite de l'occasion : Vincent souhaite étendre à l'ensemble des références. Je peux vous chiffrer l'ensemble dans une seule proposition.\n\nPrésidente (Claire Lumière): Oui, mieux vaut une seule discussion. Envoyez le tout.",
+      "summary": "Préparation du renouvellement, engagée en avance. Bilan annuel favorable (taux de retours libraires : 24 % → 16 %, 72 % d'adoption). Deux scénarios proposés, 12 ou 36 mois, avec possibilité de combiner renouvellement et extension dans une proposition unique.",
+      "crm_fields": [
+        {
+          "key": "Date d'échéance",
+          "value": "2025-11-02"
+        },
+        {
+          "key": "Tarif de reconduction",
+          "value": "60 000 € — indexation plafonnée"
+        },
+        {
+          "key": "Durée proposée",
+          "value": "12 mois ou 36 mois avec gel la première année"
+        },
+        {
+          "key": "Bilan annuel",
+          "value": "taux de retours libraires : 24 % → 16 % ; 72 % d'adoption"
+        },
+        {
+          "key": "Opportunité combinée",
+          "value": "Renouvellement + extension l'ensemble des références"
+        }
+      ]
+    }
+  ],
+  "emails": [
+    {
+      "date": "2025-01-09",
+      "subject": "Édition et médias : réduire le taux de retours libraires sans changer Bookflow",
+      "content": "Bonjour Vincent Morel,\n\nJe me permets de vous écrire car nous accompagnons plusieurs structures de l'édition confrontées à une difficulté récurrente : un taux de retours libraires de 24 %.\n\nChez la plupart d'entre elles, le constat était le même que celui que vous vivez probablement : Bookflow reste la source de vérité, mais toute l'analyse se fait en dehors, sous tableur, avec un temps de retraitement considérable.\n\nNotre approche est volontairement peu intrusive : nous ne remplaçons aucun système existant et nous nous branchons en lecture seule. Sur un périmètre comparable au vôtre (1 200 références actives et 340 nouveautés par an), le taux de retours libraires est passé de 24 % à 16 % en six mois.\n\nAuriez-vous vingt minutes dans les prochains jours pour en discuter ?\n\nBien cordialement,\n\nAurélie Chassagne\nCommerciale | Bibliovia Solutions"
+    },
+    {
+      "date": "2025-01-13",
+      "subject": "Relance : taux de retours libraires chez Éditions Lumière & Cie",
+      "content": "Bonjour Vincent Morel,\n\nJe reviens vers vous suite à mon message de la semaine dernière, resté sans réponse — ce que je comprends parfaitement compte tenu de la période.\n\nUn élément qui pourrait justifier un échange court : plusieurs de nos clients de l'édition ont engagé ce type de chantier en anticipation de la rentrée littéraire de septembre, précisément pour éviter d'avoir à le traiter dans l'urgence.\n\nSi le sujet n'est pas prioritaire pour vous cette année, dites-le-moi simplement et je cesserai mes relances.\n\nBien cordialement,\n\nAurélie Chassagne\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-01-16",
+      "subject": "Confirmation : échange Bibliovia / Éditions Lumière & Cie",
+      "content": "Bonjour Vincent Morel,\n\nJe vous confirme notre échange. Ordre du jour proposé :\n\n1. Votre fonctionnement actuel autour de Bookflow\n2. Les difficultés rencontrées sur taux de retours libraires\n3. Vos contraintes techniques et de conformité\n4. Les prochaines étapes si le sujet a du sens\n\nPas de présentation commerciale : l'objectif est de comprendre votre contexte.\n\nSi vous souhaitez associer Pierre-Yves Danic à cet échange, n'hésitez pas à le convier.\n\nBien cordialement,\n\nAurélie Chassagne\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-01-20",
+      "subject": "Compte rendu de notre échange + éléments complémentaires",
+      "content": "Bonjour Vincent Morel,\n\nMerci pour le temps accordé. Je reprends ci-dessous ce que j'ai retenu, corrigez-moi si je me trompe :\n\n— Difficulté principale : un taux de retours libraires de 24 %\n— Indicateur de référence : taux de retours libraires, aujourd'hui à 24 %, objectif 16 %\n— Contrainte structurante : aucun remplacement de Bookflow\n— Échéance : la rentrée littéraire de septembre\n— Point de vigilance : l'adoption par les équipes de Amandine Costa\n\nComme convenu, je vous joins le dossier technique et un retour d'expérience mené dans un contexte proche du vôtre.\n\nProchaine étape proposée : un atelier technique avec Pierre-Yves Danic.\n\nBien cordialement,\n\nAurélie Chassagne\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-01-24",
+      "subject": "Dossier d'architecture et de conformité — Bibliovia",
+      "content": "Bonjour Pierre-Yves Danic,\n\nComme convenu lors de notre atelier, vous trouverez ci-joint :\n\n— le schéma d'architecture détaillé (flux HTTPS sortant, aucun flux entrant)\n— la description du connecteur et son dimensionnement (2 vCPU, 4 Go)\n— la politique de conservation des données, paramétrable par catégorie\n— la matrice des accès et le cloisonnement des sous-traitants\n— la procédure de réversibilité (CSV et Parquet, sous 30 jours)\n\nConcernant les obligations contractuelles envers les auteurs et la SGDL, l'hébergement est réalisé en France chez un opérateur qualifié et aucune donnée ne quitte l'Union européenne, sauvegardes comprises.\n\nLe rapport d'audit annuel peut vous être transmis sous accord de confidentialité : dites-moi si vous souhaitez que j'engage la démarche.\n\nBien cordialement,\n\nÉlise Roy\nIngénieure avant-vente | Bibliovia Solutions"
+    },
+    {
+      "date": "2025-01-27",
+      "subject": "Proposition commerciale — Éditions Lumière & Cie / Bibliovia Tirage",
+      "content": "Bonjour Vincent Morel,\n\nVous trouverez ci-joint notre proposition, construite sur les éléments que vous nous avez communiqués.\n\nPérimètre : 1 200 références actives et 340 nouveautés par an, 24 utilisateurs, module Bibliovia Tirage.\nAbonnement annuel : 72 000 €.\nFrais de mise en service : 12 500 €, non récurrents.\n\nLe retour sur investissement repose sur vos propres chiffres : le passage du taux de retours libraires de 24 % à 16 % représente environ 244 000 € par an, soit un amortissement en neuf mois.\n\nJe reste disponible pour en discuter avec Claire Lumière.\n\nBien cordialement,\n\nAurélie Chassagne\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-02-01",
+      "subject": "Proposition révisée suite à notre échange",
+      "content": "Bonjour Claire Lumière,\n\nSuite à notre discussion, voici la proposition révisée :\n\n— Abonnement année 1 : 59 000 € (au lieu de 72 000 €)\n— Frais de mise en service réduits de 50 %\n— Engagement de 24 mois\n— Paiement à 60 jours fin de mois\n— Indexation annuelle plafonnée à 2 %\n— Clause de sortie à 12 mois en cas de non-respect des engagements de service\n\nCes conditions sont valables jusqu'à la fin du mois. Au-delà, je devrai les refaire valider en interne.\n\nBien cordialement,\n\nAurélie Chassagne\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-02-04",
+      "subject": "Version consolidée du contrat — points de rédaction",
+      "content": "Bonjour Maître,\n\nVous trouverez ci-joint la version consolidée intégrant nos échanges :\n\n— Plafond de responsabilité porté à deux fois le montant annuel (article 9.2)\n— Plafond distinct pour les manquements à la protection des données (article 9.3)\n— Délai de correction ramené à 10 jours pour les incidents majeurs, avec définition contractuelle en annexe 4\n— Réversibilité précisée : formats CSV et Parquet, dictionnaire de données, sous 30 jours calendaires (article 14)\n— Droit français, tribunal de commerce de Lyon (article 18)\n\nLes modifications apparaissent en marques de révision.\n\nBien cordialement,\n\nAurélie Chassagne\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-02-08",
+      "subject": "Merci — démarrage du projet Bibliovia Tirage",
+      "content": "Bonjour Claire Lumière, bonjour Vincent Morel,\n\nLe contrat nous est bien parvenu signé. Merci de votre confiance.\n\nPoints administratifs : le bon de commande BC-2025-7539 figurera sur l'ensemble de nos factures, conformément à votre demande.\n\nKarim Zaoui prend le relais à compter de cette semaine en tant que Customer Success Manager. Elle dispose déjà de l'historique complet du dossier : vous n'aurez pas à réexpliquer votre contexte.\n\nPremier jalon engagé : mesure du taux de retours libraires à trois mois.\n\nBien cordialement,\n\nAurélie Chassagne\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-02-14",
+      "subject": "Lancement projet — calendrier et prérequis",
+      "content": "Bonjour à tous,\n\nSuite à notre réunion de lancement, voici le calendrier retenu :\n\nPhase 1 — Connexion à Bookflow et reprise de 12 mois d'historique\nPhase 2 — Paramétrage métier avec Vincent Morel\nPhase 3 — Formation des équipes de Amandine Costa et mise en service\n\nPrérequis à votre charge :\n— Règles de pare-feu sortantes (liste d'adresses en annexe)\n— Machine virtuelle 2 vCPU / 4 Go pour le connecteur\n— Transmission de vos règles de calcul actuelles, même sous forme de tableur\n\nPoint hebdomadaire de 30 minutes le mardi. Aucune double saisie ne sera demandée aux équipes : fonctionnement en parallèle pendant trois semaines, puis bascule.\n\nBien cordialement,\n\nKarim Zaoui\nCustomer Success Manager | Bibliovia Solutions"
+    },
+    {
+      "date": "2025-02-18",
+      "subject": "Suivi d'incident — cause et action corrective",
+      "content": "Bonjour Amandine Costa,\n\nComme convenu par téléphone, je vous confirme par écrit les éléments concernant l'incident de ce matin.\n\nCause identifiée : un changement de configuration intervenu côté environnement client, non signalé en amont. Aucune donnée n'a été perdue.\n\nAction corrective immédiate : rétablissement du service et vérification de l'intégralité des données de la période concernée.\n\nAction de fond : ajout d'une alerte automatique sur ce type d'événement, afin que nous soyons prévenus avant vous la prochaine fois.\n\nCe message est rédigé de façon à pouvoir être transmis tel quel à Vincent Morel si vous le jugez utile.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-02-21",
+      "subject": "Compte rendu du point hebdomadaire",
+      "content": "Bonjour Vincent Morel,\n\nSynthèse de notre point :\n\n— taux de retours libraires : 20% (point de départ 24 %, cible 16 %)\n— Adoption : 72 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : adoption plus faible sur le site secondaire, session de rattrapage à programmer\n— Demande d'évolution remontée : filtrage par équipe\n\nPrécision importante : une partie de l'amélioration constatée relève d'un effet saisonnier. En le neutralisant, le gain réellement imputable au projet représente environ deux tiers de l'écart observé. Je préfère vous transmettre le chiffre prudent plutôt que le chiffre flatteur.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-02-25",
+      "subject": "Revue trimestrielle — ordre du jour",
+      "content": "Bonjour Claire Lumière,\n\nJe vous propose l'ordre du jour suivant pour notre revue trimestrielle :\n\n1. Résultats mesurés sur le taux de retours libraires et gain estimé\n2. Adoption par équipe et par site\n3. Incidents du trimestre, y compris ceux qui nous sont imputables\n4. Plan d'action pour le trimestre à venir\n5. Pistes d'extension\n\nLe point 3 est volontairement à l'ordre du jour : je préfère que nous en parlions ouvertement plutôt que vous les découvriez.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-03-03",
+      "subject": "Extension de périmètre — l'ensemble des références",
+      "content": "Bonjour Vincent Morel,\n\nSuite à votre demande, voici le chiffrage de l'extension à l'ensemble des références :\n\n— Montant annuel additionnel : 32 000 €\n— Intégration par avenant au contrat existant\n— Alignement sur la date anniversaire, afin d'éviter des échéances multiples\n— Aucun surcoût de mise en service : l'architecture est déjà en place\n\nLe déploiement peut être réalisé en trois semaines, sans nouvelle intervention de Pierre-Yves Danic.\n\nBien cordialement,\n\nAurélie Chassagne\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-03-07",
+      "subject": "Échéance contractuelle — deux scénarios",
+      "content": "Bonjour Claire Lumière,\n\nNotre contrat arrive à échéance. Je vous adresse deux scénarios en avance, afin que vous puissiez les instruire sereinement.\n\nScénario A — Reconduction 12 mois : 60 000 €, indexation plafonnée conformément au contrat.\nScénario B — Engagement 36 mois : gel du tarif la première année, puis indexation plafonnée à 2 %.\n\nRappel du bilan de l'année écoulée : Le taux de retours libraires est passé de 24 % à 16 %, taux d'adoption de 72 %.\n\nSi vous le souhaitez, je peux intégrer l'extension à l'ensemble des références dans une proposition unique, pour éviter deux passages en comité.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-03-10",
+      "subject": "Retour d'expérience — contexte comparable au vôtre",
+      "content": "Bonjour Vincent Morel,\n\nComme promis, voici le retour d'expérience évoqué au téléphone. Le contexte est proche du vôtre : même secteur, volumétrie comparable, et une contrainte identique de ne pas toucher au système existant.\n\nLes trois enseignements que j'en retiens pour votre cas :\n\n1. Le gain le plus rapide n'a pas été analytique mais organisationnel : les réunions ont cessé de porter sur la fiabilité des chiffres.\n2. L'adoption a été obtenue en démarrant sur un périmètre restreint, pas en déployant partout.\n3. Les deux premières semaines ont été consacrées à la fiabilisation des données. C'est incompressible, autant l'anticiper.\n\nJe peux organiser un échange direct avec leur responsable si vous le souhaitez.\n\nBien cordialement,\n\nAurélie Chassagne\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-03-15",
+      "subject": "Facturation — rappel des références",
+      "content": "Bonjour,\n\nPour la bonne exécution administrative du contrat, je vous confirme les références à faire figurer sur nos échanges :\n\n— Bon de commande : BC-2025-7539\n— Conditions de règlement : 60 jours fin de mois\n— Périodicité : facturation annuelle à la date anniversaire\n\nSans le numéro de bon de commande, vos services comptables rejettent les factures : nous veillons donc à ce qu'il soit systématiquement rappelé.\n\nBien cordialement,\n\nAurélie Chassagne\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-03-19",
+      "subject": "Compte rendu hebdomadaire — semaine 4 (2025-S04)",
+      "content": "Bonjour Vincent Morel,\n\nSynthèse du point de la semaine 4 :\n\n— taux de retours libraires : 24% (départ 24 %, cible 16 %)\n— Adoption : 52 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : départ d'un référent métier sur le site nord\n— Demande d'évolution remontée : vue mobile simplifiée pour les responsables de terrain\n\nComme chaque semaine, je distingue ce qui relève du projet de ce qui relève du contexte : une partie de la variation tient à la saisonnalité, et je préfère vous transmettre le chiffre prudent.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-03-21",
+      "subject": "Ticket TIC-53160 — clôture, cause et action corrective",
+      "content": "Bonjour Amandine Costa,\n\nJe vous confirme par écrit la clôture du ticket TIC-53160, ouvert en semaine 5.\n\nCause identifiée : dépassement de la limite de lignes du format d'export.\nAucune donnée n'a été perdue ; les valeurs affichées pendant l'incident ont été recalculées et vérifiées.\nAction de fond : bascule vers un format sans limite.\n\nIndicateur au moment de la clôture — taux de retours libraires : 24%.\n\nCe message est rédigé de façon à pouvoir être transmis tel quel à Vincent Morel.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-03-26",
+      "subject": "Demande d'évolution 2025-S06 — suite donnée",
+      "content": "Bonjour Vincent Morel,\n\nRetour sur la demande d'évolution enregistrée sous la référence 2025-S06 : comparaison automatique avec le même mois de l'année précédente.\n\nElle a été instruite par notre équipe produit. Elle est réalisable par simple paramétrage, sans développement : je peux la mettre en place cette semaine.\n\nPour mémoire, deux autres demandes issues de vos équipes restent ouvertes ; j'en fais le point complet au prochain comité de suivi.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-04-01",
+      "subject": "Fenêtre de maintenance 2025-S07 — Bibliovia Tirage version 2025.7",
+      "content": "Bonjour Pierre-Yves Danic,\n\nNous prévoyons le déploiement de la version 2025.7 de Bibliovia Tirage, annoncé conformément au préavis de quinze jours prévu au contrat.\n\n— Durée estimée d'indisponibilité de l'interface : moins d'une heure\n— Créneau : en dehors de vos heures ouvrées\n— Impact sur la collecte : aucun, le connecteur continue de fonctionner\n— Principal apport de cette version : filtrage par équipe en complément du périmètre global\n\nSi cette date tombe pendant une période sensible de votre côté, vous disposez d'un report par trimestre : signalez-le-moi et je décale.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-04-03",
+      "subject": "Point de situation semaine 8 — arbitrages attendus",
+      "content": "Bonjour Vincent Morel,\n\nJe fais un point rapide en amont de notre prochain échange.\n\nLe taux de retours libraires s'établit à 23%, pour un objectif de 16 %. Le taux d'adoption atteint 59 %.\n\nDeux sujets appellent votre arbitrage :\n\n1. Temps de chargement de la vue consolidée jugé trop long\n2. Filtrage par équipe en complément du périmètre global\n\nDites-moi ce qui vous arrange et je m'aligne sur votre calendrier, en tenant compte de la rentrée littéraire de septembre.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-04-09",
+      "subject": "Compte rendu hebdomadaire — semaine 9 (2025-S09)",
+      "content": "Bonjour Vincent Morel,\n\nSynthèse du point de la semaine 9 :\n\n— taux de retours libraires : 22% (départ 24 %, cible 16 %)\n— Adoption : 61 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : écart entre la mesure hebdomadaire et le reporting mensuel\n— Demande d'évolution remontée : vue mobile simplifiée pour les responsables de terrain\n\nComme chaque semaine, je distingue ce qui relève du projet de ce qui relève du contexte : une partie de la variation tient à la saisonnalité, et je préfère vous transmettre le chiffre prudent.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-04-11",
+      "subject": "Ticket TIC-26219 — clôture, cause et action corrective",
+      "content": "Bonjour Amandine Costa,\n\nJe vous confirme par écrit la clôture du ticket TIC-26219, ouvert en semaine 10.\n\nCause identifiée : requête non optimisée déclenchée par un filtre personnalisé.\nAucune donnée n'a été perdue ; les valeurs affichées pendant l'incident ont été recalculées et vérifiées.\nAction de fond : correctif déployé et test de charge ajouté à la recette.\n\nIndicateur au moment de la clôture — taux de retours libraires : 22%.\n\nCe message est rédigé de façon à pouvoir être transmis tel quel à Vincent Morel.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-04-16",
+      "subject": "Demande d'évolution 2025-S11 — suite donnée",
+      "content": "Bonjour Vincent Morel,\n\nRetour sur la demande d'évolution enregistrée sous la référence 2025-S11 : vue mobile simplifiée pour les responsables de terrain.\n\nElle a été instruite par notre équipe produit. Elle est retenue, mais conditionnée à la refonte prévue au second semestre.\n\nPour mémoire, deux autres demandes issues de vos équipes restent ouvertes ; j'en fais le point complet au prochain comité de suivi.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-04-19",
+      "subject": "Fenêtre de maintenance 2025-S12 — Bibliovia Tirage version 2025.12",
+      "content": "Bonjour Pierre-Yves Danic,\n\nNous prévoyons le déploiement de la version 2025.12 de Bibliovia Tirage, annoncé conformément au préavis de quinze jours prévu au contrat.\n\n— Durée estimée d'indisponibilité de l'interface : 45 minutes\n— Créneau : en dehors de vos heures ouvrées\n— Impact sur la collecte : aucun, le connecteur continue de fonctionner\n— Principal apport de cette version : comparaison automatique avec le même mois de l'année précédente\n\nSi cette date tombe pendant une période sensible de votre côté, vous disposez d'un report par trimestre : signalez-le-moi et je décale.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-04-23",
+      "subject": "Point de situation semaine 13 — arbitrages attendus",
+      "content": "Bonjour Vincent Morel,\n\nJe fais un point rapide en amont de notre prochain échange.\n\nLe taux de retours libraires s'établit à 21%, pour un objectif de 16 %. Le taux d'adoption atteint 68 %.\n\nDeux sujets appellent votre arbitrage :\n\n1. Départ d'un référent métier sur le site nord\n2. Vue mobile simplifiée pour les responsables de terrain\n\nDites-moi ce qui vous arrange et je m'aligne sur votre calendrier, en tenant compte de la rentrée littéraire de septembre.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-04-27",
+      "subject": "Compte rendu hebdomadaire — semaine 14 (2025-S14)",
+      "content": "Bonjour Vincent Morel,\n\nSynthèse du point de la semaine 14 :\n\n— taux de retours libraires : 21% (départ 24 %, cible 16 %)\n— Adoption : 70 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : période de gel informatique à intégrer au calendrier\n— Demande d'évolution remontée : vue mobile simplifiée pour les responsables de terrain\n\nComme chaque semaine, je distingue ce qui relève du projet de ce qui relève du contexte : une partie de la variation tient à la saisonnalité, et je préfère vous transmettre le chiffre prudent.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-05-01",
+      "subject": "Ticket TIC-82168 — clôture, cause et action corrective",
+      "content": "Bonjour Amandine Costa,\n\nJe vous confirme par écrit la clôture du ticket TIC-82168, ouvert en semaine 15.\n\nCause identifiée : seuil paramétré en valeur absolue au lieu d'un pourcentage.\nAucune donnée n'a été perdue ; les valeurs affichées pendant l'incident ont été recalculées et vérifiées.\nAction de fond : revue complète des seuils avec l'équipe métier.\n\nIndicateur au moment de la clôture — taux de retours libraires : 20%.\n\nCe message est rédigé de façon à pouvoir être transmis tel quel à Vincent Morel.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-05-06",
+      "subject": "Demande d'évolution 2025-S16 — suite donnée",
+      "content": "Bonjour Vincent Morel,\n\nRetour sur la demande d'évolution enregistrée sous la référence 2025-S16 : comparaison automatique avec le même mois de l'année précédente.\n\nElle a été instruite par notre équipe produit. Elle est réalisable par simple paramétrage, sans développement : je peux la mettre en place cette semaine.\n\nPour mémoire, deux autres demandes issues de vos équipes restent ouvertes ; j'en fais le point complet au prochain comité de suivi.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-05-11",
+      "subject": "Fenêtre de maintenance 2025-S17 — Bibliovia Tirage version 2025.17",
+      "content": "Bonjour Pierre-Yves Danic,\n\nNous prévoyons le déploiement de la version 2025.17 de Bibliovia Tirage, annoncé conformément au préavis de quinze jours prévu au contrat.\n\n— Durée estimée d'indisponibilité de l'interface : 45 minutes\n— Créneau : en dehors de vos heures ouvrées\n— Impact sur la collecte : aucun, le connecteur continue de fonctionner\n— Principal apport de cette version : filtrage par équipe en complément du périmètre global\n\nSi cette date tombe pendant une période sensible de votre côté, vous disposez d'un report par trimestre : signalez-le-moi et je décale.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-05-14",
+      "subject": "Point de situation semaine 18 — arbitrages attendus",
+      "content": "Bonjour Vincent Morel,\n\nJe fais un point rapide en amont de notre prochain échange.\n\nLe taux de retours libraires s'établit à 20%, pour un objectif de 16 %. Le taux d'adoption atteint 77 %.\n\nDeux sujets appellent votre arbitrage :\n\n1. Adoption plus faible sur le site secondaire\n2. Historique des commentaires consultable sur douze mois\n\nDites-moi ce qui vous arrange et je m'aligne sur votre calendrier, en tenant compte de la rentrée littéraire de septembre.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-05-18",
+      "subject": "Compte rendu hebdomadaire — semaine 19 (2025-S19)",
+      "content": "Bonjour Vincent Morel,\n\nSynthèse du point de la semaine 19 :\n\n— taux de retours libraires : 19% (départ 24 %, cible 16 %)\n— Adoption : 79 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : montée de version décalée à la demande de la DSI\n— Demande d'évolution remontée : ajout d'un seuil d'alerte personnalisable par utilisateur\n\nComme chaque semaine, je distingue ce qui relève du projet de ce qui relève du contexte : une partie de la variation tient à la saisonnalité, et je préfère vous transmettre le chiffre prudent.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-05-23",
+      "subject": "Ticket TIC-64440 — clôture, cause et action corrective",
+      "content": "Bonjour Amandine Costa,\n\nJe vous confirme par écrit la clôture du ticket TIC-64440, ouvert en semaine 20.\n\nCause identifiée : seuil paramétré en valeur absolue au lieu d'un pourcentage.\nAucune donnée n'a été perdue ; les valeurs affichées pendant l'incident ont été recalculées et vérifiées.\nAction de fond : revue complète des seuils avec l'équipe métier.\n\nIndicateur au moment de la clôture — taux de retours libraires : 19%.\n\nCe message est rédigé de façon à pouvoir être transmis tel quel à Vincent Morel.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-05-27",
+      "subject": "Demande d'évolution 2025-S21 — suite donnée",
+      "content": "Bonjour Vincent Morel,\n\nRetour sur la demande d'évolution enregistrée sous la référence 2025-S21 : ajout d'un seuil d'alerte personnalisable par utilisateur.\n\nElle a été instruite par notre équipe produit. Elle est retenue, mais conditionnée à la refonte prévue au second semestre.\n\nPour mémoire, deux autres demandes issues de vos équipes restent ouvertes ; j'en fais le point complet au prochain comité de suivi.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-05-31",
+      "subject": "Fenêtre de maintenance 2025-S22 — Bibliovia Tirage version 2025.22",
+      "content": "Bonjour Pierre-Yves Danic,\n\nNous prévoyons le déploiement de la version 2025.22 de Bibliovia Tirage, annoncé conformément au préavis de quinze jours prévu au contrat.\n\n— Durée estimée d'indisponibilité de l'interface : moins d'une heure\n— Créneau : en dehors de vos heures ouvrées\n— Impact sur la collecte : aucun, le connecteur continue de fonctionner\n— Principal apport de cette version : historique des commentaires consultable sur douze mois\n\nSi cette date tombe pendant une période sensible de votre côté, vous disposez d'un report par trimestre : signalez-le-moi et je décale.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-06-03",
+      "subject": "Point de situation semaine 23 — arbitrages attendus",
+      "content": "Bonjour Vincent Morel,\n\nJe fais un point rapide en amont de notre prochain échange.\n\nLe taux de retours libraires s'établit à 18%, pour un objectif de 16 %. Le taux d'adoption atteint 86 %.\n\nDeux sujets appellent votre arbitrage :\n\n1. Temps de chargement de la vue consolidée jugé trop long\n2. Ajout d'un seuil d'alerte personnalisable par utilisateur\n\nDites-moi ce qui vous arrange et je m'aligne sur votre calendrier, en tenant compte de la rentrée littéraire de septembre.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-06-07",
+      "subject": "Compte rendu hebdomadaire — semaine 24 (2025-S24)",
+      "content": "Bonjour Vincent Morel,\n\nSynthèse du point de la semaine 24 :\n\n— taux de retours libraires : 18% (départ 24 %, cible 16 %)\n— Adoption : 88 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : départ d'un référent métier sur le site nord\n— Demande d'évolution remontée : filtrage par équipe en complément du périmètre global\n\nComme chaque semaine, je distingue ce qui relève du projet de ce qui relève du contexte : une partie de la variation tient à la saisonnalité, et je préfère vous transmettre le chiffre prudent.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-06-14",
+      "subject": "Ticket TIC-97426 — clôture, cause et action corrective",
+      "content": "Bonjour Amandine Costa,\n\nJe vous confirme par écrit la clôture du ticket TIC-97426, ouvert en semaine 25.\n\nCause identifiée : dépassement de la limite de lignes du format d'export.\nAucune donnée n'a été perdue ; les valeurs affichées pendant l'incident ont été recalculées et vérifiées.\nAction de fond : bascule vers un format sans limite.\n\nIndicateur au moment de la clôture — taux de retours libraires : 17%.\n\nCe message est rédigé de façon à pouvoir être transmis tel quel à Vincent Morel.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-06-18",
+      "subject": "Demande d'évolution 2025-S26 — suite donnée",
+      "content": "Bonjour Vincent Morel,\n\nRetour sur la demande d'évolution enregistrée sous la référence 2025-S26 : ajout d'un seuil d'alerte personnalisable par utilisateur.\n\nElle a été instruite par notre équipe produit. Elle est réalisable par simple paramétrage, sans développement : je peux la mettre en place cette semaine.\n\nPour mémoire, deux autres demandes issues de vos équipes restent ouvertes ; j'en fais le point complet au prochain comité de suivi.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-06-21",
+      "subject": "Fenêtre de maintenance 2025-S27 — Bibliovia Tirage version 2025.27",
+      "content": "Bonjour Pierre-Yves Danic,\n\nNous prévoyons le déploiement de la version 2025.27 de Bibliovia Tirage, annoncé conformément au préavis de quinze jours prévu au contrat.\n\n— Durée estimée d'indisponibilité de l'interface : moins d'une heure\n— Créneau : en dehors de vos heures ouvrées\n— Impact sur la collecte : aucun, le connecteur continue de fonctionner\n— Principal apport de cette version : comparaison automatique avec le même mois de l'année précédente\n\nSi cette date tombe pendant une période sensible de votre côté, vous disposez d'un report par trimestre : signalez-le-moi et je décale.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-06-25",
+      "subject": "Point de situation semaine 28 — arbitrages attendus",
+      "content": "Bonjour Vincent Morel,\n\nJe fais un point rapide en amont de notre prochain échange.\n\nLe taux de retours libraires s'établit à 16%, pour un objectif de 16 %. Le taux d'adoption atteint 93 %.\n\nDeux sujets appellent votre arbitrage :\n\n1. Montée de version décalée à la demande de la dsi\n2. Vue mobile simplifiée pour les responsables de terrain\n\nDites-moi ce qui vous arrange et je m'aligne sur votre calendrier, en tenant compte de la rentrée littéraire de septembre.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-06-28",
+      "subject": "Compte rendu hebdomadaire — semaine 29 (2025-S29)",
+      "content": "Bonjour Vincent Morel,\n\nSynthèse du point de la semaine 29 :\n\n— taux de retours libraires : 16% (départ 24 %, cible 16 %)\n— Adoption : 93 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : écart entre la mesure hebdomadaire et le reporting mensuel\n— Demande d'évolution remontée : vue mobile simplifiée pour les responsables de terrain\n\nComme chaque semaine, je distingue ce qui relève du projet de ce qui relève du contexte : une partie de la variation tient à la saisonnalité, et je préfère vous transmettre le chiffre prudent.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-07-03",
+      "subject": "Ticket TIC-78271 — clôture, cause et action corrective",
+      "content": "Bonjour Amandine Costa,\n\nJe vous confirme par écrit la clôture du ticket TIC-78271, ouvert en semaine 30.\n\nCause identifiée : seuil paramétré en valeur absolue au lieu d'un pourcentage.\nAucune donnée n'a été perdue ; les valeurs affichées pendant l'incident ont été recalculées et vérifiées.\nAction de fond : revue complète des seuils avec l'équipe métier.\n\nIndicateur au moment de la clôture — taux de retours libraires : 16%.\n\nCe message est rédigé de façon à pouvoir être transmis tel quel à Vincent Morel.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-07-07",
+      "subject": "Demande d'évolution 2025-S31 — suite donnée",
+      "content": "Bonjour Vincent Morel,\n\nRetour sur la demande d'évolution enregistrée sous la référence 2025-S31 : filtrage par équipe en complément du périmètre global.\n\nElle a été instruite par notre équipe produit. Elle n'est pas retenue à court terme, et je préfère vous le dire clairement plutôt que de la laisser en attente indéfinie.\n\nPour mémoire, deux autres demandes issues de vos équipes restent ouvertes ; j'en fais le point complet au prochain comité de suivi.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-07-11",
+      "subject": "Fenêtre de maintenance 2025-S32 — Bibliovia Tirage version 2025.32",
+      "content": "Bonjour Pierre-Yves Danic,\n\nNous prévoyons le déploiement de la version 2025.32 de Bibliovia Tirage, annoncé conformément au préavis de quinze jours prévu au contrat.\n\n— Durée estimée d'indisponibilité de l'interface : moins d'une heure\n— Créneau : en dehors de vos heures ouvrées\n— Impact sur la collecte : aucun, le connecteur continue de fonctionner\n— Principal apport de cette version : filtrage par équipe en complément du périmètre global\n\nSi cette date tombe pendant une période sensible de votre côté, vous disposez d'un report par trimestre : signalez-le-moi et je décale.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-07-15",
+      "subject": "Point de situation semaine 33 — arbitrages attendus",
+      "content": "Bonjour Vincent Morel,\n\nJe fais un point rapide en amont de notre prochain échange.\n\nLe taux de retours libraires s'établit à 16%, pour un objectif de 16 %. Le taux d'adoption atteint 93 %.\n\nDeux sujets appellent votre arbitrage :\n\n1. Trous d'historique identifiés sur trois mois\n2. Comparaison automatique avec le même mois de l'année précédente\n\nDites-moi ce qui vous arrange et je m'aligne sur votre calendrier, en tenant compte de la rentrée littéraire de septembre.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-07-18",
+      "subject": "Compte rendu hebdomadaire — semaine 34 (2025-S34)",
+      "content": "Bonjour Vincent Morel,\n\nSynthèse du point de la semaine 34 :\n\n— taux de retours libraires : 16% (départ 24 %, cible 16 %)\n— Adoption : 93 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : adoption plus faible sur le site secondaire\n— Demande d'évolution remontée : historique des commentaires consultable sur douze mois\n\nComme chaque semaine, je distingue ce qui relève du projet de ce qui relève du contexte : une partie de la variation tient à la saisonnalité, et je préfère vous transmettre le chiffre prudent.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-07-24",
+      "subject": "Ticket TIC-74434 — clôture, cause et action corrective",
+      "content": "Bonjour Amandine Costa,\n\nJe vous confirme par écrit la clôture du ticket TIC-74434, ouvert en semaine 35.\n\nCause identifiée : modification d'une règle de calcul côté client sans information préalable.\nAucune donnée n'a été perdue ; les valeurs affichées pendant l'incident ont été recalculées et vérifiées.\nAction de fond : mise en place d'un contrôle de cohérence quotidien.\n\nIndicateur au moment de la clôture — taux de retours libraires : 16%.\n\nCe message est rédigé de façon à pouvoir être transmis tel quel à Vincent Morel.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-07-29",
+      "subject": "Demande d'évolution 2025-S36 — suite donnée",
+      "content": "Bonjour Vincent Morel,\n\nRetour sur la demande d'évolution enregistrée sous la référence 2025-S36 : comparaison automatique avec le même mois de l'année précédente.\n\nElle a été instruite par notre équipe produit. Elle est retenue, mais conditionnée à la refonte prévue au second semestre.\n\nPour mémoire, deux autres demandes issues de vos équipes restent ouvertes ; j'en fais le point complet au prochain comité de suivi.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-08-01",
+      "subject": "Fenêtre de maintenance 2025-S37 — Bibliovia Tirage version 2025.37",
+      "content": "Bonjour Pierre-Yves Danic,\n\nNous prévoyons le déploiement de la version 2025.37 de Bibliovia Tirage, annoncé conformément au préavis de quinze jours prévu au contrat.\n\n— Durée estimée d'indisponibilité de l'interface : 30 minutes\n— Créneau : en dehors de vos heures ouvrées\n— Impact sur la collecte : aucun, le connecteur continue de fonctionner\n— Principal apport de cette version : vue mobile simplifiée pour les responsables de terrain\n\nSi cette date tombe pendant une période sensible de votre côté, vous disposez d'un report par trimestre : signalez-le-moi et je décale.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-08-05",
+      "subject": "Point de situation semaine 38 — arbitrages attendus",
+      "content": "Bonjour Vincent Morel,\n\nJe fais un point rapide en amont de notre prochain échange.\n\nLe taux de retours libraires s'établit à 16%, pour un objectif de 16 %. Le taux d'adoption atteint 93 %.\n\nDeux sujets appellent votre arbitrage :\n\n1. Adoption plus faible sur le site secondaire\n2. Export de la vue filtrée et non seulement de la vue complète\n\nDites-moi ce qui vous arrange et je m'aligne sur votre calendrier, en tenant compte de la rentrée littéraire de septembre.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-08-08",
+      "subject": "Compte rendu hebdomadaire — semaine 39 (2025-S39)",
+      "content": "Bonjour Vincent Morel,\n\nSynthèse du point de la semaine 39 :\n\n— taux de retours libraires : 16% (départ 24 %, cible 16 %)\n— Adoption : 93 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : deux utilisateurs conservent leur tableur en doublon\n— Demande d'évolution remontée : vue mobile simplifiée pour les responsables de terrain\n\nComme chaque semaine, je distingue ce qui relève du projet de ce qui relève du contexte : une partie de la variation tient à la saisonnalité, et je préfère vous transmettre le chiffre prudent.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-08-12",
+      "subject": "Ticket TIC-34907 — clôture, cause et action corrective",
+      "content": "Bonjour Amandine Costa,\n\nJe vous confirme par écrit la clôture du ticket TIC-34907, ouvert en semaine 40.\n\nCause identifiée : requête non optimisée déclenchée par un filtre personnalisé.\nAucune donnée n'a été perdue ; les valeurs affichées pendant l'incident ont été recalculées et vérifiées.\nAction de fond : correctif déployé et test de charge ajouté à la recette.\n\nIndicateur au moment de la clôture — taux de retours libraires : 16%.\n\nCe message est rédigé de façon à pouvoir être transmis tel quel à Vincent Morel.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-08-18",
+      "subject": "Demande d'évolution 2025-S41 — suite donnée",
+      "content": "Bonjour Vincent Morel,\n\nRetour sur la demande d'évolution enregistrée sous la référence 2025-S41 : ajout d'un seuil d'alerte personnalisable par utilisateur.\n\nElle a été instruite par notre équipe produit. Elle est retenue, mais conditionnée à la refonte prévue au second semestre.\n\nPour mémoire, deux autres demandes issues de vos équipes restent ouvertes ; j'en fais le point complet au prochain comité de suivi.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-08-20",
+      "subject": "Fenêtre de maintenance 2025-S42 — Bibliovia Tirage version 2025.42",
+      "content": "Bonjour Pierre-Yves Danic,\n\nNous prévoyons le déploiement de la version 2025.42 de Bibliovia Tirage, annoncé conformément au préavis de quinze jours prévu au contrat.\n\n— Durée estimée d'indisponibilité de l'interface : 30 minutes\n— Créneau : en dehors de vos heures ouvrées\n— Impact sur la collecte : aucun, le connecteur continue de fonctionner\n— Principal apport de cette version : ajout d'un seuil d'alerte personnalisable par utilisateur\n\nSi cette date tombe pendant une période sensible de votre côté, vous disposez d'un report par trimestre : signalez-le-moi et je décale.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-08-26",
+      "subject": "Point de situation semaine 43 — arbitrages attendus",
+      "content": "Bonjour Vincent Morel,\n\nJe fais un point rapide en amont de notre prochain échange.\n\nLe taux de retours libraires s'établit à 16%, pour un objectif de 16 %. Le taux d'adoption atteint 93 %.\n\nDeux sujets appellent votre arbitrage :\n\n1. Départ d'un référent métier sur le site nord\n2. Ajout d'un seuil d'alerte personnalisable par utilisateur\n\nDites-moi ce qui vous arrange et je m'aligne sur votre calendrier, en tenant compte de la rentrée littéraire de septembre.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    },
+    {
+      "date": "2025-08-31",
+      "subject": "Compte rendu hebdomadaire — semaine 44 (2025-S44)",
+      "content": "Bonjour Vincent Morel,\n\nSynthèse du point de la semaine 44 :\n\n— taux de retours libraires : 16% (départ 24 %, cible 16 %)\n— Adoption : 93 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : période de gel informatique à intégrer au calendrier\n— Demande d'évolution remontée : vue mobile simplifiée pour les responsables de terrain\n\nComme chaque semaine, je distingue ce qui relève du projet de ce qui relève du contexte : une partie de la variation tient à la saisonnalité, et je préfère vous transmettre le chiffre prudent.\n\nBien cordialement,\n\nKarim Zaoui\nBibliovia Solutions"
+    }
+  ],
+  "account_id": 6
+}

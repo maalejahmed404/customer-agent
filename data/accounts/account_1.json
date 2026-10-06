@@ -1,0 +1,102 @@
+{
+  "tenant_name": "Medixia Santé",
+  "account_name": "Clinique Saint-Aubin",
+  "calls": [
+    {
+      "date": "2025-01-13",
+      "call_name": "Appel de découverte (30 min) — cartographie des processus et des douleurs",
+      "transcript": "Commercial (Camille): Merci de votre temps, Hélène. On a trente minutes — l'objectif pour moi, c'est de comprendre comment vous fonctionnez aujourd'hui. Je ne vous montrerai rien, promis.\n\nProspect (Dr Hélène Vasseur): Très bien. J'ai un point à 14h30 donc on tiendra le timing.\n\nCommercial (Camille): Commençons par le concret : 8 salles de bloc et 140 lits, c'est bien ça ? Comment ça se pilote aujourd'hui ?\n\nCommercial (Camille): Sur les données elles-mêmes : quelle est la qualité de ce qui sort de Hôpital Manager ?\n\nProspect (Dr Hélène Vasseur): Correcte sur le cœur, beaucoup moins sur les champs annexes que personne ne remplit.\n\nCommercial (Camille): C'est important que vous le disiez maintenant plutôt que dans trois mois. On prévoit systématiquement une phase de fiabilisation.\n\nProspect (Dr Hélène Vasseur): Les autres éditeurs nous ont dit que leur algorithme gérait tout.\n\nCommercial (Camille): Aucun algorithme ne rattrape une donnée absente. Il peut la signaler, c'est tout ce qu'on promet.\n\nCommercial (Camille): Comment se prend la décision chez vous, sur ce type de projet ?\n\nProspect (Dr Hélène Vasseur): C'est Bertrand Alliot qui arbitre. Moi je peux recommander, mais je ne signe pas.\n\nCommercial (Camille): Quel est le seuil qui déclenche le passage en comité ?\n\nProspect (Dr Hélène Vasseur): De mémoire, 50 000 euros par an.\n\nCommercial (Camille): Bon à savoir. Et le calendrier ?\n\nProspect (Dr Hélène Vasseur): On aimerait que ce soit opérationnel avant la certification HAS prévue en fin d'année.\n\nCommercial (Camille): Qui utiliserait l'outil au quotidien ?\n\nProspect (Dr Hélène Vasseur): Principalement Nadia Belkacem et son équipe. Ce sont eux qui sont en première ligne.\n\nCommercial (Camille): Et quel est leur niveau d'appétence pour un nouvel outil ?\n\nProspect (Dr Hélène Vasseur): Nadia est plutôt ouvert, mais son équipe est attachée à ses habitudes. Si c'est plus lourd que le tableur actuel, ça ne prendra pas.\n\nCommercial (Camille): C'est un point que je note en gros. L'adoption, c'est là que ces projets meurent.\n\nProspect (Dr Hélène Vasseur): On s'appuie sur le DPI Hôpital Manager. C'est la source de vérité, mais tout ce qui est analyse se fait en dehors.\n\nCommercial (Camille): En dehors, c'est-à-dire ?\n\nProspect (Dr Hélène Vasseur): Des tableurs. Beaucoup de tableurs. Chacun a le sien, et on passe un temps fou à les réconcilier.\n\nCommercial (Camille): Combien de temps ça représente par semaine, à la louche ?\n\nProspect (Dr Hélène Vasseur): Une bonne journée cumulée sur l'équipe. Peut-être plus.\n\nCommercial (Camille): Dernière question sur l'organisation : qui produit les chiffres présentés en réunion de direction ?\n\nProspect (Dr Hélène Vasseur): C'est Nadia qui prépare, et moi qui présente. Avec le risque classique : je découvre parfois une incohérence en séance.\n\nCommercial (Camille): Combien de temps de la réunion part sur la fiabilité des chiffres plutôt que sur les décisions ?\n\nProspect (Dr Hélène Vasseur): Trop. Et c'est ce qui m'agace le plus, parce que c'est du temps de direction perdu.\n\nCommercial (Camille): Vous aviez évoqué ce point : des programmes opératoires reconstruits à la main tous les vendredis. Ça se traduit comment concrètement ?\n\nProspect (Dr Hélène Vasseur): Par de la tension sur les équipes, surtout. Et par des décisions prises à l'instinct.\n\nCommercial (Camille): Est-ce que vous arrivez à mettre un chiffre dessus ?\n\nProspect (Dr Hélène Vasseur): On a estimé que le taux d'occupation des salles est à 68 %. L'objectif du comité, c'est 82 %.\n\nCommercial (Camille): Et si vous y arriviez, ça représente quoi pour Clinique Saint-Aubin ?\n\nProspect (Dr Hélène Vasseur): En valeur ? Plusieurs centaines de milliers d'euros par an. Mais surtout, ça nous enlèverait une épine du pied vis-à-vis de Bertrand.\n\nCommercial (Camille): Sur le plan technique, à qui je dois parler ?\n\nProspect (Dr Hélène Vasseur): Yann Perrot, Responsable des systèmes d'information. Je vous préviens, il est exigeant.\n\nCommercial (Camille): Tant mieux. Quelles sont ses contraintes habituelles ?\n\nProspect (Dr Hélène Vasseur): Il ne veut pas d'agent installé sur les serveurs, et il tient à ce que Hôpital Manager ne soit touché en aucune manière.\n\nCommercial (Camille): Autre point que vous avez soulevé : des déprogrammations de dernière minute mal anticipées. C'est un sujet séparé, ou lié au reste ?\n\nProspect (Dr Hélène Vasseur): C'est lié, oui. Quand on rate le premier, le second arrive mécaniquement derrière.\n\nCommercial (Camille): Qui s'en aperçoit en premier, aujourd'hui ?\n\nProspect (Dr Hélène Vasseur): Personne, honnêtement. On le découvre dans le reporting mensuel, un mois après.\n\nCommercial (Camille): Donc le vrai problème, c'est moins la mesure que le délai de la mesure.\n\nProspect (Dr Hélène Vasseur): Exactement. On sait mesurer, on mesure trop tard.\n\nCommercial (Camille): Si on ne fait rien, qu'est-ce qui se passe dans douze mois ?\n\nProspect (Dr Hélène Vasseur): On tient, mais on tient sur les gens. Et je perds des compétences : deux départs l'an dernier, en partie pour ces raisons.\n\nCommercial (Camille): C'est un argument qui pèse plus qu'un tableau de bord, ça.\n\nProspect (Dr Hélène Vasseur): C'est celui que j'utilise en interne, oui. Le reste, ça intéresse peu.\n\nCommercial (Camille): Est-ce que vous regardez d'autres solutions en parallèle ?\n\nProspect (Dr Hélène Vasseur): Opéra Planning nous a contactés, oui. On n'est allés nulle part pour l'instant.\n\nCommercial (Camille): Qu'est-ce que vous en avez retenu ?\n\nProspect (Dr Hélène Vasseur): Un tarif attractif, mais le déploiement annoncé était de neuf mois. C'est trop long pour nous.\n\nCommercial (Camille): Si je résume : le sujet est réel, chiffré à 68 % sur le taux d'occupation des salles, porté par vous, arbitré par Bertrand, avec la certification HAS prévue en fin d'année comme échéance. J'ai bon ?\n\nProspect (Dr Hélène Vasseur): C'est exactement ça.\n\nCommercial (Camille): Prochaine étape, je propose une démonstration ciblée sur votre cas, avec Yann présent. Quarante-cinq minutes.\n\nProspect (Dr Hélène Vasseur): Parfait. Je bloque ça avec lui.",
+      "summary": "Découverte approfondie avec Dr Hélène Vasseur. Le fonctionnement actuel repose sur Hôpital Manager comme source de vérité, avec toute l'analyse réalisée en dehors, sous tableur. Le taux d'occupation des salles est mesuré à 68 % pour une cible de 82 %. Décideur économique identifié : Bertrand Alliot. Risque principal : l'adoption par les équipes de Nadia Belkacem, échaudées par des projets précédents. Échéance structurante : la certification HAS prévue en fin d'année. Démonstration ciblée programmée avec Yann.",
+      "crm_fields": [
+        {
+          "key": "Système existant",
+          "value": "Hôpital Manager — le module de planification Excel"
+        },
+        {
+          "key": "Processus actuel",
+          "value": "Extractions manuelles retraitées sous tableur"
+        },
+        {
+          "key": "Douleurs quantifiées",
+          "value": "taux d'occupation des salles à 68 % (cible 82 %) ; des programmes opératoires reconstruits à la main tous les vendredis"
+        },
+        {
+          "key": "Décideur économique",
+          "value": "Bertrand Alliot (Directeur financier)"
+        },
+        {
+          "key": "Critère de décision",
+          "value": "Aucun remplacement de Hôpital Manager ; adoption par les équipes terrain"
+        },
+        {
+          "key": "Échéance client",
+          "value": "la certification HAS prévue en fin d'année"
+        },
+        {
+          "key": "Taille de l'équipe",
+          "value": "45 utilisateurs cibles"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Passage en comité"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-20",
+      "call_name": "Démonstration produit (45 min) — cas d'usage Medixia Bloc",
+      "transcript": "Commercial (Camille): Bonjour à tous. On est trois : Hélène, Yann, et Antoine côté Medixia. Quarante-cinq minutes, et on part de votre cas, pas d'un jeu de données de démonstration.\n\nResponsable des systèmes d'information (Yann Perrot): Très bien. J'ai des questions techniques, je les poserai au fil de l'eau.\n\nIngénieur avant-vente (Antoine Rigal): On a repris ce que Hélène nous a décrit : 8 salles de bloc et 140 lits, une source Hôpital Manager, et le taux d'occupation des salles comme indicateur de tête. Voilà l'écran d'accueil.\n\nProspect (Dr Hélène Vasseur): Là, ce chiffre en haut à gauche, il vient d'où ?\n\nIngénieur avant-vente (Antoine Rigal): Directement des données Hôpital Manager, rafraîchies toutes les heures. Vous pouvez descendre jusqu'à la ligne d'origine, regardez.\n\nProspect (Dr Hélène Vasseur): D'accord. Donc on peut tracer. C'est ce qui nous manque le plus.\n\nResponsable des systèmes d'information (Yann Perrot): Comment vous récupérez les données de Hôpital Manager ? Parce que l'API est très pauvre, je vous préviens.\n\nIngénieur avant-vente (Antoine Rigal): Trois modes possibles : API quand elle existe, lecture d'une réplique en base, ou dépôt de fichiers sur un espace sécurisé. Pour votre cas, la réplique en lecture seule est la plus simple.\n\nResponsable des systèmes d'information (Yann Perrot): Lecture seule, vraiment ? Aucune écriture ?\n\nIngénieur avant-vente (Antoine Rigal): Aucune. On ne modifie jamais votre système source. C'est un principe d'architecture.\n\nResponsable des systèmes d'information (Yann Perrot): Bon. Ça lève déjà mon objection principale.\n\nResponsable des systèmes d'information (Yann Perrot): Vous gérez les droits d'accès à quelle granularité ?\n\nIngénieur avant-vente (Antoine Rigal): Par périmètre et par rôle. Un directeur d'établissement ne voit que son périmètre, la direction voit le consolidé.\n\nResponsable des systèmes d'information (Yann Perrot): Et c'est piloté depuis notre annuaire ou dans votre outil ?\n\nIngénieur avant-vente (Antoine Rigal): Depuis votre annuaire, via les groupes existants. Vous ne gérez pas une deuxième liste d'utilisateurs.\n\nResponsable des systèmes d'information (Yann Perrot): Parfait, ça m'évite un chantier de gestion des habilitations.\n\nProspect (Dr Hélène Vasseur): Combien de temps avant d'avoir quelque chose d'exploitable, réellement ?\n\nIngénieur avant-vente (Antoine Rigal): Trois semaines pour la première restitution, à condition d'avoir l'accès aux données en semaine 1. Et je précise : exploitable ne veut pas dire complet.\n\nProspect (Dr Hélène Vasseur): C'est-à-dire ?\n\nIngénieur avant-vente (Antoine Rigal): Les modèles prédictifs demandent plus d'historique fiabilisé. À trois semaines vous avez le constat et les écarts, pas la prévision. Celle-ci arrive vers le deuxième mois.\n\nProspect (Dr Hélène Vasseur): D'accord. Au moins c'est clair, je pourrai l'annoncer comme ça en interne.\n\nIngénieur avant-vente (Antoine Rigal): Voilà la partie qui intéresse Nadia : la vue quotidienne. Trois écrans maximum, pas de menu à quinze entrées.\n\nProspect (Dr Hélène Vasseur): C'est volontairement simple ?\n\nIngénieur avant-vente (Antoine Rigal): Complètement. Les équipes de terrain n'ouvriront pas un outil qui demande une formation de deux jours. Ici, c'est vingt minutes.\n\nProspect (Dr Hélène Vasseur): Si c'est vraiment ce niveau de simplicité, l'adoption devient jouable.\n\nResponsable des systèmes d'information (Yann Perrot): Question bête : qu'est-ce qui se passe si la source tombe ?\n\nIngénieur avant-vente (Antoine Rigal): L'outil continue de fonctionner sur la dernière donnée valide, et un bandeau signale la fraîcheur. On préfère afficher « donnée d'hier » que de faire croire que tout va bien.\n\nResponsable des systèmes d'information (Yann Perrot): Bonne réponse. J'ai vu des outils afficher des zéros dans ce cas-là.\n\nCadre de bloc (Nadia Belkacem): Question bête : est-ce que ça m'ajoute du travail ou est-ce que ça m'en enlève ?\n\nIngénieur avant-vente (Antoine Rigal): Cinq minutes le matin. Et ça remplace la consolidation que vous faites aujourd'hui à la main, donc le solde est largement positif.\n\nCadre de bloc (Nadia Belkacem): Si c'est vrai, mon équipe suivra. Si c'est une saisie de plus, ça ne prendra pas.\n\nIngénieur avant-vente (Antoine Rigal): Aucune saisie supplémentaire. On lit vos données existantes, on ne vous demande rien de neuf.\n\nProspect (Dr Hélène Vasseur): Et si Bertrand me demande le chiffre du mois dernier pendant une réunion, je fais comment ?\n\nIngénieur avant-vente (Antoine Rigal): Vous ouvrez l'historique, il est figé. Le chiffre du mois dernier reste celui qui a été publié le mois dernier, même si les données sources ont bougé depuis.\n\nProspect (Dr Hélène Vasseur): C'est exactement le problème qu'on a avec nos tableurs actuels.\n\nIngénieur avant-vente (Antoine Rigal): On garde les deux : la version publiée et la version actualisée, avec l'écart expliqué.\n\nProspect (Dr Hélène Vasseur): Est-ce qu'on peut voir ce que ça donne sur ce cas précis : des débordements de vacation qui génèrent des heures supplémentaires non budgétées ?\n\nIngénieur avant-vente (Antoine Rigal): Bien sûr. Regardez : le système détecte l'écart quatre jours avant qu'il devienne visible dans vos indicateurs mensuels.\n\nProspect (Dr Hélène Vasseur): Quatre jours d'avance, sur ce sujet-là, c'est énorme.\n\nResponsable des systèmes d'information (Yann Perrot): Et le modèle se base sur combien d'historique ?\n\nIngénieur avant-vente (Antoine Rigal): Douze à dix-huit mois idéalement. En dessous de six mois, on reste sur des règles simples, sans prétendre faire de la prévision.\n\nCommercial (Camille): On approche de la fin. Qu'est-ce qui vous manque pour vous projeter ?\n\nResponsable des systèmes d'information (Yann Perrot): La documentation d'intégration et le détail de l'hébergement. Sans ça, je ne peux pas valider.\n\nProspect (Dr Hélène Vasseur): Un chiffrage, même approximatif. Je dois pouvoir en parler en comité.\n\nCommercial (Camille): Compris. Je propose un point technique avec Yann et Antoine, et je vous envoie une fourchette budgétaire d'ici demain.",
+      "summary": "Démonstration réalisée sur les données et le contexte du compte. Les points qui ont porté : la traçabilité jusqu'à la donnée source et la simplicité de l'écran quotidien. Yann a validé le principe de lecture seule sans écriture dans Hôpital Manager. Restent à fournir le dossier d'architecture et une fourchette budgétaire.",
+      "crm_fields": [
+        {
+          "key": "Retour sur la démonstration",
+          "value": "Très positif sur la traçabilité des chiffres"
+        },
+        {
+          "key": "Objection technique",
+          "value": "Intégration à Hôpital Manager et absence d'agent sur les serveurs"
+        },
+        {
+          "key": "Fonctionnalité déterminante",
+          "value": "Traçabilité jusqu'à la donnée source"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Présentation de la proposition"
+        },
+        {
+          "key": "Sentiment des parties prenantes",
+          "value": "Hélène favorable ; Yann réservé jusqu'à validation du dossier de conformité"
+        }
+      ]
+    }
+  ],
+  "emails": [
+    {
+      "date": "2025-01-09",
+      "subject": "Établissement de santé privé : améliorer le taux d'occupation des salles sans changer Hôpital Manager",
+      "content": "Bonjour Dr Hélène Vasseur,\n\nJe me permets de vous écrire car nous accompagnons plusieurs structures du secteur hospitalier confrontées à une difficulté récurrente : un taux d'occupation des salles qui plafonne à 68 %.\n\nChez la plupart d'entre elles, le constat était le même que celui que vous vivez probablement : Hôpital Manager reste la source de vérité, mais toute l'analyse se fait en dehors, sous tableur, avec un temps de retraitement considérable.\n\nNotre approche est volontairement peu intrusive : nous ne remplaçons aucun système existant et nous nous branchons en lecture seule. Sur un périmètre comparable au vôtre (8 salles de bloc et 140 lits), le taux d'occupation des salles est passé de 68 % à 82 % en six mois.\n\nAuriez-vous vingt minutes dans les prochains jours pour en discuter ?\n\nBien cordialement,\n\nCamille Fournier\nCommerciale | Medixia Santé"
+    },
+    {
+      "date": "2025-01-11",
+      "subject": "Relance : taux d'occupation des salles chez Clinique Saint-Aubin",
+      "content": "Bonjour Dr Hélène Vasseur,\n\nJe reviens vers vous suite à mon message de la semaine dernière, resté sans réponse — ce que je comprends parfaitement compte tenu de la période.\n\nUn élément qui pourrait justifier un échange court : plusieurs de nos clients du secteur hospitalier ont engagé ce type de chantier en anticipation de la certification HAS prévue en fin d'année, précisément pour éviter d'avoir à le traiter dans l'urgence.\n\nSi le sujet n'est pas prioritaire pour vous cette année, dites-le-moi simplement et je cesserai mes relances.\n\nBien cordialement,\n\nCamille Fournier\nMedixia Santé"
+    },
+    {
+      "date": "2025-01-16",
+      "subject": "Confirmation : échange Medixia / Clinique Saint-Aubin",
+      "content": "Bonjour Dr Hélène Vasseur,\n\nJe vous confirme notre échange. Ordre du jour proposé :\n\n1. Votre fonctionnement actuel autour de Hôpital Manager\n2. Les difficultés rencontrées sur taux d'occupation des salles\n3. Vos contraintes techniques et de conformité\n4. Les prochaines étapes si le sujet a du sens\n\nPas de présentation commerciale : l'objectif est de comprendre votre contexte.\n\nSi vous souhaitez associer Yann Perrot à cet échange, n'hésitez pas à le convier.\n\nBien cordialement,\n\nCamille Fournier\nMedixia Santé"
+    },
+    {
+      "date": "2025-01-19",
+      "subject": "Compte rendu de notre échange + éléments complémentaires",
+      "content": "Bonjour Dr Hélène Vasseur,\n\nMerci pour le temps accordé. Je reprends ci-dessous ce que j'ai retenu, corrigez-moi si je me trompe :\n\n— Difficulté principale : un taux d'occupation des salles qui plafonne à 68 %\n— Indicateur de référence : taux d'occupation des salles, aujourd'hui à 68 %, objectif 82 %\n— Contrainte structurante : aucun remplacement de Hôpital Manager\n— Échéance : la certification HAS prévue en fin d'année\n— Point de vigilance : l'adoption par les équipes de Nadia Belkacem\n\nComme convenu, je vous joins le dossier technique et un retour d'expérience mené dans un contexte proche du vôtre.\n\nProchaine étape proposée : un atelier technique avec Yann Perrot.\n\nBien cordialement,\n\nCamille Fournier\nMedixia Santé"
+    },
+    {
+      "date": "2025-01-24",
+      "subject": "Dossier d'architecture et de conformité — Medixia",
+      "content": "Bonjour Yann Perrot,\n\nComme convenu lors de notre atelier, vous trouverez ci-joint :\n\n— le schéma d'architecture détaillé (flux HTTPS sortant, aucun flux entrant)\n— la description du connecteur et son dimensionnement (2 vCPU, 4 Go)\n— la politique de conservation des données, paramétrable par catégorie\n— la matrice des accès et le cloisonnement des sous-traitants\n— la procédure de réversibilité (CSV et Parquet, sous 30 jours)\n\nConcernant l'hébergement de données de santé (HDS) et le RGPD, l'hébergement est réalisé en France chez un opérateur qualifié et aucune donnée ne quitte l'Union européenne, sauvegardes comprises.\n\nLe rapport d'audit annuel peut vous être transmis sous accord de confidentialité : dites-moi si vous souhaitez que j'engage la démarche.\n\nBien cordialement,\n\nAntoine Rigal\nIngénieur avant-vente | Medixia Santé"
+    }
+  ],
+  "account_id": 1
+}

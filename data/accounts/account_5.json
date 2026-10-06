@@ -1,0 +1,874 @@
+{
+  "tenant_name": "Thermalys Industrie",
+  "account_name": "Aciéries de Moselle-Est",
+  "calls": [
+    {
+      "date": "2025-01-13",
+      "call_name": "Appel de qualification (barrage secrétariat) — tentative de joindre Responsable performance industrielle",
+      "transcript": "Commercial (Sébastien): Bonjour, Sébastien Klein de Thermalys Industrie. Je cherche à joindre Isabelle Wagner, s'il vous plaît.\n\nBarrage (Martine): Bonjour monsieur. Elle est en réunion, c'est de la part de qui ?\n\nCommercial (Sébastien): Nous travaillons avec plusieurs acteurs de la sidérurgie sur une facture électrique de 9,4 millions d'euros par an sans pilotage fin. Je souhaitais simplement valider si le sujet est d'actualité chez vous.\n\nBarrage (Martine): Alors là, elle enchaîne les réunions toute la semaine. Je note votre nom.\n\nCommercial (Sébastien): Est-ce que le sujet consommation spécifique est un chantier ouvert chez vous cette année ? Ça m'éviterait de vous déranger pour rien.\n\nBarrage (Martine): Aucune idée, je ne suis pas dans les dossiers techniques.\n\nCommercial (Sébastien): Je comprends. Quel serait le meilleur moment pour la rappeler, plutôt en début de semaine ?\n\nBarrage (Martine): Essayez le jeudi en fin de journée, elle est plus disponible.\n\nCommercial (Sébastien): Parfait, je vous remercie. Je lui envoie un mail aujourd'hui en mettant votre nom en référence, si vous permettez.\n\nBarrage (Martine): Oui, pas de souci. Bonne journée.",
+      "summary": "Tentative de contact avec Isabelle Wagner (Responsable performance industrielle), filtrée par l'assistante. Le sujet consommation spécifique semble bien être un chantier ouvert en interne. Créneau de rappel identifié et envoi d'un courriel de référence convenu.",
+      "crm_fields": [
+        {
+          "key": "Statut du contact",
+          "value": "Isabelle Wagner injoignable — filtré par Martine"
+        },
+        {
+          "key": "Nom du barrage",
+          "value": "Martine"
+        },
+        {
+          "key": "Meilleur moment pour rappeler",
+          "value": "Mercredi matin"
+        },
+        {
+          "key": "Prochaine action",
+          "value": "Programmation du point suivant"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-20",
+      "call_name": "Appel de prospection — premier contact avec Responsable performance industrielle",
+      "transcript": "Commercial (Sébastien): Bonjour Isabelle Wagner, Sébastien Klein de Thermalys Industrie. Je vous appelle à froid, vous m'accordez quatre-vingt-dix secondes et vous me dites si ça mérite un vrai échange ?\n\nProspect (Isabelle Wagner): Écoutez, je suis entre deux réunions, mais allez-y.\n\nCommercial (Sébastien): Merci. On travaille avec des structures de la sidérurgie qui rencontrent toutes le même problème : une facture électrique de 9,4 millions d'euros par an sans pilotage fin. Est-ce que ça vous parle, ou est-ce que je suis complètement à côté ?\n\nProspect (Isabelle Wagner): Oui enfin, tout le monde me dit ça. En quoi vous êtes différents ?\n\nCommercial (Sébastien): Concrètement : pas de remplacement de historian PI, un branchement en lecture seule, et une première restitution utile en trois semaines. Si au bout de trois semaines vous ne voyez rien d'exploitable, on s'arrête.\n\nProspect (Isabelle Wagner): Bon. Ça, c'est un discours qui change un peu.\n\nCommercial (Sébastien): Je vous propose trente minutes pour comprendre votre fonctionnement actuel. Sans démonstration, juste des questions. Mardi ou jeudi ?\n\nProspect (Isabelle Wagner): D'accord, mais j'aimerais que Olivier soit là. Sans lui, on n'ira pas loin.\n\nCommercial (Sébastien): C'est noté, je vous envoie ça dans la foulée avec un ordre du jour court. Merci du temps.",
+      "summary": "Premier échange avec Isabelle Wagner. La douleur pressentie est confirmée : une facture électrique de 9,4 millions d'euros par an sans pilotage fin. Le frein principal exprimé est la crainte d'un projet lourd nécessitant de remplacer historian PI. L'argument de non-remplacement et d'une première restitution à trois semaines a permis d'obtenir un rendez-vous de découverte.",
+      "crm_fields": [
+        {
+          "key": "Douleur identifiée",
+          "value": "une facture électrique de 9,4 millions d'euros par an sans pilotage fin"
+        },
+        {
+          "key": "Concurrent mentionné",
+          "value": "MetalOptim"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Passage en comité"
+        },
+        {
+          "key": "Sentiment du prospect",
+          "value": "Ouvert mais prudent"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-29",
+      "call_name": "Appel de découverte (30 min) — cartographie des processus et des douleurs",
+      "transcript": "Commercial (Sébastien): Merci de votre temps, Isabelle. On a trente minutes — l'objectif pour moi, c'est de comprendre comment vous fonctionnez aujourd'hui. Je ne vous montrerai rien, promis.\n\nProspect (Isabelle Wagner): Ça me va. J'avoue que je m'attendais à un diaporama.\n\nCommercial (Sébastien): Commençons par le concret : 4 fours électriques et 2 lignes de laminage, c'est bien ça ? Comment ça se pilote aujourd'hui ?\n\nCommercial (Sébastien): Sur les données elles-mêmes : quelle est la qualité de ce qui sort de historian PI ?\n\nProspect (Isabelle Wagner): Correcte sur le cœur, beaucoup moins sur les champs annexes que personne ne remplit.\n\nCommercial (Sébastien): C'est important que vous le disiez maintenant plutôt que dans trois mois. On prévoit systématiquement une phase de fiabilisation.\n\nProspect (Isabelle Wagner): Les autres éditeurs nous ont dit que leur algorithme gérait tout.\n\nCommercial (Sébastien): Aucun algorithme ne rattrape une donnée absente. Il peut la signaler, c'est tout ce qu'on promet.\n\nCommercial (Sébastien): Sur le plan technique, à qui je dois parler ?\n\nProspect (Isabelle Wagner): Olivier Schmitt, Responsable automatismes. Je vous préviens, il est exigeant.\n\nCommercial (Sébastien): Tant mieux. Quelles sont ses contraintes habituelles ?\n\nProspect (Isabelle Wagner): L'hébergement des données, c'est son sujet numéro un. Avec la norme ISO 50001 et le reporting CSRD, il n'a pas droit à l'erreur.\n\nCommercial (Sébastien): Est-ce que vous regardez d'autres solutions en parallèle ?\n\nProspect (Isabelle Wagner): MetalOptim nous a contactés, oui. On n'est allés nulle part pour l'instant.\n\nCommercial (Sébastien): Qu'est-ce que vous en avez retenu ?\n\nProspect (Isabelle Wagner): Une belle interface, mais un discours très générique. Rien qui montre qu'ils connaissent notre métier.\n\nCommercial (Sébastien): Vous aviez évoqué ce point : des dérives de consommation détectées seulement en fin de mois. Ça se traduit comment concrètement ?\n\nProspect (Isabelle Wagner): Par de la tension sur les équipes, surtout. Et par des décisions prises à l'instinct.\n\nCommercial (Sébastien): Est-ce que vous arrivez à mettre un chiffre dessus ?\n\nProspect (Isabelle Wagner): La consommation spécifique tourne autour de 512 kWh/tonne. On sait qu'on devrait être à 470 kWh/tonne, on ne sait juste pas comment y aller.\n\nCommercial (Sébastien): Et si vous y arriviez, ça représente quoi pour Aciéries de Moselle-Est ?\n\nProspect (Isabelle Wagner): En valeur ? Plusieurs centaines de milliers d'euros par an. Mais surtout, ça nous enlèverait une épine du pied vis-à-vis de Gérard.\n\nCommercial (Sébastien): Autre point que vous avez soulevé : aucun modèle reliant recette produit et consommation réelle. C'est un sujet séparé, ou lié au reste ?\n\nProspect (Isabelle Wagner): C'est lié, oui. Quand on rate le premier, le second arrive mécaniquement derrière.\n\nCommercial (Sébastien): Qui s'en aperçoit en premier, aujourd'hui ?\n\nProspect (Isabelle Wagner): Le terrain. Et quand ça remonte jusqu'à moi, il est déjà trop tard pour corriger.\n\nCommercial (Sébastien): Donc le vrai problème, c'est moins la mesure que le délai de la mesure.\n\nProspect (Isabelle Wagner): Exactement. On sait mesurer, on mesure trop tard.\n\nCommercial (Sébastien): Qui utiliserait l'outil au quotidien ?\n\nProspect (Isabelle Wagner): Principalement Patrick Weber et son équipe. Ce sont eux qui sont en première ligne.\n\nCommercial (Sébastien): Et quel est leur niveau d'appétence pour un nouvel outil ?\n\nProspect (Isabelle Wagner): Patrick est plutôt ouvert, mais son équipe est attachée à ses habitudes. Si c'est plus lourd que le tableur actuel, ça ne prendra pas.\n\nCommercial (Sébastien): C'est un point que je note en gros. L'adoption, c'est là que ces projets meurent.\n\nCommercial (Sébastien): Comment se prend la décision chez vous, sur ce type de projet ?\n\nProspect (Isabelle Wagner): Je porte le sujet, Olivier valide la partie technique, et Gérard Muller signe. Au-delà d'un certain montant, ça passe en comité.\n\nCommercial (Sébastien): Quel est le seuil qui déclenche le passage en comité ?\n\nProspect (Isabelle Wagner): De mémoire, 50 000 euros par an.\n\nCommercial (Sébastien): Bon à savoir. Et le calendrier ?\n\nProspect (Isabelle Wagner): On aimerait que ce soit opérationnel avant l'audit énergétique réglementaire de septembre.\n\nCommercial (Sébastien): Dernière question sur l'organisation : qui produit les chiffres présentés en réunion de direction ?\n\nProspect (Isabelle Wagner): Moi, la veille au soir. Et je passe une bonne partie du temps de réunion à justifier d'où ils viennent.\n\nCommercial (Sébastien): Combien de temps de la réunion part sur la fiabilité des chiffres plutôt que sur les décisions ?\n\nProspect (Isabelle Wagner): La moitié, facilement. C'est épuisant.\n\nCommercial (Sébastien): Si je résume : le sujet est réel, chiffré à 512 kWh/tonne sur la consommation spécifique, porté par vous, arbitré par Gérard, avec l'audit énergétique réglementaire de septembre comme échéance. J'ai bon ?\n\nProspect (Isabelle Wagner): Oui, c'est un bon résumé.\n\nCommercial (Sébastien): Prochaine étape, je propose une démonstration ciblée sur votre cas, avec Olivier présent. Quarante-cinq minutes.\n\nProspect (Isabelle Wagner): D'accord, je vous envoie deux créneaux.",
+      "summary": "Découverte approfondie avec Isabelle Wagner. Le fonctionnement actuel repose sur historian PI comme source de vérité, avec toute l'analyse réalisée en dehors, sous tableur. La consommation spécifique est mesuré à 512 kWh/tonne pour une cible de 470 kWh/tonne. Décideur économique identifié : Gérard Muller. Risque principal : l'adoption par les équipes de Patrick Weber, échaudées par des projets précédents. Échéance structurante : l'audit énergétique réglementaire de septembre. Démonstration ciblée programmée avec Olivier.",
+      "crm_fields": [
+        {
+          "key": "Système existant",
+          "value": "historian PI — un historian PI vieillissant"
+        },
+        {
+          "key": "Processus actuel",
+          "value": "Extractions manuelles retraitées sous tableur"
+        },
+        {
+          "key": "Douleurs quantifiées",
+          "value": "consommation spécifique à 512 kWh/tonne (cible 470 kWh/tonne) ; des dérives de consommation détectées seulement en fin de mois"
+        },
+        {
+          "key": "Décideur économique",
+          "value": "Gérard Muller (Directeur de site)"
+        },
+        {
+          "key": "Critère de décision",
+          "value": "Aucun remplacement de historian PI ; adoption par les équipes terrain"
+        },
+        {
+          "key": "Échéance client",
+          "value": "l'audit énergétique réglementaire de septembre"
+        },
+        {
+          "key": "Taille de l'équipe",
+          "value": "60 utilisateurs cibles"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Présentation de la proposition"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-03",
+      "call_name": "Démonstration produit (45 min) — cas d'usage Thermalys Énergie",
+      "transcript": "Commercial (Sébastien): Bonjour à tous. On est trois : Isabelle, Olivier, et Grégoire côté Thermalys. Quarante-cinq minutes, et on part de votre cas, pas d'un jeu de données de démonstration.\n\nResponsable automatismes (Olivier Schmitt): Très bien. J'ai des questions techniques, je les poserai au fil de l'eau.\n\nIngénieur avant-vente (Grégoire Lambert): On a repris ce que Isabelle nous a décrit : 4 fours électriques et 2 lignes de laminage, une source historian PI, et la consommation spécifique comme indicateur de tête. Voilà l'écran d'accueil.\n\nIngénieur avant-vente (Grégoire Lambert): Voilà la partie qui intéresse Patrick : la vue quotidienne. Trois écrans maximum, pas de menu à quinze entrées.\n\nProspect (Isabelle Wagner): C'est volontairement simple ?\n\nIngénieur avant-vente (Grégoire Lambert): Complètement. Les équipes de terrain n'ouvriront pas un outil qui demande une formation de deux jours. Ici, c'est vingt minutes.\n\nProspect (Isabelle Wagner): Si c'est vraiment ce niveau de simplicité, l'adoption devient jouable.\n\nResponsable automatismes (Olivier Schmitt): Vous gérez les droits d'accès à quelle granularité ?\n\nIngénieur avant-vente (Grégoire Lambert): Par périmètre et par rôle. Un directeur d'établissement ne voit que son périmètre, la direction voit le consolidé.\n\nResponsable automatismes (Olivier Schmitt): Et c'est piloté depuis notre annuaire ou dans votre outil ?\n\nIngénieur avant-vente (Grégoire Lambert): Depuis votre annuaire, via les groupes existants. Vous ne gérez pas une deuxième liste d'utilisateurs.\n\nResponsable automatismes (Olivier Schmitt): Bien. C'est ce qui fait la différence entre un outil qu'on maintient et un outil qu'on subit.\n\nResponsable automatismes (Olivier Schmitt): Question bête : qu'est-ce qui se passe si la source tombe ?\n\nIngénieur avant-vente (Grégoire Lambert): L'outil continue de fonctionner sur la dernière donnée valide, et un bandeau signale la fraîcheur. On préfère afficher « donnée d'hier » que de faire croire que tout va bien.\n\nResponsable automatismes (Olivier Schmitt): Bonne réponse. J'ai vu des outils afficher des zéros dans ce cas-là.\n\nResponsable automatismes (Olivier Schmitt): Comment vous récupérez les données de historian PI ? Parce que l'API est très pauvre, je vous préviens.\n\nIngénieur avant-vente (Grégoire Lambert): Trois modes possibles : API quand elle existe, lecture d'une réplique en base, ou dépôt de fichiers sur un espace sécurisé. Pour votre cas, la réplique en lecture seule est la plus simple.\n\nResponsable automatismes (Olivier Schmitt): Lecture seule, vraiment ? Aucune écriture ?\n\nIngénieur avant-vente (Grégoire Lambert): Aucune. On ne modifie jamais votre système source. C'est un principe d'architecture.\n\nResponsable automatismes (Olivier Schmitt): Bon. Ça lève déjà mon objection principale.\n\nProspect (Isabelle Wagner): Et si Gérard me demande le chiffre du mois dernier pendant une réunion, je fais comment ?\n\nIngénieur avant-vente (Grégoire Lambert): Vous ouvrez l'historique, il est figé. Le chiffre du mois dernier reste celui qui a été publié le mois dernier, même si les données sources ont bougé depuis.\n\nProspect (Isabelle Wagner): Alors ça, c'est un vrai sujet chez nous. Nos chiffres changent rétroactivement et personne ne comprend pourquoi.\n\nIngénieur avant-vente (Grégoire Lambert): On garde les deux : la version publiée et la version actualisée, avec l'écart expliqué.\n\nProspect (Isabelle Wagner): Combien de temps avant d'avoir quelque chose d'exploitable, réellement ?\n\nIngénieur avant-vente (Grégoire Lambert): Trois semaines pour la première restitution, à condition d'avoir l'accès aux données en semaine 1. Et je précise : exploitable ne veut pas dire complet.\n\nProspect (Isabelle Wagner): C'est-à-dire ?\n\nIngénieur avant-vente (Grégoire Lambert): Les modèles prédictifs demandent plus d'historique fiabilisé. À trois semaines vous avez le constat et les écarts, pas la prévision. Celle-ci arrive vers le deuxième mois.\n\nProspect (Isabelle Wagner): Je préfère cette réponse à un « tout est prêt en quinze jours » auquel je ne crois pas.\n\nProspect (Isabelle Wagner): Et la restitution pour le comité de direction ?\n\nIngénieur avant-vente (Grégoire Lambert): Export automatique, mensuel, au format que vous voulez. Vous pouvez même figer la version présentée pour éviter que les chiffres bougent entre deux réunions.\n\nProspect (Isabelle Wagner): Ça, c'est du vécu. Merci.\n\nChef de poste four (Patrick Weber): Question bête : est-ce que ça m'ajoute du travail ou est-ce que ça m'en enlève ?\n\nIngénieur avant-vente (Grégoire Lambert): Cinq minutes le matin. Et ça remplace la consolidation que vous faites aujourd'hui à la main, donc le solde est largement positif.\n\nChef de poste four (Patrick Weber): C'est ce que je voulais entendre. Parce que le dernier outil qu'on nous a installé nous a rajouté une saisie.\n\nIngénieur avant-vente (Grégoire Lambert): Aucune saisie supplémentaire. On lit vos données existantes, on ne vous demande rien de neuf.\n\nCommercial (Sébastien): On approche de la fin. Qu'est-ce qui vous manque pour vous projeter ?\n\nResponsable automatismes (Olivier Schmitt): La documentation d'intégration et le détail de l'hébergement. Sans ça, je ne peux pas valider.\n\nProspect (Isabelle Wagner): Un chiffrage, même approximatif. Je dois pouvoir en parler en comité.\n\nCommercial (Sébastien): Compris. Je propose un point technique avec Olivier et Grégoire, et je vous envoie une fourchette budgétaire d'ici demain.",
+      "summary": "Démonstration réalisée sur les données et le contexte du compte. Les points qui ont porté : la traçabilité jusqu'à la donnée source et la simplicité de l'écran quotidien. Olivier a validé le principe de lecture seule sans écriture dans historian PI. Restent à fournir le dossier d'architecture et une fourchette budgétaire.",
+      "crm_fields": [
+        {
+          "key": "Retour sur la démonstration",
+          "value": "Positif — la simplicité de l'écran quotidien a convaincu"
+        },
+        {
+          "key": "Objection technique",
+          "value": "Intégration à historian PI et absence d'agent sur les serveurs"
+        },
+        {
+          "key": "Fonctionnalité déterminante",
+          "value": "Traçabilité jusqu'à la donnée source"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Passage en comité"
+        },
+        {
+          "key": "Sentiment des parties prenantes",
+          "value": "Isabelle favorable ; Olivier réservé jusqu'à validation du dossier de conformité"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-07",
+      "call_name": "Atelier technique (1h) — architecture, flux de données et intégration historian PI",
+      "transcript": "Ingénieur avant-vente (Grégoire Lambert): Bonjour Olivier. Une heure, format atelier : je réponds à vos questions, pas de présentation commerciale.\n\nResponsable automatismes (Olivier Schmitt): Parfait. J'ai préparé une liste. Commençons par le flux de données.\n\nResponsable automatismes (Olivier Schmitt): Authentification : on est sur un annuaire interne avec SSO. Vous supportez SAML ?\n\nIngénieur avant-vente (Grégoire Lambert): SAML 2.0 et OpenID Connect, avec provisionnement automatique des comptes et rattachement aux groupes de votre annuaire.\n\nResponsable automatismes (Olivier Schmitt): Bien. Ça m'évite de gérer des comptes locaux.\n\nResponsable automatismes (Olivier Schmitt): Supervision : comment je sais que le flux tourne, sans avoir à ouvrir votre interface ?\n\nIngénieur avant-vente (Grégoire Lambert): Un point de contrôle exposé que vous interrogez depuis votre propre supervision, plus une alerte par courriel en cas d'échec de chargement.\n\nResponsable automatismes (Olivier Schmitt): Il me faut le second, mais surtout le premier. Je veux que ça remonte dans mes écrans, pas dans une boîte mail que personne ne lit.\n\nIngénieur avant-vente (Grégoire Lambert): C'est prévu. Je vous envoie le format de réponse pour que vous l'intégriez à votre outil.\n\nResponsable automatismes (Olivier Schmitt): Le flux depuis historian PI : fréquence, volume, et qui initie la connexion ?\n\nIngénieur avant-vente (Grégoire Lambert): C'est vous qui initiez. Un connecteur déployé chez vous pousse les données vers notre plateforme en HTTPS sortant. Aucun flux entrant à ouvrir.\n\nResponsable automatismes (Olivier Schmitt): Ça, c'est un vrai argument. Ouvrir un port entrant, c'est trois mois de dossier chez nous.\n\nIngénieur avant-vente (Grégoire Lambert): Fréquence par défaut : horaire. Configurable jusqu'au quart d'heure si le volume le justifie.\n\nResponsable automatismes (Olivier Schmitt): Qualité des données : notre historique est loin d'être propre. Qu'est-ce qui se passe avec les trous ?\n\nIngénieur avant-vente (Grégoire Lambert): On les détecte et on les signale plutôt que de les combler silencieusement. Un rapport de qualité est produit à chaque chargement.\n\nResponsable automatismes (Olivier Schmitt): D'accord. Je préfère un outil qui dit « je ne sais pas » qu'un outil qui invente.\n\nIngénieur avant-vente (Grégoire Lambert): Sur votre périmètre, on estime qu'il faudra deux semaines de fiabilisation avant d'avoir des chiffres présentables.\n\nResponsable automatismes (Olivier Schmitt): Hébergement. Où sont les données ? Avec la norme ISO 50001 et le reporting CSRD, je n'ai aucune marge.\n\nIngénieur avant-vente (Grégoire Lambert): Hébergement en France, chez un opérateur qualifié. Les données ne sortent pas de l'Union européenne, y compris pour les sauvegardes.\n\nResponsable automatismes (Olivier Schmitt): Et le support ? Parce que j'ai déjà vu des éditeurs héberger en Europe et faire du support depuis l'étranger avec un accès aux données.\n\nIngénieur avant-vente (Grégoire Lambert): Support en France, accès tracé et nominatif, et journal consultable. On vous fournit la matrice des accès dans le dossier de conformité.\n\nResponsable automatismes (Olivier Schmitt): Envoyez-la-moi. C'est ce document qui décidera, pas la démonstration.\n\nResponsable automatismes (Olivier Schmitt): Environnements. Vous fournissez une recette séparée de la production ?\n\nIngénieur avant-vente (Grégoire Lambert): Oui, deux environnements inclus. La recette est alimentée par un échantillon anonymisé de vos données.\n\nResponsable automatismes (Olivier Schmitt): L'anonymisation, c'est un mot que j'entends beaucoup. Concrètement ?\n\nIngénieur avant-vente (Grégoire Lambert): Substitution des identifiants et des noms propres, décalage temporel aléatoire, conservation des distributions statistiques. La procédure est documentée et auditable.\n\nResponsable automatismes (Olivier Schmitt): Envoyez la procédure, je la ferai relire.\n\nResponsable automatismes (Olivier Schmitt): Charge côté serveur. Le connecteur consomme quoi ?\n\nIngénieur avant-vente (Grégoire Lambert): Deux cœurs, quatre gigaoctets de mémoire. Il tourne la nuit pour l'historique et en incrémental la journée.\n\nResponsable automatismes (Olivier Schmitt): Ça passe sur une machine virtuelle existante. Pas besoin de nouveau matériel, donc.\n\nResponsable automatismes (Olivier Schmitt): Dernier point, et c'est celui qui me fait le plus peur : la reprise d'historique. Combien de temps et quel impact sur nos systèmes ?\n\nIngénieur avant-vente (Grégoire Lambert): Une nuit de chargement pour douze mois, sur la réplique de lecture. Aucun impact sur votre production, puisqu'on ne touche pas à la base primaire.\n\nResponsable automatismes (Olivier Schmitt): Sur la réplique, d'accord. Et si la réplique prend du retard pendant le chargement ?\n\nIngénieur avant-vente (Grégoire Lambert): On bride le débit. Le chargement dure plus longtemps mais votre réplique reste dans ses seuils. C'est paramétrable avec vous.\n\nResponsable automatismes (Olivier Schmitt): Bien. Vous avez visiblement déjà rencontré le problème.\n\nIngénieur avant-vente (Grégoire Lambert): Il vous reste des points bloquants ?\n\nResponsable automatismes (Olivier Schmitt): Un seul : je veux valider les schémas d'architecture avec mon RSSI avant de me prononcer.\n\nIngénieur avant-vente (Grégoire Lambert): Je vous envoie le dossier complet aujourd'hui. Merci pour la qualité des questions.",
+      "summary": "Atelier technique avec Olivier Schmitt. Architecture validée : connecteur en flux HTTPS sortant, aucun flux entrant à ouvrir, lecture seule sur historian PI. Hébergement France et exigences la norme ISO 50001 et le reporting CSRD confirmés. Point de vigilance partagé : deux semaines de fiabilisation des données seront nécessaires avant restitution présentable.",
+      "crm_fields": [
+        {
+          "key": "Environnement technique",
+          "value": "historian PI, annuaire interne avec SSO (SAML 2.0)"
+        },
+        {
+          "key": "Méthode d'intégration",
+          "value": "Connecteur en flux HTTPS sortant, lecture seule, fréquence horaire"
+        },
+        {
+          "key": "Contrainte de sécurité",
+          "value": "Aucun flux entrant ; la norme ISO 50001 et le reporting CSRD"
+        },
+        {
+          "key": "Validation technique",
+          "value": "Favorable sous réserve du rapport d'audit"
+        },
+        {
+          "key": "Prochaine action technique",
+          "value": "Transmission du dossier d'architecture et de conformité"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-11",
+      "call_name": "Revue de sécurité (45 min) — conformité, hébergement et sous-traitance",
+      "transcript": "Commercial (Sébastien): Bonjour, merci de nous recevoir. L'objet du point, c'est votre revue de sécurité avant contractualisation.\n\nResponsable automatismes (Olivier Schmitt): Exact. J'ai relu votre dossier. J'ai quatre points, dont deux sérieux.\n\nIngénieur avant-vente (Grégoire Lambert): Allons-y dans l'ordre.\n\nResponsable automatismes (Olivier Schmitt): Premier point : la sous-traitance. Vous listez un hébergeur et un prestataire de supervision. Le second a-t-il accès aux données ?\n\nIngénieur avant-vente (Grégoire Lambert): Non. Il supervise l'infrastructure, pas les données applicatives. Le cloisonnement est documenté en annexe 3 et audité annuellement.\n\nResponsable automatismes (Olivier Schmitt): D'accord, mais je veux voir le dernier rapport d'audit.\n\nIngénieur avant-vente (Grégoire Lambert): Il vous sera transmis sous accord de confidentialité, c'est la procédure standard.\n\nResponsable automatismes (Olivier Schmitt): Deuxième point : la durée de conservation. Avec la norme ISO 50001 et le reporting CSRD, je dois pouvoir justifier chaque durée.\n\nIngénieur avant-vente (Grégoire Lambert): Configurable par catégorie de données. Par défaut trente-six mois pour l'historique métier, treize mois pour les journaux techniques.\n\nResponsable automatismes (Olivier Schmitt): Il faut qu'on descende à vingt-quatre mois sur l'historique métier. C'est notre politique interne.\n\nIngénieur avant-vente (Grégoire Lambert): C'est un paramètre, pas un développement. On peut l'inscrire dans l'annexe technique.\n\nResponsable automatismes (Olivier Schmitt): Troisième point : notification d'incident. Vous vous engagez sur quel délai ?\n\nIngénieur avant-vente (Grégoire Lambert): Vingt-quatre heures après qualification de l'incident, avec un premier signalement sous quatre heures. C'est dans le contrat de service.\n\nResponsable automatismes (Olivier Schmitt): Acceptable, je le note comme levé.\n\nResponsable automatismes (Olivier Schmitt): Dernier point, et c'est le plus important : en cas de réquisition par une autorité étrangère, quelle est votre position ?\n\nIngénieur avant-vente (Grégoire Lambert): Société de droit français, capital français, hébergement français. Nous ne sommes pas soumis aux législations extraterritoriales. C'est précisément la raison pour laquelle plusieurs de nos clients du de la sidérurgie nous ont retenus.\n\nResponsable automatismes (Olivier Schmitt): C'est la bonne réponse. Je rends un avis favorable sous réserve du rapport d'audit.\n\nCommercial (Sébastien): Merci. Je fais suivre le rapport dès aujourd'hui.",
+      "summary": "Revue de sécurité. Quatre points examinés : sous-traitance, durée de conservation, chiffrement et exposition aux législations extraterritoriales. La durée de conservation sera ramenée à 24 mois sur l'historique métier. Avis favorable sous réserve de la communication du rapport d'audit annuel.",
+      "crm_fields": [
+        {
+          "key": "Exigence de conformité",
+          "value": "la norme ISO 50001 et le reporting CSRD"
+        },
+        {
+          "key": "Localisation de l'hébergement",
+          "value": "France — opérateur qualifié, aucune sortie de l'UE"
+        },
+        {
+          "key": "Durée de conservation",
+          "value": "24 mois sur l'historique métier (demande client), 13 mois sur les journaux"
+        },
+        {
+          "key": "Statut de validation sécurité",
+          "value": "Avis favorable sous réserve"
+        },
+        {
+          "key": "Documents demandés",
+          "value": "Rapport d'audit annuel sous accord de confidentialité"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-17",
+      "call_name": "Présentation de la proposition commerciale (25 min)",
+      "transcript": "Commercial (Sébastien): Bonjour à tous. Vingt-cinq minutes pour dérouler la proposition. Gérard, je sais que votre temps est compté.\n\nDirecteur de site (Gérard Muller): Je vous écoute. Ce qui m'intéresse, c'est le chiffre et le délai de retour.\n\nCommercial (Sébastien): Trois éléments. Un : le périmètre — 4 fours électriques et 2 lignes de laminage, 60 utilisateurs, le module Thermalys Énergie. Deux : le tarif — 77 000 euros par an. Trois : les frais de mise en service, 13 500 euros, une seule fois.\n\nDirecteur de site (Gérard Muller): 77 000 euros par an. Sur quelle base ?\n\nCommercial (Sébastien): Sur la base du gain : la consommation spécifique passe de 512 kWh/tonne à 470 kWh/tonne, ce qui représente 261 000 euros par an. L'investissement est amorti en onze mois.\n\nDirecteur de site (Gérard Muller): Ce sont des projections. Qu'est-ce qui me garantit qu'on les atteindra ?\n\nProspect (Isabelle Wagner): Les chiffres sont les nôtres, Gérard. On les a construits ensemble.\n\nDirecteur de site (Gérard Muller): D'accord. C'est plus solide que ce que je pensais.\n\nDirecteur de site (Gérard Muller): Une réserve : je ne signe pas trois ans à l'aveugle. Pas sur un éditeur qu'on ne connaît pas.\n\nCommercial (Sébastien): C'est audible. Je peux proposer une clause de sortie à douze mois si les objectifs de service ne sont pas tenus.\n\nDirecteur de site (Gérard Muller): Envoyez-moi ça par écrit. Je veux voir les chiffres avant de m'engager.\n\nCommercial (Sébastien): Vous l'avez demain matin. Merci pour votre temps.",
+      "summary": "Présentation de la proposition à Gérard Muller : 77 000 € par an, 13 500 € de frais de mise en service. Le business case s'appuie sur les données du client (consommation spécifique de 512 kWh/tonne à 470 kWh/tonne), ce qui a nettement renforcé la crédibilité. Deux réserves exprimées : les frais de mise en service et la durée d'engagement.",
+      "crm_fields": [
+        {
+          "key": "Montant proposé",
+          "value": "77 000 € par an"
+        },
+        {
+          "key": "Frais de mise en service",
+          "value": "13 500 € non récurrents"
+        },
+        {
+          "key": "Périmètre",
+          "value": "4 fours électriques et 2 lignes de laminage — module Thermalys Énergie"
+        },
+        {
+          "key": "Retour sur investissement",
+          "value": "261 000 € par an, amortissement en onze mois"
+        },
+        {
+          "key": "Objection principale",
+          "value": "Frais de mise en service"
+        },
+        {
+          "key": "Date de clôture prévue",
+          "value": "2025-03-17"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-24",
+      "call_name": "Négociation commerciale — tarif, engagement et conditions de paiement",
+      "transcript": "Commercial (Sébastien): Bonjour Gérard. On se parle pour converger. Vous avez la proposition révisée sous les yeux ?\n\nDirecteur de site (Gérard Muller): Oui. On est encore loin. Mon plafond, c'est clair.\n\nCommercial (Sébastien): Dites-moi où est l'écart.\n\nDirecteur de site (Gérard Muller): Je ne peux pas dépasser 59 500 euros la première année. Au-delà, ça passe en conseil, et le conseil ne se réunit qu'en mars.\n\nDirecteur de site (Gérard Muller): Le périmètre. Est-ce que je peux démarrer plus petit et étendre ensuite ?\n\nCommercial (Sébastien): Oui. Je vous le déconseille pour une raison simple : le coût de mise en service est le même, et vous le paierez deux fois si on refait un chantier dans six mois.\n\nDirecteur de site (Gérard Muller): D'accord. Alors chiffrez-moi les deux, je veux voir l'écart.\n\nCommercial (Sébastien): Je vous envoie les deux scénarios chiffrés, avec le point de bascule.\n\nDirecteur de site (Gérard Muller): Et MetalOptim nous propose 49 000 euros.\n\nCommercial (Sébastien): Je ne doute pas du chiffre. Sur quel périmètre ? Parce que leur offre à ce prix ne couvre pas l'intégration à votre système existant.\n\nDirecteur de site (Gérard Muller): Bonne question. Franchement, je ne sais pas.\n\nProspect (Isabelle Wagner): Leur offre de base ne couvre pas l'intégration, non. Il faut ajouter un forfait de projet.\n\nDirecteur de site (Gérard Muller): Les engagements de service. Qu'est-ce qui se passe si vous ne les tenez pas ?\n\nCommercial (Sébastien): Avoir sur la facture suivante, proportionnel à l'indisponibilité, et déclenchement automatique — vous n'avez pas à le réclamer.\n\nDirecteur de site (Gérard Muller): Automatique, vraiment ? Parce que d'habitude il faut écrire trois courriers.\n\nCommercial (Sébastien): C'est calculé et appliqué par nos systèmes. Et le rapport de disponibilité vous est envoyé chaque mois, que vous le demandiez ou non.\n\nDirecteur de site (Gérard Muller): Bien. Ça, ça compte dans mon arbitrage.\n\nDirecteur de site (Gérard Muller): Une dernière chose : je ne veux pas dépendre d'une seule personne chez vous. Si Inès part, on fait quoi ?\n\nCommercial (Sébastien): Votre dossier est suivi par un binôme. C'est précisément pour éviter ce risque.\n\nDirecteur de site (Gérard Muller): Notez-le dans le contrat. J'ai déjà été échaudé.\n\nCommercial (Sébastien): Si je descends à 63 000 euros, est-ce que vous signez cette semaine ?\n\nDirecteur de site (Gérard Muller): Si le montant est bon et que le juridique ne bloque pas, oui.\n\nCommercial (Sébastien): Je peux tenir ce prix contre un engagement de deux ans et une référence publique si les résultats sont au rendez-vous.\n\nDirecteur de site (Gérard Muller): Deux ans, ça je peux. La référence, on en reparlera dans un an.\n\nDirecteur de site (Gérard Muller): La revalorisation annuelle. Je ne veux pas d'indexation ouverte.\n\nCommercial (Sébastien): Je peux plafonner à 3 % par an sur la durée de l'engagement.\n\nDirecteur de site (Gérard Muller): 3 %, admettons, mais avec un gel la deuxième année.\n\nCommercial (Sébastien): Gel la deuxième année, d'accord. Mais alors on part sur deux ans fermes.\n\nDirecteur de site (Gérard Muller): Les conditions de paiement. Trente jours, c'est trop court pour notre trésorerie.\n\nCommercial (Sébastien): Je peux aller à soixante jours date de facture, avec facturation annuelle à la date anniversaire.\n\nDirecteur de site (Gérard Muller): Soixante jours fin de mois, et c'est réglé.\n\nCommercial (Sébastien): Soixante jours fin de mois, d'accord. Je le fais inscrire.\n\nCommercial (Sébastien): Récapitulons : 63 000 euros la première année, engagement de deux ans, frais de mise en service réduits de moitié, paiement à soixante jours. C'est bien ce qu'on acte ?\n\nDirecteur de site (Gérard Muller): On est d'accord. Reste le passage au juridique, et là je ne maîtrise pas le délai.\n\nCommercial (Sébastien): Je l'envoie ce soir. Merci pour la franchise de l'échange.",
+      "summary": "Négociation avec Gérard Muller. Convergence obtenue à 63 000 € pour l'année 1, contre un engagement de 24 mois, des frais de mise en service réduits de moitié, un paiement à 60 jours fin de mois et une indexation plafonnée. Reste le passage au service juridique.",
+      "crm_fields": [
+        {
+          "key": "Montant négocié",
+          "value": "63 000 € (année 1)"
+        },
+        {
+          "key": "Plafond budgétaire",
+          "value": "59 500 € — au-delà, passage en conseil"
+        },
+        {
+          "key": "Concessions accordées",
+          "value": "Frais de mise en service réduits de 50 %, indexation plafonnée à 2 %"
+        },
+        {
+          "key": "Conditions de paiement",
+          "value": "60 jours fin de mois"
+        },
+        {
+          "key": "Durée d'engagement",
+          "value": "24 mois"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Atelier technique"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-05",
+      "call_name": "Point juridique (35 min) — clauses de responsabilité et réversibilité",
+      "transcript": "Commercial (Sébastien): Bonjour Maître. On est là pour les points de rédaction relevés par vos services.\n\nJuridique (Maître Reinhardt): Bonjour. J'ai quatre demandes de modification. Trois sont fermes.\n\nJuridique (Maître Reinhardt): Premièrement : le plafond de responsabilité. Vous proposez le montant annuel du contrat. C'est insuffisant au regard de nos enjeux.\n\nCommercial (Sébastien): C'est notre standard. Que proposez-vous ?\n\nJuridique (Maître Reinhardt): Le double, et un plafond distinct pour les manquements à la protection des données.\n\nCommercial (Sébastien): Sur la protection des données, nous acceptons un plafond distinct. Sur le reste, je dois obtenir un accord interne.\n\nJuridique (Maître Reinhardt): Deuxièmement : le délai de correction en cas de manquement au contrat de service. Trente jours, c'est trop long pour un outil que Isabelle utilisera quotidiennement.\n\nCommercial (Sébastien): Quinze jours pour les incidents majeurs, trente pour le reste. Acceptable ?\n\nJuridique (Maître Reinhardt): Dix jours pour les majeurs. Au-delà, la résiliation est de plein droit.\n\nCommercial (Sébastien): Dix jours, d'accord, à condition que la qualification de « majeur » soit définie dans l'annexe de service et pas laissée à l'appréciation.\n\nJuridique (Maître Reinhardt): C'est raisonnable. Je fais rédiger la définition.\n\nJuridique (Maître Reinhardt): Troisièmement : la réversibilité. Votre rédaction actuelle mentionne « un format exploitable ». C'est trop vague.\n\nCommercial (Sébastien): Nous précisons : CSV et Parquet, avec dictionnaire de données, sous trente jours calendaires à compter de la demande.\n\nJuridique (Maître Reinhardt): Écrivez-le tel quel et le point est levé.\n\nJuridique (Maître Reinhardt): Quatrièmement, et c'est ma demande souple : le droit applicable et le tribunal compétent.\n\nCommercial (Sébastien): Droit français. Sur le tribunal, nous sommes ouverts à votre juridiction.\n\nJuridique (Maître Reinhardt): Alors nous avons convergé. Je renvoie une version annotée d'ici vendredi.\n\nCommercial (Sébastien): Merci Maître. Je fais circuler la version modifiée dès demain.",
+      "summary": "Point juridique. Plafond de responsabilité porté à deux fois le montant annuel, délai de correction ramené à 10 jours pour les incidents majeurs avec définition contractuelle, réversibilité précisée (CSV et Parquet sous 30 jours). Droit français retenu. Version consolidée attendue.",
+      "crm_fields": [
+        {
+          "key": "Plafond de responsabilité",
+          "value": "2 fois le montant annuel, plafond distinct sur les données"
+        },
+        {
+          "key": "Délai de correction",
+          "value": "10 jours pour les incidents majeurs, 30 jours pour les autres"
+        },
+        {
+          "key": "Clause de réversibilité",
+          "value": "CSV et Parquet + dictionnaire de données, sous 30 jours"
+        },
+        {
+          "key": "Droit applicable",
+          "value": "Droit français — tribunal de commerce de Hagondange"
+        },
+        {
+          "key": "Statut juridique",
+          "value": "Version consolidée en relecture"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-12",
+      "call_name": "Point de synchronisation avec le sponsor interne (15 min)",
+      "transcript": "Commercial (Sébastien): Bonjour Isabelle, appel court. Où en est-on en interne ?\n\nProspect (Isabelle Wagner): On est bien, mais le calendrier a glissé d'une semaine.\n\nCommercial (Sébastien): Dites-moi tout.\n\nProspect (Isabelle Wagner): Un directeur d'un autre service a demandé à voir l'outil avant de valider. Ce n'était pas prévu.\n\nCommercial (Sébastien): Qu'est-ce qui vous serait utile de ma part ?\n\nProspect (Isabelle Wagner): Une note d'une page, chiffrée, que je puisse faire circuler sans avoir à la retravailler.\n\nCommercial (Sébastien): Je m'en occupe. Vous voulez que je vous la relise avant ?\n\nProspect (Isabelle Wagner): Envoyez, je fais le reste.\n\nCommercial (Sébastien): Merci Isabelle. Franchement, sans vous ce dossier n'avancerait pas.",
+      "summary": "Point court avec Isabelle. Le dossier avance mais un aléa interne décale le calendrier. Appui fourni sous forme d'un document synthétique destiné à circuler en interne sans retravail.",
+      "crm_fields": [
+        {
+          "key": "Santé du sponsor interne",
+          "value": "Solide mais exposé : a engagé son crédit"
+        },
+        {
+          "key": "Blocage interne",
+          "value": "Gérard en déplacement — signature décalée"
+        },
+        {
+          "key": "Appui demandé",
+          "value": "Créneau de 20 min en visioconférence"
+        },
+        {
+          "key": "Date de signature prévue",
+          "value": "2025-03-31"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-17",
+      "call_name": "Comité d'investissement (40 min) — présentation du dossier",
+      "transcript": "Directeur de site (Gérard Muller): Bien. On a quarante minutes. Isabelle présente, Thermalys répond aux questions.\n\nProspect (Isabelle Wagner): Merci. Le constat, vous le connaissez : une facture électrique de 9,4 millions d'euros par an sans pilotage fin. La consommation spécifique est à 512 kWh/tonne, l'objectif est 470 kWh/tonne. On a évalué trois solutions, on en recommande une.\n\nResponsable automatismes (Olivier Schmitt): Sur le plan technique, l'avis est favorable. Pas d'agent installé, aucune écriture dans nos systèmes, hébergement français. Les réserves initiales sont levées.\n\nDirecteur de site (Gérard Muller): Ma question est simple : qu'est-ce qui garantit qu'on n'aura pas un projet de plus qui s'enlise ?\n\nCommercial (Sébastien): Trois choses. Un périmètre volontairement réduit la première année. Une première restitution utile à trois semaines, pas à six mois. Et une clause de sortie à douze mois si les objectifs de service ne sont pas tenus.\n\nDirecteur de site (Gérard Muller): Combien de temps de mes équipes ça consomme ?\n\nProspect (Isabelle Wagner): Vingt jours-homme sur le premier trimestre, ensuite c'est marginal.\n\nChef de poste four (Patrick Weber): Du point de vue des utilisateurs, ce qui compte c'est que ça ne rajoute pas une saisie. Sur ce point, la réponse m'a convaincue.\n\nDirecteur de site (Gérard Muller): Bien. Je suis favorable, sous réserve du plafond budgétaire dont on a parlé.\n\nProspect (Isabelle Wagner): Merci. Je reviens vers vous avec le calendrier de démarrage.",
+      "summary": "Passage en comité d'investissement. Isabelle a porté le dossier, Olivier a rendu un avis technique favorable, et Patrick Weber a apporté le point de vue terrain, décisif sur la question de l'adoption. Décision favorable sous réserve du plafond budgétaire.",
+      "crm_fields": [
+        {
+          "key": "Décision du comité",
+          "value": "Favorable sous réserve du plafond budgétaire"
+        },
+        {
+          "key": "Objection du décideur",
+          "value": "Risque d'enlisement au vu des deux projets précédents"
+        },
+        {
+          "key": "Charge interne estimée",
+          "value": "20 jours-homme sur le premier trimestre"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Session de formation"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-26",
+      "call_name": "Appel de confirmation de signature",
+      "transcript": "Commercial (Sébastien): Bonjour Gérard, je ne vous prends que cinq minutes.\n\nDirecteur de site (Gérard Muller): J'ai signé hier soir. Vous devriez recevoir la copie aujourd'hui.\n\nCommercial (Sébastien): Excellente nouvelle. Merci de votre confiance.\n\nDirecteur de site (Gérard Muller): Ne me décevez pas. J'ai mis mon crédit sur ce dossier en interne.\n\nCommercial (Sébastien): C'est noté, et c'est légitime. Le premier jalon, c'est la consommation spécifique mesuré à trois mois. On s'y engage.\n\nDirecteur de site (Gérard Muller): Bien. Un point d'attention : le bon de commande porte le numéro BC-2025-4311, il doit figurer sur toutes les factures. Sinon la comptabilité les rejette, et je ne peux rien pour vous.\n\nCommercial (Sébastien): C'est enregistré : BC-2025-4311 sur chaque facture. La facturation démarre au 2025-04-10.\n\nDirecteur de site (Gérard Muller): Parfait. Bonne continuation.",
+      "summary": "Contrat signé par Gérard Muller. Bon de commande BC-2025-4311 à faire figurer impérativement sur toutes les factures. Attente exprimée clairement : des résultats mesurables, à commencer par la consommation spécifique à trois mois.",
+      "crm_fields": [
+        {
+          "key": "Statut du contrat",
+          "value": "Signé"
+        },
+        {
+          "key": "Numéro de bon de commande",
+          "value": "BC-2025-4311"
+        },
+        {
+          "key": "Date de début de facturation",
+          "value": "2025-04-08"
+        },
+        {
+          "key": "Signataire",
+          "value": "Gérard Muller (Directeur de site)"
+        },
+        {
+          "key": "Valeur du contrat",
+          "value": "63 000 € (année 1) — engagement 24 mois"
+        }
+      ]
+    },
+    {
+      "date": "2025-04-04",
+      "call_name": "Passage de relais commercial vers l'équipe Customer Success (20 min)",
+      "transcript": "Commercial (Sébastien): Bonjour à tous. Appel de passage de relais : je vous présente Inès Berger, qui sera votre interlocutrice à partir d'aujourd'hui.\n\nCSM (Inès Berger): Bonjour Isabelle. J'ai lu l'ensemble du dossier, je ne vais pas vous refaire raconter votre histoire.\n\nProspect (Isabelle Wagner): Ça, ça fait plaisir. D'habitude on repart de zéro avec l'équipe suivante.\n\nCSM (Inès Berger): Ce que j'ai retenu : votre indicateur de tête est la consommation spécifique, aujourd'hui à 512 kWh/tonne, objectif 470 kWh/tonne. Le risque principal identifié, c'est l'adoption par l'équipe de Patrick. C'est bien ça ?\n\nProspect (Isabelle Wagner): Parfaitement résumé. L'adoption, c'est mon inquiétude numéro un.\n\nCSM (Inès Berger): Donc voilà ce que je propose : on ne déploie pas partout d'un coup. On commence par un périmètre restreint, on obtient un résultat visible, et on s'en sert pour convaincre le reste.\n\nProspect (Isabelle Wagner): C'est la bonne approche.\n\nCSM (Inès Berger): Calendrier : lancement le 2025-04-16, connexion des données la semaine suivante, première restitution trois semaines après. Formation de Patrick et son équipe juste avant.\n\nResponsable automatismes (Olivier Schmitt): De mon côté, il me faut les prérequis techniques par écrit dès cette semaine.\n\nCSM (Inès Berger): Vous les aurez demain. Une seule demande de ma part : un référent unique côté métier pour les questions du quotidien.\n\nProspect (Isabelle Wagner): Ce sera Patrick. Je le préviens.\n\nCommercial (Sébastien): Parfait. Je reste dans la boucle mais je m'efface. Bonne route à tous.",
+      "summary": "Passage de relais vers Inès Berger. Le contexte du compte a été transmis en amont, ce qui a évité au client de réexpliquer sa situation. Stratégie retenue : déploiement par périmètre restreint pour obtenir un résultat visible avant généralisation. Référent métier désigné : Patrick Weber.",
+      "crm_fields": [
+        {
+          "key": "CSM assigné",
+          "value": "Inès Berger"
+        },
+        {
+          "key": "Risque principal identifié",
+          "value": "Adoption par l'équipe de Patrick Weber"
+        },
+        {
+          "key": "Indicateur de succès",
+          "value": "consommation spécifique de 512 kWh/tonne à 470 kWh/tonne"
+        },
+        {
+          "key": "Date de lancement",
+          "value": "2025-04-16"
+        }
+      ]
+    },
+    {
+      "date": "2025-04-10",
+      "call_name": "Réunion de lancement projet (1h) — calendrier et prérequis",
+      "transcript": "CSM (Inès Berger): Bonjour à tous, réunion de lancement. Objectif du jour : caler le calendrier et lever les prérequis.\n\nProspect (Isabelle Wagner): Allons-y. J'ai bloqué une heure.\n\nCSM (Inès Berger): Phase 1 : connexion à historian PI et reprise de douze mois d'historique. Phase 2 : paramétrage métier avec vous. Phase 3 : formation et mise en service.\n\nResponsable automatismes (Olivier Schmitt): La connexion, je peux la faire cette semaine. La reprise d'historique dépendra du volume : on est sur combien de lignes ?\n\nCSM (Inès Berger): Environ quatre millions de lignes sur douze mois. Comptez une nuit de chargement initial.\n\nResponsable automatismes (Olivier Schmitt): D'accord. Je fais la demande aujourd'hui, ça prend deux jours chez nous.\n\nCSM (Inès Berger): Sur le paramétrage : Isabelle, il me faut vos règles de calcul actuelles. Même si elles sont dans un tableur, envoyez-les telles quelles.\n\nProspect (Isabelle Wagner): Elles sont dans un tableur, effectivement. Et personne ne sait vraiment qui les a écrites.\n\nCSM (Inès Berger): C'est toujours le cas. C'est justement l'occasion de les remettre à plat.\n\nChef de poste four (Patrick Weber): Question pratique : mon équipe devra faire une double saisie pendant la transition ?\n\nCSM (Inès Berger): Aucune double saisie. On lit vos données existantes, vous ne ressaisissez rien.\n\nChef de poste four (Patrick Weber): Ça me va. C'était ma crainte principale.\n\nProspect (Isabelle Wagner): Qui fait quoi en cas de blocage ? Je ne veux pas qu'on se renvoie la balle.\n\nCSM (Inès Berger): Un responsable par phase, de chaque côté. Côté vous : Olivier sur la technique, Patrick sur le métier. Côté nous : moi, avec un binôme identifié en cas d'absence.\n\nProspect (Isabelle Wagner): Et l'arbitrage, c'est qui ?\n\nCSM (Inès Berger): Vous et moi, au point hebdomadaire. Si ça dépasse deux semaines, on remonte au niveau supérieur des deux côtés. C'est écrit dans le plan projet.\n\nChef de poste four (Patrick Weber): Concrètement, ma production s'arrête pendant le démarrage ?\n\nCSM (Inès Berger): À aucun moment. Vos systèmes continuent de tourner, on lit à côté. Le seul moment sensible, c'est la bascule, et elle se fait un vendredi soir.\n\nChef de poste four (Patrick Weber): Et si la bascule se passe mal ?\n\nCSM (Inès Berger): On ne coupe rien : votre fonctionnement actuel reste disponible trois semaines de plus. Le retour arrière, c'est simplement de continuer comme avant.\n\nChef de poste four (Patrick Weber): D'accord. Là, je suis rassuré.\n\nProspect (Isabelle Wagner): Quels sont les risques que vous identifiez, honnêtement ?\n\nCSM (Inès Berger): Trois. La qualité de l'historique, qu'on ne connaîtra vraiment qu'au chargement. La disponibilité de vos équipes en cette période. Et l'adoption, qui est toujours le vrai sujet.\n\nProspect (Isabelle Wagner): Je préfère qu'on le dise maintenant. Je vais bloquer les jours formellement.\n\nCSM (Inès Berger): Point de suivi hebdomadaire, trente minutes, le mardi. Prochaine étape : connexion technique avant le 2025-04-17.",
+      "summary": "Réunion de lancement. Trois phases calées : connexion et reprise de 12 mois d'historique, paramétrage métier, formation et mise en service. Prérequis techniques transmis à Olivier. Point rassurant pour les utilisateurs : aucune double saisie, fonctionnement en parallèle pendant trois semaines.",
+      "crm_fields": [
+        {
+          "key": "Phase du projet",
+          "value": "Phase 1 — connexion et reprise d'historique"
+        },
+        {
+          "key": "Prérequis techniques",
+          "value": "Règles de pare-feu sortantes, machine virtuelle 2 vCPU / 4 Go"
+        },
+        {
+          "key": "Référent métier",
+          "value": "Patrick Weber"
+        },
+        {
+          "key": "Rythme de suivi",
+          "value": "Point hebdomadaire de 30 minutes, le mardi"
+        },
+        {
+          "key": "Prochaine échéance",
+          "value": "2025-04-15"
+        }
+      ]
+    },
+    {
+      "date": "2025-04-28",
+      "call_name": "Session de formation utilisateurs (1h30)",
+      "transcript": "CSM (Inès Berger): Bonjour à tous. Session de prise en main, une heure trente. Vous êtes 11 aujourd'hui.\n\nChef de poste four (Patrick Weber): Toute l'équipe est là, plus deux personnes de l'équipe voisine qui voulaient voir.\n\nCSM (Inès Berger): Parfait. Je vous préviens : on ne fera pas le tour de toutes les fonctionnalités. On va faire les trois choses que vous ferez tous les jours.\n\nChef de poste four (Patrick Weber): Ça nous change des formations où on nous montre tout et où on ne retient rien.\n\nCSM (Inès Berger): Première chose : votre vue du matin. Vous ouvrez, vous voyez les écarts de la veille, vous savez quoi traiter en priorité.\n\nChef de poste four (Patrick Weber): Attendez — les écarts sont classés par ordre d'importance ?\n\nCSM (Inès Berger): Vous pouvez la modifier, et surtout vous pouvez commenter. Le commentaire reste visible pour l'équipe, ça évite que trois personnes traitent le même sujet.\n\nChef de poste four (Patrick Weber): Ah, ça c'est utile. Aujourd'hui on se marche dessus régulièrement.\n\nCSM (Inès Berger): Deuxième chose : le commentaire justement. Chaque écart peut être annoté. C'est ce qui construit votre mémoire collective.\n\nUtilisateur (Karine): Est-ce qu'on peut retrouver ce qui a été dit il y a six mois ?\n\nCSM (Inès Berger): Tout l'historique est conservé et cherchable. C'est souvent ce que les équipes finissent par préférer à la partie analytique.\n\nUtilisateur (Karine): Franchement, si ça marche comme ça, c'est déjà mieux que nos courriels.\n\nCSM (Inès Berger): Troisième chose : l'export pour vos réunions. Un bouton, un fichier, figé à la date. Plus de chiffres qui bougent entre deux réunions.\n\nChef de poste four (Patrick Weber): Ça va nous faire gagner un temps fou. On refaisait le fichier à chaque fois.\n\nUtilisateur (Karine): Est-ce que ça marche sur téléphone ? Parce que je suis rarement à mon bureau.\n\nCSM (Inès Berger): Oui, en consultation et en annotation. La saisie complète reste plus confortable sur ordinateur, je ne vais pas vous dire le contraire.\n\nUtilisateur (Karine): D'accord, c'est suffisant pour mon usage.\n\nChef de poste four (Patrick Weber): Comment on fait quand quelqu'un arrive dans l'équipe ?\n\nCSM (Inès Berger): Le compte est créé automatiquement depuis votre annuaire. Pour la prise en main, il y a un parcours guidé de vingt minutes dans l'outil.\n\nChef de poste four (Patrick Weber): Deux pages, c'est réaliste. Les manuels de cent pages, personne ne les lit.\n\nChef de poste four (Patrick Weber): Une question qui fâche : si l'outil se trompe, qui est responsable ?\n\nCSM (Inès Berger): L'outil ne prend aucune décision à votre place. Il signale et il explique. La décision et la responsabilité restent de votre côté.\n\nChef de poste four (Patrick Weber): Bien. Tant que je peux voir pourquoi il propose ça, ça me va.\n\nUtilisateur (Karine): Qu'est-ce qui se passe si je fais une fausse manipulation ?\n\nCSM (Inès Berger): Rien d'irréversible. Vous ne pouvez pas modifier les données sources, et tout ce que vous annotez est historisé avec votre nom et la date.\n\nUtilisateur (Karine): Historisé avec mon nom ? Ça veut dire qu'on peut voir qui a écrit quoi ?\n\nCSM (Inès Berger): Oui, et je comprends la question. L'objectif n'est pas le contrôle mais la continuité : quand quelqu'un est absent, l'équipe retrouve le raisonnement.\n\nChef de poste four (Patrick Weber): Je préfère qu'on en parle maintenant plutôt que d'entendre des rumeurs ensuite.\n\nCSM (Inès Berger): Voilà, c'est tout pour aujourd'hui. Trois choses. Vous avez mon numéro, et je passe faire un point dans quinze jours.",
+      "summary": "Session de prise en main avec l'équipe de Patrick. Format volontairement resserré sur trois usages quotidiens plutôt qu'un tour complet des fonctionnalités. Les fonctions de commentaire et d'export figé ont été les plus appréciées.",
+      "crm_fields": [
+        {
+          "key": "Participants",
+          "value": "11 personnes de l'équipe Patrick"
+        },
+        {
+          "key": "Format de la session",
+          "value": "Prise en main sur trois cas d'usage quotidiens"
+        },
+        {
+          "key": "Retour des utilisateurs",
+          "value": "Positif — format court apprécié"
+        },
+        {
+          "key": "Prochaine session",
+          "value": "2025-06-15"
+        }
+      ]
+    },
+    {
+      "date": "2025-05-14",
+      "call_name": "Point d'avancement hebdomadaire (30 min)",
+      "transcript": "CSM (Inès Berger): Bonjour Isabelle, point hebdomadaire. Trente minutes.\n\nProspect (Isabelle Wagner): Bonjour. J'ai des retours du terrain, plutôt bons.\n\nProspect (Isabelle Wagner): On m'a demandé si on pouvait comparer nos résultats à ceux du secteur.\n\nCSM (Inès Berger): C'est possible sur des indicateurs agrégés et anonymisés. Je ne vous donnerai jamais les chiffres nominatifs d'un autre client.\n\nProspect (Isabelle Wagner): Compris. Donnez-moi un ordre de grandeur, pas un classement.\n\nCSM (Inès Berger): Je vous prépare ça avec les réserves méthodologiques écrites en clair.\n\nProspect (Isabelle Wagner): Gérard m'a demandé où on en était. Qu'est-ce que je lui dis ?\n\nCSM (Inès Berger): Dites-lui que la consommation spécifique est à 489kWh/tonne, que la trajectoire est conforme, et qu'on tiendra l'objectif de 470 kWh/tonne au trimestre.\n\nProspect (Isabelle Wagner): Et si ce n'est pas le cas, je l'apprends quand ?\n\nCSM (Inès Berger): Dès que la tendance s'inverse, pas à la fin du trimestre. C'est une règle que je m'applique : les mauvaises nouvelles arrivent tôt.\n\nProspect (Isabelle Wagner): C'est ce que je voulais entendre.\n\nCSM (Inès Berger): Question de planification : vous avez une période à éviter pour les mises à jour ?\n\nProspect (Isabelle Wagner): Oui, toute la période autour de l'audit énergétique réglementaire de septembre. À ce moment-là, on ne touche à rien.\n\nCSM (Inès Berger): Je le note comme période de gel, et je le fais inscrire dans notre calendrier de déploiement pour que ce ne soit pas oublié.\n\nProspect (Isabelle Wagner): Parfait.\n\nCSM (Inès Berger): Un sujet remonté par le terrain cette semaine : le temps de chargement de la vue consolidée est jugé trop long.\n\nProspect (Isabelle Wagner): Combien de temps, concrètement ?\n\nCSM (Inès Berger): De l'inconfort, mais l'inconfort quotidien finit par tuer l'adoption. Je le traite comme un vrai sujet.\n\nCSM (Inès Berger): Un correctif est prévu à la prochaine mise à jour. En attendant, j'ai pré-calculé la vue la plus utilisée.\n\nProspect (Isabelle Wagner): Merci d'avoir traité ça avant que je le remonte.\n\nCSM (Inès Berger): Côté adoption : soixante-dix pour cent des utilisateurs se connectent au moins trois fois par semaine.\n\nProspect (Isabelle Wagner): Et les trente pour cent restants ?\n\nCSM (Inès Berger): Principalement l'équipe du site secondaire. Ils n'ont pas eu la formation, c'est un oubli de notre côté.\n\nProspect (Isabelle Wagner): Programmez une session pour eux. Je ferai passer le message moi-même.\n\nCSM (Inès Berger): Point de vigilance : la qualité des données sur les trois derniers mois d'historique. Il y a des trous.\n\nProspect (Isabelle Wagner): Je sais d'où ça vient. On a eu une migration en interne à ce moment-là.\n\nCSM (Inès Berger): On peut soit les exclure du calcul, soit les signaler explicitement. Je recommande de les signaler : c'est moins confortable mais plus honnête.\n\nProspect (Isabelle Wagner): Signalez-les. Je préfère assumer un trou qu'un chiffre faux.\n\nProspect (Isabelle Wagner): J'ai un retour de Patrick : ils aimeraient pouvoir filtrer par équipe, pas seulement par périmètre global.\n\nCSM (Inès Berger): C'est faisable en paramétrage, sans développement. Je peux le faire cette semaine.\n\nProspect (Isabelle Wagner): Faites, ça leur fera un signal positif.\n\nCSM (Inès Berger): Sur les chiffres : la consommation spécifique est passé de 512 kWh/tonne à 489kWh/tonne. On est sur la bonne trajectoire.\n\nProspect (Isabelle Wagner): Bien. Mais je veux comprendre : c'est l'outil ou c'est l'effet de la saison ?\n\nCSM (Inès Berger): Question légitime. On a isolé les deux effets dans l'annexe du rapport.\n\nProspect (Isabelle Wagner): Merci de le dire. Ça me permet de ne pas survendre en interne.\n\nCSM (Inès Berger): Prochaines actions : je programme la session manquante, et on refait un point le 2025-05-21.\n\nProspect (Isabelle Wagner): Ça me va. À la semaine prochaine.",
+      "summary": "Point d'avancement hebdomadaire. La consommation spécifique progresse (489kWh/tonne). L'adoption reste inégale selon les équipes. Une demande d'évolution a été remontée. La part réelle de l'amélioration a été distinguée de l'effet saisonnier, ce qui a été apprécié.",
+      "crm_fields": [
+        {
+          "key": "Indicateur suivi",
+          "value": "consommation spécifique : 489kWh/tonne (départ 512 kWh/tonne)"
+        },
+        {
+          "key": "Taux d'adoption",
+          "value": "84 % d'utilisateurs actifs hebdomadaires"
+        },
+        {
+          "key": "Point de vigilance",
+          "value": "Adoption faible sur le site secondaire"
+        },
+        {
+          "key": "Demande d'évolution",
+          "value": "Filtrage par équipe en complément du périmètre global"
+        },
+        {
+          "key": "Prochain point",
+          "value": "2025-05-21"
+        }
+      ]
+    },
+    {
+      "date": "2025-06-02",
+      "call_name": "Appel support technique — incident déclaré par l'équipe métier",
+      "transcript": "Chef de poste four (Patrick Weber): Bonjour, on a un problème : l'application est très lente depuis ce matin. Mon équipe est à l'arrêt sur ce point.\n\nCSM (Inès Berger): Je regarde tout de suite. Ça a commencé quand ?\n\nChef de poste four (Patrick Weber): Ce matin en arrivant. Hier soir tout allait bien.\n\nCSM (Inès Berger): Je vois la trace dans les journaux. Je vous rappelle dans dix minutes avec un diagnostic.\n\nCSM (Inès Berger): Diagnostic : une requête non optimisée déclenchée par un nouveau filtre personnalisé. Aucune donnée n'est perdue, c'est important de le dire.\n\nChef de poste four (Patrick Weber): D'accord. Et on répare comment ?\n\nCSM (Inès Berger): Résolution : correctif déployé le jour même, temps de réponse revenu sous la seconde.\n\nCSM (Inès Berger): Je profite de l'appel : comment ça se passe globalement pour votre équipe ?\n\nChef de poste four (Patrick Weber): Mieux qu'au démarrage. Il a fallu trois semaines pour que les habitudes changent.\n\nCSM (Inès Berger): C'est utile à savoir. Je remonte le point positif à l'équipe, ça leur fait du bien aussi.\n\nChef de poste four (Patrick Weber): Volontiers. Prévoyez plutôt le mardi, c'est notre jour le plus calme.\n\nChef de poste four (Patrick Weber): Autre chose pendant que je vous ai : mon équipe demande si on peut exporter la vue filtrée, et pas seulement la vue complète.\n\nCSM (Inès Berger): Pas aujourd'hui. Je le remonte au produit — c'est la troisième fois qu'on me le demande ce mois-ci, ça pèsera.\n\nChef de poste four (Patrick Weber): Montrez-moi où, ça m'évitera de le redemander.\n\nChef de poste four (Patrick Weber): Est-ce que ça peut se reproduire ?\n\nCSM (Inès Berger): Non, une fois le correctif déployé. Mais je préfère être prudent : je maintiens une surveillance renforcée pendant deux semaines.\n\nChef de poste four (Patrick Weber): Très bien. Tenez-moi informé du déploiement.\n\nChef de poste four (Patrick Weber): Je ne vous cache pas que ça fait mauvais effet. J'ai défendu l'outil en interne.\n\nCSM (Inès Berger): Je l'entends, et vous avez raison de le dire. Je vous envoie une note écrite avec la cause et l'action corrective, que vous puissiez la montrer à Isabelle.\n\nChef de poste four (Patrick Weber): D'accord. Tant que c'est transparent, ça passe.\n\nCSM (Inès Berger): Je laisse le ticket ouvert quarante-huit heures et je vous confirme le retour à la normale.\n\nChef de poste four (Patrick Weber): Très bien, merci.",
+      "summary": "Incident signalé par Patrick Weber. Diagnostic posé rapidement, aucune perte de données. Résolution communiquée par écrit avec la cause et l'action corrective, de façon à pouvoir être partagée en interne.",
+      "crm_fields": [
+        {
+          "key": "Symptôme déclaré",
+          "value": "Incident signalé par l'équipe métier"
+        },
+        {
+          "key": "Cause identifiée",
+          "value": "Requête non optimisée"
+        },
+        {
+          "key": "Résolution",
+          "value": "Correctif déployé et contrôle ajouté"
+        },
+        {
+          "key": "Impact sur l'adoption",
+          "value": "Faible"
+        },
+        {
+          "key": "Numéro de ticket",
+          "value": "TIC-42834"
+        }
+      ]
+    },
+    {
+      "date": "2025-06-16",
+      "call_name": "Point d'avancement hebdomadaire (30 min)",
+      "transcript": "CSM (Inès Berger): Bonjour Isabelle, point hebdomadaire. Trente minutes.\n\nProspect (Isabelle Wagner): Bonjour. J'ai des retours du terrain, plutôt bons.\n\nProspect (Isabelle Wagner): Gérard m'a demandé où on en était. Qu'est-ce que je lui dis ?\n\nCSM (Inès Berger): Dites-lui que la consommation spécifique est à 489kWh/tonne, que la trajectoire est conforme, et qu'on tiendra l'objectif de 470 kWh/tonne au trimestre.\n\nProspect (Isabelle Wagner): Et si ce n'est pas le cas, je l'apprends quand ?\n\nCSM (Inès Berger): Dès que la tendance s'inverse, pas à la fin du trimestre. C'est une règle que je m'applique : les mauvaises nouvelles arrivent tôt.\n\nProspect (Isabelle Wagner): C'est ce que je voulais entendre.\n\nProspect (Isabelle Wagner): J'ai un retour de Patrick : ils aimeraient pouvoir filtrer par équipe, pas seulement par périmètre global.\n\nCSM (Inès Berger): Ça demande un petit développement. Je le remonte au produit avec votre appui, ça pèsera plus lourd.\n\nProspect (Isabelle Wagner): Faites, ça leur fera un signal positif.\n\nCSM (Inès Berger): Un sujet remonté par le terrain cette semaine : le temps de chargement de la vue consolidée est jugé trop long.\n\nProspect (Isabelle Wagner): Combien de temps, concrètement ?\n\nCSM (Inès Berger): Huit secondes en moyenne. Ce n'est pas bloquant, mais sur un usage quotidien c'est ce qui fait qu'on arrête d'ouvrir un outil.\n\nCSM (Inès Berger): Un correctif est prévu à la prochaine mise à jour. En attendant, j'ai pré-calculé la vue la plus utilisée.\n\nProspect (Isabelle Wagner): Merci d'avoir traité ça avant que je le remonte.\n\nProspect (Isabelle Wagner): On m'a demandé si on pouvait comparer nos résultats à ceux du secteur.\n\nCSM (Inès Berger): C'est possible sur des indicateurs agrégés et anonymisés. Je ne vous donnerai jamais les chiffres nominatifs d'un autre client.\n\nProspect (Isabelle Wagner): Compris. Donnez-moi un ordre de grandeur, pas un classement.\n\nCSM (Inès Berger): Je vous prépare ça avec les réserves méthodologiques écrites en clair.\n\nCSM (Inès Berger): Point de vigilance : la qualité des données sur les trois derniers mois d'historique. Il y a des trous.\n\nProspect (Isabelle Wagner): Je sais d'où ça vient. On a eu une migration en interne à ce moment-là.\n\nCSM (Inès Berger): On peut soit les exclure du calcul, soit les signaler explicitement. Je recommande de les signaler : c'est moins confortable mais plus honnête.\n\nProspect (Isabelle Wagner): Signalez-les. Je préfère assumer un trou qu'un chiffre faux.\n\nCSM (Inès Berger): Question de planification : vous avez une période à éviter pour les mises à jour ?\n\nProspect (Isabelle Wagner): Les fins de mois. C'est là qu'on produit les chiffres, on ne peut pas se permettre une indisponibilité.\n\nCSM (Inès Berger): Je le note comme période de gel, et je le fais inscrire dans notre calendrier de déploiement pour que ce ne soit pas oublié.\n\nProspect (Isabelle Wagner): Parfait.\n\nCSM (Inès Berger): Côté adoption : soixante-dix pour cent des utilisateurs se connectent au moins trois fois par semaine.\n\nProspect (Isabelle Wagner): Et les trente pour cent restants ?\n\nCSM (Inès Berger): Principalement l'équipe du site secondaire. Ils n'ont pas eu la formation, c'est un oubli de notre côté.\n\nProspect (Isabelle Wagner): C'est ce que je craignais. Il faut qu'on coupe l'ancien tableur, sinon ça ne bougera jamais.\n\nCSM (Inès Berger): Sur les chiffres : la consommation spécifique est passé de 512 kWh/tonne à 489kWh/tonne. On est sur la bonne trajectoire.\n\nProspect (Isabelle Wagner): C'est déjà mieux que ce que j'espérais à ce stade.\n\nCSM (Inès Berger): Question légitime. On a isolé les deux effets dans l'annexe du rapport.\n\nProspect (Isabelle Wagner): Merci de le dire. Ça me permet de ne pas survendre en interne.\n\nCSM (Inès Berger): Je vous envoie le compte rendu ce soir. Prochain point le 2025-06-23.\n\nProspect (Isabelle Wagner): Parfait, merci.",
+      "summary": "Point d'avancement hebdomadaire. La consommation spécifique progresse (489kWh/tonne). L'adoption reste inégale selon les équipes. Une demande d'évolution a été remontée. La part réelle de l'amélioration a été distinguée de l'effet saisonnier, ce qui a été apprécié.",
+      "crm_fields": [
+        {
+          "key": "Indicateur suivi",
+          "value": "consommation spécifique : 489kWh/tonne (départ 512 kWh/tonne)"
+        },
+        {
+          "key": "Taux d'adoption",
+          "value": "84 % d'utilisateurs actifs hebdomadaires"
+        },
+        {
+          "key": "Point de vigilance",
+          "value": "Trous d'historique sur trois mois"
+        },
+        {
+          "key": "Demande d'évolution",
+          "value": "Filtrage par équipe en complément du périmètre global"
+        },
+        {
+          "key": "Prochain point",
+          "value": "2025-06-23"
+        }
+      ]
+    },
+    {
+      "date": "2025-06-30",
+      "call_name": "Appel de courtoisie — vérification de bonne réception",
+      "transcript": "Commercial (Sébastien): Bonjour Isabelle, appel rapide, je voulais juste vérifier que vous aviez bien reçu le document.\n\nProspect (Isabelle Wagner): Oui, reçu ce matin. Je le lis ce week-end.\n\nCommercial (Sébastien): Aucun souci. Est-ce que je le renvoie à une autre adresse pour éviter ça ?\n\nProspect (Isabelle Wagner): Non, c'est bon. Je vous rappelle en début de semaine prochaine.\n\nCommercial (Sébastien): Entendu. Bonne fin de journée.",
+      "summary": "Appel court de vérification de bonne réception du document envoyé. Prochaine relance calée.",
+      "crm_fields": [
+        {
+          "key": "Type d'interaction",
+          "value": "Appel court"
+        },
+        {
+          "key": "Document concerné",
+          "value": "Dossier de conformité"
+        },
+        {
+          "key": "Prochaine action",
+          "value": "Programmation du point suivant"
+        }
+      ]
+    },
+    {
+      "date": "2025-07-07",
+      "call_name": "Appel support technique — incident déclaré par l'équipe métier",
+      "transcript": "Chef de poste four (Patrick Weber): Bonjour, j'appelle parce que l'export mensuel est incomplet. C'est bloquant pour nous ce matin.\n\nCSM (Inès Berger): Je regarde tout de suite. Ça a commencé quand ?\n\nChef de poste four (Patrick Weber): Depuis hier après-midi je crois, mais on ne s'en est rendu compte que ce matin.\n\nCSM (Inès Berger): Je vois la trace dans les journaux. Je vous rappelle dans dix minutes avec un diagnostic.\n\nCSM (Inès Berger): Diagnostic : un dépassement de la limite de lignes sur le format choisi. Aucune donnée n'est perdue, c'est important de le dire.\n\nChef de poste four (Patrick Weber): Bon. Combien de temps pour revenir à la normale ?\n\nCSM (Inès Berger): Résolution : bascule vers un format sans limite et régénération de l'export.\n\nChef de poste four (Patrick Weber): Autre chose pendant que je vous ai : mon équipe demande si on peut exporter la vue filtrée, et pas seulement la vue complète.\n\nCSM (Inès Berger): C'est déjà possible, mais ce n'est pas évident à trouver. C'est un défaut d'interface de notre côté, pas un manque de fonctionnalité.\n\nChef de poste four (Patrick Weber): Merci. Tenez-moi au courant même si la réponse est non.\n\nChef de poste four (Patrick Weber): Est-ce que ça peut se reproduire ?\n\nCSM (Inès Berger): Dans l'état actuel, oui. C'est pour ça que j'ajoute un contrôle automatique : la prochaine fois, on sera alertés avant vous.\n\nChef de poste four (Patrick Weber): Très bien. Tenez-moi informé du déploiement.\n\nCSM (Inès Berger): Je profite de l'appel : comment ça se passe globalement pour votre équipe ?\n\nChef de poste four (Patrick Weber): Franchement, bien. Cet incident mis à part, on ne reviendrait pas en arrière.\n\nCSM (Inès Berger): C'est utile à savoir. Je remonte le point positif à l'équipe, ça leur fait du bien aussi.\n\nChef de poste four (Patrick Weber): Volontiers. Prévoyez plutôt le mardi, c'est notre jour le plus calme.\n\nChef de poste four (Patrick Weber): Est-ce qu'on peut se fier à ce qui a été affiché entre-temps ?\n\nCSM (Inès Berger): Les données sont intactes en base. C'est l'affichage qui était figé. Après recalcul, vous retrouverez les bonnes valeurs.\n\nChef de poste four (Patrick Weber): Bon. Je vais devoir refaire un point que j'ai envoyé hier soir.\n\nCSM (Inès Berger): Je vous confirme par écrit dès que le recalcul est terminé, que vous puissiez rediffuser avec une base propre.\n\nCSM (Inès Berger): Je laisse le ticket ouvert quarante-huit heures et je vous confirme le retour à la normale.\n\nChef de poste four (Patrick Weber): Parfait, merci pour la réactivité.",
+      "summary": "Incident signalé par Patrick Weber. Diagnostic posé rapidement, aucune perte de données. Résolution communiquée par écrit avec la cause et l'action corrective, de façon à pouvoir être partagée en interne.",
+      "crm_fields": [
+        {
+          "key": "Symptôme déclaré",
+          "value": "Incident signalé par l'équipe métier"
+        },
+        {
+          "key": "Cause identifiée",
+          "value": "Paramétrage de seuil erroné"
+        },
+        {
+          "key": "Résolution",
+          "value": "Rétabli en moins d'une heure"
+        },
+        {
+          "key": "Impact sur l'adoption",
+          "value": "Nul, transparence appréciée"
+        },
+        {
+          "key": "Numéro de ticket",
+          "value": "TIC-86064"
+        }
+      ]
+    },
+    {
+      "date": "2025-07-16",
+      "call_name": "Point d'avancement hebdomadaire (30 min)",
+      "transcript": "CSM (Inès Berger): Bonjour Isabelle, point hebdomadaire. Trente minutes.\n\nProspect (Isabelle Wagner): Allez-y, je vous écoute.\n\nProspect (Isabelle Wagner): J'ai un retour de Patrick : ils aimeraient pouvoir filtrer par équipe, pas seulement par périmètre global.\n\nCSM (Inès Berger): C'est faisable en paramétrage, sans développement. Je peux le faire cette semaine.\n\nProspect (Isabelle Wagner): Faites, ça leur fera un signal positif.\n\nCSM (Inès Berger): Côté adoption : soixante-dix pour cent des utilisateurs se connectent au moins trois fois par semaine.\n\nProspect (Isabelle Wagner): Et les trente pour cent restants ?\n\nCSM (Inès Berger): Ce sont les profils les plus anciens. Ils continuent avec leur tableur en parallèle.\n\nProspect (Isabelle Wagner): C'est ce que je craignais. Il faut qu'on coupe l'ancien tableur, sinon ça ne bougera jamais.\n\nProspect (Isabelle Wagner): Gérard m'a demandé où on en était. Qu'est-ce que je lui dis ?\n\nCSM (Inès Berger): Dites-lui que la consommation spécifique est à 489kWh/tonne, que la trajectoire est conforme, et qu'on tiendra l'objectif de 470 kWh/tonne au trimestre.\n\nProspect (Isabelle Wagner): Vous vous engagez là-dessus ? Parce que c'est moi qui prends si ça dérape.\n\nCSM (Inès Berger): Dès que la tendance s'inverse, pas à la fin du trimestre. C'est une règle que je m'applique : les mauvaises nouvelles arrivent tôt.\n\nProspect (Isabelle Wagner): C'est ce que je voulais entendre.\n\nCSM (Inès Berger): Un sujet remonté par le terrain cette semaine : le temps de chargement de la vue consolidée est jugé trop long.\n\nProspect (Isabelle Wagner): C'est bloquant ou c'est de l'inconfort ?\n\nCSM (Inès Berger): De l'inconfort, mais l'inconfort quotidien finit par tuer l'adoption. Je le traite comme un vrai sujet.\n\nCSM (Inès Berger): Un correctif est prévu à la prochaine mise à jour. En attendant, j'ai pré-calculé la vue la plus utilisée.\n\nProspect (Isabelle Wagner): Merci d'avoir traité ça avant que je le remonte.\n\nCSM (Inès Berger): Point de vigilance : la qualité des données sur les trois derniers mois d'historique. Il y a des trous.\n\nProspect (Isabelle Wagner): Ça ne m'étonne pas. C'est la période où on a changé de responsable de saisie.\n\nCSM (Inès Berger): On peut soit les exclure du calcul, soit les signaler explicitement. Je recommande de les signaler : c'est moins confortable mais plus honnête.\n\nProspect (Isabelle Wagner): Signalez-les. Je préfère assumer un trou qu'un chiffre faux.\n\nProspect (Isabelle Wagner): On m'a demandé si on pouvait comparer nos résultats à ceux du secteur.\n\nCSM (Inès Berger): C'est possible sur des indicateurs agrégés et anonymisés. Je ne vous donnerai jamais les chiffres nominatifs d'un autre client.\n\nProspect (Isabelle Wagner): C'est bien que vous le précisiez, parce que ce sera utilisé en comité.\n\nCSM (Inès Berger): Je vous prépare ça avec les réserves méthodologiques écrites en clair.\n\nCSM (Inès Berger): Question de planification : vous avez une période à éviter pour les mises à jour ?\n\nProspect (Isabelle Wagner): Les fins de mois. C'est là qu'on produit les chiffres, on ne peut pas se permettre une indisponibilité.\n\nCSM (Inès Berger): Je le note comme période de gel, et je le fais inscrire dans notre calendrier de déploiement pour que ce ne soit pas oublié.\n\nProspect (Isabelle Wagner): Parfait.\n\nCSM (Inès Berger): Sur les chiffres : la consommation spécifique est passé de 512 kWh/tonne à 489kWh/tonne. On est sur la bonne trajectoire.\n\nProspect (Isabelle Wagner): Bien. Mais je veux comprendre : c'est l'outil ou c'est l'effet de la saison ?\n\nCSM (Inès Berger): Les deux jouent. Si on neutralise l'effet saisonnier, l'amélioration réelle est d'environ deux tiers de l'écart constaté. Je préfère vous donner le chiffre honnête.\n\nProspect (Isabelle Wagner): Merci de le dire. Ça me permet de ne pas survendre en interne.\n\nCSM (Inès Berger): Je vous envoie le compte rendu ce soir. Prochain point le 2025-07-23.\n\nProspect (Isabelle Wagner): Parfait, merci.",
+      "summary": "Point d'avancement hebdomadaire. La consommation spécifique progresse (489kWh/tonne). L'adoption reste inégale selon les équipes. Une demande d'évolution a été remontée. La part réelle de l'amélioration a été distinguée de l'effet saisonnier, ce qui a été apprécié.",
+      "crm_fields": [
+        {
+          "key": "Indicateur suivi",
+          "value": "consommation spécifique : 489kWh/tonne (départ 512 kWh/tonne)"
+        },
+        {
+          "key": "Taux d'adoption",
+          "value": "84 % d'utilisateurs actifs hebdomadaires"
+        },
+        {
+          "key": "Point de vigilance",
+          "value": "Adoption faible sur le site secondaire"
+        },
+        {
+          "key": "Demande d'évolution",
+          "value": "Filtrage par équipe en complément du périmètre global"
+        },
+        {
+          "key": "Prochain point",
+          "value": "2025-07-23"
+        }
+      ]
+    },
+    {
+      "date": "2025-08-04",
+      "call_name": "Revue trimestrielle d'activité (1h) — résultats, adoption et plan d'action",
+      "transcript": "CSM (Inès Berger): Bonjour à tous. Revue trimestrielle. Une heure, et je voudrais qu'on passe le plus de temps possible sur ce qui ne va pas, pas sur ce qui va.\n\nDirecteur de site (Gérard Muller): Ça change des présentations habituelles. Allez-y.\n\nCSM (Inès Berger): Les chiffres d'abord. La consommation spécifique est passé de 512 kWh/tonne à 470 kWh/tonne. L'objectif du trimestre est atteint.\n\nDirecteur de site (Gérard Muller): Et en euros, ça donne quoi ?\n\nProspect (Isabelle Wagner): Le contrôle de gestion a validé la méthode de calcul le mois dernier. C'est leur chiffre, pas le nôtre.\n\nDirecteur de site (Gérard Muller): Et le point négatif, puisque vous l'avez annoncé ?\n\nCSM (Inès Berger): Deux choses. L'adoption sur le site secondaire reste faible, autour de quarante pour cent. Et on a eu deux incidents ce trimestre, dont un de notre fait.\n\nDirecteur de site (Gérard Muller): J'apprécie que vous le disiez avant que je le découvre. Qu'est-ce que vous faites ?\n\nCSM (Inès Berger): Sur l'adoption : une session dédiée et un référent local identifié. Sur le support : nous avons renforcé l'équipe, et je m'engage sur un point mensuel de suivi des délais.\n\nProspect (Isabelle Wagner): Je voudrais ajouter un élément. Patrick m'a dit la semaine dernière qu'il ne voulait plus revenir en arrière. Venant de lui, c'est le meilleur indicateur qu'on puisse avoir.\n\nDirecteur de site (Gérard Muller): C'est ce que j'attendais. Continuons.\n\nCSM (Inès Berger): Pour le trimestre prochain, je propose qu'on regarde l'extension à l'ensemble des fours. Je vous prépare un cadrage.\n\nDirecteur de site (Gérard Muller): Envoyez, on regardera au budget.",
+      "summary": "Revue trimestrielle avec Gérard Muller. Objectif atteint sur la consommation spécifique (512 kWh/tonne → 470 kWh/tonne), gain trimestriel de 65 000 € validé par le contrôle de gestion. Les points négatifs ont été présentés spontanément, ce qui a renforcé la relation. Ouverture d'une piste d'extension.",
+      "crm_fields": [
+        {
+          "key": "Résultat trimestriel",
+          "value": "consommation spécifique : 512 kWh/tonne → 470 kWh/tonne — objectif atteint"
+        },
+        {
+          "key": "Gain estimé",
+          "value": "65 000 € sur le trimestre (validé par le contrôle de gestion)"
+        },
+        {
+          "key": "Point négatif assumé",
+          "value": "Deux incidents dont un imputable à l'éditeur ; adoption inégale"
+        },
+        {
+          "key": "Plan d'action",
+          "value": "Session dédiée site secondaire + suivi mensuel des délais de support"
+        },
+        {
+          "key": "Opportunité d'extension",
+          "value": "l'ensemble des fours"
+        }
+      ]
+    },
+    {
+      "date": "2025-08-11",
+      "call_name": "Point d'avancement hebdomadaire (30 min)",
+      "transcript": "CSM (Inès Berger): Bonjour Isabelle, point hebdomadaire. Trente minutes.\n\nProspect (Isabelle Wagner): Allez-y, je vous écoute.\n\nCSM (Inès Berger): Un sujet remonté par le terrain cette semaine : le temps de chargement de la vue consolidée est jugé trop long.\n\nProspect (Isabelle Wagner): Combien de temps, concrètement ?\n\nCSM (Inès Berger): De l'inconfort, mais l'inconfort quotidien finit par tuer l'adoption. Je le traite comme un vrai sujet.\n\nCSM (Inès Berger): Un correctif est prévu à la prochaine mise à jour. En attendant, j'ai pré-calculé la vue la plus utilisée.\n\nProspect (Isabelle Wagner): Merci d'avoir traité ça avant que je le remonte.\n\nProspect (Isabelle Wagner): Gérard m'a demandé où on en était. Qu'est-ce que je lui dis ?\n\nCSM (Inès Berger): Dites-lui que la consommation spécifique est à 489kWh/tonne, que la trajectoire est conforme, et qu'on tiendra l'objectif de 470 kWh/tonne au trimestre.\n\nProspect (Isabelle Wagner): Vous vous engagez là-dessus ? Parce que c'est moi qui prends si ça dérape.\n\nCSM (Inès Berger): Je m'engage sur la transparence, pas sur le miracle. Si ça dérape, vous le saurez la semaine où ça dérape.\n\nProspect (Isabelle Wagner): C'est ce que je voulais entendre.\n\nProspect (Isabelle Wagner): On m'a demandé si on pouvait comparer nos résultats à ceux du secteur.\n\nCSM (Inès Berger): Oui, sur une base anonymisée. Je vous préviens : la comparaison sectorielle est à manier avec prudence, les périmètres ne sont jamais strictement identiques.\n\nProspect (Isabelle Wagner): C'est bien que vous le précisiez, parce que ce sera utilisé en comité.\n\nCSM (Inès Berger): Je vous prépare ça avec les réserves méthodologiques écrites en clair.\n\nProspect (Isabelle Wagner): J'ai un retour de Patrick : ils aimeraient pouvoir filtrer par équipe, pas seulement par périmètre global.\n\nCSM (Inès Berger): C'est faisable en paramétrage, sans développement. Je peux le faire cette semaine.\n\nProspect (Isabelle Wagner): Faites, ça leur fera un signal positif.\n\nCSM (Inès Berger): Point de vigilance : la qualité des données sur les trois derniers mois d'historique. Il y a des trous.\n\nProspect (Isabelle Wagner): Je sais d'où ça vient. On a eu une migration en interne à ce moment-là.\n\nCSM (Inès Berger): On peut soit les exclure du calcul, soit les signaler explicitement. Je recommande de les signaler : c'est moins confortable mais plus honnête.\n\nProspect (Isabelle Wagner): Signalez-les. Je préfère assumer un trou qu'un chiffre faux.\n\nCSM (Inès Berger): Sur les chiffres : la consommation spécifique est passé de 512 kWh/tonne à 489kWh/tonne. On est sur la bonne trajectoire.\n\nProspect (Isabelle Wagner): Bien. Mais je veux comprendre : c'est l'outil ou c'est l'effet de la saison ?\n\nCSM (Inès Berger): Question légitime. On a isolé les deux effets dans l'annexe du rapport.\n\nProspect (Isabelle Wagner): Merci de le dire. Ça me permet de ne pas survendre en interne.\n\nCSM (Inès Berger): Question de planification : vous avez une période à éviter pour les mises à jour ?\n\nProspect (Isabelle Wagner): Oui, toute la période autour de l'audit énergétique réglementaire de septembre. À ce moment-là, on ne touche à rien.\n\nCSM (Inès Berger): Je le note comme période de gel, et je le fais inscrire dans notre calendrier de déploiement pour que ce ne soit pas oublié.\n\nProspect (Isabelle Wagner): Parfait.\n\nCSM (Inès Berger): Côté adoption : soixante-dix pour cent des utilisateurs se connectent au moins trois fois par semaine.\n\nProspect (Isabelle Wagner): Et les trente pour cent restants ?\n\nCSM (Inès Berger): Ce sont les profils les plus anciens. Ils continuent avec leur tableur en parallèle.\n\nProspect (Isabelle Wagner): Programmez une session pour eux. Je ferai passer le message moi-même.\n\nCSM (Inès Berger): Je vous envoie le compte rendu ce soir. Prochain point le 2025-08-18.\n\nProspect (Isabelle Wagner): Ça me va. À la semaine prochaine.",
+      "summary": "Point d'avancement hebdomadaire. La consommation spécifique progresse (489kWh/tonne). L'adoption reste inégale selon les équipes. Une demande d'évolution a été remontée. La part réelle de l'amélioration a été distinguée de l'effet saisonnier, ce qui a été apprécié.",
+      "crm_fields": [
+        {
+          "key": "Indicateur suivi",
+          "value": "consommation spécifique : 489kWh/tonne (départ 512 kWh/tonne)"
+        },
+        {
+          "key": "Taux d'adoption",
+          "value": "84 % d'utilisateurs actifs hebdomadaires"
+        },
+        {
+          "key": "Point de vigilance",
+          "value": "Adoption faible sur le site secondaire"
+        },
+        {
+          "key": "Demande d'évolution",
+          "value": "Filtrage par équipe en complément du périmètre global"
+        },
+        {
+          "key": "Prochain point",
+          "value": "2025-08-18"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-02",
+      "call_name": "Négociation de renouvellement de contrat",
+      "transcript": "CSM (Inès Berger): Bonjour Gérard. Le contrat arrive à échéance le 2025-11-01, je voulais qu'on en parle en avance.\n\nDirecteur de site (Gérard Muller): Vous faites bien. Je n'aime pas les renouvellements découverts trois jours avant.\n\nCSM (Inès Berger): Le bilan de l'année : la consommation spécifique est passé de 512 kWh/tonne à 470 kWh/tonne, soit un gain estimé à 261 000 euros. Le taux d'utilisation est de 84 pour cent.\n\nDirecteur de site (Gérard Muller): Les chiffres sont bons. Ma question porte sur le tarif de reconduction.\n\nCSM (Inès Berger): Reconduction à 64 000 euros, soit l'indexation plafonnée prévue au contrat. Pas de mauvaise surprise.\n\nDirecteur de site (Gérard Muller): Vous pouvez faire un geste si je passe à trois ans ?\n\nCSM (Inès Berger): Un engagement de trois ans permet de neutraliser l'indexation la première année.\n\nDirecteur de site (Gérard Muller): Trois ans, ça m'engage beaucoup. Envoyez les deux options et je trancherai.\n\nCSM (Inès Berger): Je vous envoie les deux scénarios. Et je profite de l'occasion : Isabelle souhaite étendre à l'ensemble des fours. Je peux vous chiffrer l'ensemble dans une seule proposition.\n\nDirecteur de site (Gérard Muller): Oui, mieux vaut une seule discussion. Envoyez le tout.",
+      "summary": "Préparation du renouvellement, engagée en avance. Bilan annuel favorable (consommation spécifique : 512 kWh/tonne → 470 kWh/tonne, 84 % d'adoption). Deux scénarios proposés, 12 ou 36 mois, avec possibilité de combiner renouvellement et extension dans une proposition unique.",
+      "crm_fields": [
+        {
+          "key": "Date d'échéance",
+          "value": "2025-11-25"
+        },
+        {
+          "key": "Tarif de reconduction",
+          "value": "64 000 € — indexation plafonnée"
+        },
+        {
+          "key": "Durée proposée",
+          "value": "12 mois ou 36 mois avec gel la première année"
+        },
+        {
+          "key": "Bilan annuel",
+          "value": "consommation spécifique : 512 kWh/tonne → 470 kWh/tonne ; 84 % d'adoption"
+        },
+        {
+          "key": "Opportunité combinée",
+          "value": "Renouvellement + extension l'ensemble des fours"
+        }
+      ]
+    }
+  ],
+  "emails": [
+    {
+      "date": "2025-01-08",
+      "subject": "Sidérurgie : réduire la consommation spécifique sans changer historian PI",
+      "content": "Bonjour Isabelle Wagner,\n\nJe me permets de vous écrire car nous accompagnons plusieurs structures de la sidérurgie confrontées à une difficulté récurrente : une facture électrique de 9,4 millions d'euros par an sans pilotage fin.\n\nChez la plupart d'entre elles, le constat était le même que celui que vous vivez probablement : historian PI reste la source de vérité, mais toute l'analyse se fait en dehors, sous tableur, avec un temps de retraitement considérable.\n\nNotre approche est volontairement peu intrusive : nous ne remplaçons aucun système existant et nous nous branchons en lecture seule. Sur un périmètre comparable au vôtre (4 fours électriques et 2 lignes de laminage), la consommation spécifique est passé de 512 kWh/tonne à 470 kWh/tonne en six mois.\n\nAuriez-vous vingt minutes dans les prochains jours pour en discuter ?\n\nBien cordialement,\n\nSébastien Klein\nCommercial | Thermalys Industrie"
+    },
+    {
+      "date": "2025-01-14",
+      "subject": "Relance : consommation spécifique chez Aciéries de Moselle-Est",
+      "content": "Bonjour Isabelle Wagner,\n\nJe reviens vers vous suite à mon message de la semaine dernière, resté sans réponse — ce que je comprends parfaitement compte tenu de la période.\n\nUn élément qui pourrait justifier un échange court : plusieurs de nos clients de la sidérurgie ont engagé ce type de chantier en anticipation de l'audit énergétique réglementaire de septembre, précisément pour éviter d'avoir à le traiter dans l'urgence.\n\nSi le sujet n'est pas prioritaire pour vous cette année, dites-le-moi simplement et je cesserai mes relances.\n\nBien cordialement,\n\nSébastien Klein\nThermalys Industrie"
+    },
+    {
+      "date": "2025-01-19",
+      "subject": "Confirmation : échange Thermalys / Aciéries de Moselle-Est",
+      "content": "Bonjour Isabelle Wagner,\n\nJe vous confirme notre échange. Ordre du jour proposé :\n\n1. Votre fonctionnement actuel autour de historian PI\n2. Les difficultés rencontrées sur consommation spécifique\n3. Vos contraintes techniques et de conformité\n4. Les prochaines étapes si le sujet a du sens\n\nPas de présentation commerciale : l'objectif est de comprendre votre contexte.\n\nSi vous souhaitez associer Olivier Schmitt à cet échange, n'hésitez pas à le convier.\n\nBien cordialement,\n\nSébastien Klein\nThermalys Industrie"
+    },
+    {
+      "date": "2025-01-24",
+      "subject": "Compte rendu de notre échange + éléments complémentaires",
+      "content": "Bonjour Isabelle Wagner,\n\nMerci pour le temps accordé. Je reprends ci-dessous ce que j'ai retenu, corrigez-moi si je me trompe :\n\n— Difficulté principale : une facture électrique de 9,4 millions d'euros par an sans pilotage fin\n— Indicateur de référence : consommation spécifique, aujourd'hui à 512 kWh/tonne, objectif 470 kWh/tonne\n— Contrainte structurante : aucun remplacement de historian PI\n— Échéance : l'audit énergétique réglementaire de septembre\n— Point de vigilance : l'adoption par les équipes de Patrick Weber\n\nComme convenu, je vous joins le dossier technique et un retour d'expérience mené dans un contexte proche du vôtre.\n\nProchaine étape proposée : un atelier technique avec Olivier Schmitt.\n\nBien cordialement,\n\nSébastien Klein\nThermalys Industrie"
+    },
+    {
+      "date": "2025-01-31",
+      "subject": "Dossier d'architecture et de conformité — Thermalys",
+      "content": "Bonjour Olivier Schmitt,\n\nComme convenu lors de notre atelier, vous trouverez ci-joint :\n\n— le schéma d'architecture détaillé (flux HTTPS sortant, aucun flux entrant)\n— la description du connecteur et son dimensionnement (2 vCPU, 4 Go)\n— la politique de conservation des données, paramétrable par catégorie\n— la matrice des accès et le cloisonnement des sous-traitants\n— la procédure de réversibilité (CSV et Parquet, sous 30 jours)\n\nConcernant la norme ISO 50001 et le reporting CSRD, l'hébergement est réalisé en France chez un opérateur qualifié et aucune donnée ne quitte l'Union européenne, sauvegardes comprises.\n\nLe rapport d'audit annuel peut vous être transmis sous accord de confidentialité : dites-moi si vous souhaitez que j'engage la démarche.\n\nBien cordialement,\n\nGrégoire Lambert\nIngénieur avant-vente | Thermalys Industrie"
+    },
+    {
+      "date": "2025-02-05",
+      "subject": "Proposition commerciale — Aciéries de Moselle-Est / Thermalys Énergie",
+      "content": "Bonjour Isabelle Wagner,\n\nVous trouverez ci-joint notre proposition, construite sur les éléments que vous nous avez communiqués.\n\nPérimètre : 4 fours électriques et 2 lignes de laminage, 60 utilisateurs, module Thermalys Énergie.\nAbonnement annuel : 77 000 €.\nFrais de mise en service : 13 500 €, non récurrents.\n\nLe retour sur investissement repose sur vos propres chiffres : le passage de la consommation spécifique de 512 kWh/tonne à 470 kWh/tonne représente environ 261 000 € par an, soit un amortissement en onze mois.\n\nJe reste disponible pour en discuter avec Gérard Muller.\n\nBien cordialement,\n\nSébastien Klein\nThermalys Industrie"
+    },
+    {
+      "date": "2025-02-13",
+      "subject": "Proposition révisée suite à notre échange",
+      "content": "Bonjour Gérard Muller,\n\nSuite à notre discussion, voici la proposition révisée :\n\n— Abonnement année 1 : 63 000 € (au lieu de 77 000 €)\n— Frais de mise en service réduits de 50 %\n— Engagement de 24 mois\n— Paiement à 60 jours fin de mois\n— Indexation annuelle plafonnée à 2 %\n— Clause de sortie à 12 mois en cas de non-respect des engagements de service\n\nCes conditions sont valables jusqu'à la fin du mois. Au-delà, je devrai les refaire valider en interne.\n\nBien cordialement,\n\nSébastien Klein\nThermalys Industrie"
+    },
+    {
+      "date": "2025-02-19",
+      "subject": "Version consolidée du contrat — points de rédaction",
+      "content": "Bonjour Maître,\n\nVous trouverez ci-joint la version consolidée intégrant nos échanges :\n\n— Plafond de responsabilité porté à deux fois le montant annuel (article 9.2)\n— Plafond distinct pour les manquements à la protection des données (article 9.3)\n— Délai de correction ramené à 10 jours pour les incidents majeurs, avec définition contractuelle en annexe 4\n— Réversibilité précisée : formats CSV et Parquet, dictionnaire de données, sous 30 jours calendaires (article 14)\n— Droit français, tribunal de commerce de Hagondange (article 18)\n\nLes modifications apparaissent en marques de révision.\n\nBien cordialement,\n\nSébastien Klein\nThermalys Industrie"
+    },
+    {
+      "date": "2025-02-23",
+      "subject": "Merci — démarrage du projet Thermalys Énergie",
+      "content": "Bonjour Gérard Muller, bonjour Isabelle Wagner,\n\nLe contrat nous est bien parvenu signé. Merci de votre confiance.\n\nPoints administratifs : le bon de commande BC-2025-4311 figurera sur l'ensemble de nos factures, conformément à votre demande.\n\nInès Berger prend le relais à compter de cette semaine en tant que Customer Success Manager. Elle dispose déjà de l'historique complet du dossier : vous n'aurez pas à réexpliquer votre contexte.\n\nPremier jalon engagé : mesure de la consommation spécifique à trois mois.\n\nBien cordialement,\n\nSébastien Klein\nThermalys Industrie"
+    },
+    {
+      "date": "2025-03-03",
+      "subject": "Lancement projet — calendrier et prérequis",
+      "content": "Bonjour à tous,\n\nSuite à notre réunion de lancement, voici le calendrier retenu :\n\nPhase 1 — Connexion à historian PI et reprise de 12 mois d'historique\nPhase 2 — Paramétrage métier avec Isabelle Wagner\nPhase 3 — Formation des équipes de Patrick Weber et mise en service\n\nPrérequis à votre charge :\n— Règles de pare-feu sortantes (liste d'adresses en annexe)\n— Machine virtuelle 2 vCPU / 4 Go pour le connecteur\n— Transmission de vos règles de calcul actuelles, même sous forme de tableur\n\nPoint hebdomadaire de 30 minutes le mardi. Aucune double saisie ne sera demandée aux équipes : fonctionnement en parallèle pendant trois semaines, puis bascule.\n\nBien cordialement,\n\nInès Berger\nCustomer Success Manager | Thermalys Industrie"
+    },
+    {
+      "date": "2025-03-09",
+      "subject": "Suivi d'incident — cause et action corrective",
+      "content": "Bonjour Patrick Weber,\n\nComme convenu par téléphone, je vous confirme par écrit les éléments concernant l'incident de ce matin.\n\nCause identifiée : un changement de configuration intervenu côté environnement client, non signalé en amont. Aucune donnée n'a été perdue.\n\nAction corrective immédiate : rétablissement du service et vérification de l'intégralité des données de la période concernée.\n\nAction de fond : ajout d'une alerte automatique sur ce type d'événement, afin que nous soyons prévenus avant vous la prochaine fois.\n\nCe message est rédigé de façon à pouvoir être transmis tel quel à Isabelle Wagner si vous le jugez utile.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-03-13",
+      "subject": "Compte rendu du point hebdomadaire",
+      "content": "Bonjour Isabelle Wagner,\n\nSynthèse de notre point :\n\n— consommation spécifique : 489kWh/tonne (point de départ 512 kWh/tonne, cible 470 kWh/tonne)\n— Adoption : 84 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : adoption plus faible sur le site secondaire, session de rattrapage à programmer\n— Demande d'évolution remontée : filtrage par équipe\n\nPrécision importante : une partie de l'amélioration constatée relève d'un effet saisonnier. En le neutralisant, le gain réellement imputable au projet représente environ deux tiers de l'écart observé. Je préfère vous transmettre le chiffre prudent plutôt que le chiffre flatteur.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-03-20",
+      "subject": "Revue trimestrielle — ordre du jour",
+      "content": "Bonjour Gérard Muller,\n\nJe vous propose l'ordre du jour suivant pour notre revue trimestrielle :\n\n1. Résultats mesurés sur la consommation spécifique et gain estimé\n2. Adoption par équipe et par site\n3. Incidents du trimestre, y compris ceux qui nous sont imputables\n4. Plan d'action pour le trimestre à venir\n5. Pistes d'extension\n\nLe point 3 est volontairement à l'ordre du jour : je préfère que nous en parlions ouvertement plutôt que vous les découvriez.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-03-26",
+      "subject": "Extension de périmètre — l'ensemble des fours",
+      "content": "Bonjour Isabelle Wagner,\n\nSuite à votre demande, voici le chiffrage de l'extension à l'ensemble des fours :\n\n— Montant annuel additionnel : 34 500 €\n— Intégration par avenant au contrat existant\n— Alignement sur la date anniversaire, afin d'éviter des échéances multiples\n— Aucun surcoût de mise en service : l'architecture est déjà en place\n\nLe déploiement peut être réalisé en trois semaines, sans nouvelle intervention de Olivier Schmitt.\n\nBien cordialement,\n\nSébastien Klein\nThermalys Industrie"
+    },
+    {
+      "date": "2025-03-31",
+      "subject": "Échéance contractuelle — deux scénarios",
+      "content": "Bonjour Gérard Muller,\n\nNotre contrat arrive à échéance. Je vous adresse deux scénarios en avance, afin que vous puissiez les instruire sereinement.\n\nScénario A — Reconduction 12 mois : 64 000 €, indexation plafonnée conformément au contrat.\nScénario B — Engagement 36 mois : gel du tarif la première année, puis indexation plafonnée à 2 %.\n\nRappel du bilan de l'année écoulée : La consommation spécifique est passé de 512 kWh/tonne à 470 kWh/tonne, taux d'adoption de 84 %.\n\nSi vous le souhaitez, je peux intégrer l'extension à l'ensemble des fours dans une proposition unique, pour éviter deux passages en comité.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-04-07",
+      "subject": "Retour d'expérience — contexte comparable au vôtre",
+      "content": "Bonjour Isabelle Wagner,\n\nComme promis, voici le retour d'expérience évoqué au téléphone. Le contexte est proche du vôtre : même secteur, volumétrie comparable, et une contrainte identique de ne pas toucher au système existant.\n\nLes trois enseignements que j'en retiens pour votre cas :\n\n1. Le gain le plus rapide n'a pas été analytique mais organisationnel : les réunions ont cessé de porter sur la fiabilité des chiffres.\n2. L'adoption a été obtenue en démarrant sur un périmètre restreint, pas en déployant partout.\n3. Les deux premières semaines ont été consacrées à la fiabilisation des données. C'est incompressible, autant l'anticiper.\n\nJe peux organiser un échange direct avec leur responsable si vous le souhaitez.\n\nBien cordialement,\n\nSébastien Klein\nThermalys Industrie"
+    },
+    {
+      "date": "2025-04-13",
+      "subject": "Facturation — rappel des références",
+      "content": "Bonjour,\n\nPour la bonne exécution administrative du contrat, je vous confirme les références à faire figurer sur nos échanges :\n\n— Bon de commande : BC-2025-4311\n— Conditions de règlement : 60 jours fin de mois\n— Périodicité : facturation annuelle à la date anniversaire\n\nSans le numéro de bon de commande, vos services comptables rejettent les factures : nous veillons donc à ce qu'il soit systématiquement rappelé.\n\nBien cordialement,\n\nSébastien Klein\nThermalys Industrie"
+    },
+    {
+      "date": "2025-04-20",
+      "subject": "Compte rendu hebdomadaire — semaine 4 (2025-S04)",
+      "content": "Bonjour Isabelle Wagner,\n\nSynthèse du point de la semaine 4 :\n\n— consommation spécifique : 512kWh/tonne (départ 512 kWh/tonne, cible 470 kWh/tonne)\n— Adoption : 52 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : départ d'un référent métier sur le site nord\n— Demande d'évolution remontée : vue mobile simplifiée pour les responsables de terrain\n\nComme chaque semaine, je distingue ce qui relève du projet de ce qui relève du contexte : une partie de la variation tient à la saisonnalité, et je préfère vous transmettre le chiffre prudent.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-04-24",
+      "subject": "Ticket TIC-21786 — clôture, cause et action corrective",
+      "content": "Bonjour Patrick Weber,\n\nJe vous confirme par écrit la clôture du ticket TIC-21786, ouvert en semaine 5.\n\nCause identifiée : seuil paramétré en valeur absolue au lieu d'un pourcentage.\nAucune donnée n'a été perdue ; les valeurs affichées pendant l'incident ont été recalculées et vérifiées.\nAction de fond : revue complète des seuils avec l'équipe métier.\n\nIndicateur au moment de la clôture — consommation spécifique : 510kWh/tonne.\n\nCe message est rédigé de façon à pouvoir être transmis tel quel à Isabelle Wagner.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-04-30",
+      "subject": "Demande d'évolution 2025-S06 — suite donnée",
+      "content": "Bonjour Isabelle Wagner,\n\nRetour sur la demande d'évolution enregistrée sous la référence 2025-S06 : ajout d'un seuil d'alerte personnalisable par utilisateur.\n\nElle a été instruite par notre équipe produit. Elle est retenue pour la prochaine version trimestrielle.\n\nPour mémoire, deux autres demandes issues de vos équipes restent ouvertes ; j'en fais le point complet au prochain comité de suivi.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-05-07",
+      "subject": "Fenêtre de maintenance 2025-S07 — Thermalys Énergie version 2025.7",
+      "content": "Bonjour Olivier Schmitt,\n\nNous prévoyons le déploiement de la version 2025.7 de Thermalys Énergie, annoncé conformément au préavis de quinze jours prévu au contrat.\n\n— Durée estimée d'indisponibilité de l'interface : 20 minutes\n— Créneau : en dehors de vos heures ouvrées\n— Impact sur la collecte : aucun, le connecteur continue de fonctionner\n— Principal apport de cette version : export de la vue filtrée et non seulement de la vue complète\n\nSi cette date tombe pendant une période sensible de votre côté, vous disposez d'un report par trimestre : signalez-le-moi et je décale.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-05-12",
+      "subject": "Point de situation semaine 8 — arbitrages attendus",
+      "content": "Bonjour Isabelle Wagner,\n\nJe fais un point rapide en amont de notre prochain échange.\n\nLa consommation spécifique s'établit à 505kWh/tonne, pour un objectif de 470 kWh/tonne. Le taux d'adoption atteint 59 %.\n\nDeux sujets appellent votre arbitrage :\n\n1. Période de gel informatique à intégrer au calendrier\n2. Vue mobile simplifiée pour les responsables de terrain\n\nDites-moi ce qui vous arrange et je m'aligne sur votre calendrier, en tenant compte de l'audit énergétique réglementaire de septembre.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-05-17",
+      "subject": "Compte rendu hebdomadaire — semaine 9 (2025-S09)",
+      "content": "Bonjour Isabelle Wagner,\n\nSynthèse du point de la semaine 9 :\n\n— consommation spécifique : 504kWh/tonne (départ 512 kWh/tonne, cible 470 kWh/tonne)\n— Adoption : 61 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : trous d'historique identifiés sur trois mois\n— Demande d'évolution remontée : ajout d'un seuil d'alerte personnalisable par utilisateur\n\nComme chaque semaine, je distingue ce qui relève du projet de ce qui relève du contexte : une partie de la variation tient à la saisonnalité, et je préfère vous transmettre le chiffre prudent.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-05-25",
+      "subject": "Ticket TIC-83237 — clôture, cause et action corrective",
+      "content": "Bonjour Patrick Weber,\n\nJe vous confirme par écrit la clôture du ticket TIC-83237, ouvert en semaine 10.\n\nCause identifiée : modification d'une règle de calcul côté client sans information préalable.\nAucune donnée n'a été perdue ; les valeurs affichées pendant l'incident ont été recalculées et vérifiées.\nAction de fond : mise en place d'un contrôle de cohérence quotidien.\n\nIndicateur au moment de la clôture — consommation spécifique : 502kWh/tonne.\n\nCe message est rédigé de façon à pouvoir être transmis tel quel à Isabelle Wagner.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-05-30",
+      "subject": "Demande d'évolution 2025-S11 — suite donnée",
+      "content": "Bonjour Isabelle Wagner,\n\nRetour sur la demande d'évolution enregistrée sous la référence 2025-S11 : vue mobile simplifiée pour les responsables de terrain.\n\nElle a été instruite par notre équipe produit. Elle n'est pas retenue à court terme, et je préfère vous le dire clairement plutôt que de la laisser en attente indéfinie.\n\nPour mémoire, deux autres demandes issues de vos équipes restent ouvertes ; j'en fais le point complet au prochain comité de suivi.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-06-06",
+      "subject": "Fenêtre de maintenance 2025-S12 — Thermalys Énergie version 2025.12",
+      "content": "Bonjour Olivier Schmitt,\n\nNous prévoyons le déploiement de la version 2025.12 de Thermalys Énergie, annoncé conformément au préavis de quinze jours prévu au contrat.\n\n— Durée estimée d'indisponibilité de l'interface : 45 minutes\n— Créneau : en dehors de vos heures ouvrées\n— Impact sur la collecte : aucun, le connecteur continue de fonctionner\n— Principal apport de cette version : filtrage par équipe en complément du périmètre global\n\nSi cette date tombe pendant une période sensible de votre côté, vous disposez d'un report par trimestre : signalez-le-moi et je décale.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-06-12",
+      "subject": "Point de situation semaine 13 — arbitrages attendus",
+      "content": "Bonjour Isabelle Wagner,\n\nJe fais un point rapide en amont de notre prochain échange.\n\nLa consommation spécifique s'établit à 497kWh/tonne, pour un objectif de 470 kWh/tonne. Le taux d'adoption atteint 68 %.\n\nDeux sujets appellent votre arbitrage :\n\n1. Deux utilisateurs conservent leur tableur en doublon\n2. Filtrage par équipe en complément du périmètre global\n\nDites-moi ce qui vous arrange et je m'aligne sur votre calendrier, en tenant compte de l'audit énergétique réglementaire de septembre.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-06-18",
+      "subject": "Compte rendu hebdomadaire — semaine 14 (2025-S14)",
+      "content": "Bonjour Isabelle Wagner,\n\nSynthèse du point de la semaine 14 :\n\n— consommation spécifique : 495kWh/tonne (départ 512 kWh/tonne, cible 470 kWh/tonne)\n— Adoption : 70 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : départ d'un référent métier sur le site nord\n— Demande d'évolution remontée : vue mobile simplifiée pour les responsables de terrain\n\nComme chaque semaine, je distingue ce qui relève du projet de ce qui relève du contexte : une partie de la variation tient à la saisonnalité, et je préfère vous transmettre le chiffre prudent.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-06-22",
+      "subject": "Ticket TIC-72632 — clôture, cause et action corrective",
+      "content": "Bonjour Patrick Weber,\n\nJe vous confirme par écrit la clôture du ticket TIC-72632, ouvert en semaine 15.\n\nCause identifiée : changement de mot de passe technique non signalé.\nAucune donnée n'a été perdue ; les valeurs affichées pendant l'incident ont été recalculées et vérifiées.\nAction de fond : ajout d'une alerte automatique sur expiration des identifiants.\n\nIndicateur au moment de la clôture — consommation spécifique : 494kWh/tonne.\n\nCe message est rédigé de façon à pouvoir être transmis tel quel à Isabelle Wagner.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-06-29",
+      "subject": "Demande d'évolution 2025-S16 — suite donnée",
+      "content": "Bonjour Isabelle Wagner,\n\nRetour sur la demande d'évolution enregistrée sous la référence 2025-S16 : ajout d'un seuil d'alerte personnalisable par utilisateur.\n\nElle a été instruite par notre équipe produit. Elle est réalisable par simple paramétrage, sans développement : je peux la mettre en place cette semaine.\n\nPour mémoire, deux autres demandes issues de vos équipes restent ouvertes ; j'en fais le point complet au prochain comité de suivi.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-07-06",
+      "subject": "Fenêtre de maintenance 2025-S17 — Thermalys Énergie version 2025.17",
+      "content": "Bonjour Olivier Schmitt,\n\nNous prévoyons le déploiement de la version 2025.17 de Thermalys Énergie, annoncé conformément au préavis de quinze jours prévu au contrat.\n\n— Durée estimée d'indisponibilité de l'interface : 30 minutes\n— Créneau : en dehors de vos heures ouvrées\n— Impact sur la collecte : aucun, le connecteur continue de fonctionner\n— Principal apport de cette version : filtrage par équipe en complément du périmètre global\n\nSi cette date tombe pendant une période sensible de votre côté, vous disposez d'un report par trimestre : signalez-le-moi et je décale.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-07-11",
+      "subject": "Point de situation semaine 18 — arbitrages attendus",
+      "content": "Bonjour Isabelle Wagner,\n\nJe fais un point rapide en amont de notre prochain échange.\n\nLa consommation spécifique s'établit à 488kWh/tonne, pour un objectif de 470 kWh/tonne. Le taux d'adoption atteint 77 %.\n\nDeux sujets appellent votre arbitrage :\n\n1. Écart entre la mesure hebdomadaire et le reporting mensuel\n2. Vue mobile simplifiée pour les responsables de terrain\n\nDites-moi ce qui vous arrange et je m'aligne sur votre calendrier, en tenant compte de l'audit énergétique réglementaire de septembre.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-07-16",
+      "subject": "Compte rendu hebdomadaire — semaine 19 (2025-S19)",
+      "content": "Bonjour Isabelle Wagner,\n\nSynthèse du point de la semaine 19 :\n\n— consommation spécifique : 487kWh/tonne (départ 512 kWh/tonne, cible 470 kWh/tonne)\n— Adoption : 79 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : montée de version décalée à la demande de la DSI\n— Demande d'évolution remontée : export de la vue filtrée et non seulement de la vue complète\n\nComme chaque semaine, je distingue ce qui relève du projet de ce qui relève du contexte : une partie de la variation tient à la saisonnalité, et je préfère vous transmettre le chiffre prudent.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-07-24",
+      "subject": "Ticket TIC-80407 — clôture, cause et action corrective",
+      "content": "Bonjour Patrick Weber,\n\nJe vous confirme par écrit la clôture du ticket TIC-80407, ouvert en semaine 20.\n\nCause identifiée : requête non optimisée déclenchée par un filtre personnalisé.\nAucune donnée n'a été perdue ; les valeurs affichées pendant l'incident ont été recalculées et vérifiées.\nAction de fond : correctif déployé et test de charge ajouté à la recette.\n\nIndicateur au moment de la clôture — consommation spécifique : 485kWh/tonne.\n\nCe message est rédigé de façon à pouvoir être transmis tel quel à Isabelle Wagner.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-07-29",
+      "subject": "Demande d'évolution 2025-S21 — suite donnée",
+      "content": "Bonjour Isabelle Wagner,\n\nRetour sur la demande d'évolution enregistrée sous la référence 2025-S21 : export de la vue filtrée et non seulement de la vue complète.\n\nElle a été instruite par notre équipe produit. Elle n'est pas retenue à court terme, et je préfère vous le dire clairement plutôt que de la laisser en attente indéfinie.\n\nPour mémoire, deux autres demandes issues de vos équipes restent ouvertes ; j'en fais le point complet au prochain comité de suivi.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-08-05",
+      "subject": "Fenêtre de maintenance 2025-S22 — Thermalys Énergie version 2025.22",
+      "content": "Bonjour Olivier Schmitt,\n\nNous prévoyons le déploiement de la version 2025.22 de Thermalys Énergie, annoncé conformément au préavis de quinze jours prévu au contrat.\n\n— Durée estimée d'indisponibilité de l'interface : 45 minutes\n— Créneau : en dehors de vos heures ouvrées\n— Impact sur la collecte : aucun, le connecteur continue de fonctionner\n— Principal apport de cette version : historique des commentaires consultable sur douze mois\n\nSi cette date tombe pendant une période sensible de votre côté, vous disposez d'un report par trimestre : signalez-le-moi et je décale.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-08-11",
+      "subject": "Point de situation semaine 23 — arbitrages attendus",
+      "content": "Bonjour Isabelle Wagner,\n\nJe fais un point rapide en amont de notre prochain échange.\n\nLa consommation spécifique s'établit à 480kWh/tonne, pour un objectif de 470 kWh/tonne. Le taux d'adoption atteint 86 %.\n\nDeux sujets appellent votre arbitrage :\n\n1. Temps de chargement de la vue consolidée jugé trop long\n2. Ajout d'un seuil d'alerte personnalisable par utilisateur\n\nDites-moi ce qui vous arrange et je m'aligne sur votre calendrier, en tenant compte de l'audit énergétique réglementaire de septembre.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-08-15",
+      "subject": "Compte rendu hebdomadaire — semaine 24 (2025-S24)",
+      "content": "Bonjour Isabelle Wagner,\n\nSynthèse du point de la semaine 24 :\n\n— consommation spécifique : 478kWh/tonne (départ 512 kWh/tonne, cible 470 kWh/tonne)\n— Adoption : 88 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : adoption plus faible sur le site secondaire\n— Demande d'évolution remontée : historique des commentaires consultable sur douze mois\n\nComme chaque semaine, je distingue ce qui relève du projet de ce qui relève du contexte : une partie de la variation tient à la saisonnalité, et je préfère vous transmettre le chiffre prudent.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-08-21",
+      "subject": "Ticket TIC-93682 — clôture, cause et action corrective",
+      "content": "Bonjour Patrick Weber,\n\nJe vous confirme par écrit la clôture du ticket TIC-93682, ouvert en semaine 25.\n\nCause identifiée : modification d'une règle de calcul côté client sans information préalable.\nAucune donnée n'a été perdue ; les valeurs affichées pendant l'incident ont été recalculées et vérifiées.\nAction de fond : mise en place d'un contrôle de cohérence quotidien.\n\nIndicateur au moment de la clôture — consommation spécifique : 477kWh/tonne.\n\nCe message est rédigé de façon à pouvoir être transmis tel quel à Isabelle Wagner.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-08-27",
+      "subject": "Demande d'évolution 2025-S26 — suite donnée",
+      "content": "Bonjour Isabelle Wagner,\n\nRetour sur la demande d'évolution enregistrée sous la référence 2025-S26 : comparaison automatique avec le même mois de l'année précédente.\n\nElle a été instruite par notre équipe produit. Elle est réalisable par simple paramétrage, sans développement : je peux la mettre en place cette semaine.\n\nPour mémoire, deux autres demandes issues de vos équipes restent ouvertes ; j'en fais le point complet au prochain comité de suivi.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    },
+    {
+      "date": "2025-09-04",
+      "subject": "Fenêtre de maintenance 2025-S27 — Thermalys Énergie version 2025.27",
+      "content": "Bonjour Olivier Schmitt,\n\nNous prévoyons le déploiement de la version 2025.27 de Thermalys Énergie, annoncé conformément au préavis de quinze jours prévu au contrat.\n\n— Durée estimée d'indisponibilité de l'interface : 45 minutes\n— Créneau : en dehors de vos heures ouvrées\n— Impact sur la collecte : aucun, le connecteur continue de fonctionner\n— Principal apport de cette version : export de la vue filtrée et non seulement de la vue complète\n\nSi cette date tombe pendant une période sensible de votre côté, vous disposez d'un report par trimestre : signalez-le-moi et je décale.\n\nBien cordialement,\n\nInès Berger\nThermalys Industrie"
+    }
+  ],
+  "account_id": 5
+}

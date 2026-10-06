@@ -1,0 +1,1052 @@
+{
+  "tenant_name": "Filoptim Systèmes",
+  "account_name": "Textiles Roussel-Pradel",
+  "calls": [
+    {
+      "date": "2025-01-13",
+      "call_name": "Appel de qualification (barrage secrétariat) — tentative de joindre Directrice industrielle",
+      "transcript": "Commercial (Antoine): Bonjour, Antoine Delahaye de Filoptim Systèmes. Je cherche à joindre Véronique Pradel, s'il vous plaît.\n\nBarrage (Josiane): Bonjour. C'est à quel sujet ?\n\nCommercial (Antoine): Je l'ai contactée la semaine dernière sur le sujet suivant : un taux de rebuts de 7,8 % sur les séries teintes. Je voulais m'assurer que mon message était bien arrivé.\n\nBarrage (Josiane): Hmm. Je ne suis pas sûre qu'elle ait le temps, franchement.\n\nCommercial (Antoine): Est-ce que le sujet taux de rebuts est un chantier ouvert chez vous cette année ? Ça m'éviterait de vous déranger pour rien.\n\nBarrage (Josiane): Ça, je ne saurais pas vous dire. Mais il y a effectivement un projet en cours, j'ai vu passer des réunions.\n\nCommercial (Antoine): Je comprends. Quel serait le meilleur moment pour la rappeler, plutôt en début de semaine ?\n\nBarrage (Josiane): Franchement, le lundi c'est à éviter. Le mercredi peut-être.\n\nCommercial (Antoine): Parfait, je vous remercie. Je lui envoie un mail aujourd'hui en mettant votre nom en référence, si vous permettez.\n\nBarrage (Josiane): D'accord. Au revoir monsieur.",
+      "summary": "Tentative de contact avec Véronique Pradel (Directrice industrielle), filtrée par l'assistante. Le sujet taux de rebuts semble bien être un chantier ouvert en interne. Créneau de rappel identifié et envoi d'un courriel de référence convenu.",
+      "crm_fields": [
+        {
+          "key": "Statut du contact",
+          "value": "Véronique Pradel injoignable — filtré par Josiane"
+        },
+        {
+          "key": "Nom du barrage",
+          "value": "Josiane"
+        },
+        {
+          "key": "Meilleur moment pour rappeler",
+          "value": "Mercredi matin"
+        },
+        {
+          "key": "Prochaine action",
+          "value": "Programmation du point suivant"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-17",
+      "call_name": "Appel de prospection — premier contact avec Directrice industrielle",
+      "transcript": "Commercial (Antoine): Bonjour Véronique Pradel, Antoine Delahaye de Filoptim Systèmes. Je vous appelle à froid, vous m'accordez quatre-vingt-dix secondes et vous me dites si ça mérite un vrai échange ?\n\nProspect (Véronique Pradel): Écoutez, je suis entre deux réunions, mais allez-y.\n\nCommercial (Antoine): Merci. On travaille avec des structures du textile industriel qui rencontrent toutes le même problème : un taux de rebuts de 7,8 % sur les séries teintes. Est-ce que ça vous parle, ou est-ce que je suis complètement à côté ?\n\nProspect (Véronique Pradel): Franchement, on a déjà été démarchés dix fois sur ce sujet.\n\nCommercial (Antoine): Je m'en doute. Qu'est-ce qui n'avait pas fonctionné la dernière fois ?\n\nProspect (Véronique Pradel): Le projet demandait six mois de paramétrage et deux ETP en interne. On a arrêté les frais.\n\nCommercial (Antoine): C'est exactement le reproche qu'on entend le plus. Nous, on ne remplace rien : on se branche sur ERP Sylob en lecture seule, et on restitue par-dessus.\n\nCommercial (Antoine): Est-ce qu'on peut caler trente minutes de découverte ? Je viens avec des questions, pas avec un diaporama.\n\nProspect (Véronique Pradel): D'accord, mais j'aimerais que Jérôme soit là. Sans lui, on n'ira pas loin.\n\nCommercial (Antoine): C'est noté, je vous envoie ça dans la foulée avec un ordre du jour court. Merci du temps.",
+      "summary": "Premier échange avec Véronique Pradel. La douleur pressentie est confirmée : un taux de rebuts de 7,8 % sur les séries teintes. Le frein principal exprimé est la crainte d'un projet lourd nécessitant de remplacer ERP Sylob. L'argument de non-remplacement et d'une première restitution à trois semaines a permis d'obtenir un rendez-vous de découverte.",
+      "crm_fields": [
+        {
+          "key": "Douleur identifiée",
+          "value": "un taux de rebuts de 7,8 % sur les séries teintes"
+        },
+        {
+          "key": "Concurrent mentionné",
+          "value": "TexPlan"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Passage en comité"
+        },
+        {
+          "key": "Sentiment du prospect",
+          "value": "Intéressé, sceptique sur le délai"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-27",
+      "call_name": "Appel de découverte (30 min) — cartographie des processus et des douleurs",
+      "transcript": "Commercial (Antoine): Merci de votre temps, Véronique. On a trente minutes — l'objectif pour moi, c'est de comprendre comment vous fonctionnez aujourd'hui. Je ne vous montrerai rien, promis.\n\nProspect (Véronique Pradel): Très bien. J'ai un point à 14h30 donc on tiendra le timing.\n\nCommercial (Antoine): Commençons par le concret : 11 lignes de production et 3 sites, c'est bien ça ? Comment ça se pilote aujourd'hui ?\n\nProspect (Véronique Pradel): On s'appuie sur l'ERP Sylob. C'est la source de vérité, mais tout ce qui est analyse se fait en dehors.\n\nCommercial (Antoine): En dehors, c'est-à-dire ?\n\nProspect (Véronique Pradel): Des tableurs. Beaucoup de tableurs. Chacun a le sien, et on passe un temps fou à les réconcilier.\n\nCommercial (Antoine): Combien de temps ça représente par semaine, à la louche ?\n\nProspect (Véronique Pradel): Six heures, sans compter les corrections quand on se trompe.\n\nCommercial (Antoine): Vous aviez évoqué ce point : des changements de série qui immobilisent les lignes 90 minutes. Ça se traduit comment concrètement ?\n\nProspect (Véronique Pradel): Par de la tension sur les équipes, surtout. Et par des décisions prises à l'instinct.\n\nCommercial (Antoine): Est-ce que vous arrivez à mettre un chiffre dessus ?\n\nProspect (Véronique Pradel): Le taux de rebuts tourne autour de 7,8 %. On sait qu'on devrait être à 4,2 %, on ne sait juste pas comment y aller.\n\nCommercial (Antoine): Et si vous y arriviez, ça représente quoi pour Textiles Roussel-Pradel ?\n\nProspect (Véronique Pradel): En valeur ? Plusieurs centaines de milliers d'euros par an. Mais surtout, ça nous enlèverait une épine du pied vis-à-vis de Charles.\n\nCommercial (Antoine): Est-ce que vous regardez d'autres solutions en parallèle ?\n\nProspect (Véronique Pradel): TexPlan nous a contactés, oui. On n'est allés nulle part pour l'instant.\n\nCommercial (Antoine): Qu'est-ce que vous en avez retenu ?\n\nProspect (Véronique Pradel): Une belle interface, mais un discours très générique. Rien qui montre qu'ils connaissent notre métier.\n\nCommercial (Antoine): Qui utiliserait l'outil au quotidien ?\n\nProspect (Véronique Pradel): Principalement Malik Ouarab et son équipe. Ce sont eux qui sont en première ligne.\n\nCommercial (Antoine): Et quel est leur niveau d'appétence pour un nouvel outil ?\n\nProspect (Véronique Pradel): Malik est plutôt ouvert, mais son équipe est attachée à ses habitudes. Si c'est plus lourd que le tableur actuel, ça ne prendra pas.\n\nCommercial (Antoine): C'est un point que je note en gros. L'adoption, c'est là que ces projets meurent.\n\nCommercial (Antoine): Comment se prend la décision chez vous, sur ce type de projet ?\n\nProspect (Véronique Pradel): C'est Charles Roussel qui arbitre. Moi je peux recommander, mais je ne signe pas.\n\nCommercial (Antoine): Quel est le seuil qui déclenche le passage en comité ?\n\nProspect (Véronique Pradel): De mémoire, 75 000 euros par an.\n\nCommercial (Antoine): Bon à savoir. Et le calendrier ?\n\nProspect (Véronique Pradel): On aimerait que ce soit opérationnel avant l'audit d'un donneur d'ordre majeur en juin.\n\nCommercial (Antoine): Sur les données elles-mêmes : quelle est la qualité de ce qui sort de ERP Sylob ?\n\nProspect (Véronique Pradel): Inégale. Sur les douze derniers mois c'est correct, avant c'est plus douteux.\n\nCommercial (Antoine): C'est important que vous le disiez maintenant plutôt que dans trois mois. On prévoit systématiquement une phase de fiabilisation.\n\nProspect (Véronique Pradel): Voilà une réponse que je n'avais pas encore entendue.\n\nCommercial (Antoine): Aucun algorithme ne rattrape une donnée absente. Il peut la signaler, c'est tout ce qu'on promet.\n\nCommercial (Antoine): Autre point que vous avez soulevé : des ordres de fabrication replanifiés trois fois par semaine à la main. C'est un sujet séparé, ou lié au reste ?\n\nProspect (Véronique Pradel): C'est le même sujet vu sous un autre angle. Tout part du fait qu'on n'a pas de vision consolidée en temps utile.\n\nCommercial (Antoine): Qui s'en aperçoit en premier, aujourd'hui ?\n\nProspect (Véronique Pradel): Le terrain. Et quand ça remonte jusqu'à moi, il est déjà trop tard pour corriger.\n\nCommercial (Antoine): Donc le vrai problème, c'est moins la mesure que le délai de la mesure.\n\nProspect (Véronique Pradel): Exactement. On sait mesurer, on mesure trop tard.\n\nCommercial (Antoine): Sur le plan technique, à qui je dois parler ?\n\nProspect (Véronique Pradel): Jérôme Vandamme, Responsable méthodes et IT. Je vous préviens, il est exigeant.\n\nCommercial (Antoine): Tant mieux. Quelles sont ses contraintes habituelles ?\n\nProspect (Véronique Pradel): L'hébergement des données, c'est son sujet numéro un. Avec la norme OEKO-TEX et les exigences REACH, il n'a pas droit à l'erreur.\n\nCommercial (Antoine): Dernière question sur l'organisation : qui produit les chiffres présentés en réunion de direction ?\n\nProspect (Véronique Pradel): Moi, la veille au soir. Et je passe une bonne partie du temps de réunion à justifier d'où ils viennent.\n\nCommercial (Antoine): Combien de temps de la réunion part sur la fiabilité des chiffres plutôt que sur les décisions ?\n\nProspect (Véronique Pradel): Trop. Et c'est ce qui m'agace le plus, parce que c'est du temps de direction perdu.\n\nCommercial (Antoine): Je récapitule pour être sûr : un taux de rebuts de 7,8 % sur les séries teintes, un taux de rebuts à 7,8 % qu'il faut ramener à 4,2 %, une contrainte forte sur ERP Sylob, et une échéance liée à l'audit d'un donneur d'ordre majeur en juin. C'est fidèle ?\n\nProspect (Véronique Pradel): Oui, c'est un bon résumé.\n\nCommercial (Antoine): Prochaine étape, je propose une démonstration ciblée sur votre cas, avec Jérôme présent. Quarante-cinq minutes.\n\nProspect (Véronique Pradel): D'accord, je vous envoie deux créneaux.",
+      "summary": "Découverte approfondie avec Véronique Pradel. Le fonctionnement actuel repose sur ERP Sylob comme source de vérité, avec toute l'analyse réalisée en dehors, sous tableur. Le taux de rebuts est mesuré à 7,8 % pour une cible de 4,2 %. Décideur économique identifié : Charles Roussel. Risque principal : l'adoption par les équipes de Malik Ouarab, échaudées par des projets précédents. Échéance structurante : l'audit d'un donneur d'ordre majeur en juin. Démonstration ciblée programmée avec Jérôme.",
+      "crm_fields": [
+        {
+          "key": "Système existant",
+          "value": "ERP Sylob — un ordonnancement sous tableur"
+        },
+        {
+          "key": "Processus actuel",
+          "value": "Extractions manuelles retraitées sous tableur"
+        },
+        {
+          "key": "Douleurs quantifiées",
+          "value": "taux de rebuts à 7,8 % (cible 4,2 %) ; des changements de série qui immobilisent les lignes 90 minutes"
+        },
+        {
+          "key": "Décideur économique",
+          "value": "Charles Roussel (Directeur général)"
+        },
+        {
+          "key": "Critère de décision",
+          "value": "Aucun remplacement de ERP Sylob ; adoption par les équipes terrain"
+        },
+        {
+          "key": "Échéance client",
+          "value": "l'audit d'un donneur d'ordre majeur en juin"
+        },
+        {
+          "key": "Taille de l'équipe",
+          "value": "12 utilisateurs cibles"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Atelier technique"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-03",
+      "call_name": "Démonstration produit (45 min) — cas d'usage Filoptim Atelier",
+      "transcript": "Commercial (Antoine): Bonjour à tous. On est trois : Véronique, Jérôme, et Victor côté Filoptim. Quarante-cinq minutes, et on part de votre cas, pas d'un jeu de données de démonstration.\n\nResponsable méthodes et IT (Jérôme Vandamme): Très bien. J'ai des questions techniques, je les poserai au fil de l'eau.\n\nIngénieur avant-vente (Victor Painchaud): On a repris ce que Véronique nous a décrit : 11 lignes de production et 3 sites, une source ERP Sylob, et le taux de rebuts comme indicateur de tête. Voilà l'écran d'accueil.\n\nResponsable méthodes et IT (Jérôme Vandamme): Comment vous récupérez les données de ERP Sylob ? Parce que l'API est très pauvre, je vous préviens.\n\nIngénieur avant-vente (Victor Painchaud): Trois modes possibles : API quand elle existe, lecture d'une réplique en base, ou dépôt de fichiers sur un espace sécurisé. Pour votre cas, la réplique en lecture seule est la plus simple.\n\nResponsable méthodes et IT (Jérôme Vandamme): Lecture seule, vraiment ? Aucune écriture ?\n\nIngénieur avant-vente (Victor Painchaud): Aucune. On ne modifie jamais votre système source. C'est un principe d'architecture.\n\nResponsable méthodes et IT (Jérôme Vandamme): Bon. Ça lève déjà mon objection principale.\n\nResponsable méthodes et IT (Jérôme Vandamme): Vous gérez les droits d'accès à quelle granularité ?\n\nIngénieur avant-vente (Victor Painchaud): Par périmètre et par rôle. Un directeur d'établissement ne voit que son périmètre, la direction voit le consolidé.\n\nResponsable méthodes et IT (Jérôme Vandamme): Et c'est piloté depuis notre annuaire ou dans votre outil ?\n\nIngénieur avant-vente (Victor Painchaud): Depuis votre annuaire, via les groupes existants. Vous ne gérez pas une deuxième liste d'utilisateurs.\n\nResponsable méthodes et IT (Jérôme Vandamme): Bien. C'est ce qui fait la différence entre un outil qu'on maintient et un outil qu'on subit.\n\nChef d'atelier (Malik Ouarab): Je peux poser une question de terrain ? Concrètement, ça me prend combien de temps le matin ?\n\nIngénieur avant-vente (Victor Painchaud): Cinq minutes le matin. Et ça remplace la consolidation que vous faites aujourd'hui à la main, donc le solde est largement positif.\n\nChef d'atelier (Malik Ouarab): C'est ce que je voulais entendre. Parce que le dernier outil qu'on nous a installé nous a rajouté une saisie.\n\nIngénieur avant-vente (Victor Painchaud): Aucune saisie supplémentaire. On lit vos données existantes, on ne vous demande rien de neuf.\n\nIngénieur avant-vente (Victor Painchaud): Voilà la partie qui intéresse Malik : la vue quotidienne. Trois écrans maximum, pas de menu à quinze entrées.\n\nProspect (Véronique Pradel): C'est volontairement simple ?\n\nIngénieur avant-vente (Victor Painchaud): Complètement. Les équipes de terrain n'ouvriront pas un outil qui demande une formation de deux jours. Ici, c'est vingt minutes.\n\nProspect (Véronique Pradel): Si c'est vraiment ce niveau de simplicité, l'adoption devient jouable.\n\nResponsable méthodes et IT (Jérôme Vandamme): Question bête : qu'est-ce qui se passe si la source tombe ?\n\nIngénieur avant-vente (Victor Painchaud): L'outil continue de fonctionner sur la dernière donnée valide, et un bandeau signale la fraîcheur. On préfère afficher « donnée d'hier » que de faire croire que tout va bien.\n\nResponsable méthodes et IT (Jérôme Vandamme): Bonne réponse. J'ai vu des outils afficher des zéros dans ce cas-là.\n\nProspect (Véronique Pradel): Et si Charles me demande le chiffre du mois dernier pendant une réunion, je fais comment ?\n\nIngénieur avant-vente (Victor Painchaud): Vous ouvrez l'historique, il est figé. Le chiffre du mois dernier reste celui qui a été publié le mois dernier, même si les données sources ont bougé depuis.\n\nProspect (Véronique Pradel): Alors ça, c'est un vrai sujet chez nous. Nos chiffres changent rétroactivement et personne ne comprend pourquoi.\n\nIngénieur avant-vente (Victor Painchaud): On garde les deux : la version publiée et la version actualisée, avec l'écart expliqué.\n\nProspect (Véronique Pradel): Est-ce qu'on peut voir ce que ça donne sur ce cas précis : un taux de service client tombé à 87 % ?\n\nIngénieur avant-vente (Victor Painchaud): Bien sûr. Regardez : le système détecte l'écart quatre jours avant qu'il devienne visible dans vos indicateurs mensuels.\n\nProspect (Véronique Pradel): Quatre jours d'avance, sur ce sujet-là, c'est énorme.\n\nResponsable méthodes et IT (Jérôme Vandamme): Et le modèle se base sur combien d'historique ?\n\nIngénieur avant-vente (Victor Painchaud): Douze à dix-huit mois idéalement. En dessous de six mois, on reste sur des règles simples, sans prétendre faire de la prévision.\n\nProspect (Véronique Pradel): Et la restitution pour le comité de direction ?\n\nIngénieur avant-vente (Victor Painchaud): Export automatique, mensuel, au format que vous voulez. Vous pouvez même figer la version présentée pour éviter que les chiffres bougent entre deux réunions.\n\nProspect (Véronique Pradel): Ça, c'est du vécu. Merci.\n\nProspect (Véronique Pradel): Combien de temps avant d'avoir quelque chose d'exploitable, réellement ?\n\nIngénieur avant-vente (Victor Painchaud): Trois semaines pour la première restitution, à condition d'avoir l'accès aux données en semaine 1. Et je précise : exploitable ne veut pas dire complet.\n\nProspect (Véronique Pradel): C'est-à-dire ?\n\nIngénieur avant-vente (Victor Painchaud): Les modèles prédictifs demandent plus d'historique fiabilisé. À trois semaines vous avez le constat et les écarts, pas la prévision. Celle-ci arrive vers le deuxième mois.\n\nProspect (Véronique Pradel): D'accord. Au moins c'est clair, je pourrai l'annoncer comme ça en interne.\n\nProspect (Véronique Pradel): Là, ce chiffre en haut à gauche, il vient d'où ?\n\nIngénieur avant-vente (Victor Painchaud): Directement des données ERP Sylob, rafraîchies toutes les heures. Vous pouvez descendre jusqu'à la ligne d'origine, regardez.\n\nProspect (Véronique Pradel): D'accord. Donc on peut tracer. C'est ce qui nous manque le plus.\n\nCommercial (Antoine): On approche de la fin. Qu'est-ce qui vous manque pour vous projeter ?\n\nResponsable méthodes et IT (Jérôme Vandamme): Un point d'architecture dédié. Une démonstration, c'est bien, mais je veux voir les schémas.\n\nProspect (Véronique Pradel): Un chiffrage, même approximatif. Je dois pouvoir en parler en comité.\n\nCommercial (Antoine): Compris. Je propose un point technique avec Jérôme et Victor, et je vous envoie une fourchette budgétaire d'ici demain.",
+      "summary": "Démonstration réalisée sur les données et le contexte du compte. Les points qui ont porté : la traçabilité jusqu'à la donnée source et la simplicité de l'écran quotidien. Jérôme a validé le principe de lecture seule sans écriture dans ERP Sylob. Restent à fournir le dossier d'architecture et une fourchette budgétaire.",
+      "crm_fields": [
+        {
+          "key": "Retour sur la démonstration",
+          "value": "Très positif sur la traçabilité des chiffres"
+        },
+        {
+          "key": "Objection technique",
+          "value": "Intégration à ERP Sylob et absence d'agent sur les serveurs"
+        },
+        {
+          "key": "Fonctionnalité déterminante",
+          "value": "Traçabilité jusqu'à la donnée source"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Passage en comité"
+        },
+        {
+          "key": "Sentiment des parties prenantes",
+          "value": "Véronique favorable ; Jérôme réservé jusqu'à validation du dossier de conformité"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-10",
+      "call_name": "Atelier technique (1h) — architecture, flux de données et intégration ERP Sylob",
+      "transcript": "Ingénieur avant-vente (Victor Painchaud): Bonjour Jérôme. Une heure, format atelier : je réponds à vos questions, pas de présentation commerciale.\n\nResponsable méthodes et IT (Jérôme Vandamme): Très bien. J'ai six points, on verra si on tient l'heure.\n\nResponsable méthodes et IT (Jérôme Vandamme): Charge côté serveur. Le connecteur consomme quoi ?\n\nIngénieur avant-vente (Victor Painchaud): Deux cœurs, quatre gigaoctets de mémoire. Il tourne la nuit pour l'historique et en incrémental la journée.\n\nResponsable méthodes et IT (Jérôme Vandamme): Ça passe sur une machine virtuelle existante. Pas besoin de nouveau matériel, donc.\n\nResponsable méthodes et IT (Jérôme Vandamme): Dernier point, et c'est celui qui me fait le plus peur : la reprise d'historique. Combien de temps et quel impact sur nos systèmes ?\n\nIngénieur avant-vente (Victor Painchaud): Une nuit de chargement pour douze mois, sur la réplique de lecture. Aucun impact sur votre production, puisqu'on ne touche pas à la base primaire.\n\nResponsable méthodes et IT (Jérôme Vandamme): Sur la réplique, d'accord. Et si la réplique prend du retard pendant le chargement ?\n\nIngénieur avant-vente (Victor Painchaud): On bride le débit. Le chargement dure plus longtemps mais votre réplique reste dans ses seuils. C'est paramétrable avec vous.\n\nResponsable méthodes et IT (Jérôme Vandamme): Bien. Vous avez visiblement déjà rencontré le problème.\n\nResponsable méthodes et IT (Jérôme Vandamme): Authentification : on est sur un annuaire interne avec SSO. Vous supportez SAML ?\n\nIngénieur avant-vente (Victor Painchaud): SAML 2.0 et OpenID Connect, avec provisionnement automatique des comptes et rattachement aux groupes de votre annuaire.\n\nResponsable méthodes et IT (Jérôme Vandamme): Bien. Ça m'évite de gérer des comptes locaux.\n\nResponsable méthodes et IT (Jérôme Vandamme): Qualité des données : notre historique est loin d'être propre. Qu'est-ce qui se passe avec les trous ?\n\nIngénieur avant-vente (Victor Painchaud): On les détecte et on les signale plutôt que de les combler silencieusement. Un rapport de qualité est produit à chaque chargement.\n\nResponsable méthodes et IT (Jérôme Vandamme): C'est honnête. La plupart des éditeurs prétendent que leur algorithme gère tout.\n\nIngénieur avant-vente (Victor Painchaud): Sur votre périmètre, on estime qu'il faudra deux semaines de fiabilisation avant d'avoir des chiffres présentables.\n\nResponsable méthodes et IT (Jérôme Vandamme): Supervision : comment je sais que le flux tourne, sans avoir à ouvrir votre interface ?\n\nIngénieur avant-vente (Victor Painchaud): Un point de contrôle exposé que vous interrogez depuis votre propre supervision, plus une alerte par courriel en cas d'échec de chargement.\n\nResponsable méthodes et IT (Jérôme Vandamme): Il me faut le second, mais surtout le premier. Je veux que ça remonte dans mes écrans, pas dans une boîte mail que personne ne lit.\n\nIngénieur avant-vente (Victor Painchaud): C'est prévu. Je vous envoie le format de réponse pour que vous l'intégriez à votre outil.\n\nResponsable méthodes et IT (Jérôme Vandamme): Environnements. Vous fournissez une recette séparée de la production ?\n\nIngénieur avant-vente (Victor Painchaud): Oui, deux environnements inclus. La recette est alimentée par un échantillon anonymisé de vos données.\n\nResponsable méthodes et IT (Jérôme Vandamme): L'anonymisation, c'est un mot que j'entends beaucoup. Concrètement ?\n\nIngénieur avant-vente (Victor Painchaud): Substitution des identifiants et des noms propres, décalage temporel aléatoire, conservation des distributions statistiques. La procédure est documentée et auditable.\n\nResponsable méthodes et IT (Jérôme Vandamme): Envoyez la procédure, je la ferai relire.\n\nResponsable méthodes et IT (Jérôme Vandamme): Réversibilité. Si on arrête au bout d'un an, je récupère quoi ?\n\nIngénieur avant-vente (Victor Painchaud): L'intégralité de vos données, au format CSV et Parquet, plus le dictionnaire de données. Sous trente jours, et c'est contractuel.\n\nResponsable méthodes et IT (Jérôme Vandamme): Notez-le dans le contrat, pas dans un courriel.\n\nResponsable méthodes et IT (Jérôme Vandamme): Le flux depuis ERP Sylob : fréquence, volume, et qui initie la connexion ?\n\nIngénieur avant-vente (Victor Painchaud): C'est vous qui initiez. Un connecteur déployé chez vous pousse les données vers notre plateforme en HTTPS sortant. Aucun flux entrant à ouvrir.\n\nResponsable méthodes et IT (Jérôme Vandamme): Bien. Mon RSSI refuse systématiquement les flux entrants.\n\nIngénieur avant-vente (Victor Painchaud): Fréquence par défaut : horaire. Configurable jusqu'au quart d'heure si le volume le justifie.\n\nResponsable méthodes et IT (Jérôme Vandamme): Montées de version. Vous imposez vos fenêtres ou on négocie ?\n\nIngénieur avant-vente (Victor Painchaud): Mises à jour mensuelles, annoncées quinze jours avant, en dehors de vos heures ouvrées. Vous pouvez décaler une fenêtre par trimestre.\n\nResponsable méthodes et IT (Jérôme Vandamme): Prévoyez une période de gel sur nos pics d'activité, sinon ça va poser problème.\n\nIngénieur avant-vente (Victor Painchaud): C'est courant, on le contractualise dans l'annexe de service.\n\nResponsable méthodes et IT (Jérôme Vandamme): Hébergement. Où sont les données ? Avec la norme OEKO-TEX et les exigences REACH, je n'ai aucune marge.\n\nIngénieur avant-vente (Victor Painchaud): Hébergement en France, chez un opérateur qualifié. Les données ne sortent pas de l'Union européenne, y compris pour les sauvegardes.\n\nResponsable méthodes et IT (Jérôme Vandamme): Et le support ? Parce que j'ai déjà vu des éditeurs héberger en Europe et faire du support depuis l'étranger avec un accès aux données.\n\nIngénieur avant-vente (Victor Painchaud): Support en France, accès tracé et nominatif, et journal consultable. On vous fournit la matrice des accès dans le dossier de conformité.\n\nResponsable méthodes et IT (Jérôme Vandamme): Envoyez-la-moi. C'est ce document qui décidera, pas la démonstration.\n\nIngénieur avant-vente (Victor Painchaud): Il vous reste des points bloquants ?\n\nResponsable méthodes et IT (Jérôme Vandamme): Un seul : je veux valider les schémas d'architecture avec mon RSSI avant de me prononcer.\n\nIngénieur avant-vente (Victor Painchaud): Je vous envoie le dossier complet aujourd'hui. Merci pour la qualité des questions.",
+      "summary": "Atelier technique avec Jérôme Vandamme. Architecture validée : connecteur en flux HTTPS sortant, aucun flux entrant à ouvrir, lecture seule sur ERP Sylob. Hébergement France et exigences la norme OEKO-TEX et les exigences REACH confirmés. Point de vigilance partagé : deux semaines de fiabilisation des données seront nécessaires avant restitution présentable.",
+      "crm_fields": [
+        {
+          "key": "Environnement technique",
+          "value": "ERP Sylob, annuaire interne avec SSO (SAML 2.0)"
+        },
+        {
+          "key": "Méthode d'intégration",
+          "value": "Connecteur en flux HTTPS sortant, lecture seule, fréquence horaire"
+        },
+        {
+          "key": "Contrainte de sécurité",
+          "value": "Aucun flux entrant ; la norme OEKO-TEX et les exigences REACH"
+        },
+        {
+          "key": "Validation technique",
+          "value": "Favorable — objections levées"
+        },
+        {
+          "key": "Prochaine action technique",
+          "value": "Transmission du dossier d'architecture et de conformité"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-14",
+      "call_name": "Revue de sécurité (45 min) — conformité, hébergement et sous-traitance",
+      "transcript": "Commercial (Antoine): Bonjour, merci de nous recevoir. L'objet du point, c'est votre revue de sécurité avant contractualisation.\n\nResponsable méthodes et IT (Jérôme Vandamme): Exact. J'ai relu votre dossier. J'ai quatre points, dont deux sérieux.\n\nIngénieur avant-vente (Victor Painchaud): Allons-y dans l'ordre.\n\nResponsable méthodes et IT (Jérôme Vandamme): Premier point : la sous-traitance. Vous listez un hébergeur et un prestataire de supervision. Le second a-t-il accès aux données ?\n\nIngénieur avant-vente (Victor Painchaud): Non. Il supervise l'infrastructure, pas les données applicatives. Le cloisonnement est documenté en annexe 3 et audité annuellement.\n\nResponsable méthodes et IT (Jérôme Vandamme): D'accord, mais je veux voir le dernier rapport d'audit.\n\nIngénieur avant-vente (Victor Painchaud): Il vous sera transmis sous accord de confidentialité, c'est la procédure standard.\n\nResponsable méthodes et IT (Jérôme Vandamme): Deuxième point : la durée de conservation. Avec la norme OEKO-TEX et les exigences REACH, je dois pouvoir justifier chaque durée.\n\nIngénieur avant-vente (Victor Painchaud): Configurable par catégorie de données. Par défaut trente-six mois pour l'historique métier, treize mois pour les journaux techniques.\n\nResponsable méthodes et IT (Jérôme Vandamme): Il faut qu'on descende à vingt-quatre mois sur l'historique métier. C'est notre politique interne.\n\nIngénieur avant-vente (Victor Painchaud): C'est un paramètre, pas un développement. On peut l'inscrire dans l'annexe technique.\n\nResponsable méthodes et IT (Jérôme Vandamme): Troisième point : notification d'incident. Vous vous engagez sur quel délai ?\n\nIngénieur avant-vente (Victor Painchaud): Vingt-quatre heures après qualification de l'incident, avec un premier signalement sous quatre heures. C'est dans le contrat de service.\n\nResponsable méthodes et IT (Jérôme Vandamme): Ça me convient.\n\nResponsable méthodes et IT (Jérôme Vandamme): Dernier point, et c'est le plus important : en cas de réquisition par une autorité étrangère, quelle est votre position ?\n\nIngénieur avant-vente (Victor Painchaud): Société de droit français, capital français, hébergement français. Nous ne sommes pas soumis aux législations extraterritoriales. C'est précisément la raison pour laquelle plusieurs de nos clients du du textile industriel nous ont retenus.\n\nResponsable méthodes et IT (Jérôme Vandamme): C'est la bonne réponse. Je rends un avis favorable sous réserve du rapport d'audit.\n\nCommercial (Antoine): Merci. Je fais suivre le rapport dès aujourd'hui.",
+      "summary": "Revue de sécurité. Quatre points examinés : sous-traitance, durée de conservation, chiffrement et exposition aux législations extraterritoriales. La durée de conservation sera ramenée à 24 mois sur l'historique métier. Avis favorable sous réserve de la communication du rapport d'audit annuel.",
+      "crm_fields": [
+        {
+          "key": "Exigence de conformité",
+          "value": "la norme OEKO-TEX et les exigences REACH"
+        },
+        {
+          "key": "Localisation de l'hébergement",
+          "value": "France — opérateur qualifié, aucune sortie de l'UE"
+        },
+        {
+          "key": "Durée de conservation",
+          "value": "24 mois sur l'historique métier (demande client), 13 mois sur les journaux"
+        },
+        {
+          "key": "Statut de validation sécurité",
+          "value": "Avis favorable sous réserve"
+        },
+        {
+          "key": "Documents demandés",
+          "value": "Rapport d'audit annuel sous accord de confidentialité"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-17",
+      "call_name": "Présentation de la proposition commerciale (25 min)",
+      "transcript": "Commercial (Antoine): Bonjour à tous. Vingt-cinq minutes pour dérouler la proposition. Charles, je sais que votre temps est compté.\n\nDirecteur général (Charles Roussel): J'ai vingt minutes. Allez à l'essentiel : combien, et pour quel retour ?\n\nCommercial (Antoine): Trois éléments. Un : le périmètre — 11 lignes de production et 3 sites, 12 utilisateurs, le module Filoptim Atelier. Deux : le tarif — 58 000 euros par an. Trois : les frais de mise en service, 10 000 euros, une seule fois.\n\nDirecteur général (Charles Roussel): C'est plus que ce que j'avais en tête. Justifiez-moi ce montant.\n\nCommercial (Antoine): Sur la base du gain : le taux de rebuts passe de 7,8 % à 4,2 %, ce qui représente 197 000 euros par an. L'investissement est amorti en dix mois.\n\nDirecteur général (Charles Roussel): Vos chiffres, c'est votre modèle ou c'est du constaté chez d'autres clients ?\n\nProspect (Véronique Pradel): Les chiffres sont les nôtres, Charles. On les a construits ensemble.\n\nDirecteur général (Charles Roussel): D'accord. C'est plus solide que ce que je pensais.\n\nDirecteur général (Charles Roussel): Deux réserves malgré tout. La première : les frais de mise en service. Je n'aime pas payer pour un démarrage.\n\nCommercial (Antoine): Entendu. Ils sont négociables dans le cadre d'un engagement de deux ans.\n\nDirecteur général (Charles Roussel): Envoyez-moi ça par écrit. Je veux voir les chiffres avant de m'engager.\n\nCommercial (Antoine): Vous l'avez demain matin. Merci pour votre temps.",
+      "summary": "Présentation de la proposition à Charles Roussel : 58 000 € par an, 10 000 € de frais de mise en service. Le business case s'appuie sur les données du client (taux de rebuts de 7,8 % à 4,2 %), ce qui a nettement renforcé la crédibilité. Deux réserves exprimées : les frais de mise en service et la durée d'engagement.",
+      "crm_fields": [
+        {
+          "key": "Montant proposé",
+          "value": "58 000 € par an"
+        },
+        {
+          "key": "Frais de mise en service",
+          "value": "10 000 € non récurrents"
+        },
+        {
+          "key": "Périmètre",
+          "value": "11 lignes de production et 3 sites — module Filoptim Atelier"
+        },
+        {
+          "key": "Retour sur investissement",
+          "value": "197 000 € par an, amortissement en dix mois"
+        },
+        {
+          "key": "Objection principale",
+          "value": "Fiabilité des projections"
+        },
+        {
+          "key": "Date de clôture prévue",
+          "value": "2025-03-15"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-24",
+      "call_name": "Négociation commerciale — tarif, engagement et conditions de paiement",
+      "transcript": "Commercial (Antoine): Bonjour Charles. On se parle pour converger. Vous avez la proposition révisée sous les yeux ?\n\nDirecteur général (Charles Roussel): Oui. On est encore loin. Mon plafond, c'est clair.\n\nCommercial (Antoine): Dites-moi où est l'écart.\n\nDirecteur général (Charles Roussel): Mon budget arbitré est de 45 000 euros. Je n'ai pas la main au-dessus.\n\nDirecteur général (Charles Roussel): Le périmètre. Est-ce que je peux démarrer plus petit et étendre ensuite ?\n\nCommercial (Antoine): Vous pouvez. Mais soyez conscient que le tarif unitaire est dégressif : démarrer petit coûte plus cher au total si vous étendez dans l'année.\n\nDirecteur général (Charles Roussel): Argument honnête. Je m'attendais à ce que vous me poussiez au périmètre large sans me dire pourquoi.\n\nCommercial (Antoine): Je vous envoie les deux scénarios chiffrés, avec le point de bascule.\n\nDirecteur général (Charles Roussel): Et TexPlan nous propose 37 000 euros.\n\nCommercial (Antoine): Je ne doute pas du chiffre. Sur quel périmètre ? Parce que leur offre à ce prix ne couvre pas l'intégration à votre système existant.\n\nDirecteur général (Charles Roussel): À vérifier. Véronique, tu as le détail ?\n\nProspect (Véronique Pradel): De mémoire, l'intégration est en supplément chez eux. Je vérifie et je te dis.\n\nCommercial (Antoine): Si je descends à 47 500 euros, est-ce que vous signez cette semaine ?\n\nDirecteur général (Charles Roussel): Sur le principe oui, mais je veux la clause de sortie à douze mois.\n\nCommercial (Antoine): Je peux tenir ce prix contre un engagement de deux ans et une référence publique si les résultats sont au rendez-vous.\n\nDirecteur général (Charles Roussel): La référence, d'accord, mais elle passe par ma direction de la communication.\n\nDirecteur général (Charles Roussel): Les conditions de paiement. Trente jours, c'est trop court pour notre trésorerie.\n\nCommercial (Antoine): Je peux aller à soixante jours date de facture, avec facturation annuelle à la date anniversaire.\n\nDirecteur général (Charles Roussel): Soixante jours fin de mois, et c'est réglé.\n\nCommercial (Antoine): Soixante jours fin de mois, d'accord. Je le fais inscrire.\n\nDirecteur général (Charles Roussel): Les engagements de service. Qu'est-ce qui se passe si vous ne les tenez pas ?\n\nCommercial (Antoine): Avoir sur la facture suivante, proportionnel à l'indisponibilité, et déclenchement automatique — vous n'avez pas à le réclamer.\n\nDirecteur général (Charles Roussel): Automatique, vraiment ? Parce que d'habitude il faut écrire trois courriers.\n\nCommercial (Antoine): C'est calculé et appliqué par nos systèmes. Et le rapport de disponibilité vous est envoyé chaque mois, que vous le demandiez ou non.\n\nDirecteur général (Charles Roussel): Bien. Ça, ça compte dans mon arbitrage.\n\nDirecteur général (Charles Roussel): Une dernière chose : je ne veux pas dépendre d'une seule personne chez vous. Si Sarah part, on fait quoi ?\n\nCommercial (Antoine): Votre dossier est suivi par un binôme. C'est précisément pour éviter ce risque.\n\nDirecteur général (Charles Roussel): Bien. Je vous prends au mot.\n\nDirecteur général (Charles Roussel): La revalorisation annuelle. Je ne veux pas d'indexation ouverte.\n\nCommercial (Antoine): Je peux plafonner à 3 % par an sur la durée de l'engagement.\n\nDirecteur général (Charles Roussel): Plafonnez à 2 % et on ne parle plus.\n\nCommercial (Antoine): 2 %, je peux le défendre. C'est ma dernière concession sur ce point.\n\nCommercial (Antoine): Récapitulons : 47 500 euros la première année, engagement de deux ans, frais de mise en service réduits de moitié, paiement à soixante jours. C'est bien ce qu'on acte ?\n\nDirecteur général (Charles Roussel): C'est ça. Envoyez le contrat, je le transmets au juridique.\n\nCommercial (Antoine): Je l'envoie ce soir. Merci pour la franchise de l'échange.",
+      "summary": "Négociation avec Charles Roussel. Convergence obtenue à 47 500 € pour l'année 1, contre un engagement de 24 mois, des frais de mise en service réduits de moitié, un paiement à 60 jours fin de mois et une indexation plafonnée. Reste le passage au service juridique.",
+      "crm_fields": [
+        {
+          "key": "Montant négocié",
+          "value": "47 500 € (année 1)"
+        },
+        {
+          "key": "Plafond budgétaire",
+          "value": "45 000 € — au-delà, passage en conseil"
+        },
+        {
+          "key": "Concessions accordées",
+          "value": "Frais de mise en service réduits de 50 %, indexation plafonnée à 2 %"
+        },
+        {
+          "key": "Conditions de paiement",
+          "value": "60 jours fin de mois"
+        },
+        {
+          "key": "Durée d'engagement",
+          "value": "24 mois"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Passage en comité"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-28",
+      "call_name": "Point juridique (35 min) — clauses de responsabilité et réversibilité",
+      "transcript": "Commercial (Antoine): Bonjour Maître. On est là pour les points de rédaction relevés par vos services.\n\nJuridique (Maître Bouchard): Bonjour. J'ai quatre demandes de modification. Trois sont fermes.\n\nJuridique (Maître Bouchard): Premièrement : le plafond de responsabilité. Vous proposez le montant annuel du contrat. C'est insuffisant au regard de nos enjeux.\n\nCommercial (Antoine): C'est notre standard. Que proposez-vous ?\n\nJuridique (Maître Bouchard): Deux fois le montant annuel, avec une exclusion pour les dommages indirects.\n\nCommercial (Antoine): Sur la protection des données, nous acceptons un plafond distinct. Sur le reste, je dois obtenir un accord interne.\n\nJuridique (Maître Bouchard): Deuxièmement : le délai de correction en cas de manquement au contrat de service. Trente jours, c'est trop long pour un outil que Véronique utilisera quotidiennement.\n\nCommercial (Antoine): Quinze jours pour les incidents majeurs, trente pour le reste. Acceptable ?\n\nJuridique (Maître Bouchard): Dix jours pour les majeurs. Au-delà, la résiliation est de plein droit.\n\nCommercial (Antoine): Dix jours, d'accord, à condition que la qualification de « majeur » soit définie dans l'annexe de service et pas laissée à l'appréciation.\n\nJuridique (Maître Bouchard): C'est raisonnable. Je fais rédiger la définition.\n\nJuridique (Maître Bouchard): Troisièmement : la réversibilité. Votre rédaction actuelle mentionne « un format exploitable ». C'est trop vague.\n\nCommercial (Antoine): Nous précisons : CSV et Parquet, avec dictionnaire de données, sous trente jours calendaires à compter de la demande.\n\nJuridique (Maître Bouchard): Écrivez-le tel quel et le point est levé.\n\nJuridique (Maître Bouchard): Quatrièmement, et c'est ma demande souple : le droit applicable et le tribunal compétent.\n\nCommercial (Antoine): Droit français, tribunal de commerce de Roubaix. Nous n'avons pas d'objection.\n\nJuridique (Maître Bouchard): Alors nous avons convergé. Je renvoie une version annotée d'ici vendredi.\n\nCommercial (Antoine): Merci Maître. Je fais circuler la version modifiée dès demain.",
+      "summary": "Point juridique. Plafond de responsabilité porté à deux fois le montant annuel, délai de correction ramené à 10 jours pour les incidents majeurs avec définition contractuelle, réversibilité précisée (CSV et Parquet sous 30 jours). Droit français retenu. Version consolidée attendue.",
+      "crm_fields": [
+        {
+          "key": "Plafond de responsabilité",
+          "value": "2 fois le montant annuel, plafond distinct sur les données"
+        },
+        {
+          "key": "Délai de correction",
+          "value": "10 jours pour les incidents majeurs, 30 jours pour les autres"
+        },
+        {
+          "key": "Clause de réversibilité",
+          "value": "CSV et Parquet + dictionnaire de données, sous 30 jours"
+        },
+        {
+          "key": "Droit applicable",
+          "value": "Droit français — tribunal de commerce de Roubaix"
+        },
+        {
+          "key": "Statut juridique",
+          "value": "Version consolidée en relecture"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-10",
+      "call_name": "Point de synchronisation avec le sponsor interne (15 min)",
+      "transcript": "Commercial (Antoine): Bonjour Véronique, appel court. Où en est-on en interne ?\n\nProspect (Véronique Pradel): Ça avance, mais il y a un nouveau sujet.\n\nCommercial (Antoine): Dites-moi tout.\n\nProspect (Véronique Pradel): Le contrôle de gestion veut revoir le calcul du retour sur investissement. Ils sont tatillons, mais ce n'est pas hostile.\n\nCommercial (Antoine): Comment je peux vous aider concrètement ?\n\nProspect (Véronique Pradel): Rien pour l'instant. Laissez-moi gérer, je connais mes interlocuteurs.\n\nCommercial (Antoine): C'est fait dans l'heure.\n\nProspect (Véronique Pradel): Envoyez, je fais le reste.\n\nCommercial (Antoine): Merci Véronique. Franchement, sans vous ce dossier n'avancerait pas.",
+      "summary": "Point court avec Véronique. Le dossier avance mais un aléa interne décale le calendrier. Appui fourni sous forme d'un document synthétique destiné à circuler en interne sans retravail.",
+      "crm_fields": [
+        {
+          "key": "Santé du sponsor interne",
+          "value": "Solide — porte le dossier en interne"
+        },
+        {
+          "key": "Blocage interne",
+          "value": "Charles en déplacement — signature décalée"
+        },
+        {
+          "key": "Appui demandé",
+          "value": "Créneau de 20 min en visioconférence"
+        },
+        {
+          "key": "Date de signature prévue",
+          "value": "2025-03-28"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-17",
+      "call_name": "Comité d'investissement (40 min) — présentation du dossier",
+      "transcript": "Directeur général (Charles Roussel): Bien. On a quarante minutes. Véronique présente, Filoptim répond aux questions.\n\nProspect (Véronique Pradel): Merci. Le constat, vous le connaissez : un taux de rebuts de 7,8 % sur les séries teintes. Le taux de rebuts est à 7,8 %, l'objectif est 4,2 %. On a évalué trois solutions, on en recommande une.\n\nResponsable méthodes et IT (Jérôme Vandamme): Sur le plan technique, l'avis est favorable. Pas d'agent installé, aucune écriture dans nos systèmes, hébergement français. Les réserves initiales sont levées.\n\nDirecteur général (Charles Roussel): Ma question est simple : qu'est-ce qui garantit qu'on n'aura pas un projet de plus qui s'enlise ?\n\nCommercial (Antoine): Le fait qu'on ne remplace rien. Les projets qui échouent sont ceux qui demandent de changer ERP Sylob. Nous, on se branche dessus et on part.\n\nDirecteur général (Charles Roussel): Et le coût complet, pas seulement l'abonnement ? Charge interne comprise ?\n\nProspect (Véronique Pradel): Vingt jours-homme sur le premier trimestre, ensuite c'est marginal.\n\nChef d'atelier (Malik Ouarab): Du point de vue des utilisateurs, ce qui compte c'est que ça ne rajoute pas une saisie. Sur ce point, la réponse m'a convaincue.\n\nDirecteur général (Charles Roussel): Bien. Je suis favorable, sous réserve du plafond budgétaire dont on a parlé.\n\nProspect (Véronique Pradel): Merci. Je reviens vers vous avec le calendrier de démarrage.",
+      "summary": "Passage en comité d'investissement. Véronique a porté le dossier, Jérôme a rendu un avis technique favorable, et Malik Ouarab a apporté le point de vue terrain, décisif sur la question de l'adoption. Décision favorable sous réserve du plafond budgétaire.",
+      "crm_fields": [
+        {
+          "key": "Décision du comité",
+          "value": "Favorable sous réserve du plafond budgétaire"
+        },
+        {
+          "key": "Objection du décideur",
+          "value": "Risque d'enlisement au vu des deux projets précédents"
+        },
+        {
+          "key": "Charge interne estimée",
+          "value": "20 jours-homme sur le premier trimestre"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Session de formation"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-20",
+      "call_name": "Appel de confirmation de signature",
+      "transcript": "Commercial (Antoine): Bonjour Charles, je ne vous prends que cinq minutes.\n\nDirecteur général (Charles Roussel): C'est signé. Le parapheur est parti ce matin.\n\nCommercial (Antoine): Merci beaucoup. Je sais que le dossier a été exigeant.\n\nDirecteur général (Charles Roussel): Il l'a été. Maintenant, j'attends des résultats, pas des tableaux de bord.\n\nCommercial (Antoine): C'est noté, et c'est légitime. Le premier jalon, c'est le taux de rebuts mesuré à trois mois. On s'y engage.\n\nDirecteur général (Charles Roussel): Bien. Un point d'attention : le bon de commande porte le numéro BC-2025-6097, il doit figurer sur toutes les factures. Sinon la comptabilité les rejette, et je ne peux rien pour vous.\n\nCommercial (Antoine): C'est enregistré : BC-2025-6097 sur chaque facture. La facturation démarre au 2025-04-04.\n\nDirecteur général (Charles Roussel): Parfait. Bonne continuation.",
+      "summary": "Contrat signé par Charles Roussel. Bon de commande BC-2025-6097 à faire figurer impérativement sur toutes les factures. Attente exprimée clairement : des résultats mesurables, à commencer par le taux de rebuts à trois mois.",
+      "crm_fields": [
+        {
+          "key": "Statut du contrat",
+          "value": "Signé"
+        },
+        {
+          "key": "Numéro de bon de commande",
+          "value": "BC-2025-6097"
+        },
+        {
+          "key": "Date de début de facturation",
+          "value": "2025-03-25"
+        },
+        {
+          "key": "Signataire",
+          "value": "Charles Roussel (Directeur général)"
+        },
+        {
+          "key": "Valeur du contrat",
+          "value": "47 500 € (année 1) — engagement 24 mois"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-24",
+      "call_name": "Passage de relais commercial vers l'équipe Customer Success (20 min)",
+      "transcript": "Commercial (Antoine): Bonjour à tous. Appel de passage de relais : je vous présente Sarah Lemesle, qui sera votre interlocutrice à partir d'aujourd'hui.\n\nCSM (Sarah Lemesle): Bonjour Véronique. J'ai lu l'ensemble du dossier, je ne vais pas vous refaire raconter votre histoire.\n\nProspect (Véronique Pradel): Merci, parce que je commençais à fatiguer de me répéter.\n\nCSM (Sarah Lemesle): Ce que j'ai retenu : votre indicateur de tête est le taux de rebuts, aujourd'hui à 7,8 %, objectif 4,2 %. Le risque principal identifié, c'est l'adoption par l'équipe de Malik. C'est bien ça ?\n\nProspect (Véronique Pradel): Parfaitement résumé. L'adoption, c'est mon inquiétude numéro un.\n\nCSM (Sarah Lemesle): Donc voilà ce que je propose : on ne déploie pas partout d'un coup. On commence par un périmètre restreint, on obtient un résultat visible, et on s'en sert pour convaincre le reste.\n\nProspect (Véronique Pradel): C'est la bonne approche.\n\nCSM (Sarah Lemesle): Calendrier : lancement le 2025-04-05, connexion des données la semaine suivante, première restitution trois semaines après. Formation de Malik et son équipe juste avant.\n\nResponsable méthodes et IT (Jérôme Vandamme): De mon côté, il me faut les prérequis techniques par écrit dès cette semaine.\n\nCSM (Sarah Lemesle): Vous les aurez demain. Une seule demande de ma part : un référent unique côté métier pour les questions du quotidien.\n\nProspect (Véronique Pradel): Ce sera Malik. Je le préviens.\n\nCommercial (Antoine): Parfait. Je reste dans la boucle mais je m'efface. Bonne route à tous.",
+      "summary": "Passage de relais vers Sarah Lemesle. Le contexte du compte a été transmis en amont, ce qui a évité au client de réexpliquer sa situation. Stratégie retenue : déploiement par périmètre restreint pour obtenir un résultat visible avant généralisation. Référent métier désigné : Malik Ouarab.",
+      "crm_fields": [
+        {
+          "key": "CSM assigné",
+          "value": "Sarah Lemesle"
+        },
+        {
+          "key": "Risque principal identifié",
+          "value": "Adoption par l'équipe de Malik Ouarab"
+        },
+        {
+          "key": "Indicateur de succès",
+          "value": "taux de rebuts de 7,8 % à 4,2 %"
+        },
+        {
+          "key": "Date de lancement",
+          "value": "2025-04-05"
+        }
+      ]
+    },
+    {
+      "date": "2025-04-01",
+      "call_name": "Réunion de lancement projet (1h) — calendrier et prérequis",
+      "transcript": "CSM (Sarah Lemesle): Bonjour à tous, réunion de lancement. Objectif du jour : caler le calendrier et lever les prérequis.\n\nProspect (Véronique Pradel): Allons-y. J'ai bloqué une heure.\n\nCSM (Sarah Lemesle): Phase 1 : connexion à ERP Sylob et reprise de douze mois d'historique. Phase 2 : paramétrage métier avec vous. Phase 3 : formation et mise en service.\n\nResponsable méthodes et IT (Jérôme Vandamme): La connexion, je peux la faire cette semaine. La reprise d'historique dépendra du volume : on est sur combien de lignes ?\n\nCSM (Sarah Lemesle): Environ quatre millions de lignes sur douze mois. Comptez une nuit de chargement initial.\n\nResponsable méthodes et IT (Jérôme Vandamme): D'accord. Je fais la demande aujourd'hui, ça prend deux jours chez nous.\n\nCSM (Sarah Lemesle): Sur le paramétrage : Véronique, il me faut vos règles de calcul actuelles. Même si elles sont dans un tableur, envoyez-les telles quelles.\n\nProspect (Véronique Pradel): Je vous les envoie. Je vous préviens, c'est un empilement de dix ans.\n\nCSM (Sarah Lemesle): C'est toujours le cas. C'est justement l'occasion de les remettre à plat.\n\nChef d'atelier (Malik Ouarab): Est-ce qu'on continue avec nos tableurs en parallèle pendant le démarrage ?\n\nCSM (Sarah Lemesle): Aucune double saisie. On lit vos données existantes, vous ne ressaisissez rien.\n\nChef d'atelier (Malik Ouarab): Ça me va. C'était ma crainte principale.\n\nProspect (Véronique Pradel): Quels sont les risques que vous identifiez, honnêtement ?\n\nCSM (Sarah Lemesle): Trois. La qualité de l'historique, qu'on ne connaîtra vraiment qu'au chargement. La disponibilité de vos équipes en cette période. Et l'adoption, qui est toujours le vrai sujet.\n\nProspect (Véronique Pradel): C'est mon inquiétude aussi. Je vais en parler à la direction pour sécuriser le temps.\n\nChef d'atelier (Malik Ouarab): Concrètement, ma production s'arrête pendant le démarrage ?\n\nCSM (Sarah Lemesle): À aucun moment. Vos systèmes continuent de tourner, on lit à côté. Le seul moment sensible, c'est la bascule, et elle se fait un vendredi soir.\n\nChef d'atelier (Malik Ouarab): Et si la bascule se passe mal ?\n\nCSM (Sarah Lemesle): On ne coupe rien : votre fonctionnement actuel reste disponible trois semaines de plus. Le retour arrière, c'est simplement de continuer comme avant.\n\nChef d'atelier (Malik Ouarab): D'accord. Là, je suis rassuré.\n\nProspect (Véronique Pradel): Qui fait quoi en cas de blocage ? Je ne veux pas qu'on se renvoie la balle.\n\nCSM (Sarah Lemesle): Un responsable par phase, de chaque côté. Côté vous : Jérôme sur la technique, Malik sur le métier. Côté nous : moi, avec un binôme identifié en cas d'absence.\n\nProspect (Véronique Pradel): Bien. Et si ça bloque entre les deux ?\n\nCSM (Sarah Lemesle): Vous et moi, au point hebdomadaire. Si ça dépasse deux semaines, on remonte au niveau supérieur des deux côtés. C'est écrit dans le plan projet.\n\nResponsable méthodes et IT (Jérôme Vandamme): Une contrainte que je dois signaler : nous avons un gel informatique sur une partie de la période.\n\nCSM (Sarah Lemesle): Sur quelles dates exactement ?\n\nResponsable méthodes et IT (Jérôme Vandamme): Toute la période de l'audit d'un donneur d'ordre majeur en juin. C'est une règle interne, je n'ai pas la main.\n\nCSM (Sarah Lemesle): Alors on avance la connexion technique et on décale la formation après le gel. Je réajuste le plan et je vous le renvoie demain.\n\nResponsable méthodes et IT (Jérôme Vandamme): Merci de ne pas essayer de passer en force. Ça a été tenté avant vous.\n\nCSM (Sarah Lemesle): Point de suivi hebdomadaire, trente minutes, le mardi. Prochaine étape : connexion technique avant le 2025-04-08.",
+      "summary": "Réunion de lancement. Trois phases calées : connexion et reprise de 12 mois d'historique, paramétrage métier, formation et mise en service. Prérequis techniques transmis à Jérôme. Point rassurant pour les utilisateurs : aucune double saisie, fonctionnement en parallèle pendant trois semaines.",
+      "crm_fields": [
+        {
+          "key": "Phase du projet",
+          "value": "Phase 1 — connexion et reprise d'historique"
+        },
+        {
+          "key": "Prérequis techniques",
+          "value": "Règles de pare-feu sortantes, machine virtuelle 2 vCPU / 4 Go"
+        },
+        {
+          "key": "Référent métier",
+          "value": "Malik Ouarab"
+        },
+        {
+          "key": "Rythme de suivi",
+          "value": "Point hebdomadaire de 30 minutes, le mardi"
+        },
+        {
+          "key": "Prochaine échéance",
+          "value": "2025-04-15"
+        }
+      ]
+    },
+    {
+      "date": "2025-04-15",
+      "call_name": "Session de formation utilisateurs (1h30)",
+      "transcript": "CSM (Sarah Lemesle): Bonjour à tous. Session de prise en main, une heure trente. Vous êtes 6 aujourd'hui.\n\nChef d'atelier (Malik Ouarab): Toute l'équipe est là, plus deux personnes de l'équipe voisine qui voulaient voir.\n\nCSM (Sarah Lemesle): Parfait. Je vous préviens : on ne fera pas le tour de toutes les fonctionnalités. On va faire les trois choses que vous ferez tous les jours.\n\nChef d'atelier (Malik Ouarab): Ça nous change des formations où on nous montre tout et où on ne retient rien.\n\nCSM (Sarah Lemesle): Première chose : votre vue du matin. Vous ouvrez, vous voyez les écarts de la veille, vous savez quoi traiter en priorité.\n\nChef d'atelier (Malik Ouarab): Attendez — les écarts sont classés par ordre d'importance ?\n\nCSM (Sarah Lemesle): Vous pouvez la modifier, et surtout vous pouvez commenter. Le commentaire reste visible pour l'équipe, ça évite que trois personnes traitent le même sujet.\n\nChef d'atelier (Malik Ouarab): Ah, ça c'est utile. Aujourd'hui on se marche dessus régulièrement.\n\nCSM (Sarah Lemesle): Deuxième chose : le commentaire justement. Chaque écart peut être annoté. C'est ce qui construit votre mémoire collective.\n\nUtilisateur (Karine): Et les commentaires, ils restent combien de temps ?\n\nCSM (Sarah Lemesle): Tout l'historique est conservé et cherchable. C'est souvent ce que les équipes finissent par préférer à la partie analytique.\n\nUtilisateur (Karine): Franchement, si ça marche comme ça, c'est déjà mieux que nos courriels.\n\nCSM (Sarah Lemesle): Troisième chose : l'export pour vos réunions. Un bouton, un fichier, figé à la date. Plus de chiffres qui bougent entre deux réunions.\n\nChef d'atelier (Malik Ouarab): Ce point-là seul justifie la formation, honnêtement.\n\nChef d'atelier (Malik Ouarab): Une question qui fâche : si l'outil se trompe, qui est responsable ?\n\nCSM (Sarah Lemesle): L'outil ne prend aucune décision à votre place. Il signale et il explique. La décision et la responsabilité restent de votre côté.\n\nChef d'atelier (Malik Ouarab): C'est ce que je voulais entendre. J'ai vu des outils qu'on suit aveuglément.\n\nUtilisateur (Karine): Qu'est-ce qui se passe si je fais une fausse manipulation ?\n\nCSM (Sarah Lemesle): Rien d'irréversible. Vous ne pouvez pas modifier les données sources, et tout ce que vous annotez est historisé avec votre nom et la date.\n\nUtilisateur (Karine): Donc on sait qui a fait quoi. C'est un peu surveillant, non ?\n\nCSM (Sarah Lemesle): Oui, et je comprends la question. L'objectif n'est pas le contrôle mais la continuité : quand quelqu'un est absent, l'équipe retrouve le raisonnement.\n\nChef d'atelier (Malik Ouarab): C'est un point important pour l'équipe, merci de l'avoir clarifié.\n\nUtilisateur (Karine): Est-ce que ça marche sur téléphone ? Parce que je suis rarement à mon bureau.\n\nCSM (Sarah Lemesle): Sur mobile, vous avez la vue du jour et les alertes. Le reste est pensé pour un écran large.\n\nUtilisateur (Karine): C'est déjà ce dont j'ai besoin. Merci pour l'honnêteté.\n\nCSM (Sarah Lemesle): Voilà, c'est tout pour aujourd'hui. Trois choses. Vous avez mon numéro, et je passe faire un point dans quinze jours.",
+      "summary": "Session de prise en main avec l'équipe de Malik. Format volontairement resserré sur trois usages quotidiens plutôt qu'un tour complet des fonctionnalités. Les fonctions de commentaire et d'export figé ont été les plus appréciées.",
+      "crm_fields": [
+        {
+          "key": "Participants",
+          "value": "6 personnes de l'équipe Malik"
+        },
+        {
+          "key": "Format de la session",
+          "value": "Prise en main sur trois cas d'usage quotidiens"
+        },
+        {
+          "key": "Retour des utilisateurs",
+          "value": "Positif — format court apprécié"
+        },
+        {
+          "key": "Prochaine session",
+          "value": "2025-05-18"
+        }
+      ]
+    },
+    {
+      "date": "2025-04-28",
+      "call_name": "Point d'avancement hebdomadaire (30 min)",
+      "transcript": "CSM (Sarah Lemesle): Bonjour Véronique, point hebdomadaire. Trente minutes.\n\nProspect (Véronique Pradel): Bonjour. J'ai des retours du terrain, plutôt bons.\n\nProspect (Véronique Pradel): On m'a demandé si on pouvait comparer nos résultats à ceux du secteur.\n\nCSM (Sarah Lemesle): C'est possible sur des indicateurs agrégés et anonymisés. Je ne vous donnerai jamais les chiffres nominatifs d'un autre client.\n\nProspect (Véronique Pradel): C'est bien que vous le précisiez, parce que ce sera utilisé en comité.\n\nCSM (Sarah Lemesle): Je vous prépare ça avec les réserves méthodologiques écrites en clair.\n\nProspect (Véronique Pradel): Charles m'a demandé où on en était. Qu'est-ce que je lui dis ?\n\nCSM (Sarah Lemesle): Dites-lui que le taux de rebuts est à 5,8 %, que la trajectoire est conforme, et qu'on tiendra l'objectif de 4,2 % au trimestre.\n\nProspect (Véronique Pradel): Et si ce n'est pas le cas, je l'apprends quand ?\n\nCSM (Sarah Lemesle): Dès que la tendance s'inverse, pas à la fin du trimestre. C'est une règle que je m'applique : les mauvaises nouvelles arrivent tôt.\n\nProspect (Véronique Pradel): C'est ce que je voulais entendre.\n\nCSM (Sarah Lemesle): Point de vigilance : la qualité des données sur les trois derniers mois d'historique. Il y a des trous.\n\nProspect (Véronique Pradel): Je sais d'où ça vient. On a eu une migration en interne à ce moment-là.\n\nCSM (Sarah Lemesle): On peut soit les exclure du calcul, soit les signaler explicitement. Je recommande de les signaler : c'est moins confortable mais plus honnête.\n\nProspect (Véronique Pradel): Signalez-les. Je préfère assumer un trou qu'un chiffre faux.\n\nCSM (Sarah Lemesle): Côté adoption : soixante-dix pour cent des utilisateurs se connectent au moins trois fois par semaine.\n\nProspect (Véronique Pradel): Qui sont les trente pour cent qui ne l'utilisent pas ?\n\nCSM (Sarah Lemesle): Principalement l'équipe du site secondaire. Ils n'ont pas eu la formation, c'est un oubli de notre côté.\n\nProspect (Véronique Pradel): Programmez une session pour eux. Je ferai passer le message moi-même.\n\nCSM (Sarah Lemesle): Question de planification : vous avez une période à éviter pour les mises à jour ?\n\nProspect (Véronique Pradel): Oui, toute la période autour de l'audit d'un donneur d'ordre majeur en juin. À ce moment-là, on ne touche à rien.\n\nCSM (Sarah Lemesle): Je le note comme période de gel, et je le fais inscrire dans notre calendrier de déploiement pour que ce ne soit pas oublié.\n\nProspect (Véronique Pradel): Parfait.\n\nProspect (Véronique Pradel): J'ai un retour de Malik : ils aimeraient pouvoir filtrer par équipe, pas seulement par périmètre global.\n\nCSM (Sarah Lemesle): C'est faisable en paramétrage, sans développement. Je peux le faire cette semaine.\n\nProspect (Véronique Pradel): Faites, ça leur fera un signal positif.\n\nCSM (Sarah Lemesle): Je vous envoie le compte rendu ce soir. Prochain point le 2025-05-05.\n\nProspect (Véronique Pradel): Ça me va. À la semaine prochaine.",
+      "summary": "Point d'avancement hebdomadaire. Le taux de rebuts progresse (5,8 %). L'adoption reste inégale selon les équipes. Une demande d'évolution a été remontée. La part réelle de l'amélioration a été distinguée de l'effet saisonnier, ce qui a été apprécié.",
+      "crm_fields": [
+        {
+          "key": "Indicateur suivi",
+          "value": "taux de rebuts : 5,8 % (départ 7,8 %)"
+        },
+        {
+          "key": "Taux d'adoption",
+          "value": "88 % d'utilisateurs actifs hebdomadaires"
+        },
+        {
+          "key": "Point de vigilance",
+          "value": "Trous d'historique sur trois mois"
+        },
+        {
+          "key": "Demande d'évolution",
+          "value": "Filtrage par équipe en complément du périmètre global"
+        },
+        {
+          "key": "Prochain point",
+          "value": "2025-05-05"
+        }
+      ]
+    },
+    {
+      "date": "2025-05-05",
+      "call_name": "Appel support technique — incident déclaré par l'équipe métier",
+      "transcript": "Chef d'atelier (Malik Ouarab): Bonjour, j'appelle parce que l'application est très lente depuis ce matin. C'est bloquant pour nous ce matin.\n\nCSM (Sarah Lemesle): Bonjour, je prends. Depuis quand exactement ?\n\nChef d'atelier (Malik Ouarab): Depuis hier après-midi je crois, mais on ne s'en est rendu compte que ce matin.\n\nCSM (Sarah Lemesle): Je vois la trace dans les journaux. Je vous rappelle dans dix minutes avec un diagnostic.\n\nCSM (Sarah Lemesle): Voilà : la cause, c'est une requête non optimisée déclenchée par un nouveau filtre personnalisé. Ce n'est pas de votre fait, et ce n'est pas une perte de données.\n\nChef d'atelier (Malik Ouarab): D'accord. Et on répare comment ?\n\nCSM (Sarah Lemesle): Résolution : correctif déployé le jour même, temps de réponse revenu sous la seconde.\n\nChef d'atelier (Malik Ouarab): Autre chose pendant que je vous ai : mon équipe demande si on peut exporter la vue filtrée, et pas seulement la vue complète.\n\nCSM (Sarah Lemesle): C'est déjà possible, mais ce n'est pas évident à trouver. C'est un défaut d'interface de notre côté, pas un manque de fonctionnalité.\n\nChef d'atelier (Malik Ouarab): Merci. Tenez-moi au courant même si la réponse est non.\n\nChef d'atelier (Malik Ouarab): Est-ce que ça peut se reproduire ?\n\nCSM (Sarah Lemesle): Non, une fois le correctif déployé. Mais je préfère être prudent : je maintiens une surveillance renforcée pendant deux semaines.\n\nChef d'atelier (Malik Ouarab): C'est ce que j'attendais comme réponse. Merci de ne pas botter en touche.\n\nChef d'atelier (Malik Ouarab): Est-ce qu'on peut se fier à ce qui a été affiché entre-temps ?\n\nCSM (Sarah Lemesle): Non, et c'est important : tout ce qui a été affiché depuis hier soir doit être considéré comme non valide. Je relance un recalcul complet sur la période.\n\nChef d'atelier (Malik Ouarab): D'accord. Je préviens l'équipe de ne pas s'en servir ce matin.\n\nCSM (Sarah Lemesle): Je vous confirme par écrit dès que le recalcul est terminé, que vous puissiez rediffuser avec une base propre.\n\nCSM (Sarah Lemesle): Je profite de l'appel : comment ça se passe globalement pour votre équipe ?\n\nChef d'atelier (Malik Ouarab): Franchement, bien. Cet incident mis à part, on ne reviendrait pas en arrière.\n\nCSM (Sarah Lemesle): Sur le doublon : je peux organiser une session courte pour ceux qui restent sur l'ancien fonctionnement ?\n\nChef d'atelier (Malik Ouarab): Volontiers. Prévoyez plutôt le mardi, c'est notre jour le plus calme.\n\nChef d'atelier (Malik Ouarab): Je ne vous cache pas que ça fait mauvais effet. J'ai défendu l'outil en interne.\n\nCSM (Sarah Lemesle): C'est un retour légitime. Je fais remonter en interne et je vous propose un point avec notre responsable technique la semaine prochaine.\n\nChef d'atelier (Malik Ouarab): Ça m'aiderait, oui. Merci de le prendre au sérieux.\n\nCSM (Sarah Lemesle): Je laisse le ticket ouvert quarante-huit heures et je vous confirme le retour à la normale.\n\nChef d'atelier (Malik Ouarab): Parfait, merci pour la réactivité.",
+      "summary": "Incident signalé par Malik Ouarab. Diagnostic posé rapidement, aucune perte de données. Résolution communiquée par écrit avec la cause et l'action corrective, de façon à pouvoir être partagée en interne.",
+      "crm_fields": [
+        {
+          "key": "Symptôme déclaré",
+          "value": "Incident signalé par l'équipe métier"
+        },
+        {
+          "key": "Cause identifiée",
+          "value": "Changement de configuration côté client"
+        },
+        {
+          "key": "Résolution",
+          "value": "Rétabli en moins d'une heure"
+        },
+        {
+          "key": "Impact sur l'adoption",
+          "value": "Nul, transparence appréciée"
+        },
+        {
+          "key": "Numéro de ticket",
+          "value": "TIC-84936"
+        }
+      ]
+    },
+    {
+      "date": "2025-05-19",
+      "call_name": "Point d'avancement hebdomadaire (30 min)",
+      "transcript": "CSM (Sarah Lemesle): Bonjour Véronique, point hebdomadaire. Trente minutes.\n\nProspect (Véronique Pradel): Bonjour. On a du mieux, mais aussi deux points d'attention.\n\nCSM (Sarah Lemesle): Point de vigilance : la qualité des données sur les trois derniers mois d'historique. Il y a des trous.\n\nProspect (Véronique Pradel): Je sais d'où ça vient. On a eu une migration en interne à ce moment-là.\n\nCSM (Sarah Lemesle): On peut soit les exclure du calcul, soit les signaler explicitement. Je recommande de les signaler : c'est moins confortable mais plus honnête.\n\nProspect (Véronique Pradel): Signalez-les. Je préfère assumer un trou qu'un chiffre faux.\n\nCSM (Sarah Lemesle): Un sujet remonté par le terrain cette semaine : le temps de chargement de la vue consolidée est jugé trop long.\n\nProspect (Véronique Pradel): C'est bloquant ou c'est de l'inconfort ?\n\nCSM (Sarah Lemesle): Huit secondes en moyenne. Ce n'est pas bloquant, mais sur un usage quotidien c'est ce qui fait qu'on arrête d'ouvrir un outil.\n\nCSM (Sarah Lemesle): Un correctif est prévu à la prochaine mise à jour. En attendant, j'ai pré-calculé la vue la plus utilisée.\n\nProspect (Véronique Pradel): Merci d'avoir traité ça avant que je le remonte.\n\nProspect (Véronique Pradel): J'ai un retour de Malik : ils aimeraient pouvoir filtrer par équipe, pas seulement par périmètre global.\n\nCSM (Sarah Lemesle): Ça demande un petit développement. Je le remonte au produit avec votre appui, ça pèsera plus lourd.\n\nProspect (Véronique Pradel): Faites, ça leur fera un signal positif.\n\nCSM (Sarah Lemesle): Côté adoption : soixante-dix pour cent des utilisateurs se connectent au moins trois fois par semaine.\n\nProspect (Véronique Pradel): Et les trente pour cent restants ?\n\nCSM (Sarah Lemesle): Principalement l'équipe du site secondaire. Ils n'ont pas eu la formation, c'est un oubli de notre côté.\n\nProspect (Véronique Pradel): C'est ce que je craignais. Il faut qu'on coupe l'ancien tableur, sinon ça ne bougera jamais.\n\nCSM (Sarah Lemesle): Sur les chiffres : le taux de rebuts est passé de 7,8 % à 5,8 %. On est sur la bonne trajectoire.\n\nProspect (Véronique Pradel): Bien. Mais je veux comprendre : c'est l'outil ou c'est l'effet de la saison ?\n\nCSM (Sarah Lemesle): Les deux jouent. Si on neutralise l'effet saisonnier, l'amélioration réelle est d'environ deux tiers de l'écart constaté. Je préfère vous donner le chiffre honnête.\n\nProspect (Véronique Pradel): Merci de le dire. Ça me permet de ne pas survendre en interne.\n\nProspect (Véronique Pradel): Charles m'a demandé où on en était. Qu'est-ce que je lui dis ?\n\nCSM (Sarah Lemesle): Dites-lui que le taux de rebuts est à 5,8 %, que la trajectoire est conforme, et qu'on tiendra l'objectif de 4,2 % au trimestre.\n\nProspect (Véronique Pradel): Vous vous engagez là-dessus ? Parce que c'est moi qui prends si ça dérape.\n\nCSM (Sarah Lemesle): Je m'engage sur la transparence, pas sur le miracle. Si ça dérape, vous le saurez la semaine où ça dérape.\n\nProspect (Véronique Pradel): C'est ce que je voulais entendre.\n\nCSM (Sarah Lemesle): Question de planification : vous avez une période à éviter pour les mises à jour ?\n\nProspect (Véronique Pradel): Les fins de mois. C'est là qu'on produit les chiffres, on ne peut pas se permettre une indisponibilité.\n\nCSM (Sarah Lemesle): Je le note comme période de gel, et je le fais inscrire dans notre calendrier de déploiement pour que ce ne soit pas oublié.\n\nProspect (Véronique Pradel): Parfait.\n\nProspect (Véronique Pradel): On m'a demandé si on pouvait comparer nos résultats à ceux du secteur.\n\nCSM (Sarah Lemesle): Oui, sur une base anonymisée. Je vous préviens : la comparaison sectorielle est à manier avec prudence, les périmètres ne sont jamais strictement identiques.\n\nProspect (Véronique Pradel): Compris. Donnez-moi un ordre de grandeur, pas un classement.\n\nCSM (Sarah Lemesle): Je vous prépare ça avec les réserves méthodologiques écrites en clair.\n\nCSM (Sarah Lemesle): Je vous envoie le compte rendu ce soir. Prochain point le 2025-05-26.\n\nProspect (Véronique Pradel): Parfait, merci.",
+      "summary": "Point d'avancement hebdomadaire. Le taux de rebuts progresse (5,8 %). L'adoption reste inégale selon les équipes. Une demande d'évolution a été remontée. La part réelle de l'amélioration a été distinguée de l'effet saisonnier, ce qui a été apprécié.",
+      "crm_fields": [
+        {
+          "key": "Indicateur suivi",
+          "value": "taux de rebuts : 5,8 % (départ 7,8 %)"
+        },
+        {
+          "key": "Taux d'adoption",
+          "value": "88 % d'utilisateurs actifs hebdomadaires"
+        },
+        {
+          "key": "Point de vigilance",
+          "value": "Trous d'historique sur trois mois"
+        },
+        {
+          "key": "Demande d'évolution",
+          "value": "Filtrage par équipe en complément du périmètre global"
+        },
+        {
+          "key": "Prochain point",
+          "value": "2025-05-26"
+        }
+      ]
+    },
+    {
+      "date": "2025-06-05",
+      "call_name": "Appel de courtoisie — vérification de bonne réception",
+      "transcript": "Commercial (Antoine): Bonjour Véronique, appel rapide, je voulais juste vérifier que vous aviez bien reçu le document.\n\nProspect (Véronique Pradel): Alors, je l'ai reçu mais il est passé dans mes indésirables. Je viens de le retrouver.\n\nCommercial (Antoine): Parfait. Prenez le temps, et dites-moi si un point mérite qu'on en discute.\n\nProspect (Véronique Pradel): Non, c'est bon. Je vous rappelle en début de semaine prochaine.\n\nCommercial (Antoine): Entendu. Bonne fin de journée.",
+      "summary": "Appel court de vérification de bonne réception du document envoyé. Prochaine relance calée.",
+      "crm_fields": [
+        {
+          "key": "Type d'interaction",
+          "value": "Appel court"
+        },
+        {
+          "key": "Document concerné",
+          "value": "Compte rendu d'atelier technique"
+        },
+        {
+          "key": "Prochaine action",
+          "value": "Programmation du point suivant"
+        }
+      ]
+    },
+    {
+      "date": "2025-06-12",
+      "call_name": "Appel support technique — incident déclaré par l'équipe métier",
+      "transcript": "Chef d'atelier (Malik Ouarab): Bonjour, j'appelle parce que l'application est très lente depuis ce matin. C'est bloquant pour nous ce matin.\n\nCSM (Sarah Lemesle): Bonjour, je prends. Depuis quand exactement ?\n\nChef d'atelier (Malik Ouarab): Depuis hier après-midi je crois, mais on ne s'en est rendu compte que ce matin.\n\nCSM (Sarah Lemesle): J'ai l'anomalie sous les yeux. Laissez-moi cinq minutes.\n\nCSM (Sarah Lemesle): Diagnostic : une requête non optimisée déclenchée par un nouveau filtre personnalisé. Aucune donnée n'est perdue, c'est important de le dire.\n\nChef d'atelier (Malik Ouarab): Bon. Combien de temps pour revenir à la normale ?\n\nCSM (Sarah Lemesle): Résolution : correctif déployé le jour même, temps de réponse revenu sous la seconde.\n\nChef d'atelier (Malik Ouarab): Et les données de la période concernée, elles sont fiables ?\n\nCSM (Sarah Lemesle): Non, et c'est important : tout ce qui a été affiché depuis hier soir doit être considéré comme non valide. Je relance un recalcul complet sur la période.\n\nChef d'atelier (Malik Ouarab): D'accord. Je préviens l'équipe de ne pas s'en servir ce matin.\n\nCSM (Sarah Lemesle): Je vous confirme par écrit dès que le recalcul est terminé, que vous puissiez rediffuser avec une base propre.\n\nChef d'atelier (Malik Ouarab): Autre chose pendant que je vous ai : mon équipe demande si on peut exporter la vue filtrée, et pas seulement la vue complète.\n\nCSM (Sarah Lemesle): Pas aujourd'hui. Je le remonte au produit — c'est la troisième fois qu'on me le demande ce mois-ci, ça pèsera.\n\nChef d'atelier (Malik Ouarab): Montrez-moi où, ça m'évitera de le redemander.\n\nChef d'atelier (Malik Ouarab): Est-ce que ça peut se reproduire ?\n\nCSM (Sarah Lemesle): Non, une fois le correctif déployé. Mais je préfère être prudent : je maintiens une surveillance renforcée pendant deux semaines.\n\nChef d'atelier (Malik Ouarab): C'est ce que j'attendais comme réponse. Merci de ne pas botter en touche.\n\nChef d'atelier (Malik Ouarab): Je vais être honnête : c'est la deuxième fois ce mois-ci. Mon équipe commence à dire qu'on est mieux avec le tableur.\n\nCSM (Sarah Lemesle): C'est un retour légitime. Je fais remonter en interne et je vous propose un point avec notre responsable technique la semaine prochaine.\n\nChef d'atelier (Malik Ouarab): D'accord. Tant que c'est transparent, ça passe.\n\nCSM (Sarah Lemesle): Je vous envoie la confirmation écrite dans l'heure, avec le numéro de ticket.\n\nChef d'atelier (Malik Ouarab): Très bien, merci.",
+      "summary": "Incident signalé par Malik Ouarab. Diagnostic posé rapidement, aucune perte de données. Résolution communiquée par écrit avec la cause et l'action corrective, de façon à pouvoir être partagée en interne.",
+      "crm_fields": [
+        {
+          "key": "Symptôme déclaré",
+          "value": "Incident signalé par l'équipe métier"
+        },
+        {
+          "key": "Cause identifiée",
+          "value": "Paramétrage de seuil erroné"
+        },
+        {
+          "key": "Résolution",
+          "value": "Correctif déployé et contrôle ajouté"
+        },
+        {
+          "key": "Impact sur l'adoption",
+          "value": "Faible"
+        },
+        {
+          "key": "Numéro de ticket",
+          "value": "TIC-25757"
+        }
+      ]
+    },
+    {
+      "date": "2025-06-25",
+      "call_name": "Point d'avancement hebdomadaire (30 min)",
+      "transcript": "CSM (Sarah Lemesle): Bonjour Véronique, point hebdomadaire. Trente minutes.\n\nProspect (Véronique Pradel): Bonjour. On a du mieux, mais aussi deux points d'attention.\n\nProspect (Véronique Pradel): J'ai un retour de Malik : ils aimeraient pouvoir filtrer par équipe, pas seulement par périmètre global.\n\nCSM (Sarah Lemesle): C'est faisable en paramétrage, sans développement. Je peux le faire cette semaine.\n\nProspect (Véronique Pradel): Faites, ça leur fera un signal positif.\n\nCSM (Sarah Lemesle): Question de planification : vous avez une période à éviter pour les mises à jour ?\n\nProspect (Véronique Pradel): Les fins de mois. C'est là qu'on produit les chiffres, on ne peut pas se permettre une indisponibilité.\n\nCSM (Sarah Lemesle): Je le note comme période de gel, et je le fais inscrire dans notre calendrier de déploiement pour que ce ne soit pas oublié.\n\nProspect (Véronique Pradel): Parfait.\n\nCSM (Sarah Lemesle): Côté adoption : soixante-dix pour cent des utilisateurs se connectent au moins trois fois par semaine.\n\nProspect (Véronique Pradel): Qui sont les trente pour cent qui ne l'utilisent pas ?\n\nCSM (Sarah Lemesle): Principalement l'équipe du site secondaire. Ils n'ont pas eu la formation, c'est un oubli de notre côté.\n\nProspect (Véronique Pradel): C'est ce que je craignais. Il faut qu'on coupe l'ancien tableur, sinon ça ne bougera jamais.\n\nCSM (Sarah Lemesle): Un sujet remonté par le terrain cette semaine : le temps de chargement de la vue consolidée est jugé trop long.\n\nProspect (Véronique Pradel): C'est bloquant ou c'est de l'inconfort ?\n\nCSM (Sarah Lemesle): De l'inconfort, mais l'inconfort quotidien finit par tuer l'adoption. Je le traite comme un vrai sujet.\n\nCSM (Sarah Lemesle): Un correctif est prévu à la prochaine mise à jour. En attendant, j'ai pré-calculé la vue la plus utilisée.\n\nProspect (Véronique Pradel): Merci d'avoir traité ça avant que je le remonte.\n\nCSM (Sarah Lemesle): Point de vigilance : la qualité des données sur les trois derniers mois d'historique. Il y a des trous.\n\nProspect (Véronique Pradel): Ça ne m'étonne pas. C'est la période où on a changé de responsable de saisie.\n\nCSM (Sarah Lemesle): On peut soit les exclure du calcul, soit les signaler explicitement. Je recommande de les signaler : c'est moins confortable mais plus honnête.\n\nProspect (Véronique Pradel): Signalez-les. Je préfère assumer un trou qu'un chiffre faux.\n\nProspect (Véronique Pradel): On m'a demandé si on pouvait comparer nos résultats à ceux du secteur.\n\nCSM (Sarah Lemesle): C'est possible sur des indicateurs agrégés et anonymisés. Je ne vous donnerai jamais les chiffres nominatifs d'un autre client.\n\nProspect (Véronique Pradel): Compris. Donnez-moi un ordre de grandeur, pas un classement.\n\nCSM (Sarah Lemesle): Je vous prépare ça avec les réserves méthodologiques écrites en clair.\n\nCSM (Sarah Lemesle): Sur les chiffres : le taux de rebuts est passé de 7,8 % à 5,8 %. On est sur la bonne trajectoire.\n\nProspect (Véronique Pradel): Bien. Mais je veux comprendre : c'est l'outil ou c'est l'effet de la saison ?\n\nCSM (Sarah Lemesle): Question légitime. On a isolé les deux effets dans l'annexe du rapport.\n\nProspect (Véronique Pradel): Merci de le dire. Ça me permet de ne pas survendre en interne.\n\nCSM (Sarah Lemesle): Je vous envoie le compte rendu ce soir. Prochain point le 2025-07-02.\n\nProspect (Véronique Pradel): Parfait, merci.",
+      "summary": "Point d'avancement hebdomadaire. Le taux de rebuts progresse (5,8 %). L'adoption reste inégale selon les équipes. Une demande d'évolution a été remontée. La part réelle de l'amélioration a été distinguée de l'effet saisonnier, ce qui a été apprécié.",
+      "crm_fields": [
+        {
+          "key": "Indicateur suivi",
+          "value": "taux de rebuts : 5,8 % (départ 7,8 %)"
+        },
+        {
+          "key": "Taux d'adoption",
+          "value": "88 % d'utilisateurs actifs hebdomadaires"
+        },
+        {
+          "key": "Point de vigilance",
+          "value": "Adoption faible sur le site secondaire"
+        },
+        {
+          "key": "Demande d'évolution",
+          "value": "Filtrage par équipe en complément du périmètre global"
+        },
+        {
+          "key": "Prochain point",
+          "value": "2025-07-02"
+        }
+      ]
+    },
+    {
+      "date": "2025-07-07",
+      "call_name": "Revue trimestrielle d'activité (1h) — résultats, adoption et plan d'action",
+      "transcript": "CSM (Sarah Lemesle): Bonjour à tous. Revue trimestrielle. Une heure, et je voudrais qu'on passe le plus de temps possible sur ce qui ne va pas, pas sur ce qui va.\n\nDirecteur général (Charles Roussel): Ça change des présentations habituelles. Allez-y.\n\nCSM (Sarah Lemesle): Les chiffres d'abord. Le taux de rebuts est passé de 7,8 % à 4,2 %. L'objectif du trimestre est atteint.\n\nDirecteur général (Charles Roussel): Ça, c'est votre mesure. Est-ce que le contrôle de gestion confirme ?\n\nProspect (Véronique Pradel): Le contrôle de gestion a validé la méthode de calcul le mois dernier. C'est leur chiffre, pas le nôtre.\n\nDirecteur général (Charles Roussel): Et le point négatif, puisque vous l'avez annoncé ?\n\nCSM (Sarah Lemesle): Deux choses. L'adoption sur le site secondaire reste faible, autour de quarante pour cent. Et on a eu deux incidents ce trimestre, dont un de notre fait.\n\nDirecteur général (Charles Roussel): Et donc ?\n\nCSM (Sarah Lemesle): Sur l'adoption : une session dédiée et un référent local identifié. Sur le support : nous avons renforcé l'équipe, et je m'engage sur un point mensuel de suivi des délais.\n\nProspect (Véronique Pradel): Sur le terrain, le changement le plus visible, c'est qu'on ne passe plus les réunions à discuter de la fiabilité des chiffres. On discute des décisions.\n\nDirecteur général (Charles Roussel): C'est ce que j'attendais. Continuons.\n\nCSM (Sarah Lemesle): Pour le trimestre prochain, je propose qu'on regarde l'extension à l'ensemble des lignes de production. Je vous prépare un cadrage.\n\nDirecteur général (Charles Roussel): Envoyez, on regardera au budget.",
+      "summary": "Revue trimestrielle avec Charles Roussel. Objectif atteint sur le taux de rebuts (7,8 % → 4,2 %), gain trimestriel de 49 000 € validé par le contrôle de gestion. Les points négatifs ont été présentés spontanément, ce qui a renforcé la relation. Ouverture d'une piste d'extension.",
+      "crm_fields": [
+        {
+          "key": "Résultat trimestriel",
+          "value": "taux de rebuts : 7,8 % → 4,2 % — objectif atteint"
+        },
+        {
+          "key": "Gain estimé",
+          "value": "49 000 € sur le trimestre (validé par le contrôle de gestion)"
+        },
+        {
+          "key": "Point négatif assumé",
+          "value": "Deux incidents dont un imputable à l'éditeur ; adoption inégale"
+        },
+        {
+          "key": "Plan d'action",
+          "value": "Session dédiée site secondaire + suivi mensuel des délais de support"
+        },
+        {
+          "key": "Opportunité d'extension",
+          "value": "l'ensemble des lignes de production"
+        }
+      ]
+    },
+    {
+      "date": "2025-07-21",
+      "call_name": "Point d'avancement hebdomadaire (30 min)",
+      "transcript": "CSM (Sarah Lemesle): Bonjour Véronique, point hebdomadaire. Trente minutes.\n\nProspect (Véronique Pradel): Bonjour. J'ai des retours du terrain, plutôt bons.\n\nProspect (Véronique Pradel): On m'a demandé si on pouvait comparer nos résultats à ceux du secteur.\n\nCSM (Sarah Lemesle): Oui, sur une base anonymisée. Je vous préviens : la comparaison sectorielle est à manier avec prudence, les périmètres ne sont jamais strictement identiques.\n\nProspect (Véronique Pradel): Compris. Donnez-moi un ordre de grandeur, pas un classement.\n\nCSM (Sarah Lemesle): Je vous prépare ça avec les réserves méthodologiques écrites en clair.\n\nCSM (Sarah Lemesle): Question de planification : vous avez une période à éviter pour les mises à jour ?\n\nProspect (Véronique Pradel): Les fins de mois. C'est là qu'on produit les chiffres, on ne peut pas se permettre une indisponibilité.\n\nCSM (Sarah Lemesle): Je le note comme période de gel, et je le fais inscrire dans notre calendrier de déploiement pour que ce ne soit pas oublié.\n\nProspect (Véronique Pradel): Parfait.\n\nProspect (Véronique Pradel): Charles m'a demandé où on en était. Qu'est-ce que je lui dis ?\n\nCSM (Sarah Lemesle): Dites-lui que le taux de rebuts est à 5,8 %, que la trajectoire est conforme, et qu'on tiendra l'objectif de 4,2 % au trimestre.\n\nProspect (Véronique Pradel): Vous vous engagez là-dessus ? Parce que c'est moi qui prends si ça dérape.\n\nCSM (Sarah Lemesle): Je m'engage sur la transparence, pas sur le miracle. Si ça dérape, vous le saurez la semaine où ça dérape.\n\nProspect (Véronique Pradel): C'est ce que je voulais entendre.\n\nProspect (Véronique Pradel): J'ai un retour de Malik : ils aimeraient pouvoir filtrer par équipe, pas seulement par périmètre global.\n\nCSM (Sarah Lemesle): Ça demande un petit développement. Je le remonte au produit avec votre appui, ça pèsera plus lourd.\n\nProspect (Véronique Pradel): Faites, ça leur fera un signal positif.\n\nCSM (Sarah Lemesle): Côté adoption : soixante-dix pour cent des utilisateurs se connectent au moins trois fois par semaine.\n\nProspect (Véronique Pradel): Et les trente pour cent restants ?\n\nCSM (Sarah Lemesle): Principalement l'équipe du site secondaire. Ils n'ont pas eu la formation, c'est un oubli de notre côté.\n\nProspect (Véronique Pradel): Programmez une session pour eux. Je ferai passer le message moi-même.\n\nCSM (Sarah Lemesle): Un sujet remonté par le terrain cette semaine : le temps de chargement de la vue consolidée est jugé trop long.\n\nProspect (Véronique Pradel): Combien de temps, concrètement ?\n\nCSM (Sarah Lemesle): De l'inconfort, mais l'inconfort quotidien finit par tuer l'adoption. Je le traite comme un vrai sujet.\n\nCSM (Sarah Lemesle): Un correctif est prévu à la prochaine mise à jour. En attendant, j'ai pré-calculé la vue la plus utilisée.\n\nProspect (Véronique Pradel): Merci d'avoir traité ça avant que je le remonte.\n\nCSM (Sarah Lemesle): Sur les chiffres : le taux de rebuts est passé de 7,8 % à 5,8 %. On est sur la bonne trajectoire.\n\nProspect (Véronique Pradel): C'est déjà mieux que ce que j'espérais à ce stade.\n\nCSM (Sarah Lemesle): Les deux jouent. Si on neutralise l'effet saisonnier, l'amélioration réelle est d'environ deux tiers de l'écart constaté. Je préfère vous donner le chiffre honnête.\n\nProspect (Véronique Pradel): Merci de le dire. Ça me permet de ne pas survendre en interne.\n\nCSM (Sarah Lemesle): Je vous envoie le compte rendu ce soir. Prochain point le 2025-07-28.\n\nProspect (Véronique Pradel): Parfait, merci.",
+      "summary": "Point d'avancement hebdomadaire. Le taux de rebuts progresse (5,8 %). L'adoption reste inégale selon les équipes. Une demande d'évolution a été remontée. La part réelle de l'amélioration a été distinguée de l'effet saisonnier, ce qui a été apprécié.",
+      "crm_fields": [
+        {
+          "key": "Indicateur suivi",
+          "value": "taux de rebuts : 5,8 % (départ 7,8 %)"
+        },
+        {
+          "key": "Taux d'adoption",
+          "value": "88 % d'utilisateurs actifs hebdomadaires"
+        },
+        {
+          "key": "Point de vigilance",
+          "value": "Trous d'historique sur trois mois"
+        },
+        {
+          "key": "Demande d'évolution",
+          "value": "Filtrage par équipe en complément du périmètre global"
+        },
+        {
+          "key": "Prochain point",
+          "value": "2025-07-28"
+        }
+      ]
+    },
+    {
+      "date": "2025-08-08",
+      "call_name": "Appel support technique — incident déclaré par l'équipe métier",
+      "transcript": "Chef d'atelier (Malik Ouarab): Bonjour, on a un problème : plusieurs utilisateurs n'arrivent plus à se connecter. Mon équipe est à l'arrêt sur ce point.\n\nCSM (Sarah Lemesle): Je regarde tout de suite. Ça a commencé quand ?\n\nChef d'atelier (Malik Ouarab): Ce matin en arrivant. Hier soir tout allait bien.\n\nCSM (Sarah Lemesle): J'ai l'anomalie sous les yeux. Laissez-moi cinq minutes.\n\nCSM (Sarah Lemesle): Diagnostic : un changement de configuration de l'annuaire côté client. Aucune donnée n'est perdue, c'est important de le dire.\n\nChef d'atelier (Malik Ouarab): D'accord. Et on répare comment ?\n\nCSM (Sarah Lemesle): Résolution : reconfiguration du rattachement des groupes, service rétabli en une heure.\n\nChef d'atelier (Malik Ouarab): Est-ce qu'on peut se fier à ce qui a été affiché entre-temps ?\n\nCSM (Sarah Lemesle): Les données sont intactes en base. C'est l'affichage qui était figé. Après recalcul, vous retrouverez les bonnes valeurs.\n\nChef d'atelier (Malik Ouarab): Bon. Je vais devoir refaire un point que j'ai envoyé hier soir.\n\nCSM (Sarah Lemesle): Je vous confirme par écrit dès que le recalcul est terminé, que vous puissiez rediffuser avec une base propre.\n\nChef d'atelier (Malik Ouarab): Autre chose pendant que je vous ai : mon équipe demande si on peut exporter la vue filtrée, et pas seulement la vue complète.\n\nCSM (Sarah Lemesle): C'est déjà possible, mais ce n'est pas évident à trouver. C'est un défaut d'interface de notre côté, pas un manque de fonctionnalité.\n\nChef d'atelier (Malik Ouarab): Merci. Tenez-moi au courant même si la réponse est non.\n\nCSM (Sarah Lemesle): Je profite de l'appel : comment ça se passe globalement pour votre équipe ?\n\nChef d'atelier (Malik Ouarab): Franchement, bien. Cet incident mis à part, on ne reviendrait pas en arrière.\n\nCSM (Sarah Lemesle): Sur le doublon : je peux organiser une session courte pour ceux qui restent sur l'ancien fonctionnement ?\n\nChef d'atelier (Malik Ouarab): Oui, faites. Mais en petit groupe, sinon ils ne poseront pas de questions.\n\nChef d'atelier (Malik Ouarab): Est-ce que ça peut se reproduire ?\n\nCSM (Sarah Lemesle): Dans l'état actuel, oui. C'est pour ça que j'ajoute un contrôle automatique : la prochaine fois, on sera alertés avant vous.\n\nChef d'atelier (Malik Ouarab): C'est ce que j'attendais comme réponse. Merci de ne pas botter en touche.\n\nChef d'atelier (Malik Ouarab): Je ne vous cache pas que ça fait mauvais effet. J'ai défendu l'outil en interne.\n\nCSM (Sarah Lemesle): C'est un retour légitime. Je fais remonter en interne et je vous propose un point avec notre responsable technique la semaine prochaine.\n\nChef d'atelier (Malik Ouarab): D'accord. Tant que c'est transparent, ça passe.\n\nCSM (Sarah Lemesle): Je vous envoie la confirmation écrite dans l'heure, avec le numéro de ticket.\n\nChef d'atelier (Malik Ouarab): Parfait, merci pour la réactivité.",
+      "summary": "Incident signalé par Malik Ouarab. Diagnostic posé rapidement, aucune perte de données. Résolution communiquée par écrit avec la cause et l'action corrective, de façon à pouvoir être partagée en interne.",
+      "crm_fields": [
+        {
+          "key": "Symptôme déclaré",
+          "value": "Incident signalé par l'équipe métier"
+        },
+        {
+          "key": "Cause identifiée",
+          "value": "Changement de configuration côté client"
+        },
+        {
+          "key": "Résolution",
+          "value": "Rétabli en moins d'une heure"
+        },
+        {
+          "key": "Impact sur l'adoption",
+          "value": "À surveiller — second incident du mois"
+        },
+        {
+          "key": "Numéro de ticket",
+          "value": "TIC-46253"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-01",
+      "call_name": "Appel de relance — réactivation du dossier",
+      "transcript": "Commercial (Antoine): Bonjour Véronique, Antoine de Filoptim Systèmes. Je fais suite à notre échange — vous m'aviez dit de vous relancer après l'audit d'un donneur d'ordre majeur en juin.\n\nProspect (Véronique Pradel): Oui, effectivement. Ça a été un peu chargé de notre côté.\n\nCommercial (Antoine): Aucun souci. Est-ce que le sujet est toujours d'actualité ?\n\nProspect (Véronique Pradel): Il l'est, mais le budget n'est pas encore arbitré. On saura fin du mois prochain.\n\nCommercial (Antoine): De quoi auriez-vous besoin pour défendre le sujet en interne ?\n\nProspect (Véronique Pradel): Une estimation du gain, même grossière, mais défendable devant un directeur financier.\n\nCommercial (Antoine): Je vous prépare les deux : un chiffrage à la fourchette et une référence dans du textile industriel. On refait un point la semaine prochaine ?\n\nProspect (Véronique Pradel): Ça me va.",
+      "summary": "Réactivation du dossier après l'audit d'un donneur d'ordre majeur en juin. Le sujet reste d'actualité mais le budget n'est pas arbitré. Véronique demande un chiffrage défendable et une référence comparable pour porter le dossier auprès de Charles Roussel.",
+      "crm_fields": [
+        {
+          "key": "Statut de l'opportunité",
+          "value": "Réactivée"
+        },
+        {
+          "key": "Événement déclencheur",
+          "value": "l'audit d'un donneur d'ordre majeur en juin"
+        },
+        {
+          "key": "Blocage identifié",
+          "value": "Concurrence interne avec deux autres projets"
+        },
+        {
+          "key": "Prochaine action",
+          "value": "Relance sous 5 jours"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-15",
+      "call_name": "Point d'avancement hebdomadaire (30 min)",
+      "transcript": "CSM (Sarah Lemesle): Bonjour Véronique, point hebdomadaire. Trente minutes.\n\nProspect (Véronique Pradel): Bonjour. J'ai des retours du terrain, plutôt bons.\n\nCSM (Sarah Lemesle): Point de vigilance : la qualité des données sur les trois derniers mois d'historique. Il y a des trous.\n\nProspect (Véronique Pradel): Je sais d'où ça vient. On a eu une migration en interne à ce moment-là.\n\nCSM (Sarah Lemesle): On peut soit les exclure du calcul, soit les signaler explicitement. Je recommande de les signaler : c'est moins confortable mais plus honnête.\n\nProspect (Véronique Pradel): Signalez-les. Je préfère assumer un trou qu'un chiffre faux.\n\nCSM (Sarah Lemesle): Question de planification : vous avez une période à éviter pour les mises à jour ?\n\nProspect (Véronique Pradel): Les fins de mois. C'est là qu'on produit les chiffres, on ne peut pas se permettre une indisponibilité.\n\nCSM (Sarah Lemesle): Je le note comme période de gel, et je le fais inscrire dans notre calendrier de déploiement pour que ce ne soit pas oublié.\n\nProspect (Véronique Pradel): Parfait.\n\nProspect (Véronique Pradel): Charles m'a demandé où on en était. Qu'est-ce que je lui dis ?\n\nCSM (Sarah Lemesle): Dites-lui que le taux de rebuts est à 5,8 %, que la trajectoire est conforme, et qu'on tiendra l'objectif de 4,2 % au trimestre.\n\nProspect (Véronique Pradel): Et si ce n'est pas le cas, je l'apprends quand ?\n\nCSM (Sarah Lemesle): Dès que la tendance s'inverse, pas à la fin du trimestre. C'est une règle que je m'applique : les mauvaises nouvelles arrivent tôt.\n\nProspect (Véronique Pradel): C'est ce que je voulais entendre.\n\nCSM (Sarah Lemesle): Côté adoption : soixante-dix pour cent des utilisateurs se connectent au moins trois fois par semaine.\n\nProspect (Véronique Pradel): Et les trente pour cent restants ?\n\nCSM (Sarah Lemesle): Ce sont les profils les plus anciens. Ils continuent avec leur tableur en parallèle.\n\nProspect (Véronique Pradel): C'est ce que je craignais. Il faut qu'on coupe l'ancien tableur, sinon ça ne bougera jamais.\n\nCSM (Sarah Lemesle): Sur les chiffres : le taux de rebuts est passé de 7,8 % à 5,8 %. On est sur la bonne trajectoire.\n\nProspect (Véronique Pradel): C'est déjà mieux que ce que j'espérais à ce stade.\n\nCSM (Sarah Lemesle): Question légitime. On a isolé les deux effets dans l'annexe du rapport.\n\nProspect (Véronique Pradel): Merci de le dire. Ça me permet de ne pas survendre en interne.\n\nProspect (Véronique Pradel): On m'a demandé si on pouvait comparer nos résultats à ceux du secteur.\n\nCSM (Sarah Lemesle): C'est possible sur des indicateurs agrégés et anonymisés. Je ne vous donnerai jamais les chiffres nominatifs d'un autre client.\n\nProspect (Véronique Pradel): C'est bien que vous le précisiez, parce que ce sera utilisé en comité.\n\nCSM (Sarah Lemesle): Je vous prépare ça avec les réserves méthodologiques écrites en clair.\n\nCSM (Sarah Lemesle): Prochaines actions : je programme la session manquante, et on refait un point le 2025-09-22.\n\nProspect (Véronique Pradel): Parfait, merci.",
+      "summary": "Point d'avancement hebdomadaire. Le taux de rebuts progresse (5,8 %). L'adoption reste inégale selon les équipes. Une demande d'évolution a été remontée. La part réelle de l'amélioration a été distinguée de l'effet saisonnier, ce qui a été apprécié.",
+      "crm_fields": [
+        {
+          "key": "Indicateur suivi",
+          "value": "taux de rebuts : 5,8 % (départ 7,8 %)"
+        },
+        {
+          "key": "Taux d'adoption",
+          "value": "88 % d'utilisateurs actifs hebdomadaires"
+        },
+        {
+          "key": "Point de vigilance",
+          "value": "Adoption faible sur le site secondaire"
+        },
+        {
+          "key": "Demande d'évolution",
+          "value": "Filtrage par équipe en complément du périmètre global"
+        },
+        {
+          "key": "Prochain point",
+          "value": "2025-09-22"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-25",
+      "call_name": "Appel sortant — message laissé sur répondeur",
+      "transcript": "Système automatique: Vous êtes bien sur la messagerie de Véronique Pradel. Merci de laisser un message après le signal sonore.\n\nCommercial (Antoine): Bonjour Véronique, c'est Antoine de Filoptim Systèmes. Je me permets de vous relancer : vous m'aviez indiqué que le sujet reviendrait après l'audit d'un donneur d'ordre majeur en juin. Je vous propose un créneau court la semaine prochaine, mardi ou jeudi. Je vous laisse mon numéro : 01 84 60 22 40. À bientôt.",
+      "summary": "Appel sans réponse, message laissé sur la messagerie de Véronique Pradel. Message centré sur le taux de rebuts et sur un retour d'expérience du secteur. Relance programmée.",
+      "crm_fields": [
+        {
+          "key": "Type d'interaction",
+          "value": "Appel sortant sans réponse"
+        },
+        {
+          "key": "Message laissé",
+          "value": "Référence au taux de rebuts et proposition de créneau"
+        },
+        {
+          "key": "Prochaine action",
+          "value": "Programmation du point suivant"
+        },
+        {
+          "key": "Date de relance",
+          "value": "2025-10-07"
+        }
+      ]
+    },
+    {
+      "date": "2025-10-13",
+      "call_name": "Appel support technique — incident déclaré par l'équipe métier",
+      "transcript": "Chef d'atelier (Malik Ouarab): Bonjour, on a un problème : les données ne se sont pas actualisées depuis hier soir. Mon équipe est à l'arrêt sur ce point.\n\nCSM (Sarah Lemesle): Bonjour, je prends. Depuis quand exactement ?\n\nChef d'atelier (Malik Ouarab): Depuis hier après-midi je crois, mais on ne s'en est rendu compte que ce matin.\n\nCSM (Sarah Lemesle): Je vois la trace dans les journaux. Je vous rappelle dans dix minutes avec un diagnostic.\n\nCSM (Sarah Lemesle): Voilà : la cause, c'est le connecteur a perdu la connexion suite à une rotation de mot de passe côté client. Ce n'est pas de votre fait, et ce n'est pas une perte de données.\n\nChef d'atelier (Malik Ouarab): D'accord. Et on répare comment ?\n\nCSM (Sarah Lemesle): Résolution : remise en service en vingt minutes, et ajout d'une alerte sur ce cas précis.\n\nChef d'atelier (Malik Ouarab): Autre chose pendant que je vous ai : mon équipe demande si on peut exporter la vue filtrée, et pas seulement la vue complète.\n\nCSM (Sarah Lemesle): Pas aujourd'hui. Je le remonte au produit — c'est la troisième fois qu'on me le demande ce mois-ci, ça pèsera.\n\nChef d'atelier (Malik Ouarab): Merci. Tenez-moi au courant même si la réponse est non.\n\nChef d'atelier (Malik Ouarab): Est-ce que ça peut se reproduire ?\n\nCSM (Sarah Lemesle): Non, une fois le correctif déployé. Mais je préfère être prudent : je maintiens une surveillance renforcée pendant deux semaines.\n\nChef d'atelier (Malik Ouarab): Très bien. Tenez-moi informé du déploiement.\n\nCSM (Sarah Lemesle): Je profite de l'appel : comment ça se passe globalement pour votre équipe ?\n\nChef d'atelier (Malik Ouarab): Mieux qu'au démarrage. Il a fallu trois semaines pour que les habitudes changent.\n\nCSM (Sarah Lemesle): Sur le doublon : je peux organiser une session courte pour ceux qui restent sur l'ancien fonctionnement ?\n\nChef d'atelier (Malik Ouarab): Oui, faites. Mais en petit groupe, sinon ils ne poseront pas de questions.\n\nChef d'atelier (Malik Ouarab): Et les données de la période concernée, elles sont fiables ?\n\nCSM (Sarah Lemesle): Non, et c'est important : tout ce qui a été affiché depuis hier soir doit être considéré comme non valide. Je relance un recalcul complet sur la période.\n\nChef d'atelier (Malik Ouarab): D'accord. Je préviens l'équipe de ne pas s'en servir ce matin.\n\nCSM (Sarah Lemesle): Je vous confirme par écrit dès que le recalcul est terminé, que vous puissiez rediffuser avec une base propre.\n\nCSM (Sarah Lemesle): Je vous envoie la confirmation écrite dans l'heure, avec le numéro de ticket.\n\nChef d'atelier (Malik Ouarab): Très bien, merci.",
+      "summary": "Incident signalé par Malik Ouarab. Diagnostic posé rapidement, aucune perte de données. Résolution communiquée par écrit avec la cause et l'action corrective, de façon à pouvoir être partagée en interne.",
+      "crm_fields": [
+        {
+          "key": "Symptôme déclaré",
+          "value": "Incident signalé par l'équipe métier"
+        },
+        {
+          "key": "Cause identifiée",
+          "value": "Paramétrage de seuil erroné"
+        },
+        {
+          "key": "Résolution",
+          "value": "Rétabli le jour même"
+        },
+        {
+          "key": "Impact sur l'adoption",
+          "value": "Nul, transparence appréciée"
+        },
+        {
+          "key": "Numéro de ticket",
+          "value": "TIC-49908"
+        }
+      ]
+    },
+    {
+      "date": "2025-10-31",
+      "call_name": "Point d'avancement hebdomadaire (30 min)",
+      "transcript": "CSM (Sarah Lemesle): Bonjour Véronique, point hebdomadaire. Trente minutes.\n\nProspect (Véronique Pradel): Allez-y, je vous écoute.\n\nProspect (Véronique Pradel): Charles m'a demandé où on en était. Qu'est-ce que je lui dis ?\n\nCSM (Sarah Lemesle): Dites-lui que le taux de rebuts est à 5,8 %, que la trajectoire est conforme, et qu'on tiendra l'objectif de 4,2 % au trimestre.\n\nProspect (Véronique Pradel): Vous vous engagez là-dessus ? Parce que c'est moi qui prends si ça dérape.\n\nCSM (Sarah Lemesle): Je m'engage sur la transparence, pas sur le miracle. Si ça dérape, vous le saurez la semaine où ça dérape.\n\nProspect (Véronique Pradel): C'est ce que je voulais entendre.\n\nCSM (Sarah Lemesle): Question de planification : vous avez une période à éviter pour les mises à jour ?\n\nProspect (Véronique Pradel): Les fins de mois. C'est là qu'on produit les chiffres, on ne peut pas se permettre une indisponibilité.\n\nCSM (Sarah Lemesle): Je le note comme période de gel, et je le fais inscrire dans notre calendrier de déploiement pour que ce ne soit pas oublié.\n\nProspect (Véronique Pradel): Parfait.\n\nCSM (Sarah Lemesle): Côté adoption : soixante-dix pour cent des utilisateurs se connectent au moins trois fois par semaine.\n\nProspect (Véronique Pradel): Et les trente pour cent restants ?\n\nCSM (Sarah Lemesle): Ce sont les profils les plus anciens. Ils continuent avec leur tableur en parallèle.\n\nProspect (Véronique Pradel): C'est ce que je craignais. Il faut qu'on coupe l'ancien tableur, sinon ça ne bougera jamais.\n\nCSM (Sarah Lemesle): Point de vigilance : la qualité des données sur les trois derniers mois d'historique. Il y a des trous.\n\nProspect (Véronique Pradel): Ça ne m'étonne pas. C'est la période où on a changé de responsable de saisie.\n\nCSM (Sarah Lemesle): On peut soit les exclure du calcul, soit les signaler explicitement. Je recommande de les signaler : c'est moins confortable mais plus honnête.\n\nProspect (Véronique Pradel): Signalez-les. Je préfère assumer un trou qu'un chiffre faux.\n\nCSM (Sarah Lemesle): Sur les chiffres : le taux de rebuts est passé de 7,8 % à 5,8 %. On est sur la bonne trajectoire.\n\nProspect (Véronique Pradel): C'est déjà mieux que ce que j'espérais à ce stade.\n\nCSM (Sarah Lemesle): Question légitime. On a isolé les deux effets dans l'annexe du rapport.\n\nProspect (Véronique Pradel): Merci de le dire. Ça me permet de ne pas survendre en interne.\n\nProspect (Véronique Pradel): J'ai un retour de Malik : ils aimeraient pouvoir filtrer par équipe, pas seulement par périmètre global.\n\nCSM (Sarah Lemesle): Ça demande un petit développement. Je le remonte au produit avec votre appui, ça pèsera plus lourd.\n\nProspect (Véronique Pradel): Faites, ça leur fera un signal positif.\n\nCSM (Sarah Lemesle): Un sujet remonté par le terrain cette semaine : le temps de chargement de la vue consolidée est jugé trop long.\n\nProspect (Véronique Pradel): Combien de temps, concrètement ?\n\nCSM (Sarah Lemesle): De l'inconfort, mais l'inconfort quotidien finit par tuer l'adoption. Je le traite comme un vrai sujet.\n\nCSM (Sarah Lemesle): Un correctif est prévu à la prochaine mise à jour. En attendant, j'ai pré-calculé la vue la plus utilisée.\n\nProspect (Véronique Pradel): Merci d'avoir traité ça avant que je le remonte.\n\nProspect (Véronique Pradel): On m'a demandé si on pouvait comparer nos résultats à ceux du secteur.\n\nCSM (Sarah Lemesle): C'est possible sur des indicateurs agrégés et anonymisés. Je ne vous donnerai jamais les chiffres nominatifs d'un autre client.\n\nProspect (Véronique Pradel): C'est bien que vous le précisiez, parce que ce sera utilisé en comité.\n\nCSM (Sarah Lemesle): Je vous prépare ça avec les réserves méthodologiques écrites en clair.\n\nCSM (Sarah Lemesle): Je vous envoie le compte rendu ce soir. Prochain point le 2025-11-07.\n\nProspect (Véronique Pradel): Parfait, merci.",
+      "summary": "Point d'avancement hebdomadaire. Le taux de rebuts progresse (5,8 %). L'adoption reste inégale selon les équipes. Une demande d'évolution a été remontée. La part réelle de l'amélioration a été distinguée de l'effet saisonnier, ce qui a été apprécié.",
+      "crm_fields": [
+        {
+          "key": "Indicateur suivi",
+          "value": "taux de rebuts : 5,8 % (départ 7,8 %)"
+        },
+        {
+          "key": "Taux d'adoption",
+          "value": "88 % d'utilisateurs actifs hebdomadaires"
+        },
+        {
+          "key": "Point de vigilance",
+          "value": "Trous d'historique sur trois mois"
+        },
+        {
+          "key": "Demande d'évolution",
+          "value": "Filtrage par équipe en complément du périmètre global"
+        },
+        {
+          "key": "Prochain point",
+          "value": "2025-11-07"
+        }
+      ]
+    },
+    {
+      "date": "2025-11-11",
+      "call_name": "Revue trimestrielle d'activité (1h) — résultats, adoption et plan d'action",
+      "transcript": "CSM (Sarah Lemesle): Bonjour à tous. Revue trimestrielle. Une heure, et je voudrais qu'on passe le plus de temps possible sur ce qui ne va pas, pas sur ce qui va.\n\nDirecteur général (Charles Roussel): Ça change des présentations habituelles. Allez-y.\n\nCSM (Sarah Lemesle): Les chiffres d'abord. Le taux de rebuts est passé de 7,8 % à 4,2 %. L'objectif du trimestre est atteint.\n\nDirecteur général (Charles Roussel): Ça, c'est votre mesure. Est-ce que le contrôle de gestion confirme ?\n\nProspect (Véronique Pradel): Sur le trimestre, on estime le gain à 49 000 euros. Là aussi, c'est le chiffre du contrôle de gestion.\n\nDirecteur général (Charles Roussel): Et le point négatif, puisque vous l'avez annoncé ?\n\nCSM (Sarah Lemesle): L'adoption est inégale selon les équipes, et notre délai de réponse au support a dépassé l'engagement contractuel à deux reprises.\n\nDirecteur général (Charles Roussel): J'apprécie que vous le disiez avant que je le découvre. Qu'est-ce que vous faites ?\n\nCSM (Sarah Lemesle): Un plan en trois points que je vous envoie par écrit, avec des dates et un responsable pour chaque action.\n\nProspect (Véronique Pradel): Sur le terrain, le changement le plus visible, c'est qu'on ne passe plus les réunions à discuter de la fiabilité des chiffres. On discute des décisions.\n\nDirecteur général (Charles Roussel): Bien. Je reste vigilant sur les incidents, mais le bilan est positif.\n\nCSM (Sarah Lemesle): Pour le trimestre prochain, je propose qu'on regarde l'extension à l'ensemble des lignes de production. Je vous prépare un cadrage.\n\nDirecteur général (Charles Roussel): Envoyez, on regardera au budget.",
+      "summary": "Revue trimestrielle avec Charles Roussel. Objectif atteint sur le taux de rebuts (7,8 % → 4,2 %), gain trimestriel de 49 000 € validé par le contrôle de gestion. Les points négatifs ont été présentés spontanément, ce qui a renforcé la relation. Ouverture d'une piste d'extension.",
+      "crm_fields": [
+        {
+          "key": "Résultat trimestriel",
+          "value": "taux de rebuts : 7,8 % → 4,2 % — objectif atteint"
+        },
+        {
+          "key": "Gain estimé",
+          "value": "49 000 € sur le trimestre (validé par le contrôle de gestion)"
+        },
+        {
+          "key": "Point négatif assumé",
+          "value": "Deux incidents dont un imputable à l'éditeur ; adoption inégale"
+        },
+        {
+          "key": "Plan d'action",
+          "value": "Session dédiée site secondaire + suivi mensuel des délais de support"
+        },
+        {
+          "key": "Opportunité d'extension",
+          "value": "l'ensemble des lignes de production"
+        }
+      ]
+    },
+    {
+      "date": "2025-11-25",
+      "call_name": "Négociation de renouvellement de contrat",
+      "transcript": "CSM (Sarah Lemesle): Bonjour Charles. Le contrat arrive à échéance le 2026-01-24, je voulais qu'on en parle en avance.\n\nDirecteur général (Charles Roussel): Vous faites bien. Je n'aime pas les renouvellements découverts trois jours avant.\n\nCSM (Sarah Lemesle): Le bilan de l'année : le taux de rebuts est passé de 7,8 % à 4,2 %, soit un gain estimé à 197 000 euros. Le taux d'utilisation est de 88 pour cent.\n\nDirecteur général (Charles Roussel): D'accord. Et vous proposez quoi pour la suite ?\n\nCSM (Sarah Lemesle): Reconduction à 48 000 euros, soit l'indexation plafonnée prévue au contrat. Pas de mauvaise surprise.\n\nDirecteur général (Charles Roussel): Je préfère ça à ce que font certains éditeurs, qui doublent au renouvellement.\n\nCSM (Sarah Lemesle): Un engagement de trois ans permet de neutraliser l'indexation la première année.\n\nDirecteur général (Charles Roussel): Faites-moi la proposition, je la regarde avec les achats.\n\nCSM (Sarah Lemesle): Je vous envoie les deux scénarios. Et je profite de l'occasion : Véronique souhaite étendre à l'ensemble des lignes de production. Je peux vous chiffrer l'ensemble dans une seule proposition.\n\nDirecteur général (Charles Roussel): Oui, mieux vaut une seule discussion. Envoyez le tout.",
+      "summary": "Préparation du renouvellement, engagée en avance. Bilan annuel favorable (taux de rebuts : 7,8 % → 4,2 %, 88 % d'adoption). Deux scénarios proposés, 12 ou 36 mois, avec possibilité de combiner renouvellement et extension dans une proposition unique.",
+      "crm_fields": [
+        {
+          "key": "Date d'échéance",
+          "value": "2026-02-02"
+        },
+        {
+          "key": "Tarif de reconduction",
+          "value": "48 000 € — indexation plafonnée"
+        },
+        {
+          "key": "Durée proposée",
+          "value": "12 mois ou 36 mois avec gel la première année"
+        },
+        {
+          "key": "Bilan annuel",
+          "value": "taux de rebuts : 7,8 % → 4,2 % ; 88 % d'adoption"
+        },
+        {
+          "key": "Opportunité combinée",
+          "value": "Renouvellement + extension l'ensemble des lignes de production"
+        }
+      ]
+    }
+  ],
+  "emails": [
+    {
+      "date": "2025-01-08",
+      "subject": "Textile industriel : réduire le taux de rebuts sans changer ERP Sylob",
+      "content": "Bonjour Véronique Pradel,\n\nJe me permets de vous écrire car nous accompagnons plusieurs structures du textile industriel confrontées à une difficulté récurrente : un taux de rebuts de 7,8 % sur les séries teintes.\n\nChez la plupart d'entre elles, le constat était le même que celui que vous vivez probablement : ERP Sylob reste la source de vérité, mais toute l'analyse se fait en dehors, sous tableur, avec un temps de retraitement considérable.\n\nNotre approche est volontairement peu intrusive : nous ne remplaçons aucun système existant et nous nous branchons en lecture seule. Sur un périmètre comparable au vôtre (11 lignes de production et 3 sites), le taux de rebuts est passé de 7,8 % à 4,2 % en six mois.\n\nAuriez-vous vingt minutes dans les prochains jours pour en discuter ?\n\nBien cordialement,\n\nAntoine Delahaye\nCommercial | Filoptim Systèmes"
+    },
+    {
+      "date": "2025-01-17",
+      "subject": "Relance : taux de rebuts chez Textiles Roussel-Pradel",
+      "content": "Bonjour Véronique Pradel,\n\nJe reviens vers vous suite à mon message de la semaine dernière, resté sans réponse — ce que je comprends parfaitement compte tenu de la période.\n\nUn élément qui pourrait justifier un échange court : plusieurs de nos clients du textile industriel ont engagé ce type de chantier en anticipation de l'audit d'un donneur d'ordre majeur en juin, précisément pour éviter d'avoir à le traiter dans l'urgence.\n\nSi le sujet n'est pas prioritaire pour vous cette année, dites-le-moi simplement et je cesserai mes relances.\n\nBien cordialement,\n\nAntoine Delahaye\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-01-25",
+      "subject": "Confirmation : échange Filoptim / Textiles Roussel-Pradel",
+      "content": "Bonjour Véronique Pradel,\n\nJe vous confirme notre échange. Ordre du jour proposé :\n\n1. Votre fonctionnement actuel autour de ERP Sylob\n2. Les difficultés rencontrées sur taux de rebuts\n3. Vos contraintes techniques et de conformité\n4. Les prochaines étapes si le sujet a du sens\n\nPas de présentation commerciale : l'objectif est de comprendre votre contexte.\n\nSi vous souhaitez associer Jérôme Vandamme à cet échange, n'hésitez pas à le convier.\n\nBien cordialement,\n\nAntoine Delahaye\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-02-03",
+      "subject": "Compte rendu de notre échange + éléments complémentaires",
+      "content": "Bonjour Véronique Pradel,\n\nMerci pour le temps accordé. Je reprends ci-dessous ce que j'ai retenu, corrigez-moi si je me trompe :\n\n— Difficulté principale : un taux de rebuts de 7,8 % sur les séries teintes\n— Indicateur de référence : taux de rebuts, aujourd'hui à 7,8 %, objectif 4,2 %\n— Contrainte structurante : aucun remplacement de ERP Sylob\n— Échéance : l'audit d'un donneur d'ordre majeur en juin\n— Point de vigilance : l'adoption par les équipes de Malik Ouarab\n\nComme convenu, je vous joins le dossier technique et un retour d'expérience mené dans un contexte proche du vôtre.\n\nProchaine étape proposée : un atelier technique avec Jérôme Vandamme.\n\nBien cordialement,\n\nAntoine Delahaye\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-02-10",
+      "subject": "Dossier d'architecture et de conformité — Filoptim",
+      "content": "Bonjour Jérôme Vandamme,\n\nComme convenu lors de notre atelier, vous trouverez ci-joint :\n\n— le schéma d'architecture détaillé (flux HTTPS sortant, aucun flux entrant)\n— la description du connecteur et son dimensionnement (2 vCPU, 4 Go)\n— la politique de conservation des données, paramétrable par catégorie\n— la matrice des accès et le cloisonnement des sous-traitants\n— la procédure de réversibilité (CSV et Parquet, sous 30 jours)\n\nConcernant la norme OEKO-TEX et les exigences REACH, l'hébergement est réalisé en France chez un opérateur qualifié et aucune donnée ne quitte l'Union européenne, sauvegardes comprises.\n\nLe rapport d'audit annuel peut vous être transmis sous accord de confidentialité : dites-moi si vous souhaitez que j'engage la démarche.\n\nBien cordialement,\n\nVictor Painchaud\nIngénieur avant-vente | Filoptim Systèmes"
+    },
+    {
+      "date": "2025-02-19",
+      "subject": "Proposition commerciale — Textiles Roussel-Pradel / Filoptim Atelier",
+      "content": "Bonjour Véronique Pradel,\n\nVous trouverez ci-joint notre proposition, construite sur les éléments que vous nous avez communiqués.\n\nPérimètre : 11 lignes de production et 3 sites, 12 utilisateurs, module Filoptim Atelier.\nAbonnement annuel : 58 000 €.\nFrais de mise en service : 10 000 €, non récurrents.\n\nLe retour sur investissement repose sur vos propres chiffres : le passage du taux de rebuts de 7,8 % à 4,2 % représente environ 197 000 € par an, soit un amortissement en dix mois.\n\nJe reste disponible pour en discuter avec Charles Roussel.\n\nBien cordialement,\n\nAntoine Delahaye\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-02-27",
+      "subject": "Proposition révisée suite à notre échange",
+      "content": "Bonjour Charles Roussel,\n\nSuite à notre discussion, voici la proposition révisée :\n\n— Abonnement année 1 : 47 500 € (au lieu de 58 000 €)\n— Frais de mise en service réduits de 50 %\n— Engagement de 24 mois\n— Paiement à 60 jours fin de mois\n— Indexation annuelle plafonnée à 2 %\n— Clause de sortie à 12 mois en cas de non-respect des engagements de service\n\nCes conditions sont valables jusqu'à la fin du mois. Au-delà, je devrai les refaire valider en interne.\n\nBien cordialement,\n\nAntoine Delahaye\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-03-09",
+      "subject": "Version consolidée du contrat — points de rédaction",
+      "content": "Bonjour Maître,\n\nVous trouverez ci-joint la version consolidée intégrant nos échanges :\n\n— Plafond de responsabilité porté à deux fois le montant annuel (article 9.2)\n— Plafond distinct pour les manquements à la protection des données (article 9.3)\n— Délai de correction ramené à 10 jours pour les incidents majeurs, avec définition contractuelle en annexe 4\n— Réversibilité précisée : formats CSV et Parquet, dictionnaire de données, sous 30 jours calendaires (article 14)\n— Droit français, tribunal de commerce de Roubaix (article 18)\n\nLes modifications apparaissent en marques de révision.\n\nBien cordialement,\n\nAntoine Delahaye\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-03-15",
+      "subject": "Merci — démarrage du projet Filoptim Atelier",
+      "content": "Bonjour Charles Roussel, bonjour Véronique Pradel,\n\nLe contrat nous est bien parvenu signé. Merci de votre confiance.\n\nPoints administratifs : le bon de commande BC-2025-6097 figurera sur l'ensemble de nos factures, conformément à votre demande.\n\nSarah Lemesle prend le relais à compter de cette semaine en tant que Customer Success Manager. Elle dispose déjà de l'historique complet du dossier : vous n'aurez pas à réexpliquer votre contexte.\n\nPremier jalon engagé : mesure du taux de rebuts à trois mois.\n\nBien cordialement,\n\nAntoine Delahaye\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-03-25",
+      "subject": "Lancement projet — calendrier et prérequis",
+      "content": "Bonjour à tous,\n\nSuite à notre réunion de lancement, voici le calendrier retenu :\n\nPhase 1 — Connexion à ERP Sylob et reprise de 12 mois d'historique\nPhase 2 — Paramétrage métier avec Véronique Pradel\nPhase 3 — Formation des équipes de Malik Ouarab et mise en service\n\nPrérequis à votre charge :\n— Règles de pare-feu sortantes (liste d'adresses en annexe)\n— Machine virtuelle 2 vCPU / 4 Go pour le connecteur\n— Transmission de vos règles de calcul actuelles, même sous forme de tableur\n\nPoint hebdomadaire de 30 minutes le mardi. Aucune double saisie ne sera demandée aux équipes : fonctionnement en parallèle pendant trois semaines, puis bascule.\n\nBien cordialement,\n\nSarah Lemesle\nCustomer Success Manager | Filoptim Systèmes"
+    },
+    {
+      "date": "2025-04-01",
+      "subject": "Suivi d'incident — cause et action corrective",
+      "content": "Bonjour Malik Ouarab,\n\nComme convenu par téléphone, je vous confirme par écrit les éléments concernant l'incident de ce matin.\n\nCause identifiée : un changement de configuration intervenu côté environnement client, non signalé en amont. Aucune donnée n'a été perdue.\n\nAction corrective immédiate : rétablissement du service et vérification de l'intégralité des données de la période concernée.\n\nAction de fond : ajout d'une alerte automatique sur ce type d'événement, afin que nous soyons prévenus avant vous la prochaine fois.\n\nCe message est rédigé de façon à pouvoir être transmis tel quel à Véronique Pradel si vous le jugez utile.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-04-12",
+      "subject": "Compte rendu du point hebdomadaire",
+      "content": "Bonjour Véronique Pradel,\n\nSynthèse de notre point :\n\n— taux de rebuts : 5,8 % (point de départ 7,8 %, cible 4,2 %)\n— Adoption : 88 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : adoption plus faible sur le site secondaire, session de rattrapage à programmer\n— Demande d'évolution remontée : filtrage par équipe\n\nPrécision importante : une partie de l'amélioration constatée relève d'un effet saisonnier. En le neutralisant, le gain réellement imputable au projet représente environ deux tiers de l'écart observé. Je préfère vous transmettre le chiffre prudent plutôt que le chiffre flatteur.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-04-18",
+      "subject": "Revue trimestrielle — ordre du jour",
+      "content": "Bonjour Charles Roussel,\n\nJe vous propose l'ordre du jour suivant pour notre revue trimestrielle :\n\n1. Résultats mesurés sur le taux de rebuts et gain estimé\n2. Adoption par équipe et par site\n3. Incidents du trimestre, y compris ceux qui nous sont imputables\n4. Plan d'action pour le trimestre à venir\n5. Pistes d'extension\n\nLe point 3 est volontairement à l'ordre du jour : je préfère que nous en parlions ouvertement plutôt que vous les découvriez.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-04-27",
+      "subject": "Extension de périmètre — l'ensemble des lignes de production",
+      "content": "Bonjour Véronique Pradel,\n\nSuite à votre demande, voici le chiffrage de l'extension à l'ensemble des lignes de production :\n\n— Montant annuel additionnel : 26 000 €\n— Intégration par avenant au contrat existant\n— Alignement sur la date anniversaire, afin d'éviter des échéances multiples\n— Aucun surcoût de mise en service : l'architecture est déjà en place\n\nLe déploiement peut être réalisé en trois semaines, sans nouvelle intervention de Jérôme Vandamme.\n\nBien cordialement,\n\nAntoine Delahaye\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-05-05",
+      "subject": "Échéance contractuelle — deux scénarios",
+      "content": "Bonjour Charles Roussel,\n\nNotre contrat arrive à échéance. Je vous adresse deux scénarios en avance, afin que vous puissiez les instruire sereinement.\n\nScénario A — Reconduction 12 mois : 48 000 €, indexation plafonnée conformément au contrat.\nScénario B — Engagement 36 mois : gel du tarif la première année, puis indexation plafonnée à 2 %.\n\nRappel du bilan de l'année écoulée : Le taux de rebuts est passé de 7,8 % à 4,2 %, taux d'adoption de 88 %.\n\nSi vous le souhaitez, je peux intégrer l'extension à l'ensemble des lignes de production dans une proposition unique, pour éviter deux passages en comité.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-05-14",
+      "subject": "Retour d'expérience — contexte comparable au vôtre",
+      "content": "Bonjour Véronique Pradel,\n\nComme promis, voici le retour d'expérience évoqué au téléphone. Le contexte est proche du vôtre : même secteur, volumétrie comparable, et une contrainte identique de ne pas toucher au système existant.\n\nLes trois enseignements que j'en retiens pour votre cas :\n\n1. Le gain le plus rapide n'a pas été analytique mais organisationnel : les réunions ont cessé de porter sur la fiabilité des chiffres.\n2. L'adoption a été obtenue en démarrant sur un périmètre restreint, pas en déployant partout.\n3. Les deux premières semaines ont été consacrées à la fiabilisation des données. C'est incompressible, autant l'anticiper.\n\nJe peux organiser un échange direct avec leur responsable si vous le souhaitez.\n\nBien cordialement,\n\nAntoine Delahaye\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-05-22",
+      "subject": "Facturation — rappel des références",
+      "content": "Bonjour,\n\nPour la bonne exécution administrative du contrat, je vous confirme les références à faire figurer sur nos échanges :\n\n— Bon de commande : BC-2025-6097\n— Conditions de règlement : 60 jours fin de mois\n— Périodicité : facturation annuelle à la date anniversaire\n\nSans le numéro de bon de commande, vos services comptables rejettent les factures : nous veillons donc à ce qu'il soit systématiquement rappelé.\n\nBien cordialement,\n\nAntoine Delahaye\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-06-01",
+      "subject": "Compte rendu hebdomadaire — semaine 4 (2025-S04)",
+      "content": "Bonjour Véronique Pradel,\n\nSynthèse du point de la semaine 4 :\n\n— taux de rebuts : 7,8 % (départ 7,8 %, cible 4,2 %)\n— Adoption : 52 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : temps de chargement de la vue consolidée jugé trop long\n— Demande d'évolution remontée : filtrage par équipe en complément du périmètre global\n\nComme chaque semaine, je distingue ce qui relève du projet de ce qui relève du contexte : une partie de la variation tient à la saisonnalité, et je préfère vous transmettre le chiffre prudent.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-06-09",
+      "subject": "Ticket TIC-83806 — clôture, cause et action corrective",
+      "content": "Bonjour Malik Ouarab,\n\nJe vous confirme par écrit la clôture du ticket TIC-83806, ouvert en semaine 5.\n\nCause identifiée : requête non optimisée déclenchée par un filtre personnalisé.\nAucune donnée n'a été perdue ; les valeurs affichées pendant l'incident ont été recalculées et vérifiées.\nAction de fond : correctif déployé et test de charge ajouté à la recette.\n\nIndicateur au moment de la clôture — taux de rebuts : 7,7 %.\n\nCe message est rédigé de façon à pouvoir être transmis tel quel à Véronique Pradel.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-06-18",
+      "subject": "Demande d'évolution 2025-S06 — suite donnée",
+      "content": "Bonjour Véronique Pradel,\n\nRetour sur la demande d'évolution enregistrée sous la référence 2025-S06 : filtrage par équipe en complément du périmètre global.\n\nElle a été instruite par notre équipe produit. Elle est retenue pour la prochaine version trimestrielle.\n\nPour mémoire, deux autres demandes issues de vos équipes restent ouvertes ; j'en fais le point complet au prochain comité de suivi.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-06-25",
+      "subject": "Fenêtre de maintenance 2025-S07 — Filoptim Atelier version 2025.7",
+      "content": "Bonjour Jérôme Vandamme,\n\nNous prévoyons le déploiement de la version 2025.7 de Filoptim Atelier, annoncé conformément au préavis de quinze jours prévu au contrat.\n\n— Durée estimée d'indisponibilité de l'interface : 30 minutes\n— Créneau : en dehors de vos heures ouvrées\n— Impact sur la collecte : aucun, le connecteur continue de fonctionner\n— Principal apport de cette version : comparaison automatique avec le même mois de l'année précédente\n\nSi cette date tombe pendant une période sensible de votre côté, vous disposez d'un report par trimestre : signalez-le-moi et je décale.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-07-04",
+      "subject": "Point de situation semaine 8 — arbitrages attendus",
+      "content": "Bonjour Véronique Pradel,\n\nJe fais un point rapide en amont de notre prochain échange.\n\nLe taux de rebuts s'établit à 7,2 %, pour un objectif de 4,2 %. Le taux d'adoption atteint 59 %.\n\nDeux sujets appellent votre arbitrage :\n\n1. Montée de version décalée à la demande de la dsi\n2. Ajout d'un seuil d'alerte personnalisable par utilisateur\n\nDites-moi ce qui vous arrange et je m'aligne sur votre calendrier, en tenant compte de l'audit d'un donneur d'ordre majeur en juin.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-07-13",
+      "subject": "Compte rendu hebdomadaire — semaine 9 (2025-S09)",
+      "content": "Bonjour Véronique Pradel,\n\nSynthèse du point de la semaine 9 :\n\n— taux de rebuts : 7,1 % (départ 7,8 %, cible 4,2 %)\n— Adoption : 61 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : écart entre la mesure hebdomadaire et le reporting mensuel\n— Demande d'évolution remontée : ajout d'un seuil d'alerte personnalisable par utilisateur\n\nComme chaque semaine, je distingue ce qui relève du projet de ce qui relève du contexte : une partie de la variation tient à la saisonnalité, et je préfère vous transmettre le chiffre prudent.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-07-20",
+      "subject": "Ticket TIC-11488 — clôture, cause et action corrective",
+      "content": "Bonjour Malik Ouarab,\n\nJe vous confirme par écrit la clôture du ticket TIC-11488, ouvert en semaine 10.\n\nCause identifiée : requête non optimisée déclenchée par un filtre personnalisé.\nAucune donnée n'a été perdue ; les valeurs affichées pendant l'incident ont été recalculées et vérifiées.\nAction de fond : correctif déployé et test de charge ajouté à la recette.\n\nIndicateur au moment de la clôture — taux de rebuts : 6,9 %.\n\nCe message est rédigé de façon à pouvoir être transmis tel quel à Véronique Pradel.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-07-30",
+      "subject": "Demande d'évolution 2025-S11 — suite donnée",
+      "content": "Bonjour Véronique Pradel,\n\nRetour sur la demande d'évolution enregistrée sous la référence 2025-S11 : ajout d'un seuil d'alerte personnalisable par utilisateur.\n\nElle a été instruite par notre équipe produit. Elle est retenue pour la prochaine version trimestrielle.\n\nPour mémoire, deux autres demandes issues de vos équipes restent ouvertes ; j'en fais le point complet au prochain comité de suivi.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-08-07",
+      "subject": "Fenêtre de maintenance 2025-S12 — Filoptim Atelier version 2025.12",
+      "content": "Bonjour Jérôme Vandamme,\n\nNous prévoyons le déploiement de la version 2025.12 de Filoptim Atelier, annoncé conformément au préavis de quinze jours prévu au contrat.\n\n— Durée estimée d'indisponibilité de l'interface : 45 minutes\n— Créneau : en dehors de vos heures ouvrées\n— Impact sur la collecte : aucun, le connecteur continue de fonctionner\n— Principal apport de cette version : historique des commentaires consultable sur douze mois\n\nSi cette date tombe pendant une période sensible de votre côté, vous disposez d'un report par trimestre : signalez-le-moi et je décale.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-08-16",
+      "subject": "Point de situation semaine 13 — arbitrages attendus",
+      "content": "Bonjour Véronique Pradel,\n\nJe fais un point rapide en amont de notre prochain échange.\n\nLe taux de rebuts s'établit à 6,5 %, pour un objectif de 4,2 %. Le taux d'adoption atteint 68 %.\n\nDeux sujets appellent votre arbitrage :\n\n1. Trous d'historique identifiés sur trois mois\n2. Export de la vue filtrée et non seulement de la vue complète\n\nDites-moi ce qui vous arrange et je m'aligne sur votre calendrier, en tenant compte de l'audit d'un donneur d'ordre majeur en juin.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-08-25",
+      "subject": "Compte rendu hebdomadaire — semaine 14 (2025-S14)",
+      "content": "Bonjour Véronique Pradel,\n\nSynthèse du point de la semaine 14 :\n\n— taux de rebuts : 6,4 % (départ 7,8 %, cible 4,2 %)\n— Adoption : 70 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : période de gel informatique à intégrer au calendrier\n— Demande d'évolution remontée : export de la vue filtrée et non seulement de la vue complète\n\nComme chaque semaine, je distingue ce qui relève du projet de ce qui relève du contexte : une partie de la variation tient à la saisonnalité, et je préfère vous transmettre le chiffre prudent.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-09-03",
+      "subject": "Ticket TIC-69920 — clôture, cause et action corrective",
+      "content": "Bonjour Malik Ouarab,\n\nJe vous confirme par écrit la clôture du ticket TIC-69920, ouvert en semaine 15.\n\nCause identifiée : seuil paramétré en valeur absolue au lieu d'un pourcentage.\nAucune donnée n'a été perdue ; les valeurs affichées pendant l'incident ont été recalculées et vérifiées.\nAction de fond : revue complète des seuils avec l'équipe métier.\n\nIndicateur au moment de la clôture — taux de rebuts : 6,2 %.\n\nCe message est rédigé de façon à pouvoir être transmis tel quel à Véronique Pradel.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-09-10",
+      "subject": "Demande d'évolution 2025-S16 — suite donnée",
+      "content": "Bonjour Véronique Pradel,\n\nRetour sur la demande d'évolution enregistrée sous la référence 2025-S16 : ajout d'un seuil d'alerte personnalisable par utilisateur.\n\nElle a été instruite par notre équipe produit. Elle n'est pas retenue à court terme, et je préfère vous le dire clairement plutôt que de la laisser en attente indéfinie.\n\nPour mémoire, deux autres demandes issues de vos équipes restent ouvertes ; j'en fais le point complet au prochain comité de suivi.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-09-20",
+      "subject": "Fenêtre de maintenance 2025-S17 — Filoptim Atelier version 2025.17",
+      "content": "Bonjour Jérôme Vandamme,\n\nNous prévoyons le déploiement de la version 2025.17 de Filoptim Atelier, annoncé conformément au préavis de quinze jours prévu au contrat.\n\n— Durée estimée d'indisponibilité de l'interface : 20 minutes\n— Créneau : en dehors de vos heures ouvrées\n— Impact sur la collecte : aucun, le connecteur continue de fonctionner\n— Principal apport de cette version : ajout d'un seuil d'alerte personnalisable par utilisateur\n\nSi cette date tombe pendant une période sensible de votre côté, vous disposez d'un report par trimestre : signalez-le-moi et je décale.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-09-28",
+      "subject": "Point de situation semaine 18 — arbitrages attendus",
+      "content": "Bonjour Véronique Pradel,\n\nJe fais un point rapide en amont de notre prochain échange.\n\nLe taux de rebuts s'établit à 5,8 %, pour un objectif de 4,2 %. Le taux d'adoption atteint 77 %.\n\nDeux sujets appellent votre arbitrage :\n\n1. Départ d'un référent métier sur le site nord\n2. Ajout d'un seuil d'alerte personnalisable par utilisateur\n\nDites-moi ce qui vous arrange et je m'aligne sur votre calendrier, en tenant compte de l'audit d'un donneur d'ordre majeur en juin.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-10-05",
+      "subject": "Compte rendu hebdomadaire — semaine 19 (2025-S19)",
+      "content": "Bonjour Véronique Pradel,\n\nSynthèse du point de la semaine 19 :\n\n— taux de rebuts : 5,6 % (départ 7,8 %, cible 4,2 %)\n— Adoption : 79 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : trous d'historique identifiés sur trois mois\n— Demande d'évolution remontée : comparaison automatique avec le même mois de l'année précédente\n\nComme chaque semaine, je distingue ce qui relève du projet de ce qui relève du contexte : une partie de la variation tient à la saisonnalité, et je préfère vous transmettre le chiffre prudent.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-10-15",
+      "subject": "Ticket TIC-67023 — clôture, cause et action corrective",
+      "content": "Bonjour Malik Ouarab,\n\nJe vous confirme par écrit la clôture du ticket TIC-67023, ouvert en semaine 20.\n\nCause identifiée : changement de mot de passe technique non signalé.\nAucune donnée n'a été perdue ; les valeurs affichées pendant l'incident ont été recalculées et vérifiées.\nAction de fond : ajout d'une alerte automatique sur expiration des identifiants.\n\nIndicateur au moment de la clôture — taux de rebuts : 5,5 %.\n\nCe message est rédigé de façon à pouvoir être transmis tel quel à Véronique Pradel.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-10-24",
+      "subject": "Demande d'évolution 2025-S21 — suite donnée",
+      "content": "Bonjour Véronique Pradel,\n\nRetour sur la demande d'évolution enregistrée sous la référence 2025-S21 : filtrage par équipe en complément du périmètre global.\n\nElle a été instruite par notre équipe produit. Elle est retenue pour la prochaine version trimestrielle.\n\nPour mémoire, deux autres demandes issues de vos équipes restent ouvertes ; j'en fais le point complet au prochain comité de suivi.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-10-31",
+      "subject": "Fenêtre de maintenance 2025-S22 — Filoptim Atelier version 2025.22",
+      "content": "Bonjour Jérôme Vandamme,\n\nNous prévoyons le déploiement de la version 2025.22 de Filoptim Atelier, annoncé conformément au préavis de quinze jours prévu au contrat.\n\n— Durée estimée d'indisponibilité de l'interface : 30 minutes\n— Créneau : en dehors de vos heures ouvrées\n— Impact sur la collecte : aucun, le connecteur continue de fonctionner\n— Principal apport de cette version : vue mobile simplifiée pour les responsables de terrain\n\nSi cette date tombe pendant une période sensible de votre côté, vous disposez d'un report par trimestre : signalez-le-moi et je décale.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-11-09",
+      "subject": "Point de situation semaine 23 — arbitrages attendus",
+      "content": "Bonjour Véronique Pradel,\n\nJe fais un point rapide en amont de notre prochain échange.\n\nLe taux de rebuts s'établit à 5,1 %, pour un objectif de 4,2 %. Le taux d'adoption atteint 86 %.\n\nDeux sujets appellent votre arbitrage :\n\n1. Période de gel informatique à intégrer au calendrier\n2. Ajout d'un seuil d'alerte personnalisable par utilisateur\n\nDites-moi ce qui vous arrange et je m'aligne sur votre calendrier, en tenant compte de l'audit d'un donneur d'ordre majeur en juin.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-11-18",
+      "subject": "Compte rendu hebdomadaire — semaine 24 (2025-S24)",
+      "content": "Bonjour Véronique Pradel,\n\nSynthèse du point de la semaine 24 :\n\n— taux de rebuts : 4,9 % (départ 7,8 %, cible 4,2 %)\n— Adoption : 88 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : montée de version décalée à la demande de la DSI\n— Demande d'évolution remontée : ajout d'un seuil d'alerte personnalisable par utilisateur\n\nComme chaque semaine, je distingue ce qui relève du projet de ce qui relève du contexte : une partie de la variation tient à la saisonnalité, et je préfère vous transmettre le chiffre prudent.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    },
+    {
+      "date": "2025-11-27",
+      "subject": "Ticket TIC-21074 — clôture, cause et action corrective",
+      "content": "Bonjour Malik Ouarab,\n\nJe vous confirme par écrit la clôture du ticket TIC-21074, ouvert en semaine 25.\n\nCause identifiée : modification d'une règle de calcul côté client sans information préalable.\nAucune donnée n'a été perdue ; les valeurs affichées pendant l'incident ont été recalculées et vérifiées.\nAction de fond : mise en place d'un contrôle de cohérence quotidien.\n\nIndicateur au moment de la clôture — taux de rebuts : 4,8 %.\n\nCe message est rédigé de façon à pouvoir être transmis tel quel à Véronique Pradel.\n\nBien cordialement,\n\nSarah Lemesle\nFiloptim Systèmes"
+    }
+  ],
+  "account_id": 10
+}

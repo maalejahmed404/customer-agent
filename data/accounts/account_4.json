@@ -1,0 +1,632 @@
+{
+  "tenant_name": "Assurio Technologies",
+  "account_name": "Mutuelle Horizon Solidaire",
+  "calls": [
+    {
+      "date": "2025-01-13",
+      "call_name": "Appel de qualification (barrage secrétariat) — tentative de joindre Directrice des opérations",
+      "transcript": "Commercial (Nicolas): Bonjour, Nicolas Rey de Assurio Technologies. Je cherche à joindre Sandrine Aubert, s'il vous plaît.\n\nBarrage (Véronique): Bonjour. C'est à quel sujet ?\n\nCommercial (Nicolas): Je l'ai contactée la semaine dernière sur le sujet suivant : un délai moyen de remboursement de 11 jours contre 5 chez les concurrents. Je voulais m'assurer que mon message était bien arrivé.\n\nBarrage (Véronique): Hmm. Je ne suis pas sûre qu'elle ait le temps, franchement.\n\nCommercial (Nicolas): Bien sûr, je vais lui écrire. Petite question : est-ce que c'est bien elle qui pilote ce sujet, ou est-ce que ça relève plutôt de Farid Haddad ?\n\nBarrage (Véronique): Les deux travaillent ensemble là-dessus, mais c'est Sandrine qui mène.\n\nCommercial (Nicolas): Est-ce que le sujet délai moyen de remboursement est un chantier ouvert chez vous cette année ? Ça m'éviterait de vous déranger pour rien.\n\nBarrage (Véronique): Je crois qu'il y a un groupe de travail là-dessus, oui.\n\nCommercial (Nicolas): Parfait, je vous remercie. Je lui envoie un mail aujourd'hui en mettant votre nom en référence, si vous permettez.\n\nBarrage (Véronique): Oui, pas de souci. Bonne journée.",
+      "summary": "Tentative de contact avec Sandrine Aubert (Directrice des opérations), filtrée par l'assistante. Le sujet délai moyen de remboursement semble bien être un chantier ouvert en interne. Créneau de rappel identifié et envoi d'un courriel de référence convenu.",
+      "crm_fields": [
+        {
+          "key": "Statut du contact",
+          "value": "Sandrine Aubert injoignable — filtré par Véronique"
+        },
+        {
+          "key": "Nom du barrage",
+          "value": "Véronique"
+        },
+        {
+          "key": "Meilleur moment pour rappeler",
+          "value": "Mardi avant 10h"
+        },
+        {
+          "key": "Prochaine action",
+          "value": "Relance sous 5 jours"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-20",
+      "call_name": "Appel de prospection — premier contact avec Directrice des opérations",
+      "transcript": "Commercial (Nicolas): Bonjour Sandrine Aubert, Nicolas Rey de Assurio Technologies. Je vous appelle à froid, vous m'accordez quatre-vingt-dix secondes et vous me dites si ça mérite un vrai échange ?\n\nProspect (Sandrine Aubert): Bon... deux minutes, pas plus.\n\nCommercial (Nicolas): Merci. On travaille avec des structures de la protection sociale qui rencontrent toutes le même problème : un délai moyen de remboursement de 11 jours contre 5 chez les concurrents. Est-ce que ça vous parle, ou est-ce que je suis complètement à côté ?\n\nProspect (Sandrine Aubert): Franchement, on a déjà été démarchés dix fois sur ce sujet.\n\nCommercial (Nicolas): Je m'en doute. Qu'est-ce qui n'avait pas fonctionné la dernière fois ?\n\nProspect (Sandrine Aubert): Le projet demandait six mois de paramétrage et deux ETP en interne. On a arrêté les frais.\n\nCommercial (Nicolas): C'est exactement le reproche qu'on entend le plus. Nous, on ne remplace rien : on se branche sur Adhésia en lecture seule, et on restitue par-dessus.\n\nCommercial (Nicolas): Est-ce qu'on peut caler trente minutes de découverte ? Je viens avec des questions, pas avec un diaporama.\n\nProspect (Sandrine Aubert): D'accord, mais j'aimerais que Farid soit là. Sans lui, on n'ira pas loin.\n\nCommercial (Nicolas): C'est noté, je vous envoie ça dans la foulée avec un ordre du jour court. Merci du temps.",
+      "summary": "Premier échange avec Sandrine Aubert. La douleur pressentie est confirmée : un délai moyen de remboursement de 11 jours contre 5 chez les concurrents. Le frein principal exprimé est la crainte d'un projet lourd nécessitant de remplacer Adhésia. L'argument de non-remplacement et d'une première restitution à trois semaines a permis d'obtenir un rendez-vous de découverte.",
+      "crm_fields": [
+        {
+          "key": "Douleur identifiée",
+          "value": "un délai moyen de remboursement de 11 jours contre 5 chez les concurrents"
+        },
+        {
+          "key": "Concurrent mentionné",
+          "value": "GestioSanté"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Passage en comité"
+        },
+        {
+          "key": "Sentiment du prospect",
+          "value": "Ouvert mais prudent"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-28",
+      "call_name": "Appel de découverte (30 min) — cartographie des processus et des douleurs",
+      "transcript": "Commercial (Nicolas): Merci de votre temps, Sandrine. On a trente minutes — l'objectif pour moi, c'est de comprendre comment vous fonctionnez aujourd'hui. Je ne vous montrerai rien, promis.\n\nProspect (Sandrine Aubert): Très bien. J'ai un point à 14h30 donc on tiendra le timing.\n\nCommercial (Nicolas): Commençons par le concret : 180 000 adhérents et 46 gestionnaires, c'est bien ça ? Comment ça se pilote aujourd'hui ?\n\nCommercial (Nicolas): Dernière question sur l'organisation : qui produit les chiffres présentés en réunion de direction ?\n\nProspect (Sandrine Aubert): Moi, la veille au soir. Et je passe une bonne partie du temps de réunion à justifier d'où ils viennent.\n\nCommercial (Nicolas): Combien de temps de la réunion part sur la fiabilité des chiffres plutôt que sur les décisions ?\n\nProspect (Sandrine Aubert): La moitié, facilement. C'est épuisant.\n\nCommercial (Nicolas): Est-ce que vous regardez d'autres solutions en parallèle ?\n\nProspect (Sandrine Aubert): On a eu une présentation de GestioSanté il y a un mois.\n\nCommercial (Nicolas): Qu'est-ce que vous en avez retenu ?\n\nProspect (Sandrine Aubert): Une belle interface, mais un discours très générique. Rien qui montre qu'ils connaissent notre métier.\n\nCommercial (Nicolas): Autre point que vous avez soulevé : un taux de réclamation adhérents en hausse de 20 %. C'est un sujet séparé, ou lié au reste ?\n\nProspect (Sandrine Aubert): C'est le même sujet vu sous un autre angle. Tout part du fait qu'on n'a pas de vision consolidée en temps utile.\n\nCommercial (Nicolas): Qui s'en aperçoit en premier, aujourd'hui ?\n\nProspect (Sandrine Aubert): Personne, honnêtement. On le découvre dans le reporting mensuel, un mois après.\n\nCommercial (Nicolas): Donc le vrai problème, c'est moins la mesure que le délai de la mesure.\n\nProspect (Sandrine Aubert): Exactement. On sait mesurer, on mesure trop tard.\n\nCommercial (Nicolas): Si on ne fait rien, qu'est-ce qui se passe dans douze mois ?\n\nProspect (Sandrine Aubert): On tient, mais on tient sur les gens. Et je perds des compétences : deux départs l'an dernier, en partie pour ces raisons.\n\nCommercial (Nicolas): C'est un argument qui pèse plus qu'un tableau de bord, ça.\n\nProspect (Sandrine Aubert): C'est celui que j'utilise en interne, oui. Le reste, ça intéresse peu.\n\nCommercial (Nicolas): Sur le plan technique, à qui je dois parler ?\n\nProspect (Sandrine Aubert): Farid Haddad, Directeur des systèmes d'information. Je vous préviens, il est exigeant.\n\nCommercial (Nicolas): Tant mieux. Quelles sont ses contraintes habituelles ?\n\nProspect (Sandrine Aubert): Il ne veut pas d'agent installé sur les serveurs, et il tient à ce que Adhésia ne soit touché en aucune manière.\n\nCommercial (Nicolas): Vous aviez évoqué ce point : 38 % des dossiers qui passent en traitement manuel. Ça se traduit comment concrètement ?\n\nProspect (Sandrine Aubert): Ça se traduit par des arbitrages pris trop tard. Quand on voit le problème, il est déjà dans les chiffres du mois.\n\nCommercial (Nicolas): Est-ce que vous arrivez à mettre un chiffre dessus ?\n\nProspect (Sandrine Aubert): On a estimé que le délai moyen de remboursement est à 11 jours. L'objectif du comité, c'est 5 jours.\n\nCommercial (Nicolas): Et si vous y arriviez, ça représente quoi pour Mutuelle Horizon Solidaire ?\n\nProspect (Sandrine Aubert): Ça changerait la façon dont on est perçus en interne, très honnêtement.\n\nCommercial (Nicolas): Comment se prend la décision chez vous, sur ce type de projet ?\n\nProspect (Sandrine Aubert): C'est Éric Mansour qui arbitre. Moi je peux recommander, mais je ne signe pas.\n\nCommercial (Nicolas): Quel est le seuil qui déclenche le passage en comité ?\n\nProspect (Sandrine Aubert): De mémoire, 100 000 euros par an.\n\nCommercial (Nicolas): Bon à savoir. Et le calendrier ?\n\nProspect (Sandrine Aubert): On aimerait que ce soit opérationnel avant la campagne d'adhésion de janvier.\n\nCommercial (Nicolas): Sur les données elles-mêmes : quelle est la qualité de ce qui sort de Adhésia ?\n\nProspect (Sandrine Aubert): Inégale. Sur les douze derniers mois c'est correct, avant c'est plus douteux.\n\nCommercial (Nicolas): C'est important que vous le disiez maintenant plutôt que dans trois mois. On prévoit systématiquement une phase de fiabilisation.\n\nProspect (Sandrine Aubert): Voilà une réponse que je n'avais pas encore entendue.\n\nCommercial (Nicolas): Aucun algorithme ne rattrape une donnée absente. Il peut la signaler, c'est tout ce qu'on promet.\n\nCommercial (Nicolas): Si je résume : le sujet est réel, chiffré à 11 jours sur le délai moyen de remboursement, porté par vous, arbitré par Éric, avec la campagne d'adhésion de janvier comme échéance. J'ai bon ?\n\nProspect (Sandrine Aubert): Oui, c'est un bon résumé.\n\nCommercial (Nicolas): Prochaine étape, je propose une démonstration ciblée sur votre cas, avec Farid présent. Quarante-cinq minutes.\n\nProspect (Sandrine Aubert): D'accord, je vous envoie deux créneaux.",
+      "summary": "Découverte approfondie avec Sandrine Aubert. Le fonctionnement actuel repose sur Adhésia comme source de vérité, avec toute l'analyse réalisée en dehors, sous tableur. Le délai moyen de remboursement est mesuré à 11 jours pour une cible de 5 jours. Décideur économique identifié : Éric Mansour. Risque principal : l'adoption par les équipes de Céline Roux, échaudées par des projets précédents. Échéance structurante : la campagne d'adhésion de janvier. Démonstration ciblée programmée avec Farid.",
+      "crm_fields": [
+        {
+          "key": "Système existant",
+          "value": "Adhésia — une GED historique"
+        },
+        {
+          "key": "Processus actuel",
+          "value": "Extractions manuelles retraitées sous tableur"
+        },
+        {
+          "key": "Douleurs quantifiées",
+          "value": "délai moyen de remboursement à 11 jours (cible 5 jours) ; 38 % des dossiers qui passent en traitement manuel"
+        },
+        {
+          "key": "Décideur économique",
+          "value": "Éric Mansour (Directeur général adjoint)"
+        },
+        {
+          "key": "Critère de décision",
+          "value": "Aucun remplacement de Adhésia ; adoption par les équipes terrain"
+        },
+        {
+          "key": "Échéance client",
+          "value": "la campagne d'adhésion de janvier"
+        },
+        {
+          "key": "Taille de l'équipe",
+          "value": "30 utilisateurs cibles"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Passage en comité"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-03",
+      "call_name": "Démonstration produit (45 min) — cas d'usage Assurio Flux",
+      "transcript": "Commercial (Nicolas): Bonjour à tous. On est trois : Sandrine, Farid, et Thomas côté Assurio. Quarante-cinq minutes, et on part de votre cas, pas d'un jeu de données de démonstration.\n\nDirecteur des systèmes d'information (Farid Haddad): Très bien. J'ai des questions techniques, je les poserai au fil de l'eau.\n\nIngénieur avant-vente (Thomas Nguyen): On a repris ce que Sandrine nous a décrit : 180 000 adhérents et 46 gestionnaires, une source Adhésia, et le délai moyen de remboursement comme indicateur de tête. Voilà l'écran d'accueil.\n\nDirecteur des systèmes d'information (Farid Haddad): Vous gérez les droits d'accès à quelle granularité ?\n\nIngénieur avant-vente (Thomas Nguyen): Par périmètre et par rôle. Un directeur d'établissement ne voit que son périmètre, la direction voit le consolidé.\n\nDirecteur des systèmes d'information (Farid Haddad): Et c'est piloté depuis notre annuaire ou dans votre outil ?\n\nIngénieur avant-vente (Thomas Nguyen): Depuis votre annuaire, via les groupes existants. Vous ne gérez pas une deuxième liste d'utilisateurs.\n\nDirecteur des systèmes d'information (Farid Haddad): Parfait, ça m'évite un chantier de gestion des habilitations.\n\nDirecteur des systèmes d'information (Farid Haddad): Comment vous récupérez les données de Adhésia ? Parce que l'API est très pauvre, je vous préviens.\n\nIngénieur avant-vente (Thomas Nguyen): Trois modes possibles : API quand elle existe, lecture d'une réplique en base, ou dépôt de fichiers sur un espace sécurisé. Pour votre cas, la réplique en lecture seule est la plus simple.\n\nDirecteur des systèmes d'information (Farid Haddad): Lecture seule, vraiment ? Aucune écriture ?\n\nIngénieur avant-vente (Thomas Nguyen): Aucune. On ne modifie jamais votre système source. C'est un principe d'architecture.\n\nDirecteur des systèmes d'information (Farid Haddad): Bon. Ça lève déjà mon objection principale.\n\nProspect (Sandrine Aubert): Est-ce qu'on peut voir ce que ça donne sur ce cas précis : un pic de charge en janvier impossible à absorber ?\n\nIngénieur avant-vente (Thomas Nguyen): Bien sûr. Regardez : le système détecte l'écart quatre jours avant qu'il devienne visible dans vos indicateurs mensuels.\n\nProspect (Sandrine Aubert): Quatre jours d'avance, sur ce sujet-là, c'est énorme.\n\nDirecteur des systèmes d'information (Farid Haddad): Et le modèle se base sur combien d'historique ?\n\nIngénieur avant-vente (Thomas Nguyen): Douze à dix-huit mois idéalement. En dessous de six mois, on reste sur des règles simples, sans prétendre faire de la prévision.\n\nProspect (Sandrine Aubert): Combien de temps avant d'avoir quelque chose d'exploitable, réellement ?\n\nIngénieur avant-vente (Thomas Nguyen): Trois semaines pour la première restitution, à condition d'avoir l'accès aux données en semaine 1. Et je précise : exploitable ne veut pas dire complet.\n\nProspect (Sandrine Aubert): C'est-à-dire ?\n\nIngénieur avant-vente (Thomas Nguyen): Les modèles prédictifs demandent plus d'historique fiabilisé. À trois semaines vous avez le constat et les écarts, pas la prévision. Celle-ci arrive vers le deuxième mois.\n\nProspect (Sandrine Aubert): Je préfère cette réponse à un « tout est prêt en quinze jours » auquel je ne crois pas.\n\nDirecteur des systèmes d'information (Farid Haddad): Question bête : qu'est-ce qui se passe si la source tombe ?\n\nIngénieur avant-vente (Thomas Nguyen): L'outil continue de fonctionner sur la dernière donnée valide, et un bandeau signale la fraîcheur. On préfère afficher « donnée d'hier » que de faire croire que tout va bien.\n\nDirecteur des systèmes d'information (Farid Haddad): Bonne réponse. J'ai vu des outils afficher des zéros dans ce cas-là.\n\nProspect (Sandrine Aubert): Et si Éric me demande le chiffre du mois dernier pendant une réunion, je fais comment ?\n\nIngénieur avant-vente (Thomas Nguyen): Vous ouvrez l'historique, il est figé. Le chiffre du mois dernier reste celui qui a été publié le mois dernier, même si les données sources ont bougé depuis.\n\nProspect (Sandrine Aubert): Alors ça, c'est un vrai sujet chez nous. Nos chiffres changent rétroactivement et personne ne comprend pourquoi.\n\nIngénieur avant-vente (Thomas Nguyen): On garde les deux : la version publiée et la version actualisée, avec l'écart expliqué.\n\nResponsable d'équipe gestion (Céline Roux): Je peux poser une question de terrain ? Concrètement, ça me prend combien de temps le matin ?\n\nIngénieur avant-vente (Thomas Nguyen): Cinq minutes le matin. Et ça remplace la consolidation que vous faites aujourd'hui à la main, donc le solde est largement positif.\n\nResponsable d'équipe gestion (Céline Roux): Si c'est vrai, mon équipe suivra. Si c'est une saisie de plus, ça ne prendra pas.\n\nIngénieur avant-vente (Thomas Nguyen): Aucune saisie supplémentaire. On lit vos données existantes, on ne vous demande rien de neuf.\n\nProspect (Sandrine Aubert): Et la restitution pour le comité de direction ?\n\nIngénieur avant-vente (Thomas Nguyen): Export automatique, mensuel, au format que vous voulez. Vous pouvez même figer la version présentée pour éviter que les chiffres bougent entre deux réunions.\n\nProspect (Sandrine Aubert): Ça, c'est du vécu. Merci.\n\nCommercial (Nicolas): On approche de la fin. Qu'est-ce qui vous manque pour vous projeter ?\n\nDirecteur des systèmes d'information (Farid Haddad): Un point d'architecture dédié. Une démonstration, c'est bien, mais je veux voir les schémas.\n\nProspect (Sandrine Aubert): Un chiffrage, même approximatif. Je dois pouvoir en parler en comité.\n\nCommercial (Nicolas): Compris. Je propose un point technique avec Farid et Thomas, et je vous envoie une fourchette budgétaire d'ici demain.",
+      "summary": "Démonstration réalisée sur les données et le contexte du compte. Les points qui ont porté : la traçabilité jusqu'à la donnée source et la simplicité de l'écran quotidien. Farid a validé le principe de lecture seule sans écriture dans Adhésia. Restent à fournir le dossier d'architecture et une fourchette budgétaire.",
+      "crm_fields": [
+        {
+          "key": "Retour sur la démonstration",
+          "value": "Positif — la simplicité de l'écran quotidien a convaincu"
+        },
+        {
+          "key": "Objection technique",
+          "value": "Intégration à Adhésia et absence d'agent sur les serveurs"
+        },
+        {
+          "key": "Fonctionnalité déterminante",
+          "value": "Traçabilité jusqu'à la donnée source"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Atelier technique"
+        },
+        {
+          "key": "Sentiment des parties prenantes",
+          "value": "Sandrine favorable ; Farid réservé jusqu'à validation du dossier de conformité"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-11",
+      "call_name": "Atelier technique (1h) — architecture, flux de données et intégration Adhésia",
+      "transcript": "Ingénieur avant-vente (Thomas Nguyen): Bonjour Farid. Une heure, format atelier : je réponds à vos questions, pas de présentation commerciale.\n\nDirecteur des systèmes d'information (Farid Haddad): Très bien. J'ai six points, on verra si on tient l'heure.\n\nDirecteur des systèmes d'information (Farid Haddad): Réversibilité. Si on arrête au bout d'un an, je récupère quoi ?\n\nIngénieur avant-vente (Thomas Nguyen): L'intégralité de vos données, au format CSV et Parquet, plus le dictionnaire de données. Sous trente jours, et c'est contractuel.\n\nDirecteur des systèmes d'information (Farid Haddad): Notez-le dans le contrat, pas dans un courriel.\n\nDirecteur des systèmes d'information (Farid Haddad): Dernier point, et c'est celui qui me fait le plus peur : la reprise d'historique. Combien de temps et quel impact sur nos systèmes ?\n\nIngénieur avant-vente (Thomas Nguyen): Une nuit de chargement pour douze mois, sur la réplique de lecture. Aucun impact sur votre production, puisqu'on ne touche pas à la base primaire.\n\nDirecteur des systèmes d'information (Farid Haddad): Sur la réplique, d'accord. Et si la réplique prend du retard pendant le chargement ?\n\nIngénieur avant-vente (Thomas Nguyen): On bride le débit. Le chargement dure plus longtemps mais votre réplique reste dans ses seuils. C'est paramétrable avec vous.\n\nDirecteur des systèmes d'information (Farid Haddad): D'accord. C'est une réponse d'ingénieur, ça me va.\n\nDirecteur des systèmes d'information (Farid Haddad): Authentification : on est sur un annuaire interne avec SSO. Vous supportez SAML ?\n\nIngénieur avant-vente (Thomas Nguyen): SAML 2.0 et OpenID Connect, avec provisionnement automatique des comptes et rattachement aux groupes de votre annuaire.\n\nDirecteur des systèmes d'information (Farid Haddad): Bien. Ça m'évite de gérer des comptes locaux.\n\nDirecteur des systèmes d'information (Farid Haddad): Hébergement. Où sont les données ? Avec le RGPD sur données de santé et le contrôle ACPR, je n'ai aucune marge.\n\nIngénieur avant-vente (Thomas Nguyen): Hébergement en France, chez un opérateur qualifié. Les données ne sortent pas de l'Union européenne, y compris pour les sauvegardes.\n\nDirecteur des systèmes d'information (Farid Haddad): Et le support ? Parce que j'ai déjà vu des éditeurs héberger en Europe et faire du support depuis l'étranger avec un accès aux données.\n\nIngénieur avant-vente (Thomas Nguyen): Support en France, accès tracé et nominatif, et journal consultable. On vous fournit la matrice des accès dans le dossier de conformité.\n\nDirecteur des systèmes d'information (Farid Haddad): Envoyez-la-moi. C'est ce document qui décidera, pas la démonstration.\n\nDirecteur des systèmes d'information (Farid Haddad): Le flux depuis Adhésia : fréquence, volume, et qui initie la connexion ?\n\nIngénieur avant-vente (Thomas Nguyen): C'est vous qui initiez. Un connecteur déployé chez vous pousse les données vers notre plateforme en HTTPS sortant. Aucun flux entrant à ouvrir.\n\nDirecteur des systèmes d'information (Farid Haddad): Bien. Mon RSSI refuse systématiquement les flux entrants.\n\nIngénieur avant-vente (Thomas Nguyen): Fréquence par défaut : horaire. Configurable jusqu'au quart d'heure si le volume le justifie.\n\nDirecteur des systèmes d'information (Farid Haddad): Supervision : comment je sais que le flux tourne, sans avoir à ouvrir votre interface ?\n\nIngénieur avant-vente (Thomas Nguyen): Un point de contrôle exposé que vous interrogez depuis votre propre supervision, plus une alerte par courriel en cas d'échec de chargement.\n\nDirecteur des systèmes d'information (Farid Haddad): Il me faut le second, mais surtout le premier. Je veux que ça remonte dans mes écrans, pas dans une boîte mail que personne ne lit.\n\nIngénieur avant-vente (Thomas Nguyen): C'est prévu. Je vous envoie le format de réponse pour que vous l'intégriez à votre outil.\n\nDirecteur des systèmes d'information (Farid Haddad): Qualité des données : notre historique est loin d'être propre. Qu'est-ce qui se passe avec les trous ?\n\nIngénieur avant-vente (Thomas Nguyen): On les détecte et on les signale plutôt que de les combler silencieusement. Un rapport de qualité est produit à chaque chargement.\n\nDirecteur des systèmes d'information (Farid Haddad): D'accord. Je préfère un outil qui dit « je ne sais pas » qu'un outil qui invente.\n\nIngénieur avant-vente (Thomas Nguyen): Sur votre périmètre, on estime qu'il faudra deux semaines de fiabilisation avant d'avoir des chiffres présentables.\n\nDirecteur des systèmes d'information (Farid Haddad): Montées de version. Vous imposez vos fenêtres ou on négocie ?\n\nIngénieur avant-vente (Thomas Nguyen): Mises à jour mensuelles, annoncées quinze jours avant, en dehors de vos heures ouvrées. Vous pouvez décaler une fenêtre par trimestre.\n\nDirecteur des systèmes d'information (Farid Haddad): Prévoyez une période de gel sur nos pics d'activité, sinon ça va poser problème.\n\nIngénieur avant-vente (Thomas Nguyen): C'est courant, on le contractualise dans l'annexe de service.\n\nDirecteur des systèmes d'information (Farid Haddad): Environnements. Vous fournissez une recette séparée de la production ?\n\nIngénieur avant-vente (Thomas Nguyen): Oui, deux environnements inclus. La recette est alimentée par un échantillon anonymisé de vos données.\n\nDirecteur des systèmes d'information (Farid Haddad): L'anonymisation, c'est un mot que j'entends beaucoup. Concrètement ?\n\nIngénieur avant-vente (Thomas Nguyen): Substitution des identifiants et des noms propres, décalage temporel aléatoire, conservation des distributions statistiques. La procédure est documentée et auditable.\n\nDirecteur des systèmes d'information (Farid Haddad): Envoyez la procédure, je la ferai relire.\n\nDirecteur des systèmes d'information (Farid Haddad): Charge côté serveur. Le connecteur consomme quoi ?\n\nIngénieur avant-vente (Thomas Nguyen): Deux cœurs, quatre gigaoctets de mémoire. Il tourne la nuit pour l'historique et en incrémental la journée.\n\nDirecteur des systèmes d'information (Farid Haddad): Ça passe sur une machine virtuelle existante. Pas besoin de nouveau matériel, donc.\n\nIngénieur avant-vente (Thomas Nguyen): Il vous reste des points bloquants ?\n\nDirecteur des systèmes d'information (Farid Haddad): Un seul : je veux valider les schémas d'architecture avec mon RSSI avant de me prononcer.\n\nIngénieur avant-vente (Thomas Nguyen): Je vous envoie le dossier complet aujourd'hui. Merci pour la qualité des questions.",
+      "summary": "Atelier technique avec Farid Haddad. Architecture validée : connecteur en flux HTTPS sortant, aucun flux entrant à ouvrir, lecture seule sur Adhésia. Hébergement France et exigences le RGPD sur données de santé et le contrôle ACPR confirmés. Point de vigilance partagé : deux semaines de fiabilisation des données seront nécessaires avant restitution présentable.",
+      "crm_fields": [
+        {
+          "key": "Environnement technique",
+          "value": "Adhésia, annuaire interne avec SSO (SAML 2.0)"
+        },
+        {
+          "key": "Méthode d'intégration",
+          "value": "Connecteur en flux HTTPS sortant, lecture seule, fréquence horaire"
+        },
+        {
+          "key": "Contrainte de sécurité",
+          "value": "Aucun flux entrant ; le RGPD sur données de santé et le contrôle ACPR"
+        },
+        {
+          "key": "Validation technique",
+          "value": "Favorable — objections levées"
+        },
+        {
+          "key": "Prochaine action technique",
+          "value": "Transmission du dossier d'architecture et de conformité"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-18",
+      "call_name": "Revue de sécurité (45 min) — conformité, hébergement et sous-traitance",
+      "transcript": "Commercial (Nicolas): Bonjour, merci de nous recevoir. L'objet du point, c'est votre revue de sécurité avant contractualisation.\n\nDirecteur des systèmes d'information (Farid Haddad): Exact. J'ai relu votre dossier. J'ai quatre points, dont deux sérieux.\n\nIngénieur avant-vente (Thomas Nguyen): Allons-y dans l'ordre.\n\nDirecteur des systèmes d'information (Farid Haddad): Premier point : la sous-traitance. Vous listez un hébergeur et un prestataire de supervision. Le second a-t-il accès aux données ?\n\nIngénieur avant-vente (Thomas Nguyen): Non. Il supervise l'infrastructure, pas les données applicatives. Le cloisonnement est documenté en annexe 3 et audité annuellement.\n\nDirecteur des systèmes d'information (Farid Haddad): D'accord, mais je veux voir le dernier rapport d'audit.\n\nIngénieur avant-vente (Thomas Nguyen): Il vous sera transmis sous accord de confidentialité, c'est la procédure standard.\n\nDirecteur des systèmes d'information (Farid Haddad): Deuxième point : la durée de conservation. Avec le RGPD sur données de santé et le contrôle ACPR, je dois pouvoir justifier chaque durée.\n\nIngénieur avant-vente (Thomas Nguyen): Configurable par catégorie de données. Par défaut trente-six mois pour l'historique métier, treize mois pour les journaux techniques.\n\nDirecteur des systèmes d'information (Farid Haddad): Il faut qu'on descende à vingt-quatre mois sur l'historique métier. C'est notre politique interne.\n\nIngénieur avant-vente (Thomas Nguyen): C'est un paramètre, pas un développement. On peut l'inscrire dans l'annexe technique.\n\nDirecteur des systèmes d'information (Farid Haddad): Troisième point : le chiffrement. Au repos et en transit, avec quelles clés ?\n\nIngénieur avant-vente (Thomas Nguyen): AES-256 au repos, TLS 1.3 en transit. Gestion des clés dans un module dédié, avec rotation annuelle. Option clé client si vous le souhaitez.\n\nDirecteur des systèmes d'information (Farid Haddad): Ça me convient.\n\nDirecteur des systèmes d'information (Farid Haddad): Dernier point, et c'est le plus important : en cas de réquisition par une autorité étrangère, quelle est votre position ?\n\nIngénieur avant-vente (Thomas Nguyen): Société de droit français, capital français, hébergement français. Nous ne sommes pas soumis aux législations extraterritoriales. C'est précisément la raison pour laquelle plusieurs de nos clients du de la protection sociale nous ont retenus.\n\nDirecteur des systèmes d'information (Farid Haddad): Bien. Avis favorable de ma part, avec les deux réserves qu'on vient d'évoquer.\n\nCommercial (Nicolas): Merci. Je fais suivre le rapport dès aujourd'hui.",
+      "summary": "Revue de sécurité. Quatre points examinés : sous-traitance, durée de conservation, chiffrement et exposition aux législations extraterritoriales. La durée de conservation sera ramenée à 24 mois sur l'historique métier. Avis favorable sous réserve de la communication du rapport d'audit annuel.",
+      "crm_fields": [
+        {
+          "key": "Exigence de conformité",
+          "value": "le RGPD sur données de santé et le contrôle ACPR"
+        },
+        {
+          "key": "Localisation de l'hébergement",
+          "value": "France — opérateur qualifié, aucune sortie de l'UE"
+        },
+        {
+          "key": "Durée de conservation",
+          "value": "24 mois sur l'historique métier (demande client), 13 mois sur les journaux"
+        },
+        {
+          "key": "Statut de validation sécurité",
+          "value": "Avis favorable sous réserve"
+        },
+        {
+          "key": "Documents demandés",
+          "value": "Rapport d'audit annuel sous accord de confidentialité"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-24",
+      "call_name": "Présentation de la proposition commerciale (25 min)",
+      "transcript": "Commercial (Nicolas): Bonjour à tous. Vingt-cinq minutes pour dérouler la proposition. Éric, je sais que votre temps est compté.\n\nDirecteur général adjoint (Éric Mansour): J'ai vingt minutes. Allez à l'essentiel : combien, et pour quel retour ?\n\nCommercial (Nicolas): Trois éléments. Un : le périmètre — 180 000 adhérents et 46 gestionnaires, 30 utilisateurs, le module Assurio Flux. Deux : le tarif — 48 000 euros par an. Trois : les frais de mise en service, 8 500 euros, une seule fois.\n\nDirecteur général adjoint (Éric Mansour): C'est plus que ce que j'avais en tête. Justifiez-moi ce montant.\n\nCommercial (Nicolas): Sur la base du gain : le délai moyen de remboursement passe de 11 jours à 5 jours, ce qui représente 163 000 euros par an. L'investissement est amorti en neuf mois.\n\nDirecteur général adjoint (Éric Mansour): Ce sont des projections. Qu'est-ce qui me garantit qu'on les atteindra ?\n\nProspect (Sandrine Aubert): Si je peux me permettre : les hypothèses viennent de nos données, pas des leurs. C'est moi qui ai fourni le 11 jours.\n\nDirecteur général adjoint (Éric Mansour): Bon. Ça change la conversation.\n\nDirecteur général adjoint (Éric Mansour): Deux réserves malgré tout. La première : les frais de mise en service. Je n'aime pas payer pour un démarrage.\n\nCommercial (Nicolas): Entendu. Ils sont négociables dans le cadre d'un engagement de deux ans.\n\nDirecteur général adjoint (Éric Mansour): Faites-moi une proposition révisée sur cette base et je la regarde.\n\nCommercial (Nicolas): Vous l'avez demain matin. Merci pour votre temps.",
+      "summary": "Présentation de la proposition à Éric Mansour : 48 000 € par an, 8 500 € de frais de mise en service. Le business case s'appuie sur les données du client (délai moyen de remboursement de 11 jours à 5 jours), ce qui a nettement renforcé la crédibilité. Deux réserves exprimées : les frais de mise en service et la durée d'engagement.",
+      "crm_fields": [
+        {
+          "key": "Montant proposé",
+          "value": "48 000 € par an"
+        },
+        {
+          "key": "Frais de mise en service",
+          "value": "8 500 € non récurrents"
+        },
+        {
+          "key": "Périmètre",
+          "value": "180 000 adhérents et 46 gestionnaires — module Assurio Flux"
+        },
+        {
+          "key": "Retour sur investissement",
+          "value": "163 000 € par an, amortissement en neuf mois"
+        },
+        {
+          "key": "Objection principale",
+          "value": "Durée d'engagement"
+        },
+        {
+          "key": "Date de clôture prévue",
+          "value": "2025-04-07"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-03",
+      "call_name": "Négociation commerciale — tarif, engagement et conditions de paiement",
+      "transcript": "Commercial (Nicolas): Bonjour Éric. On se parle pour converger. Vous avez la proposition révisée sous les yeux ?\n\nDirecteur général adjoint (Éric Mansour): Oui. On est encore loin. Mon plafond, c'est clair.\n\nCommercial (Nicolas): Dites-moi où est l'écart.\n\nDirecteur général adjoint (Éric Mansour): Je ne peux pas dépasser 37 500 euros la première année. Au-delà, ça passe en conseil, et le conseil ne se réunit qu'en mars.\n\nDirecteur général adjoint (Éric Mansour): La revalorisation annuelle. Je ne veux pas d'indexation ouverte.\n\nCommercial (Nicolas): Je peux plafonner à 3 % par an sur la durée de l'engagement.\n\nDirecteur général adjoint (Éric Mansour): Plafonnez à 2 % et on ne parle plus.\n\nCommercial (Nicolas): 2 %, je peux le défendre. C'est ma dernière concession sur ce point.\n\nDirecteur général adjoint (Éric Mansour): Une dernière chose : je ne veux pas dépendre d'une seule personne chez vous. Si Manon part, on fait quoi ?\n\nCommercial (Nicolas): Un binôme est désigné dès le démarrage, et l'ensemble du contexte du compte est documenté dans notre système, pas dans une tête.\n\nDirecteur général adjoint (Éric Mansour): Bien. Je vous prends au mot.\n\nCommercial (Nicolas): Si je descends à 39 500 euros, est-ce que vous signez cette semaine ?\n\nDirecteur général adjoint (Éric Mansour): Sur le principe oui, mais je veux la clause de sortie à douze mois.\n\nCommercial (Nicolas): Je peux tenir ce prix contre un engagement de deux ans et une référence publique si les résultats sont au rendez-vous.\n\nDirecteur général adjoint (Éric Mansour): Deux ans, ça je peux. La référence, on en reparlera dans un an.\n\nDirecteur général adjoint (Éric Mansour): Les engagements de service. Qu'est-ce qui se passe si vous ne les tenez pas ?\n\nCommercial (Nicolas): Avoir sur la facture suivante, proportionnel à l'indisponibilité, et déclenchement automatique — vous n'avez pas à le réclamer.\n\nDirecteur général adjoint (Éric Mansour): C'est rare. La plupart des éditeurs attendent qu'on réclame.\n\nCommercial (Nicolas): C'est calculé et appliqué par nos systèmes. Et le rapport de disponibilité vous est envoyé chaque mois, que vous le demandiez ou non.\n\nDirecteur général adjoint (Éric Mansour): Bien. Ça, ça compte dans mon arbitrage.\n\nDirecteur général adjoint (Éric Mansour): Les conditions de paiement. Trente jours, c'est trop court pour notre trésorerie.\n\nCommercial (Nicolas): Je peux aller à soixante jours date de facture, avec facturation annuelle à la date anniversaire.\n\nDirecteur général adjoint (Éric Mansour): Soixante jours fin de mois, et c'est réglé.\n\nCommercial (Nicolas): Soixante jours fin de mois, d'accord. Je le fais inscrire.\n\nCommercial (Nicolas): Récapitulons : 39 500 euros la première année, engagement de deux ans, frais de mise en service réduits de moitié, paiement à soixante jours. C'est bien ce qu'on acte ?\n\nDirecteur général adjoint (Éric Mansour): On est d'accord. Reste le passage au juridique, et là je ne maîtrise pas le délai.\n\nCommercial (Nicolas): Je l'envoie ce soir. Merci pour la franchise de l'échange.",
+      "summary": "Négociation avec Éric Mansour. Convergence obtenue à 39 500 € pour l'année 1, contre un engagement de 24 mois, des frais de mise en service réduits de moitié, un paiement à 60 jours fin de mois et une indexation plafonnée. Reste le passage au service juridique.",
+      "crm_fields": [
+        {
+          "key": "Montant négocié",
+          "value": "39 500 € (année 1)"
+        },
+        {
+          "key": "Plafond budgétaire",
+          "value": "37 500 € — au-delà, passage en conseil"
+        },
+        {
+          "key": "Concessions accordées",
+          "value": "Frais de mise en service réduits de 50 %, indexation plafonnée à 2 %"
+        },
+        {
+          "key": "Conditions de paiement",
+          "value": "60 jours fin de mois"
+        },
+        {
+          "key": "Durée d'engagement",
+          "value": "24 mois"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Passage en comité"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-12",
+      "call_name": "Point juridique (35 min) — clauses de responsabilité et réversibilité",
+      "transcript": "Commercial (Nicolas): Bonjour Maître. On est là pour les points de rédaction relevés par vos services.\n\nJuridique (Maître Ferrand): Bonjour. J'ai quatre demandes de modification. Trois sont fermes.\n\nJuridique (Maître Ferrand): Premièrement : le plafond de responsabilité. Vous proposez le montant annuel du contrat. C'est insuffisant au regard de nos enjeux.\n\nCommercial (Nicolas): C'est notre standard. Que proposez-vous ?\n\nJuridique (Maître Ferrand): Le double, et un plafond distinct pour les manquements à la protection des données.\n\nCommercial (Nicolas): Sur la protection des données, nous acceptons un plafond distinct. Sur le reste, je dois obtenir un accord interne.\n\nJuridique (Maître Ferrand): Deuxièmement : le délai de correction en cas de manquement au contrat de service. Trente jours, c'est trop long pour un outil que Sandrine utilisera quotidiennement.\n\nCommercial (Nicolas): Quinze jours pour les incidents majeurs, trente pour le reste. Acceptable ?\n\nJuridique (Maître Ferrand): Dix jours pour les majeurs. Au-delà, la résiliation est de plein droit.\n\nCommercial (Nicolas): Dix jours, d'accord, à condition que la qualification de « majeur » soit définie dans l'annexe de service et pas laissée à l'appréciation.\n\nJuridique (Maître Ferrand): C'est raisonnable. Je fais rédiger la définition.\n\nJuridique (Maître Ferrand): Troisièmement : la réversibilité. Votre rédaction actuelle mentionne « un format exploitable ». C'est trop vague.\n\nCommercial (Nicolas): Nous précisons : CSV et Parquet, avec dictionnaire de données, sous trente jours calendaires à compter de la demande.\n\nJuridique (Maître Ferrand): Écrivez-le tel quel et le point est levé.\n\nJuridique (Maître Ferrand): Quatrièmement, et c'est ma demande souple : le droit applicable et le tribunal compétent.\n\nCommercial (Nicolas): Droit français. Sur le tribunal, nous sommes ouverts à votre juridiction.\n\nJuridique (Maître Ferrand): Très bien. Je valide sous réserve de la relecture de la version consolidée.\n\nCommercial (Nicolas): Merci Maître. Je fais circuler la version modifiée dès demain.",
+      "summary": "Point juridique. Plafond de responsabilité porté à deux fois le montant annuel, délai de correction ramené à 10 jours pour les incidents majeurs avec définition contractuelle, réversibilité précisée (CSV et Parquet sous 30 jours). Droit français retenu. Version consolidée attendue.",
+      "crm_fields": [
+        {
+          "key": "Plafond de responsabilité",
+          "value": "2 fois le montant annuel, plafond distinct sur les données"
+        },
+        {
+          "key": "Délai de correction",
+          "value": "10 jours pour les incidents majeurs, 30 jours pour les autres"
+        },
+        {
+          "key": "Clause de réversibilité",
+          "value": "CSV et Parquet + dictionnaire de données, sous 30 jours"
+        },
+        {
+          "key": "Droit applicable",
+          "value": "Droit français — tribunal de commerce de Nantes"
+        },
+        {
+          "key": "Statut juridique",
+          "value": "Version consolidée en relecture"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-17",
+      "call_name": "Point de synchronisation avec le sponsor interne (15 min)",
+      "transcript": "Commercial (Nicolas): Bonjour Sandrine, appel court. Où en est-on en interne ?\n\nProspect (Sandrine Aubert): On est bien, mais le calendrier a glissé d'une semaine.\n\nCommercial (Nicolas): Dites-moi tout.\n\nProspect (Sandrine Aubert): Un directeur d'un autre service a demandé à voir l'outil avant de valider. Ce n'était pas prévu.\n\nCommercial (Nicolas): Comment je peux vous aider concrètement ?\n\nProspect (Sandrine Aubert): Un créneau de vingt minutes avec eux, en visioconférence. Je préfère que ça vienne de vous.\n\nCommercial (Nicolas): Je m'en occupe. Vous voulez que je vous la relise avant ?\n\nProspect (Sandrine Aubert): Envoyez, je fais le reste.\n\nCommercial (Nicolas): Merci Sandrine. Franchement, sans vous ce dossier n'avancerait pas.",
+      "summary": "Point court avec Sandrine. Le dossier avance mais un aléa interne décale le calendrier. Appui fourni sous forme d'un document synthétique destiné à circuler en interne sans retravail.",
+      "crm_fields": [
+        {
+          "key": "Santé du sponsor interne",
+          "value": "Solide — porte le dossier en interne"
+        },
+        {
+          "key": "Blocage interne",
+          "value": "Éric en déplacement — signature décalée"
+        },
+        {
+          "key": "Appui demandé",
+          "value": "Note d'une page chiffrée"
+        },
+        {
+          "key": "Date de signature prévue",
+          "value": "2025-04-04"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-26",
+      "call_name": "Comité d'investissement (40 min) — présentation du dossier",
+      "transcript": "Directeur général adjoint (Éric Mansour): Bien. On a quarante minutes. Sandrine présente, Assurio répond aux questions.\n\nProspect (Sandrine Aubert): Merci. Le constat, vous le connaissez : un délai moyen de remboursement de 11 jours contre 5 chez les concurrents. Le délai moyen de remboursement est à 11 jours, l'objectif est 5 jours. On a évalué trois solutions, on en recommande une.\n\nDirecteur des systèmes d'information (Farid Haddad): Sur le plan technique, l'avis est favorable. Pas d'agent installé, aucune écriture dans nos systèmes, hébergement français. Les réserves initiales sont levées.\n\nDirecteur général adjoint (Éric Mansour): Qu'est-ce qui distingue ce projet des deux précédents, qui n'ont rien donné ?\n\nCommercial (Nicolas): Le fait qu'on ne remplace rien. Les projets qui échouent sont ceux qui demandent de changer Adhésia. Nous, on se branche dessus et on part.\n\nDirecteur général adjoint (Éric Mansour): Et le coût complet, pas seulement l'abonnement ? Charge interne comprise ?\n\nProspect (Sandrine Aubert): Vingt jours-homme sur le premier trimestre, ensuite c'est marginal.\n\nResponsable d'équipe gestion (Céline Roux): Je voudrais ajouter un point du terrain. Mon équipe a déjà vu passer des outils qui ont ajouté du travail au lieu d'en enlever. J'ai posé la question, on m'a montré l'écran quotidien : trois vues, pas quinze. Là, je signe.\n\nDirecteur général adjoint (Éric Mansour): D'accord. Je valide le principe. Le montant final passera par moi.\n\nProspect (Sandrine Aubert): Merci. Je reviens vers vous avec le calendrier de démarrage.",
+      "summary": "Passage en comité d'investissement. Sandrine a porté le dossier, Farid a rendu un avis technique favorable, et Céline Roux a apporté le point de vue terrain, décisif sur la question de l'adoption. Décision favorable sous réserve du plafond budgétaire.",
+      "crm_fields": [
+        {
+          "key": "Décision du comité",
+          "value": "Favorable sous réserve du plafond budgétaire"
+        },
+        {
+          "key": "Objection du décideur",
+          "value": "Risque d'enlisement au vu des deux projets précédents"
+        },
+        {
+          "key": "Charge interne estimée",
+          "value": "20 jours-homme sur le premier trimestre"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Passage en comité"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-31",
+      "call_name": "Appel de confirmation de signature",
+      "transcript": "Commercial (Nicolas): Bonjour Éric, je ne vous prends que cinq minutes.\n\nDirecteur général adjoint (Éric Mansour): C'est signé. Le parapheur est parti ce matin.\n\nCommercial (Nicolas): Merci beaucoup. Je sais que le dossier a été exigeant.\n\nDirecteur général adjoint (Éric Mansour): Il l'a été. Maintenant, j'attends des résultats, pas des tableaux de bord.\n\nCommercial (Nicolas): C'est noté, et c'est légitime. Le premier jalon, c'est le délai moyen de remboursement mesuré à trois mois. On s'y engage.\n\nDirecteur général adjoint (Éric Mansour): Bien. Un point d'attention : le bon de commande porte le numéro BC-2025-3546, il doit figurer sur toutes les factures. Sinon la comptabilité les rejette, et je ne peux rien pour vous.\n\nCommercial (Nicolas): C'est enregistré : BC-2025-3546 sur chaque facture. La facturation démarre au 2025-04-15.\n\nDirecteur général adjoint (Éric Mansour): Parfait. Bonne continuation.",
+      "summary": "Contrat signé par Éric Mansour. Bon de commande BC-2025-3546 à faire figurer impérativement sur toutes les factures. Attente exprimée clairement : des résultats mesurables, à commencer par le délai moyen de remboursement à trois mois.",
+      "crm_fields": [
+        {
+          "key": "Statut du contrat",
+          "value": "Signé"
+        },
+        {
+          "key": "Numéro de bon de commande",
+          "value": "BC-2025-3546"
+        },
+        {
+          "key": "Date de début de facturation",
+          "value": "2025-04-06"
+        },
+        {
+          "key": "Signataire",
+          "value": "Éric Mansour (Directeur général adjoint)"
+        },
+        {
+          "key": "Valeur du contrat",
+          "value": "39 500 € (année 1) — engagement 24 mois"
+        }
+      ]
+    },
+    {
+      "date": "2025-04-07",
+      "call_name": "Passage de relais commercial vers l'équipe Customer Success (20 min)",
+      "transcript": "Commercial (Nicolas): Bonjour à tous. Appel de passage de relais : je vous présente Manon Perret, qui sera votre interlocutrice à partir d'aujourd'hui.\n\nCSM (Manon Perret): Bonjour Sandrine. J'ai lu l'ensemble du dossier, je ne vais pas vous refaire raconter votre histoire.\n\nProspect (Sandrine Aubert): Ça, ça fait plaisir. D'habitude on repart de zéro avec l'équipe suivante.\n\nCSM (Manon Perret): Ce que j'ai retenu : votre indicateur de tête est le délai moyen de remboursement, aujourd'hui à 11 jours, objectif 5 jours. Le risque principal identifié, c'est l'adoption par l'équipe de Céline. C'est bien ça ?\n\nProspect (Sandrine Aubert): C'est exactement ça. Et c'est effectivement là que ça peut coincer.\n\nCSM (Manon Perret): Donc voilà ce que je propose : on ne déploie pas partout d'un coup. On commence par un périmètre restreint, on obtient un résultat visible, et on s'en sert pour convaincre le reste.\n\nProspect (Sandrine Aubert): C'est la bonne approche.\n\nCSM (Manon Perret): Calendrier : lancement le 2025-04-19, connexion des données la semaine suivante, première restitution trois semaines après. Formation de Céline et son équipe juste avant.\n\nDirecteur des systèmes d'information (Farid Haddad): De mon côté, il me faut les prérequis techniques par écrit dès cette semaine.\n\nCSM (Manon Perret): Vous les aurez demain. Une seule demande de ma part : un référent unique côté métier pour les questions du quotidien.\n\nProspect (Sandrine Aubert): Ce sera Céline. Je le préviens.\n\nCommercial (Nicolas): Parfait. Je reste dans la boucle mais je m'efface. Bonne route à tous.",
+      "summary": "Passage de relais vers Manon Perret. Le contexte du compte a été transmis en amont, ce qui a évité au client de réexpliquer sa situation. Stratégie retenue : déploiement par périmètre restreint pour obtenir un résultat visible avant généralisation. Référent métier désigné : Céline Roux.",
+      "crm_fields": [
+        {
+          "key": "CSM assigné",
+          "value": "Manon Perret"
+        },
+        {
+          "key": "Risque principal identifié",
+          "value": "Adoption par l'équipe de Céline Roux"
+        },
+        {
+          "key": "Indicateur de succès",
+          "value": "délai moyen de remboursement de 11 jours à 5 jours"
+        },
+        {
+          "key": "Date de lancement",
+          "value": "2025-04-16"
+        }
+      ]
+    },
+    {
+      "date": "2025-04-15",
+      "call_name": "Réunion de lancement projet (1h) — calendrier et prérequis",
+      "transcript": "CSM (Manon Perret): Bonjour à tous, réunion de lancement. Objectif du jour : caler le calendrier et lever les prérequis.\n\nProspect (Sandrine Aubert): Allons-y. J'ai bloqué une heure.\n\nCSM (Manon Perret): Phase 1 : connexion à Adhésia et reprise de douze mois d'historique. Phase 2 : paramétrage métier avec vous. Phase 3 : formation et mise en service.\n\nDirecteur des systèmes d'information (Farid Haddad): J'ai préparé la machine virtuelle. Il me manque juste les règles de pare-feu.\n\nCSM (Manon Perret): Environ quatre millions de lignes sur douze mois. Comptez une nuit de chargement initial.\n\nDirecteur des systèmes d'information (Farid Haddad): D'accord. Je fais la demande aujourd'hui, ça prend deux jours chez nous.\n\nCSM (Manon Perret): Sur le paramétrage : Sandrine, il me faut vos règles de calcul actuelles. Même si elles sont dans un tableur, envoyez-les telles quelles.\n\nProspect (Sandrine Aubert): Elles sont dans un tableur, effectivement. Et personne ne sait vraiment qui les a écrites.\n\nCSM (Manon Perret): Parfait, c'est exactement ce qu'il me faut. On va les documenter au passage.\n\nResponsable d'équipe gestion (Céline Roux): Question pratique : mon équipe devra faire une double saisie pendant la transition ?\n\nCSM (Manon Perret): En parallèle pendant trois semaines, le temps de vérifier que les chiffres concordent. Ensuite on coupe.\n\nResponsable d'équipe gestion (Céline Roux): Ça me va. C'était ma crainte principale.\n\nProspect (Sandrine Aubert): Quels sont les risques que vous identifiez, honnêtement ?\n\nCSM (Manon Perret): Le principal, c'est vos ressources internes : on demande environ vingt jours-homme sur le trimestre, et si ces jours ne sont pas réservés, le projet glisse.\n\nProspect (Sandrine Aubert): Je préfère qu'on le dise maintenant. Je vais bloquer les jours formellement.\n\nDirecteur des systèmes d'information (Farid Haddad): Une contrainte que je dois signaler : nous avons un gel informatique sur une partie de la période.\n\nCSM (Manon Perret): Sur quelles dates exactement ?\n\nDirecteur des systèmes d'information (Farid Haddad): Toute la période de la campagne d'adhésion de janvier. C'est une règle interne, je n'ai pas la main.\n\nCSM (Manon Perret): Alors on avance la connexion technique et on décale la formation après le gel. Je réajuste le plan et je vous le renvoie demain.\n\nDirecteur des systèmes d'information (Farid Haddad): Merci de ne pas essayer de passer en force. Ça a été tenté avant vous.\n\nProspect (Sandrine Aubert): Qui fait quoi en cas de blocage ? Je ne veux pas qu'on se renvoie la balle.\n\nCSM (Manon Perret): Un responsable par phase, de chaque côté. Côté vous : Farid sur la technique, Céline sur le métier. Côté nous : moi, avec un binôme identifié en cas d'absence.\n\nProspect (Sandrine Aubert): Et l'arbitrage, c'est qui ?\n\nCSM (Manon Perret): Vous et moi, au point hebdomadaire. Si ça dépasse deux semaines, on remonte au niveau supérieur des deux côtés. C'est écrit dans le plan projet.\n\nResponsable d'équipe gestion (Céline Roux): Concrètement, ma production s'arrête pendant le démarrage ?\n\nCSM (Manon Perret): À aucun moment. Vos systèmes continuent de tourner, on lit à côté. Le seul moment sensible, c'est la bascule, et elle se fait un vendredi soir.\n\nResponsable d'équipe gestion (Céline Roux): Et si la bascule se passe mal ?\n\nCSM (Manon Perret): On ne coupe rien : votre fonctionnement actuel reste disponible trois semaines de plus. Le retour arrière, c'est simplement de continuer comme avant.\n\nResponsable d'équipe gestion (Céline Roux): D'accord. Là, je suis rassuré.\n\nCSM (Manon Perret): Point de suivi hebdomadaire, trente minutes, le mardi. Prochaine étape : connexion technique avant le 2025-04-22.",
+      "summary": "Réunion de lancement. Trois phases calées : connexion et reprise de 12 mois d'historique, paramétrage métier, formation et mise en service. Prérequis techniques transmis à Farid. Point rassurant pour les utilisateurs : aucune double saisie, fonctionnement en parallèle pendant trois semaines.",
+      "crm_fields": [
+        {
+          "key": "Phase du projet",
+          "value": "Phase 1 — connexion et reprise d'historique"
+        },
+        {
+          "key": "Prérequis techniques",
+          "value": "Règles de pare-feu sortantes, machine virtuelle 2 vCPU / 4 Go"
+        },
+        {
+          "key": "Référent métier",
+          "value": "Céline Roux"
+        },
+        {
+          "key": "Rythme de suivi",
+          "value": "Point hebdomadaire de 30 minutes, le mardi"
+        },
+        {
+          "key": "Prochaine échéance",
+          "value": "2025-04-29"
+        }
+      ]
+    },
+    {
+      "date": "2025-04-22",
+      "call_name": "Session de formation utilisateurs (1h30)",
+      "transcript": "CSM (Manon Perret): Bonjour à tous. Session de prise en main, une heure trente. Vous êtes 11 aujourd'hui.\n\nResponsable d'équipe gestion (Céline Roux): On est huit, dont deux qui prennent leur poste la semaine prochaine.\n\nCSM (Manon Perret): Parfait. Je vous préviens : on ne fera pas le tour de toutes les fonctionnalités. On va faire les trois choses que vous ferez tous les jours.\n\nResponsable d'équipe gestion (Céline Roux): Bonne approche. La dernière formation qu'on a eue durait deux jours, on n'a rien retenu.\n\nCSM (Manon Perret): Première chose : votre vue du matin. Vous ouvrez, vous voyez les écarts de la veille, vous savez quoi traiter en priorité.\n\nResponsable d'équipe gestion (Céline Roux): Et si je ne suis pas d'accord avec la priorité affichée ?\n\nCSM (Manon Perret): Par impact estimé, oui. Et vous pouvez reclasser selon vos propres critères.\n\nResponsable d'équipe gestion (Céline Roux): Ah, ça c'est utile. Aujourd'hui on se marche dessus régulièrement.\n\nCSM (Manon Perret): Deuxième chose : le commentaire justement. Chaque écart peut être annoté. C'est ce qui construit votre mémoire collective.\n\nUtilisateur (Karine): Et les commentaires, ils restent combien de temps ?\n\nCSM (Manon Perret): Tout l'historique est conservé et cherchable. C'est souvent ce que les équipes finissent par préférer à la partie analytique.\n\nUtilisateur (Karine): Franchement, si ça marche comme ça, c'est déjà mieux que nos courriels.\n\nCSM (Manon Perret): Troisième chose : l'export pour vos réunions. Un bouton, un fichier, figé à la date. Plus de chiffres qui bougent entre deux réunions.\n\nResponsable d'équipe gestion (Céline Roux): Ça va nous faire gagner un temps fou. On refaisait le fichier à chaque fois.\n\nResponsable d'équipe gestion (Céline Roux): Comment on fait quand quelqu'un arrive dans l'équipe ?\n\nCSM (Manon Perret): Vous n'avez rien à faire côté administratif. Pour la formation, je vous laisse un support de deux pages, volontairement court.\n\nResponsable d'équipe gestion (Céline Roux): Parfait. On a beaucoup de turn-over, c'était une vraie question.\n\nResponsable d'équipe gestion (Céline Roux): Une question qui fâche : si l'outil se trompe, qui est responsable ?\n\nCSM (Manon Perret): L'outil ne prend aucune décision à votre place. Il signale et il explique. La décision et la responsabilité restent de votre côté.\n\nResponsable d'équipe gestion (Céline Roux): C'est ce que je voulais entendre. J'ai vu des outils qu'on suit aveuglément.\n\nUtilisateur (Karine): Qu'est-ce qui se passe si je fais une fausse manipulation ?\n\nCSM (Manon Perret): Rien d'irréversible. Vous ne pouvez pas modifier les données sources, et tout ce que vous annotez est historisé avec votre nom et la date.\n\nUtilisateur (Karine): Historisé avec mon nom ? Ça veut dire qu'on peut voir qui a écrit quoi ?\n\nCSM (Manon Perret): Oui, et je comprends la question. L'objectif n'est pas le contrôle mais la continuité : quand quelqu'un est absent, l'équipe retrouve le raisonnement.\n\nResponsable d'équipe gestion (Céline Roux): Je préfère qu'on en parle maintenant plutôt que d'entendre des rumeurs ensuite.\n\nCSM (Manon Perret): Voilà, c'est tout pour aujourd'hui. Trois choses. Vous avez mon numéro, et je passe faire un point dans quinze jours.",
+      "summary": "Session de prise en main avec l'équipe de Céline. Format volontairement resserré sur trois usages quotidiens plutôt qu'un tour complet des fonctionnalités. Les fonctions de commentaire et d'export figé ont été les plus appréciées.",
+      "crm_fields": [
+        {
+          "key": "Participants",
+          "value": "11 personnes de l'équipe Céline"
+        },
+        {
+          "key": "Format de la session",
+          "value": "Prise en main sur trois cas d'usage quotidiens"
+        },
+        {
+          "key": "Retour des utilisateurs",
+          "value": "Positif — format court apprécié"
+        },
+        {
+          "key": "Prochaine session",
+          "value": "2025-05-23"
+        }
+      ]
+    },
+    {
+      "date": "2025-05-02",
+      "call_name": "Point d'avancement hebdomadaire (30 min)",
+      "transcript": "CSM (Manon Perret): Bonjour Sandrine, point hebdomadaire. Trente minutes.\n\nProspect (Sandrine Aubert): Allez-y, je vous écoute.\n\nCSM (Manon Perret): Côté adoption : soixante-dix pour cent des utilisateurs se connectent au moins trois fois par semaine.\n\nProspect (Sandrine Aubert): Qui sont les trente pour cent qui ne l'utilisent pas ?\n\nCSM (Manon Perret): Ce sont les profils les plus anciens. Ils continuent avec leur tableur en parallèle.\n\nProspect (Sandrine Aubert): Programmez une session pour eux. Je ferai passer le message moi-même.\n\nCSM (Manon Perret): Point de vigilance : la qualité des données sur les trois derniers mois d'historique. Il y a des trous.\n\nProspect (Sandrine Aubert): Je sais d'où ça vient. On a eu une migration en interne à ce moment-là.\n\nCSM (Manon Perret): On peut soit les exclure du calcul, soit les signaler explicitement. Je recommande de les signaler : c'est moins confortable mais plus honnête.\n\nProspect (Sandrine Aubert): Signalez-les. Je préfère assumer un trou qu'un chiffre faux.\n\nProspect (Sandrine Aubert): J'ai un retour de Céline : ils aimeraient pouvoir filtrer par équipe, pas seulement par périmètre global.\n\nCSM (Manon Perret): C'est faisable en paramétrage, sans développement. Je peux le faire cette semaine.\n\nProspect (Sandrine Aubert): Faites, ça leur fera un signal positif.\n\nCSM (Manon Perret): Question de planification : vous avez une période à éviter pour les mises à jour ?\n\nProspect (Sandrine Aubert): Les fins de mois. C'est là qu'on produit les chiffres, on ne peut pas se permettre une indisponibilité.\n\nCSM (Manon Perret): Je le note comme période de gel, et je le fais inscrire dans notre calendrier de déploiement pour que ce ne soit pas oublié.\n\nProspect (Sandrine Aubert): Parfait.\n\nProspect (Sandrine Aubert): Éric m'a demandé où on en était. Qu'est-ce que je lui dis ?\n\nCSM (Manon Perret): Dites-lui que le délai moyen de remboursement est à 8jours, que la trajectoire est conforme, et qu'on tiendra l'objectif de 5 jours au trimestre.\n\nProspect (Sandrine Aubert): Et si ce n'est pas le cas, je l'apprends quand ?\n\nCSM (Manon Perret): Dès que la tendance s'inverse, pas à la fin du trimestre. C'est une règle que je m'applique : les mauvaises nouvelles arrivent tôt.\n\nProspect (Sandrine Aubert): C'est ce que je voulais entendre.\n\nProspect (Sandrine Aubert): On m'a demandé si on pouvait comparer nos résultats à ceux du secteur.\n\nCSM (Manon Perret): Oui, sur une base anonymisée. Je vous préviens : la comparaison sectorielle est à manier avec prudence, les périmètres ne sont jamais strictement identiques.\n\nProspect (Sandrine Aubert): Compris. Donnez-moi un ordre de grandeur, pas un classement.\n\nCSM (Manon Perret): Je vous prépare ça avec les réserves méthodologiques écrites en clair.\n\nCSM (Manon Perret): Prochaines actions : je programme la session manquante, et on refait un point le 2025-05-09.\n\nProspect (Sandrine Aubert): Ça me va. À la semaine prochaine.",
+      "summary": "Point d'avancement hebdomadaire. Le délai moyen de remboursement progresse (8jours). L'adoption reste inégale selon les équipes. Une demande d'évolution a été remontée. La part réelle de l'amélioration a été distinguée de l'effet saisonnier, ce qui a été apprécié.",
+      "crm_fields": [
+        {
+          "key": "Indicateur suivi",
+          "value": "délai moyen de remboursement : 8jours (départ 11 jours)"
+        },
+        {
+          "key": "Taux d'adoption",
+          "value": "72 % d'utilisateurs actifs hebdomadaires"
+        },
+        {
+          "key": "Point de vigilance",
+          "value": "Adoption faible sur le site secondaire"
+        },
+        {
+          "key": "Demande d'évolution",
+          "value": "Filtrage par équipe en complément du périmètre global"
+        },
+        {
+          "key": "Prochain point",
+          "value": "2025-05-09"
+        }
+      ]
+    },
+    {
+      "date": "2025-05-16",
+      "call_name": "Appel support technique — incident déclaré par l'équipe métier",
+      "transcript": "Responsable d'équipe gestion (Céline Roux): Bonjour, on a un problème : les données ne se sont pas actualisées depuis hier soir. Mon équipe est à l'arrêt sur ce point.\n\nCSM (Manon Perret): Bonjour, je prends. Depuis quand exactement ?\n\nResponsable d'équipe gestion (Céline Roux): Ce matin en arrivant. Hier soir tout allait bien.\n\nCSM (Manon Perret): Je vois la trace dans les journaux. Je vous rappelle dans dix minutes avec un diagnostic.\n\nCSM (Manon Perret): Diagnostic : le connecteur a perdu la connexion suite à une rotation de mot de passe côté client. Aucune donnée n'est perdue, c'est important de le dire.\n\nResponsable d'équipe gestion (Céline Roux): Bon. Combien de temps pour revenir à la normale ?\n\nCSM (Manon Perret): Résolution : remise en service en vingt minutes, et ajout d'une alerte sur ce cas précis.\n\nResponsable d'équipe gestion (Céline Roux): Autre chose pendant que je vous ai : mon équipe demande si on peut exporter la vue filtrée, et pas seulement la vue complète.\n\nCSM (Manon Perret): C'est déjà possible, mais ce n'est pas évident à trouver. C'est un défaut d'interface de notre côté, pas un manque de fonctionnalité.\n\nResponsable d'équipe gestion (Céline Roux): Montrez-moi où, ça m'évitera de le redemander.\n\nResponsable d'équipe gestion (Céline Roux): Est-ce qu'on peut se fier à ce qui a été affiché entre-temps ?\n\nCSM (Manon Perret): Les données sont intactes en base. C'est l'affichage qui était figé. Après recalcul, vous retrouverez les bonnes valeurs.\n\nResponsable d'équipe gestion (Céline Roux): Bon. Je vais devoir refaire un point que j'ai envoyé hier soir.\n\nCSM (Manon Perret): Je vous confirme par écrit dès que le recalcul est terminé, que vous puissiez rediffuser avec une base propre.\n\nCSM (Manon Perret): Je profite de l'appel : comment ça se passe globalement pour votre équipe ?\n\nResponsable d'équipe gestion (Céline Roux): Ça dépend des personnes. Les plus jeunes ont adopté tout de suite, les autres gardent leur tableur en doublon.\n\nCSM (Manon Perret): Sur le doublon : je peux organiser une session courte pour ceux qui restent sur l'ancien fonctionnement ?\n\nResponsable d'équipe gestion (Céline Roux): Oui, faites. Mais en petit groupe, sinon ils ne poseront pas de questions.\n\nCSM (Manon Perret): Je vous envoie la confirmation écrite dans l'heure, avec le numéro de ticket.\n\nResponsable d'équipe gestion (Céline Roux): Très bien, merci.",
+      "summary": "Incident signalé par Céline Roux. Diagnostic posé rapidement, aucune perte de données. Résolution communiquée par écrit avec la cause et l'action corrective, de façon à pouvoir être partagée en interne.",
+      "crm_fields": [
+        {
+          "key": "Symptôme déclaré",
+          "value": "Incident signalé par l'équipe métier"
+        },
+        {
+          "key": "Cause identifiée",
+          "value": "Requête non optimisée"
+        },
+        {
+          "key": "Résolution",
+          "value": "Rétabli le jour même"
+        },
+        {
+          "key": "Impact sur l'adoption",
+          "value": "À surveiller — second incident du mois"
+        },
+        {
+          "key": "Numéro de ticket",
+          "value": "TIC-38281"
+        }
+      ]
+    },
+    {
+      "date": "2025-05-29",
+      "call_name": "Point d'avancement hebdomadaire (30 min)",
+      "transcript": "CSM (Manon Perret): Bonjour Sandrine, point hebdomadaire. Trente minutes.\n\nProspect (Sandrine Aubert): Bonjour. On a du mieux, mais aussi deux points d'attention.\n\nCSM (Manon Perret): Côté adoption : soixante-dix pour cent des utilisateurs se connectent au moins trois fois par semaine.\n\nProspect (Sandrine Aubert): Et les trente pour cent restants ?\n\nCSM (Manon Perret): Ce sont les profils les plus anciens. Ils continuent avec leur tableur en parallèle.\n\nProspect (Sandrine Aubert): C'est ce que je craignais. Il faut qu'on coupe l'ancien tableur, sinon ça ne bougera jamais.\n\nCSM (Manon Perret): Sur les chiffres : le délai moyen de remboursement est passé de 11 jours à 8jours. On est sur la bonne trajectoire.\n\nProspect (Sandrine Aubert): C'est déjà mieux que ce que j'espérais à ce stade.\n\nCSM (Manon Perret): Question légitime. On a isolé les deux effets dans l'annexe du rapport.\n\nProspect (Sandrine Aubert): Merci de le dire. Ça me permet de ne pas survendre en interne.\n\nCSM (Manon Perret): Un sujet remonté par le terrain cette semaine : le temps de chargement de la vue consolidée est jugé trop long.\n\nProspect (Sandrine Aubert): C'est bloquant ou c'est de l'inconfort ?\n\nCSM (Manon Perret): Huit secondes en moyenne. Ce n'est pas bloquant, mais sur un usage quotidien c'est ce qui fait qu'on arrête d'ouvrir un outil.\n\nCSM (Manon Perret): Un correctif est prévu à la prochaine mise à jour. En attendant, j'ai pré-calculé la vue la plus utilisée.\n\nProspect (Sandrine Aubert): Merci d'avoir traité ça avant que je le remonte.\n\nProspect (Sandrine Aubert): J'ai un retour de Céline : ils aimeraient pouvoir filtrer par équipe, pas seulement par périmètre global.\n\nCSM (Manon Perret): C'est faisable en paramétrage, sans développement. Je peux le faire cette semaine.\n\nProspect (Sandrine Aubert): Faites, ça leur fera un signal positif.\n\nCSM (Manon Perret): Question de planification : vous avez une période à éviter pour les mises à jour ?\n\nProspect (Sandrine Aubert): Les fins de mois. C'est là qu'on produit les chiffres, on ne peut pas se permettre une indisponibilité.\n\nCSM (Manon Perret): Je le note comme période de gel, et je le fais inscrire dans notre calendrier de déploiement pour que ce ne soit pas oublié.\n\nProspect (Sandrine Aubert): Parfait.\n\nProspect (Sandrine Aubert): On m'a demandé si on pouvait comparer nos résultats à ceux du secteur.\n\nCSM (Manon Perret): C'est possible sur des indicateurs agrégés et anonymisés. Je ne vous donnerai jamais les chiffres nominatifs d'un autre client.\n\nProspect (Sandrine Aubert): C'est bien que vous le précisiez, parce que ce sera utilisé en comité.\n\nCSM (Manon Perret): Je vous prépare ça avec les réserves méthodologiques écrites en clair.\n\nCSM (Manon Perret): Point de vigilance : la qualité des données sur les trois derniers mois d'historique. Il y a des trous.\n\nProspect (Sandrine Aubert): Je sais d'où ça vient. On a eu une migration en interne à ce moment-là.\n\nCSM (Manon Perret): On peut soit les exclure du calcul, soit les signaler explicitement. Je recommande de les signaler : c'est moins confortable mais plus honnête.\n\nProspect (Sandrine Aubert): Signalez-les. Je préfère assumer un trou qu'un chiffre faux.\n\nCSM (Manon Perret): Prochaines actions : je programme la session manquante, et on refait un point le 2025-06-05.\n\nProspect (Sandrine Aubert): Ça me va. À la semaine prochaine.",
+      "summary": "Point d'avancement hebdomadaire. Le délai moyen de remboursement progresse (8jours). L'adoption reste inégale selon les équipes. Une demande d'évolution a été remontée. La part réelle de l'amélioration a été distinguée de l'effet saisonnier, ce qui a été apprécié.",
+      "crm_fields": [
+        {
+          "key": "Indicateur suivi",
+          "value": "délai moyen de remboursement : 8jours (départ 11 jours)"
+        },
+        {
+          "key": "Taux d'adoption",
+          "value": "72 % d'utilisateurs actifs hebdomadaires"
+        },
+        {
+          "key": "Point de vigilance",
+          "value": "Trous d'historique sur trois mois"
+        },
+        {
+          "key": "Demande d'évolution",
+          "value": "Filtrage par équipe en complément du périmètre global"
+        },
+        {
+          "key": "Prochain point",
+          "value": "2025-06-05"
+        }
+      ]
+    },
+    {
+      "date": "2025-06-13",
+      "call_name": "Appel de courtoisie — vérification de bonne réception",
+      "transcript": "Commercial (Nicolas): Bonjour Sandrine, appel rapide, je voulais juste vérifier que vous aviez bien reçu le document.\n\nProspect (Sandrine Aubert): Reçu, merci. Je n'ai pas encore eu le temps de le regarder.\n\nCommercial (Nicolas): Parfait. Prenez le temps, et dites-moi si un point mérite qu'on en discute.\n\nProspect (Sandrine Aubert): Envoyez-le aussi à mon adresse personnelle professionnelle, c'est plus sûr.\n\nCommercial (Nicolas): Entendu. Bonne fin de journée.",
+      "summary": "Appel court de vérification de bonne réception du document envoyé. Prochaine relance calée.",
+      "crm_fields": [
+        {
+          "key": "Type d'interaction",
+          "value": "Appel court"
+        },
+        {
+          "key": "Document concerné",
+          "value": "Proposition commerciale"
+        },
+        {
+          "key": "Prochaine action",
+          "value": "Relance sous 5 jours"
+        }
+      ]
+    },
+    {
+      "date": "2025-06-23",
+      "call_name": "Négociation de renouvellement de contrat",
+      "transcript": "CSM (Manon Perret): Bonjour Éric. Le contrat arrive à échéance le 2025-08-22, je voulais qu'on en parle en avance.\n\nDirecteur général adjoint (Éric Mansour): Vous faites bien. Je n'aime pas les renouvellements découverts trois jours avant.\n\nCSM (Manon Perret): Le bilan de l'année : le délai moyen de remboursement est passé de 11 jours à 5 jours, soit un gain estimé à 163 000 euros. Le taux d'utilisation est de 72 pour cent.\n\nDirecteur général adjoint (Éric Mansour): Les chiffres sont bons. Ma question porte sur le tarif de reconduction.\n\nCSM (Manon Perret): Reconduction à 40 000 euros, soit l'indexation plafonnée prévue au contrat. Pas de mauvaise surprise.\n\nDirecteur général adjoint (Éric Mansour): Vous pouvez faire un geste si je passe à trois ans ?\n\nCSM (Manon Perret): Un engagement de trois ans permet de neutraliser l'indexation la première année.\n\nDirecteur général adjoint (Éric Mansour): Trois ans, ça m'engage beaucoup. Envoyez les deux options et je trancherai.\n\nCSM (Manon Perret): Je vous envoie les deux scénarios. Et je profite de l'occasion : Sandrine souhaite étendre à l'ensemble des gestionnaires. Je peux vous chiffrer l'ensemble dans une seule proposition.\n\nDirecteur général adjoint (Éric Mansour): Oui, mieux vaut une seule discussion. Envoyez le tout.",
+      "summary": "Préparation du renouvellement, engagée en avance. Bilan annuel favorable (délai moyen de remboursement : 11 jours → 5 jours, 72 % d'adoption). Deux scénarios proposés, 12 ou 36 mois, avec possibilité de combiner renouvellement et extension dans une proposition unique.",
+      "crm_fields": [
+        {
+          "key": "Date d'échéance",
+          "value": "2025-08-05"
+        },
+        {
+          "key": "Tarif de reconduction",
+          "value": "40 000 € — indexation plafonnée"
+        },
+        {
+          "key": "Durée proposée",
+          "value": "12 mois ou 36 mois avec gel la première année"
+        },
+        {
+          "key": "Bilan annuel",
+          "value": "délai moyen de remboursement : 11 jours → 5 jours ; 72 % d'adoption"
+        },
+        {
+          "key": "Opportunité combinée",
+          "value": "Renouvellement + extension l'ensemble des gestionnaires"
+        }
+      ]
+    }
+  ],
+  "emails": [
+    {
+      "date": "2025-01-09",
+      "subject": "Mutuelle santé : réduire le délai moyen de remboursement sans changer Adhésia",
+      "content": "Bonjour Sandrine Aubert,\n\nJe me permets de vous écrire car nous accompagnons plusieurs structures de la protection sociale confrontées à une difficulté récurrente : un délai moyen de remboursement de 11 jours contre 5 chez les concurrents.\n\nChez la plupart d'entre elles, le constat était le même que celui que vous vivez probablement : Adhésia reste la source de vérité, mais toute l'analyse se fait en dehors, sous tableur, avec un temps de retraitement considérable.\n\nNotre approche est volontairement peu intrusive : nous ne remplaçons aucun système existant et nous nous branchons en lecture seule. Sur un périmètre comparable au vôtre (180 000 adhérents et 46 gestionnaires), le délai moyen de remboursement est passé de 11 jours à 5 jours en six mois.\n\nAuriez-vous vingt minutes dans les prochains jours pour en discuter ?\n\nBien cordialement,\n\nNicolas Rey\nCommercial | Assurio Technologies"
+    },
+    {
+      "date": "2025-01-19",
+      "subject": "Relance : délai moyen de remboursement chez Mutuelle Horizon Solidaire",
+      "content": "Bonjour Sandrine Aubert,\n\nJe reviens vers vous suite à mon message de la semaine dernière, resté sans réponse — ce que je comprends parfaitement compte tenu de la période.\n\nUn élément qui pourrait justifier un échange court : plusieurs de nos clients de la protection sociale ont engagé ce type de chantier en anticipation de la campagne d'adhésion de janvier, précisément pour éviter d'avoir à le traiter dans l'urgence.\n\nSi le sujet n'est pas prioritaire pour vous cette année, dites-le-moi simplement et je cesserai mes relances.\n\nBien cordialement,\n\nNicolas Rey\nAssurio Technologies"
+    },
+    {
+      "date": "2025-02-01",
+      "subject": "Confirmation : échange Assurio / Mutuelle Horizon Solidaire",
+      "content": "Bonjour Sandrine Aubert,\n\nJe vous confirme notre échange. Ordre du jour proposé :\n\n1. Votre fonctionnement actuel autour de Adhésia\n2. Les difficultés rencontrées sur délai moyen de remboursement\n3. Vos contraintes techniques et de conformité\n4. Les prochaines étapes si le sujet a du sens\n\nPas de présentation commerciale : l'objectif est de comprendre votre contexte.\n\nSi vous souhaitez associer Farid Haddad à cet échange, n'hésitez pas à le convier.\n\nBien cordialement,\n\nNicolas Rey\nAssurio Technologies"
+    },
+    {
+      "date": "2025-02-13",
+      "subject": "Compte rendu de notre échange + éléments complémentaires",
+      "content": "Bonjour Sandrine Aubert,\n\nMerci pour le temps accordé. Je reprends ci-dessous ce que j'ai retenu, corrigez-moi si je me trompe :\n\n— Difficulté principale : un délai moyen de remboursement de 11 jours contre 5 chez les concurrents\n— Indicateur de référence : délai moyen de remboursement, aujourd'hui à 11 jours, objectif 5 jours\n— Contrainte structurante : aucun remplacement de Adhésia\n— Échéance : la campagne d'adhésion de janvier\n— Point de vigilance : l'adoption par les équipes de Céline Roux\n\nComme convenu, je vous joins le dossier technique et un retour d'expérience mené dans un contexte proche du vôtre.\n\nProchaine étape proposée : un atelier technique avec Farid Haddad.\n\nBien cordialement,\n\nNicolas Rey\nAssurio Technologies"
+    },
+    {
+      "date": "2025-02-23",
+      "subject": "Dossier d'architecture et de conformité — Assurio",
+      "content": "Bonjour Farid Haddad,\n\nComme convenu lors de notre atelier, vous trouverez ci-joint :\n\n— le schéma d'architecture détaillé (flux HTTPS sortant, aucun flux entrant)\n— la description du connecteur et son dimensionnement (2 vCPU, 4 Go)\n— la politique de conservation des données, paramétrable par catégorie\n— la matrice des accès et le cloisonnement des sous-traitants\n— la procédure de réversibilité (CSV et Parquet, sous 30 jours)\n\nConcernant le RGPD sur données de santé et le contrôle ACPR, l'hébergement est réalisé en France chez un opérateur qualifié et aucune donnée ne quitte l'Union européenne, sauvegardes comprises.\n\nLe rapport d'audit annuel peut vous être transmis sous accord de confidentialité : dites-moi si vous souhaitez que j'engage la démarche.\n\nBien cordialement,\n\nThomas Nguyen\nIngénieur avant-vente | Assurio Technologies"
+    },
+    {
+      "date": "2025-03-09",
+      "subject": "Proposition commerciale — Mutuelle Horizon Solidaire / Assurio Flux",
+      "content": "Bonjour Sandrine Aubert,\n\nVous trouverez ci-joint notre proposition, construite sur les éléments que vous nous avez communiqués.\n\nPérimètre : 180 000 adhérents et 46 gestionnaires, 30 utilisateurs, module Assurio Flux.\nAbonnement annuel : 48 000 €.\nFrais de mise en service : 8 500 €, non récurrents.\n\nLe retour sur investissement repose sur vos propres chiffres : le passage du délai moyen de remboursement de 11 jours à 5 jours représente environ 163 000 € par an, soit un amortissement en neuf mois.\n\nJe reste disponible pour en discuter avec Éric Mansour.\n\nBien cordialement,\n\nNicolas Rey\nAssurio Technologies"
+    },
+    {
+      "date": "2025-03-19",
+      "subject": "Proposition révisée suite à notre échange",
+      "content": "Bonjour Éric Mansour,\n\nSuite à notre discussion, voici la proposition révisée :\n\n— Abonnement année 1 : 39 500 € (au lieu de 48 000 €)\n— Frais de mise en service réduits de 50 %\n— Engagement de 24 mois\n— Paiement à 60 jours fin de mois\n— Indexation annuelle plafonnée à 2 %\n— Clause de sortie à 12 mois en cas de non-respect des engagements de service\n\nCes conditions sont valables jusqu'à la fin du mois. Au-delà, je devrai les refaire valider en interne.\n\nBien cordialement,\n\nNicolas Rey\nAssurio Technologies"
+    },
+    {
+      "date": "2025-04-02",
+      "subject": "Version consolidée du contrat — points de rédaction",
+      "content": "Bonjour Maître,\n\nVous trouverez ci-joint la version consolidée intégrant nos échanges :\n\n— Plafond de responsabilité porté à deux fois le montant annuel (article 9.2)\n— Plafond distinct pour les manquements à la protection des données (article 9.3)\n— Délai de correction ramené à 10 jours pour les incidents majeurs, avec définition contractuelle en annexe 4\n— Réversibilité précisée : formats CSV et Parquet, dictionnaire de données, sous 30 jours calendaires (article 14)\n— Droit français, tribunal de commerce de Nantes (article 18)\n\nLes modifications apparaissent en marques de révision.\n\nBien cordialement,\n\nNicolas Rey\nAssurio Technologies"
+    },
+    {
+      "date": "2025-04-13",
+      "subject": "Merci — démarrage du projet Assurio Flux",
+      "content": "Bonjour Éric Mansour, bonjour Sandrine Aubert,\n\nLe contrat nous est bien parvenu signé. Merci de votre confiance.\n\nPoints administratifs : le bon de commande BC-2025-3546 figurera sur l'ensemble de nos factures, conformément à votre demande.\n\nManon Perret prend le relais à compter de cette semaine en tant que Customer Success Manager. Elle dispose déjà de l'historique complet du dossier : vous n'aurez pas à réexpliquer votre contexte.\n\nPremier jalon engagé : mesure du délai moyen de remboursement à trois mois.\n\nBien cordialement,\n\nNicolas Rey\nAssurio Technologies"
+    },
+    {
+      "date": "2025-04-24",
+      "subject": "Lancement projet — calendrier et prérequis",
+      "content": "Bonjour à tous,\n\nSuite à notre réunion de lancement, voici le calendrier retenu :\n\nPhase 1 — Connexion à Adhésia et reprise de 12 mois d'historique\nPhase 2 — Paramétrage métier avec Sandrine Aubert\nPhase 3 — Formation des équipes de Céline Roux et mise en service\n\nPrérequis à votre charge :\n— Règles de pare-feu sortantes (liste d'adresses en annexe)\n— Machine virtuelle 2 vCPU / 4 Go pour le connecteur\n— Transmission de vos règles de calcul actuelles, même sous forme de tableur\n\nPoint hebdomadaire de 30 minutes le mardi. Aucune double saisie ne sera demandée aux équipes : fonctionnement en parallèle pendant trois semaines, puis bascule.\n\nBien cordialement,\n\nManon Perret\nCustomer Success Manager | Assurio Technologies"
+    },
+    {
+      "date": "2025-05-07",
+      "subject": "Suivi d'incident — cause et action corrective",
+      "content": "Bonjour Céline Roux,\n\nComme convenu par téléphone, je vous confirme par écrit les éléments concernant l'incident de ce matin.\n\nCause identifiée : un changement de configuration intervenu côté environnement client, non signalé en amont. Aucune donnée n'a été perdue.\n\nAction corrective immédiate : rétablissement du service et vérification de l'intégralité des données de la période concernée.\n\nAction de fond : ajout d'une alerte automatique sur ce type d'événement, afin que nous soyons prévenus avant vous la prochaine fois.\n\nCe message est rédigé de façon à pouvoir être transmis tel quel à Sandrine Aubert si vous le jugez utile.\n\nBien cordialement,\n\nManon Perret\nAssurio Technologies"
+    },
+    {
+      "date": "2025-05-19",
+      "subject": "Compte rendu du point hebdomadaire",
+      "content": "Bonjour Sandrine Aubert,\n\nSynthèse de notre point :\n\n— délai moyen de remboursement : 8jours (point de départ 11 jours, cible 5 jours)\n— Adoption : 72 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : adoption plus faible sur le site secondaire, session de rattrapage à programmer\n— Demande d'évolution remontée : filtrage par équipe\n\nPrécision importante : une partie de l'amélioration constatée relève d'un effet saisonnier. En le neutralisant, le gain réellement imputable au projet représente environ deux tiers de l'écart observé. Je préfère vous transmettre le chiffre prudent plutôt que le chiffre flatteur.\n\nBien cordialement,\n\nManon Perret\nAssurio Technologies"
+    },
+    {
+      "date": "2025-06-01",
+      "subject": "Revue trimestrielle — ordre du jour",
+      "content": "Bonjour Éric Mansour,\n\nJe vous propose l'ordre du jour suivant pour notre revue trimestrielle :\n\n1. Résultats mesurés sur le délai moyen de remboursement et gain estimé\n2. Adoption par équipe et par site\n3. Incidents du trimestre, y compris ceux qui nous sont imputables\n4. Plan d'action pour le trimestre à venir\n5. Pistes d'extension\n\nLe point 3 est volontairement à l'ordre du jour : je préfère que nous en parlions ouvertement plutôt que vous les découvriez.\n\nBien cordialement,\n\nManon Perret\nAssurio Technologies"
+    },
+    {
+      "date": "2025-06-12",
+      "subject": "Extension de périmètre — l'ensemble des gestionnaires",
+      "content": "Bonjour Sandrine Aubert,\n\nSuite à votre demande, voici le chiffrage de l'extension à l'ensemble des gestionnaires :\n\n— Montant annuel additionnel : 21 500 €\n— Intégration par avenant au contrat existant\n— Alignement sur la date anniversaire, afin d'éviter des échéances multiples\n— Aucun surcoût de mise en service : l'architecture est déjà en place\n\nLe déploiement peut être réalisé en trois semaines, sans nouvelle intervention de Farid Haddad.\n\nBien cordialement,\n\nNicolas Rey\nAssurio Technologies"
+    },
+    {
+      "date": "2025-06-23",
+      "subject": "Échéance contractuelle — deux scénarios",
+      "content": "Bonjour Éric Mansour,\n\nNotre contrat arrive à échéance. Je vous adresse deux scénarios en avance, afin que vous puissiez les instruire sereinement.\n\nScénario A — Reconduction 12 mois : 40 000 €, indexation plafonnée conformément au contrat.\nScénario B — Engagement 36 mois : gel du tarif la première année, puis indexation plafonnée à 2 %.\n\nRappel du bilan de l'année écoulée : Le délai moyen de remboursement est passé de 11 jours à 5 jours, taux d'adoption de 72 %.\n\nSi vous le souhaitez, je peux intégrer l'extension à l'ensemble des gestionnaires dans une proposition unique, pour éviter deux passages en comité.\n\nBien cordialement,\n\nManon Perret\nAssurio Technologies"
+    }
+  ],
+  "account_id": 4
+}

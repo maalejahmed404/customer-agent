@@ -1,0 +1,525 @@
+{
+  "tenant_name": "Solaria Data SAS",
+  "account_name": "Énergie Coopérative du Ponant",
+  "calls": [
+    {
+      "date": "2025-01-13",
+      "call_name": "Appel de qualification (barrage secrétariat) — tentative de joindre Directrice de l'exploitation",
+      "transcript": "Commercial (Marc): Bonjour, Marc Lestrade de Solaria Data SAS. Je cherche à joindre Élodie Guérin, s'il vous plaît.\n\nBarrage (Patricia): Bonjour. C'est à quel sujet ?\n\nCommercial (Marc): Je l'ai contactée la semaine dernière sur le sujet suivant : des écarts de prévision de production de 14 % qui coûtent cher sur le marché de l'équilibrage. Je voulais m'assurer que mon message était bien arrivé.\n\nBarrage (Patricia): Alors là, elle enchaîne les réunions toute la semaine. Je note votre nom.\n\nCommercial (Marc): Bien sûr, je vais lui écrire. Petite question : est-ce que c'est bien elle qui pilote ce sujet, ou est-ce que ça relève plutôt de Damien Coste ?\n\nBarrage (Patricia): C'est Élodie pour la partie métier, oui.\n\nCommercial (Marc): Parfait, je vous remercie. Je lui envoie un mail aujourd'hui en mettant votre nom en référence, si vous permettez.\n\nBarrage (Patricia): Oui, pas de souci. Bonne journée.",
+      "summary": "Tentative de contact avec Élodie Guérin (Directrice de l'exploitation), filtrée par l'assistante. Le sujet écart moyen de prévision semble bien être un chantier ouvert en interne. Créneau de rappel identifié et envoi d'un courriel de référence convenu.",
+      "crm_fields": [
+        {
+          "key": "Statut du contact",
+          "value": "Élodie Guérin injoignable — filtré par Patricia"
+        },
+        {
+          "key": "Nom du barrage",
+          "value": "Patricia"
+        },
+        {
+          "key": "Meilleur moment pour rappeler",
+          "value": "Mardi avant 10h"
+        },
+        {
+          "key": "Prochaine action",
+          "value": "Envoi du compte rendu"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-21",
+      "call_name": "Appel de prospection — premier contact avec Directrice de l'exploitation",
+      "transcript": "Commercial (Marc): Bonjour Élodie Guérin, Marc Lestrade de Solaria Data SAS. Je vous appelle à froid, vous m'accordez quatre-vingt-dix secondes et vous me dites si ça mérite un vrai échange ?\n\nProspect (Élodie Guérin): Allez-y, mais je n'ai pas beaucoup de temps.\n\nCommercial (Marc): Merci. On travaille avec des structures des énergies renouvelables qui rencontrent toutes le même problème : des écarts de prévision de production de 14 % qui coûtent cher sur le marché de l'équilibrage. Est-ce que ça vous parle, ou est-ce que je suis complètement à côté ?\n\nProspect (Élodie Guérin): Oui enfin, tout le monde me dit ça. En quoi vous êtes différents ?\n\nCommercial (Marc): Concrètement : pas de remplacement de SCADA Ventis, un branchement en lecture seule, et une première restitution utile en trois semaines. Si au bout de trois semaines vous ne voyez rien d'exploitable, on s'arrête.\n\nProspect (Élodie Guérin): Bon. Ça, c'est un discours qui change un peu.\n\nCommercial (Marc): Est-ce qu'on peut caler trente minutes de découverte ? Je viens avec des questions, pas avec un diaporama.\n\nProspect (Élodie Guérin): Jeudi 14h, ça peut marcher. Envoyez-moi une invitation.\n\nCommercial (Marc): C'est noté, je vous envoie ça dans la foulée avec un ordre du jour court. Merci du temps.",
+      "summary": "Premier échange avec Élodie Guérin. La douleur pressentie est confirmée : des écarts de prévision de production de 14 % qui coûtent cher sur le marché de l'équilibrage. Le frein principal exprimé est la crainte d'un projet lourd nécessitant de remplacer SCADA Ventis. L'argument de non-remplacement et d'une première restitution à trois semaines a permis d'obtenir un rendez-vous de découverte.",
+      "crm_fields": [
+        {
+          "key": "Douleur identifiée",
+          "value": "des écarts de prévision de production de 14 % qui coûtent cher sur le marché de l'équilibrage"
+        },
+        {
+          "key": "Concurrent mentionné",
+          "value": "WindSight"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Présentation de la proposition"
+        },
+        {
+          "key": "Sentiment du prospect",
+          "value": "Favorable"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-28",
+      "call_name": "Appel de découverte (30 min) — cartographie des processus et des douleurs",
+      "transcript": "Commercial (Marc): Merci de votre temps, Élodie. On a trente minutes — l'objectif pour moi, c'est de comprendre comment vous fonctionnez aujourd'hui. Je ne vous montrerai rien, promis.\n\nProspect (Élodie Guérin): Très bien. J'ai un point à 14h30 donc on tiendra le timing.\n\nCommercial (Marc): Commençons par le concret : 62 éoliennes réparties sur 9 parcs, c'est bien ça ? Comment ça se pilote aujourd'hui ?\n\nProspect (Élodie Guérin): On s'appuie sur le SCADA Ventis. C'est la source de vérité, mais tout ce qui est analyse se fait en dehors.\n\nCommercial (Marc): En dehors, c'est-à-dire ?\n\nProspect (Élodie Guérin): Des extractions manuelles retraitées à la main. C'est artisanal, je le reconnais.\n\nCommercial (Marc): Combien de temps ça représente par semaine, à la louche ?\n\nProspect (Élodie Guérin): Six heures, sans compter les corrections quand on se trompe.\n\nCommercial (Marc): Autre point que vous avez soulevé : aucune corrélation entre alarmes et pannes réelles. C'est un sujet séparé, ou lié au reste ?\n\nProspect (Élodie Guérin): C'est lié, oui. Quand on rate le premier, le second arrive mécaniquement derrière.\n\nCommercial (Marc): Qui s'en aperçoit en premier, aujourd'hui ?\n\nProspect (Élodie Guérin): Personne, honnêtement. On le découvre dans le reporting mensuel, un mois après.\n\nCommercial (Marc): Donc le vrai problème, c'est moins la mesure que le délai de la mesure.\n\nProspect (Élodie Guérin): Exactement. On sait mesurer, on mesure trop tard.\n\nCommercial (Marc): Vous aviez évoqué ce point : des interventions de maintenance déclenchées après la panne. Ça se traduit comment concrètement ?\n\nProspect (Élodie Guérin): Par de la tension sur les équipes, surtout. Et par des décisions prises à l'instinct.\n\nCommercial (Marc): Est-ce que vous arrivez à mettre un chiffre dessus ?\n\nProspect (Élodie Guérin): L'écart moyen de prévision tourne autour de 14 %. On sait qu'on devrait être à 6 %, on ne sait juste pas comment y aller.\n\nCommercial (Marc): Et si vous y arriviez, ça représente quoi pour Énergie Coopérative du Ponant ?\n\nProspect (Élodie Guérin): En valeur ? Plusieurs centaines de milliers d'euros par an. Mais surtout, ça nous enlèverait une épine du pied vis-à-vis de Jean-Paul.\n\nCommercial (Marc): Qui utiliserait l'outil au quotidien ?\n\nProspect (Élodie Guérin): Principalement Bruno Le Gall et son équipe. Ce sont eux qui sont en première ligne.\n\nCommercial (Marc): Et quel est leur niveau d'appétence pour un nouvel outil ?\n\nProspect (Élodie Guérin): Bruno est plutôt ouvert, mais son équipe est attachée à ses habitudes. Si c'est plus lourd que le tableur actuel, ça ne prendra pas.\n\nCommercial (Marc): C'est un point que je note en gros. L'adoption, c'est là que ces projets meurent.\n\nCommercial (Marc): Sur le plan technique, à qui je dois parler ?\n\nProspect (Élodie Guérin): Damien Coste, Responsable SCADA. Je vous préviens, il est exigeant.\n\nCommercial (Marc): Tant mieux. Quelles sont ses contraintes habituelles ?\n\nProspect (Élodie Guérin): L'hébergement des données, c'est son sujet numéro un. Avec la directive NIS2 et les exigences RTE, il n'a pas droit à l'erreur.\n\nCommercial (Marc): Est-ce que vous regardez d'autres solutions en parallèle ?\n\nProspect (Élodie Guérin): On a eu une présentation de WindSight il y a un mois.\n\nCommercial (Marc): Qu'est-ce que vous en avez retenu ?\n\nProspect (Élodie Guérin): Une belle interface, mais un discours très générique. Rien qui montre qu'ils connaissent notre métier.\n\nCommercial (Marc): Si on ne fait rien, qu'est-ce qui se passe dans douze mois ?\n\nProspect (Élodie Guérin): On continue à absorber. Mais avec le renouvellement du contrat d'agrégation en juillet, on n'aura plus la marge qu'on avait avant.\n\nCommercial (Marc): C'est un argument qui pèse plus qu'un tableau de bord, ça.\n\nProspect (Élodie Guérin): C'est celui que j'utilise en interne, oui. Le reste, ça intéresse peu.\n\nCommercial (Marc): Comment se prend la décision chez vous, sur ce type de projet ?\n\nProspect (Élodie Guérin): Je porte le sujet, Damien valide la partie technique, et Jean-Paul Ruiz signe. Au-delà d'un certain montant, ça passe en comité.\n\nCommercial (Marc): Quel est le seuil qui déclenche le passage en comité ?\n\nProspect (Élodie Guérin): De mémoire, 75 000 euros par an.\n\nCommercial (Marc): Bon à savoir. Et le calendrier ?\n\nProspect (Élodie Guérin): On aimerait que ce soit opérationnel avant le renouvellement du contrat d'agrégation en juillet.\n\nCommercial (Marc): Dernière question sur l'organisation : qui produit les chiffres présentés en réunion de direction ?\n\nProspect (Élodie Guérin): C'est Bruno qui prépare, et moi qui présente. Avec le risque classique : je découvre parfois une incohérence en séance.\n\nCommercial (Marc): Combien de temps de la réunion part sur la fiabilité des chiffres plutôt que sur les décisions ?\n\nProspect (Élodie Guérin): Trop. Et c'est ce qui m'agace le plus, parce que c'est du temps de direction perdu.\n\nCommercial (Marc): Je récapitule pour être sûr : des écarts de prévision de production de 14 % qui coûtent cher sur le marché de l'équilibrage, un écart moyen de prévision à 14 % qu'il faut ramener à 6 %, une contrainte forte sur SCADA Ventis, et une échéance liée à le renouvellement du contrat d'agrégation en juillet. C'est fidèle ?\n\nProspect (Élodie Guérin): C'est exactement ça.\n\nCommercial (Marc): Prochaine étape, je propose une démonstration ciblée sur votre cas, avec Damien présent. Quarante-cinq minutes.\n\nProspect (Élodie Guérin): D'accord, je vous envoie deux créneaux.",
+      "summary": "Découverte approfondie avec Élodie Guérin. Le fonctionnement actuel repose sur SCADA Ventis comme source de vérité, avec toute l'analyse réalisée en dehors, sous tableur. L'écart moyen de prévision est mesuré à 14 % pour une cible de 6 %. Décideur économique identifié : Jean-Paul Ruiz. Risque principal : l'adoption par les équipes de Bruno Le Gall, échaudées par des projets précédents. Échéance structurante : le renouvellement du contrat d'agrégation en juillet. Démonstration ciblée programmée avec Damien.",
+      "crm_fields": [
+        {
+          "key": "Système existant",
+          "value": "SCADA Ventis — une GMAO vieillissante"
+        },
+        {
+          "key": "Processus actuel",
+          "value": "Extractions manuelles retraitées sous tableur"
+        },
+        {
+          "key": "Douleurs quantifiées",
+          "value": "écart moyen de prévision à 14 % (cible 6 %) ; des interventions de maintenance déclenchées après la panne"
+        },
+        {
+          "key": "Décideur économique",
+          "value": "Jean-Paul Ruiz (Directeur administratif et financier)"
+        },
+        {
+          "key": "Critère de décision",
+          "value": "Aucun remplacement de SCADA Ventis ; adoption par les équipes terrain"
+        },
+        {
+          "key": "Échéance client",
+          "value": "le renouvellement du contrat d'agrégation en juillet"
+        },
+        {
+          "key": "Taille de l'équipe",
+          "value": "12 utilisateurs cibles"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Passage en comité"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-31",
+      "call_name": "Démonstration produit (45 min) — cas d'usage Solaria Prévision",
+      "transcript": "Commercial (Marc): Bonjour à tous. On est trois : Élodie, Damien, et Rachid côté Solaria. Quarante-cinq minutes, et on part de votre cas, pas d'un jeu de données de démonstration.\n\nResponsable SCADA (Damien Coste): Très bien. J'ai des questions techniques, je les poserai au fil de l'eau.\n\nIngénieur avant-vente (Rachid Benali): On a repris ce que Élodie nous a décrit : 62 éoliennes réparties sur 9 parcs, une source SCADA Ventis, et l'écart moyen de prévision comme indicateur de tête. Voilà l'écran d'accueil.\n\nResponsable SCADA (Damien Coste): Vous gérez les droits d'accès à quelle granularité ?\n\nIngénieur avant-vente (Rachid Benali): Par périmètre et par rôle. Un directeur d'établissement ne voit que son périmètre, la direction voit le consolidé.\n\nResponsable SCADA (Damien Coste): Et c'est piloté depuis notre annuaire ou dans votre outil ?\n\nIngénieur avant-vente (Rachid Benali): Depuis votre annuaire, via les groupes existants. Vous ne gérez pas une deuxième liste d'utilisateurs.\n\nResponsable SCADA (Damien Coste): Bien. C'est ce qui fait la différence entre un outil qu'on maintient et un outil qu'on subit.\n\nProspect (Élodie Guérin): Et si Jean-Paul me demande le chiffre du mois dernier pendant une réunion, je fais comment ?\n\nIngénieur avant-vente (Rachid Benali): Vous ouvrez l'historique, il est figé. Le chiffre du mois dernier reste celui qui a été publié le mois dernier, même si les données sources ont bougé depuis.\n\nProspect (Élodie Guérin): Alors ça, c'est un vrai sujet chez nous. Nos chiffres changent rétroactivement et personne ne comprend pourquoi.\n\nIngénieur avant-vente (Rachid Benali): On garde les deux : la version publiée et la version actualisée, avec l'écart expliqué.\n\nProspect (Élodie Guérin): Est-ce qu'on peut voir ce que ça donne sur ce cas précis : des données SCADA exploitées seulement à J+2 ?\n\nIngénieur avant-vente (Rachid Benali): Bien sûr. Regardez : le système détecte l'écart quatre jours avant qu'il devienne visible dans vos indicateurs mensuels.\n\nProspect (Élodie Guérin): Alors ça, c'est exactement ce qui nous manque. Aujourd'hui on subit.\n\nResponsable SCADA (Damien Coste): Et le modèle se base sur combien d'historique ?\n\nIngénieur avant-vente (Rachid Benali): Douze à dix-huit mois idéalement. En dessous de six mois, on reste sur des règles simples, sans prétendre faire de la prévision.\n\nChef d'équipe maintenance (Bruno Le Gall): Question bête : est-ce que ça m'ajoute du travail ou est-ce que ça m'en enlève ?\n\nIngénieur avant-vente (Rachid Benali): Cinq minutes le matin. Et ça remplace la consolidation que vous faites aujourd'hui à la main, donc le solde est largement positif.\n\nChef d'équipe maintenance (Bruno Le Gall): C'est ce que je voulais entendre. Parce que le dernier outil qu'on nous a installé nous a rajouté une saisie.\n\nIngénieur avant-vente (Rachid Benali): Aucune saisie supplémentaire. On lit vos données existantes, on ne vous demande rien de neuf.\n\nResponsable SCADA (Damien Coste): Question bête : qu'est-ce qui se passe si la source tombe ?\n\nIngénieur avant-vente (Rachid Benali): L'outil continue de fonctionner sur la dernière donnée valide, et un bandeau signale la fraîcheur. On préfère afficher « donnée d'hier » que de faire croire que tout va bien.\n\nResponsable SCADA (Damien Coste): Bonne réponse. J'ai vu des outils afficher des zéros dans ce cas-là.\n\nProspect (Élodie Guérin): Attendez — cet indicateur, il se calcule sur quelle base ?\n\nIngénieur avant-vente (Rachid Benali): Directement des données SCADA Ventis, rafraîchies toutes les heures. Vous pouvez descendre jusqu'à la ligne d'origine, regardez.\n\nProspect (Élodie Guérin): Ah, ça c'est important. Aujourd'hui, dès qu'on présente un chiffre, la première question c'est « il sort d'où ? », et on n'a jamais la réponse.\n\nIngénieur avant-vente (Rachid Benali): Voilà la partie qui intéresse Bruno : la vue quotidienne. Trois écrans maximum, pas de menu à quinze entrées.\n\nProspect (Élodie Guérin): C'est volontairement simple ?\n\nIngénieur avant-vente (Rachid Benali): Complètement. Les équipes de terrain n'ouvriront pas un outil qui demande une formation de deux jours. Ici, c'est vingt minutes.\n\nProspect (Élodie Guérin): Si c'est vraiment ce niveau de simplicité, l'adoption devient jouable.\n\nProspect (Élodie Guérin): Et la restitution pour le comité de direction ?\n\nIngénieur avant-vente (Rachid Benali): Export automatique, mensuel, au format que vous voulez. Vous pouvez même figer la version présentée pour éviter que les chiffres bougent entre deux réunions.\n\nProspect (Élodie Guérin): Ça, c'est du vécu. Merci.\n\nProspect (Élodie Guérin): Combien de temps avant d'avoir quelque chose d'exploitable, réellement ?\n\nIngénieur avant-vente (Rachid Benali): Trois semaines pour la première restitution, à condition d'avoir l'accès aux données en semaine 1. Et je précise : exploitable ne veut pas dire complet.\n\nProspect (Élodie Guérin): Qu'est-ce qui ne sera pas complet à trois semaines ?\n\nIngénieur avant-vente (Rachid Benali): Les modèles prédictifs demandent plus d'historique fiabilisé. À trois semaines vous avez le constat et les écarts, pas la prévision. Celle-ci arrive vers le deuxième mois.\n\nProspect (Élodie Guérin): Je préfère cette réponse à un « tout est prêt en quinze jours » auquel je ne crois pas.\n\nCommercial (Marc): On approche de la fin. Qu'est-ce qui vous manque pour vous projeter ?\n\nResponsable SCADA (Damien Coste): La documentation d'intégration et le détail de l'hébergement. Sans ça, je ne peux pas valider.\n\nProspect (Élodie Guérin): Et de mon côté, un ordre de grandeur budgétaire. Sinon je ne peux rien porter à Jean-Paul.\n\nCommercial (Marc): Compris. Je propose un point technique avec Damien et Rachid, et je vous envoie une fourchette budgétaire d'ici demain.",
+      "summary": "Démonstration réalisée sur les données et le contexte du compte. Les points qui ont porté : la traçabilité jusqu'à la donnée source et la simplicité de l'écran quotidien. Damien a validé le principe de lecture seule sans écriture dans SCADA Ventis. Restent à fournir le dossier d'architecture et une fourchette budgétaire.",
+      "crm_fields": [
+        {
+          "key": "Retour sur la démonstration",
+          "value": "Très positif sur la traçabilité des chiffres"
+        },
+        {
+          "key": "Objection technique",
+          "value": "Intégration à SCADA Ventis et absence d'agent sur les serveurs"
+        },
+        {
+          "key": "Fonctionnalité déterminante",
+          "value": "Export figé pour les réunions de direction"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Session de formation"
+        },
+        {
+          "key": "Sentiment des parties prenantes",
+          "value": "Élodie favorable ; Damien réservé jusqu'à validation du dossier de conformité"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-05",
+      "call_name": "Atelier technique (1h) — architecture, flux de données et intégration SCADA Ventis",
+      "transcript": "Ingénieur avant-vente (Rachid Benali): Bonjour Damien. Une heure, format atelier : je réponds à vos questions, pas de présentation commerciale.\n\nResponsable SCADA (Damien Coste): Très bien. J'ai six points, on verra si on tient l'heure.\n\nResponsable SCADA (Damien Coste): Dernier point, et c'est celui qui me fait le plus peur : la reprise d'historique. Combien de temps et quel impact sur nos systèmes ?\n\nIngénieur avant-vente (Rachid Benali): Une nuit de chargement pour douze mois, sur la réplique de lecture. Aucun impact sur votre production, puisqu'on ne touche pas à la base primaire.\n\nResponsable SCADA (Damien Coste): Sur la réplique, d'accord. Et si la réplique prend du retard pendant le chargement ?\n\nIngénieur avant-vente (Rachid Benali): On bride le débit. Le chargement dure plus longtemps mais votre réplique reste dans ses seuils. C'est paramétrable avec vous.\n\nResponsable SCADA (Damien Coste): D'accord. C'est une réponse d'ingénieur, ça me va.\n\nResponsable SCADA (Damien Coste): Supervision : comment je sais que le flux tourne, sans avoir à ouvrir votre interface ?\n\nIngénieur avant-vente (Rachid Benali): Un point de contrôle exposé que vous interrogez depuis votre propre supervision, plus une alerte par courriel en cas d'échec de chargement.\n\nResponsable SCADA (Damien Coste): Il me faut le second, mais surtout le premier. Je veux que ça remonte dans mes écrans, pas dans une boîte mail que personne ne lit.\n\nIngénieur avant-vente (Rachid Benali): C'est prévu. Je vous envoie le format de réponse pour que vous l'intégriez à votre outil.\n\nResponsable SCADA (Damien Coste): Qualité des données : notre historique est loin d'être propre. Qu'est-ce qui se passe avec les trous ?\n\nIngénieur avant-vente (Rachid Benali): On les détecte et on les signale plutôt que de les combler silencieusement. Un rapport de qualité est produit à chaque chargement.\n\nResponsable SCADA (Damien Coste): C'est honnête. La plupart des éditeurs prétendent que leur algorithme gère tout.\n\nIngénieur avant-vente (Rachid Benali): Sur votre périmètre, on estime qu'il faudra deux semaines de fiabilisation avant d'avoir des chiffres présentables.\n\nResponsable SCADA (Damien Coste): Réversibilité. Si on arrête au bout d'un an, je récupère quoi ?\n\nIngénieur avant-vente (Rachid Benali): L'intégralité de vos données, au format CSV et Parquet, plus le dictionnaire de données. Sous trente jours, et c'est contractuel.\n\nResponsable SCADA (Damien Coste): Notez-le dans le contrat, pas dans un courriel.\n\nResponsable SCADA (Damien Coste): Environnements. Vous fournissez une recette séparée de la production ?\n\nIngénieur avant-vente (Rachid Benali): Oui, deux environnements inclus. La recette est alimentée par un échantillon anonymisé de vos données.\n\nResponsable SCADA (Damien Coste): Anonymisé comment ? Parce que « anonymisé » veut tout dire et rien dire.\n\nIngénieur avant-vente (Rachid Benali): Substitution des identifiants et des noms propres, décalage temporel aléatoire, conservation des distributions statistiques. La procédure est documentée et auditable.\n\nResponsable SCADA (Damien Coste): Envoyez la procédure, je la ferai relire.\n\nResponsable SCADA (Damien Coste): Montées de version. Vous imposez vos fenêtres ou on négocie ?\n\nIngénieur avant-vente (Rachid Benali): Mises à jour mensuelles, annoncées quinze jours avant, en dehors de vos heures ouvrées. Vous pouvez décaler une fenêtre par trimestre.\n\nResponsable SCADA (Damien Coste): Prévoyez une période de gel sur nos pics d'activité, sinon ça va poser problème.\n\nIngénieur avant-vente (Rachid Benali): C'est courant, on le contractualise dans l'annexe de service.\n\nResponsable SCADA (Damien Coste): Authentification : on est sur un annuaire interne avec SSO. Vous supportez SAML ?\n\nIngénieur avant-vente (Rachid Benali): SAML 2.0 et OpenID Connect, avec provisionnement automatique des comptes et rattachement aux groupes de votre annuaire.\n\nResponsable SCADA (Damien Coste): Bien. Ça m'évite de gérer des comptes locaux.\n\nResponsable SCADA (Damien Coste): Charge côté serveur. Le connecteur consomme quoi ?\n\nIngénieur avant-vente (Rachid Benali): Deux cœurs, quatre gigaoctets de mémoire. Il tourne la nuit pour l'historique et en incrémental la journée.\n\nResponsable SCADA (Damien Coste): Ça passe sur une machine virtuelle existante. Pas besoin de nouveau matériel, donc.\n\nIngénieur avant-vente (Rachid Benali): Il vous reste des points bloquants ?\n\nResponsable SCADA (Damien Coste): Un seul : je veux valider les schémas d'architecture avec mon RSSI avant de me prononcer.\n\nIngénieur avant-vente (Rachid Benali): Je vous envoie le dossier complet aujourd'hui. Merci pour la qualité des questions.",
+      "summary": "Atelier technique avec Damien Coste. Architecture validée : connecteur en flux HTTPS sortant, aucun flux entrant à ouvrir, lecture seule sur SCADA Ventis. Hébergement France et exigences la directive NIS2 et les exigences RTE confirmés. Point de vigilance partagé : deux semaines de fiabilisation des données seront nécessaires avant restitution présentable.",
+      "crm_fields": [
+        {
+          "key": "Environnement technique",
+          "value": "SCADA Ventis, annuaire interne avec SSO (SAML 2.0)"
+        },
+        {
+          "key": "Méthode d'intégration",
+          "value": "Connecteur en flux HTTPS sortant, lecture seule, fréquence horaire"
+        },
+        {
+          "key": "Contrainte de sécurité",
+          "value": "Aucun flux entrant ; la directive NIS2 et les exigences RTE"
+        },
+        {
+          "key": "Validation technique",
+          "value": "Favorable sous réserve du rapport d'audit"
+        },
+        {
+          "key": "Prochaine action technique",
+          "value": "Transmission du dossier d'architecture et de conformité"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-12",
+      "call_name": "Revue de sécurité (45 min) — conformité, hébergement et sous-traitance",
+      "transcript": "Commercial (Marc): Bonjour, merci de nous recevoir. L'objet du point, c'est votre revue de sécurité avant contractualisation.\n\nResponsable SCADA (Damien Coste): Exact. J'ai relu votre dossier. J'ai quatre points, dont deux sérieux.\n\nIngénieur avant-vente (Rachid Benali): Allons-y dans l'ordre.\n\nResponsable SCADA (Damien Coste): Premier point : la sous-traitance. Vous listez un hébergeur et un prestataire de supervision. Le second a-t-il accès aux données ?\n\nIngénieur avant-vente (Rachid Benali): Non. Il supervise l'infrastructure, pas les données applicatives. Le cloisonnement est documenté en annexe 3 et audité annuellement.\n\nResponsable SCADA (Damien Coste): D'accord, mais je veux voir le dernier rapport d'audit.\n\nIngénieur avant-vente (Rachid Benali): Il vous sera transmis sous accord de confidentialité, c'est la procédure standard.\n\nResponsable SCADA (Damien Coste): Deuxième point : la durée de conservation. Avec la directive NIS2 et les exigences RTE, je dois pouvoir justifier chaque durée.\n\nIngénieur avant-vente (Rachid Benali): Configurable par catégorie de données. Par défaut trente-six mois pour l'historique métier, treize mois pour les journaux techniques.\n\nResponsable SCADA (Damien Coste): Il faut qu'on descende à vingt-quatre mois sur l'historique métier. C'est notre politique interne.\n\nIngénieur avant-vente (Rachid Benali): C'est un paramètre, pas un développement. On peut l'inscrire dans l'annexe technique.\n\nResponsable SCADA (Damien Coste): Troisième point : le chiffrement. Au repos et en transit, avec quelles clés ?\n\nIngénieur avant-vente (Rachid Benali): AES-256 au repos, TLS 1.3 en transit. Gestion des clés dans un module dédié, avec rotation annuelle. Option clé client si vous le souhaitez.\n\nResponsable SCADA (Damien Coste): Acceptable, je le note comme levé.\n\nResponsable SCADA (Damien Coste): Dernier point, et c'est le plus important : en cas de réquisition par une autorité étrangère, quelle est votre position ?\n\nIngénieur avant-vente (Rachid Benali): Société de droit français, capital français, hébergement français. Nous ne sommes pas soumis aux législations extraterritoriales. C'est précisément la raison pour laquelle plusieurs de nos clients du des énergies renouvelables nous ont retenus.\n\nResponsable SCADA (Damien Coste): Bien. Avis favorable de ma part, avec les deux réserves qu'on vient d'évoquer.\n\nCommercial (Marc): Merci. Je fais suivre le rapport dès aujourd'hui.",
+      "summary": "Revue de sécurité. Quatre points examinés : sous-traitance, durée de conservation, chiffrement et exposition aux législations extraterritoriales. La durée de conservation sera ramenée à 24 mois sur l'historique métier. Avis favorable sous réserve de la communication du rapport d'audit annuel.",
+      "crm_fields": [
+        {
+          "key": "Exigence de conformité",
+          "value": "la directive NIS2 et les exigences RTE"
+        },
+        {
+          "key": "Localisation de l'hébergement",
+          "value": "France — opérateur qualifié, aucune sortie de l'UE"
+        },
+        {
+          "key": "Durée de conservation",
+          "value": "24 mois sur l'historique métier (demande client), 13 mois sur les journaux"
+        },
+        {
+          "key": "Statut de validation sécurité",
+          "value": "Avis favorable sous réserve"
+        },
+        {
+          "key": "Documents demandés",
+          "value": "Rapport d'audit annuel sous accord de confidentialité"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-17",
+      "call_name": "Présentation de la proposition commerciale (25 min)",
+      "transcript": "Commercial (Marc): Bonjour à tous. Vingt-cinq minutes pour dérouler la proposition. Jean-Paul, je sais que votre temps est compté.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Je vous écoute. Ce qui m'intéresse, c'est le chiffre et le délai de retour.\n\nCommercial (Marc): Trois éléments. Un : le périmètre — 62 éoliennes réparties sur 9 parcs, 12 utilisateurs, le module Solaria Prévision. Deux : le tarif — 43 000 euros par an. Trois : les frais de mise en service, 7 500 euros, une seule fois.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): C'est plus que ce que j'avais en tête. Justifiez-moi ce montant.\n\nCommercial (Marc): Sur la base du gain : l'écart moyen de prévision passe de 14 % à 6 %, ce qui représente 146 000 euros par an. L'investissement est amorti en dix mois.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Vos chiffres, c'est votre modèle ou c'est du constaté chez d'autres clients ?\n\nProspect (Élodie Guérin): Les chiffres sont les nôtres, Jean-Paul. On les a construits ensemble.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Bon. Ça change la conversation.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Une réserve : je ne signe pas trois ans à l'aveugle. Pas sur un éditeur qu'on ne connaît pas.\n\nCommercial (Marc): Entendu. Ils sont négociables dans le cadre d'un engagement de deux ans.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Faites-moi une proposition révisée sur cette base et je la regarde.\n\nCommercial (Marc): Vous l'avez demain matin. Merci pour votre temps.",
+      "summary": "Présentation de la proposition à Jean-Paul Ruiz : 43 000 € par an, 7 500 € de frais de mise en service. Le business case s'appuie sur les données du client (écart moyen de prévision de 14 % à 6 %), ce qui a nettement renforcé la crédibilité. Deux réserves exprimées : les frais de mise en service et la durée d'engagement.",
+      "crm_fields": [
+        {
+          "key": "Montant proposé",
+          "value": "43 000 € par an"
+        },
+        {
+          "key": "Frais de mise en service",
+          "value": "7 500 € non récurrents"
+        },
+        {
+          "key": "Périmètre",
+          "value": "62 éoliennes réparties sur 9 parcs — module Solaria Prévision"
+        },
+        {
+          "key": "Retour sur investissement",
+          "value": "146 000 € par an, amortissement en dix mois"
+        },
+        {
+          "key": "Objection principale",
+          "value": "Frais de mise en service"
+        },
+        {
+          "key": "Date de clôture prévue",
+          "value": "2025-04-02"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-26",
+      "call_name": "Négociation commerciale — tarif, engagement et conditions de paiement",
+      "transcript": "Commercial (Marc): Bonjour Jean-Paul. On se parle pour converger. Vous avez la proposition révisée sous les yeux ?\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Oui. On est encore loin. Mon plafond, c'est clair.\n\nCommercial (Marc): Dites-moi où est l'écart.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Mon budget arbitré est de 33 500 euros. Je n'ai pas la main au-dessus.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Une dernière chose : je ne veux pas dépendre d'une seule personne chez vous. Si Chloé part, on fait quoi ?\n\nCommercial (Marc): Votre dossier est suivi par un binôme. C'est précisément pour éviter ce risque.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Notez-le dans le contrat. J'ai déjà été échaudé.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): La revalorisation annuelle. Je ne veux pas d'indexation ouverte.\n\nCommercial (Marc): Je peux plafonner à 3 % par an sur la durée de l'engagement.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): 3 %, admettons, mais avec un gel la deuxième année.\n\nCommercial (Marc): Gel la deuxième année, d'accord. Mais alors on part sur deux ans fermes.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Les engagements de service. Qu'est-ce qui se passe si vous ne les tenez pas ?\n\nCommercial (Marc): Avoir sur la facture suivante, proportionnel à l'indisponibilité, et déclenchement automatique — vous n'avez pas à le réclamer.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): C'est rare. La plupart des éditeurs attendent qu'on réclame.\n\nCommercial (Marc): C'est calculé et appliqué par nos systèmes. Et le rapport de disponibilité vous est envoyé chaque mois, que vous le demandiez ou non.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Bien. Ça, ça compte dans mon arbitrage.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Et WindSight nous propose 27 500 euros.\n\nCommercial (Marc): Je ne doute pas du chiffre. Sur quel périmètre ? Parce que leur offre à ce prix ne couvre pas l'intégration à votre système existant.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Bonne question. Franchement, je ne sais pas.\n\nProspect (Élodie Guérin): De mémoire, l'intégration est en supplément chez eux. Je vérifie et je te dis.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Le périmètre. Est-ce que je peux démarrer plus petit et étendre ensuite ?\n\nCommercial (Marc): Oui. Je vous le déconseille pour une raison simple : le coût de mise en service est le même, et vous le paierez deux fois si on refait un chantier dans six mois.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Argument honnête. Je m'attendais à ce que vous me poussiez au périmètre large sans me dire pourquoi.\n\nCommercial (Marc): Je vous envoie les deux scénarios chiffrés, avec le point de bascule.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Les conditions de paiement. Trente jours, c'est trop court pour notre trésorerie.\n\nCommercial (Marc): Je peux aller à soixante jours date de facture, avec facturation annuelle à la date anniversaire.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Soixante jours fin de mois, et c'est réglé.\n\nCommercial (Marc): Soixante jours fin de mois, d'accord. Je le fais inscrire.\n\nCommercial (Marc): Si je descends à 35 500 euros, est-ce que vous signez cette semaine ?\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Si le montant est bon et que le juridique ne bloque pas, oui.\n\nCommercial (Marc): Je peux tenir ce prix contre un engagement de deux ans et une référence publique si les résultats sont au rendez-vous.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Deux ans, ça je peux. La référence, on en reparlera dans un an.\n\nCommercial (Marc): Récapitulons : 35 500 euros la première année, engagement de deux ans, frais de mise en service réduits de moitié, paiement à soixante jours. C'est bien ce qu'on acte ?\n\nDirecteur administratif et financier (Jean-Paul Ruiz): On est d'accord. Reste le passage au juridique, et là je ne maîtrise pas le délai.\n\nCommercial (Marc): Je l'envoie ce soir. Merci pour la franchise de l'échange.",
+      "summary": "Négociation avec Jean-Paul Ruiz. Convergence obtenue à 35 500 € pour l'année 1, contre un engagement de 24 mois, des frais de mise en service réduits de moitié, un paiement à 60 jours fin de mois et une indexation plafonnée. Reste le passage au service juridique.",
+      "crm_fields": [
+        {
+          "key": "Montant négocié",
+          "value": "35 500 € (année 1)"
+        },
+        {
+          "key": "Plafond budgétaire",
+          "value": "33 500 € — au-delà, passage en conseil"
+        },
+        {
+          "key": "Concessions accordées",
+          "value": "Frais de mise en service réduits de 50 %, indexation plafonnée à 2 %"
+        },
+        {
+          "key": "Conditions de paiement",
+          "value": "60 jours fin de mois"
+        },
+        {
+          "key": "Durée d'engagement",
+          "value": "24 mois"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Atelier technique"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-03",
+      "call_name": "Point juridique (35 min) — clauses de responsabilité et réversibilité",
+      "transcript": "Commercial (Marc): Bonjour Maître. On est là pour les points de rédaction relevés par vos services.\n\nJuridique (Maître Fabre): Bonjour. J'ai quatre demandes de modification. Trois sont fermes.\n\nJuridique (Maître Fabre): Premièrement : le plafond de responsabilité. Vous proposez le montant annuel du contrat. C'est insuffisant au regard de nos enjeux.\n\nCommercial (Marc): C'est notre standard. Que proposez-vous ?\n\nJuridique (Maître Fabre): Le double, et un plafond distinct pour les manquements à la protection des données.\n\nCommercial (Marc): Sur la protection des données, nous acceptons un plafond distinct. Sur le reste, je dois obtenir un accord interne.\n\nJuridique (Maître Fabre): Deuxièmement : le délai de correction en cas de manquement au contrat de service. Trente jours, c'est trop long pour un outil que Élodie utilisera quotidiennement.\n\nCommercial (Marc): Quinze jours pour les incidents majeurs, trente pour le reste. Acceptable ?\n\nJuridique (Maître Fabre): Dix jours pour les majeurs. Au-delà, la résiliation est de plein droit.\n\nCommercial (Marc): Dix jours, d'accord, à condition que la qualification de « majeur » soit définie dans l'annexe de service et pas laissée à l'appréciation.\n\nJuridique (Maître Fabre): C'est raisonnable. Je fais rédiger la définition.\n\nJuridique (Maître Fabre): Troisièmement : la réversibilité. Votre rédaction actuelle mentionne « un format exploitable ». C'est trop vague.\n\nCommercial (Marc): Nous précisons : CSV et Parquet, avec dictionnaire de données, sous trente jours calendaires à compter de la demande.\n\nJuridique (Maître Fabre): Écrivez-le tel quel et le point est levé.\n\nJuridique (Maître Fabre): Quatrièmement, et c'est ma demande souple : le droit applicable et le tribunal compétent.\n\nCommercial (Marc): Droit français. Sur le tribunal, nous sommes ouverts à votre juridiction.\n\nJuridique (Maître Fabre): Alors nous avons convergé. Je renvoie une version annotée d'ici vendredi.\n\nCommercial (Marc): Merci Maître. Je fais circuler la version modifiée dès demain.",
+      "summary": "Point juridique. Plafond de responsabilité porté à deux fois le montant annuel, délai de correction ramené à 10 jours pour les incidents majeurs avec définition contractuelle, réversibilité précisée (CSV et Parquet sous 30 jours). Droit français retenu. Version consolidée attendue.",
+      "crm_fields": [
+        {
+          "key": "Plafond de responsabilité",
+          "value": "2 fois le montant annuel, plafond distinct sur les données"
+        },
+        {
+          "key": "Délai de correction",
+          "value": "10 jours pour les incidents majeurs, 30 jours pour les autres"
+        },
+        {
+          "key": "Clause de réversibilité",
+          "value": "CSV et Parquet + dictionnaire de données, sous 30 jours"
+        },
+        {
+          "key": "Droit applicable",
+          "value": "Droit français — tribunal de commerce de Brest"
+        },
+        {
+          "key": "Statut juridique",
+          "value": "Version consolidée en relecture"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-07",
+      "call_name": "Point de synchronisation avec le sponsor interne (15 min)",
+      "transcript": "Commercial (Marc): Bonjour Élodie, appel court. Où en est-on en interne ?\n\nProspect (Élodie Guérin): Le juridique a rendu sa copie. Il reste la signature.\n\nCommercial (Marc): Dites-moi tout.\n\nProspect (Élodie Guérin): Jean-Paul est en déplacement jusqu'à la fin de la semaine. La signature ne se fera pas avant lundi.\n\nCommercial (Marc): Qu'est-ce qui vous serait utile de ma part ?\n\nProspect (Élodie Guérin): Une note d'une page, chiffrée, que je puisse faire circuler sans avoir à la retravailler.\n\nCommercial (Marc): Je m'en occupe. Vous voulez que je vous la relise avant ?\n\nProspect (Élodie Guérin): Parfait. Je vous tiens au courant dès que j'ai du neuf.\n\nCommercial (Marc): Merci Élodie. Franchement, sans vous ce dossier n'avancerait pas.",
+      "summary": "Point court avec Élodie. Le dossier avance mais un aléa interne décale le calendrier. Appui fourni sous forme d'un document synthétique destiné à circuler en interne sans retravail.",
+      "crm_fields": [
+        {
+          "key": "Santé du sponsor interne",
+          "value": "Solide — porte le dossier en interne"
+        },
+        {
+          "key": "Blocage interne",
+          "value": "Demande de revue du calcul par le contrôle de gestion"
+        },
+        {
+          "key": "Appui demandé",
+          "value": "Créneau de 20 min en visioconférence"
+        },
+        {
+          "key": "Date de signature prévue",
+          "value": "2025-03-25"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-17",
+      "call_name": "Comité d'investissement (40 min) — présentation du dossier",
+      "transcript": "Directeur administratif et financier (Jean-Paul Ruiz): Bien. On a quarante minutes. Élodie présente, Solaria répond aux questions.\n\nProspect (Élodie Guérin): Merci. Le constat, vous le connaissez : des écarts de prévision de production de 14 % qui coûtent cher sur le marché de l'équilibrage. L'écart moyen de prévision est à 14 %, l'objectif est 6 %. On a évalué trois solutions, on en recommande une.\n\nResponsable SCADA (Damien Coste): Sur le plan technique, l'avis est favorable. Pas d'agent installé, aucune écriture dans nos systèmes, hébergement français. Les réserves initiales sont levées.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Ma question est simple : qu'est-ce qui garantit qu'on n'aura pas un projet de plus qui s'enlise ?\n\nCommercial (Marc): Trois choses. Un périmètre volontairement réduit la première année. Une première restitution utile à trois semaines, pas à six mois. Et une clause de sortie à douze mois si les objectifs de service ne sont pas tenus.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Combien de temps de mes équipes ça consomme ?\n\nProspect (Élodie Guérin): On a estimé un tiers de temps plein sur trois mois, principalement Damien pour la connexion et moi pour le paramétrage métier.\n\nChef d'équipe maintenance (Bruno Le Gall): Je voudrais ajouter un point du terrain. Mon équipe a déjà vu passer des outils qui ont ajouté du travail au lieu d'en enlever. J'ai posé la question, on m'a montré l'écran quotidien : trois vues, pas quinze. Là, je signe.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Bien. Je suis favorable, sous réserve du plafond budgétaire dont on a parlé.\n\nProspect (Élodie Guérin): Merci. Je reviens vers vous avec le calendrier de démarrage.",
+      "summary": "Passage en comité d'investissement. Élodie a porté le dossier, Damien a rendu un avis technique favorable, et Bruno Le Gall a apporté le point de vue terrain, décisif sur la question de l'adoption. Décision favorable sous réserve du plafond budgétaire.",
+      "crm_fields": [
+        {
+          "key": "Décision du comité",
+          "value": "Favorable sous réserve du plafond budgétaire"
+        },
+        {
+          "key": "Objection du décideur",
+          "value": "Risque d'enlisement au vu des deux projets précédents"
+        },
+        {
+          "key": "Charge interne estimée",
+          "value": "20 jours-homme sur le premier trimestre"
+        },
+        {
+          "key": "Prochaine étape",
+          "value": "Session de formation"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-20",
+      "call_name": "Appel de confirmation de signature",
+      "transcript": "Commercial (Marc): Bonjour Jean-Paul, je ne vous prends que cinq minutes.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): J'ai signé hier soir. Vous devriez recevoir la copie aujourd'hui.\n\nCommercial (Marc): Excellente nouvelle. Merci de votre confiance.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Ne me décevez pas. J'ai mis mon crédit sur ce dossier en interne.\n\nCommercial (Marc): C'est noté, et c'est légitime. Le premier jalon, c'est l'écart moyen de prévision mesuré à trois mois. On s'y engage.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Bien. Un point d'attention : le bon de commande porte le numéro BC-2025-5128, il doit figurer sur toutes les factures. Sinon la comptabilité les rejette, et je ne peux rien pour vous.\n\nCommercial (Marc): C'est enregistré : BC-2025-5128 sur chaque facture. La facturation démarre au 2025-04-04.\n\nDirecteur administratif et financier (Jean-Paul Ruiz): Parfait. Bonne continuation.",
+      "summary": "Contrat signé par Jean-Paul Ruiz. Bon de commande BC-2025-5128 à faire figurer impérativement sur toutes les factures. Attente exprimée clairement : des résultats mesurables, à commencer par l'écart moyen de prévision à trois mois.",
+      "crm_fields": [
+        {
+          "key": "Statut du contrat",
+          "value": "Signé"
+        },
+        {
+          "key": "Numéro de bon de commande",
+          "value": "BC-2025-5128"
+        },
+        {
+          "key": "Date de début de facturation",
+          "value": "2025-03-25"
+        },
+        {
+          "key": "Signataire",
+          "value": "Jean-Paul Ruiz (Directeur administratif et financier)"
+        },
+        {
+          "key": "Valeur du contrat",
+          "value": "35 500 € (année 1) — engagement 24 mois"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-25",
+      "call_name": "Passage de relais commercial vers l'équipe Customer Success (20 min)",
+      "transcript": "Commercial (Marc): Bonjour à tous. Appel de passage de relais : je vous présente Chloé Vidal, qui sera votre interlocutrice à partir d'aujourd'hui.\n\nCSM (Chloé Vidal): Bonjour Élodie. J'ai lu l'ensemble du dossier, je ne vais pas vous refaire raconter votre histoire.\n\nProspect (Élodie Guérin): Merci, parce que je commençais à fatiguer de me répéter.\n\nCSM (Chloé Vidal): Ce que j'ai retenu : votre indicateur de tête est l'écart moyen de prévision, aujourd'hui à 14 %, objectif 6 %. Le risque principal identifié, c'est l'adoption par l'équipe de Bruno. C'est bien ça ?\n\nProspect (Élodie Guérin): Parfaitement résumé. L'adoption, c'est mon inquiétude numéro un.\n\nCSM (Chloé Vidal): Donc voilà ce que je propose : on ne déploie pas partout d'un coup. On commence par un périmètre restreint, on obtient un résultat visible, et on s'en sert pour convaincre le reste.\n\nProspect (Élodie Guérin): C'est la bonne approche.\n\nCSM (Chloé Vidal): Calendrier : lancement le 2025-04-06, connexion des données la semaine suivante, première restitution trois semaines après. Formation de Bruno et son équipe juste avant.\n\nResponsable SCADA (Damien Coste): De mon côté, il me faut les prérequis techniques par écrit dès cette semaine.\n\nCSM (Chloé Vidal): Vous les aurez demain. Une seule demande de ma part : un référent unique côté métier pour les questions du quotidien.\n\nProspect (Élodie Guérin): Ce sera Bruno. Je le préviens.\n\nCommercial (Marc): Parfait. Je reste dans la boucle mais je m'efface. Bonne route à tous.",
+      "summary": "Passage de relais vers Chloé Vidal. Le contexte du compte a été transmis en amont, ce qui a évité au client de réexpliquer sa situation. Stratégie retenue : déploiement par périmètre restreint pour obtenir un résultat visible avant généralisation. Référent métier désigné : Bruno Le Gall.",
+      "crm_fields": [
+        {
+          "key": "CSM assigné",
+          "value": "Chloé Vidal"
+        },
+        {
+          "key": "Risque principal identifié",
+          "value": "Adoption par l'équipe de Bruno Le Gall"
+        },
+        {
+          "key": "Indicateur de succès",
+          "value": "écart moyen de prévision de 14 % à 6 %"
+        },
+        {
+          "key": "Date de lancement",
+          "value": "2025-04-03"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-28",
+      "call_name": "Réunion de lancement projet (1h) — calendrier et prérequis",
+      "transcript": "CSM (Chloé Vidal): Bonjour à tous, réunion de lancement. Objectif du jour : caler le calendrier et lever les prérequis.\n\nProspect (Élodie Guérin): Allons-y. J'ai bloqué une heure.\n\nCSM (Chloé Vidal): Phase 1 : connexion à SCADA Ventis et reprise de douze mois d'historique. Phase 2 : paramétrage métier avec vous. Phase 3 : formation et mise en service.\n\nResponsable SCADA (Damien Coste): La connexion, je peux la faire cette semaine. La reprise d'historique dépendra du volume : on est sur combien de lignes ?\n\nCSM (Chloé Vidal): Environ quatre millions de lignes sur douze mois. Comptez une nuit de chargement initial.\n\nResponsable SCADA (Damien Coste): D'accord. Je fais la demande aujourd'hui, ça prend deux jours chez nous.\n\nCSM (Chloé Vidal): Sur le paramétrage : Élodie, il me faut vos règles de calcul actuelles. Même si elles sont dans un tableur, envoyez-les telles quelles.\n\nProspect (Élodie Guérin): Elles sont dans un tableur, effectivement. Et personne ne sait vraiment qui les a écrites.\n\nCSM (Chloé Vidal): C'est toujours le cas. C'est justement l'occasion de les remettre à plat.\n\nChef d'équipe maintenance (Bruno Le Gall): Question pratique : mon équipe devra faire une double saisie pendant la transition ?\n\nCSM (Chloé Vidal): En parallèle pendant trois semaines, le temps de vérifier que les chiffres concordent. Ensuite on coupe.\n\nChef d'équipe maintenance (Bruno Le Gall): Ça me va. C'était ma crainte principale.\n\nResponsable SCADA (Damien Coste): Une contrainte que je dois signaler : nous avons un gel informatique sur une partie de la période.\n\nCSM (Chloé Vidal): Sur quelles dates exactement ?\n\nResponsable SCADA (Damien Coste): Toute la période de le renouvellement du contrat d'agrégation en juillet. C'est une règle interne, je n'ai pas la main.\n\nCSM (Chloé Vidal): Alors on avance la connexion technique et on décale la formation après le gel. Je réajuste le plan et je vous le renvoie demain.\n\nResponsable SCADA (Damien Coste): Merci de ne pas essayer de passer en force. Ça a été tenté avant vous.\n\nProspect (Élodie Guérin): Qui fait quoi en cas de blocage ? Je ne veux pas qu'on se renvoie la balle.\n\nCSM (Chloé Vidal): Un responsable par phase, de chaque côté. Côté vous : Damien sur la technique, Bruno sur le métier. Côté nous : moi, avec un binôme identifié en cas d'absence.\n\nProspect (Élodie Guérin): Et l'arbitrage, c'est qui ?\n\nCSM (Chloé Vidal): Vous et moi, au point hebdomadaire. Si ça dépasse deux semaines, on remonte au niveau supérieur des deux côtés. C'est écrit dans le plan projet.\n\nChef d'équipe maintenance (Bruno Le Gall): Concrètement, ma production s'arrête pendant le démarrage ?\n\nCSM (Chloé Vidal): À aucun moment. Vos systèmes continuent de tourner, on lit à côté. Le seul moment sensible, c'est la bascule, et elle se fait un vendredi soir.\n\nChef d'équipe maintenance (Bruno Le Gall): Et si la bascule se passe mal ?\n\nCSM (Chloé Vidal): On ne coupe rien : votre fonctionnement actuel reste disponible trois semaines de plus. Le retour arrière, c'est simplement de continuer comme avant.\n\nChef d'équipe maintenance (Bruno Le Gall): D'accord. Là, je suis rassuré.\n\nCSM (Chloé Vidal): Point de suivi hebdomadaire, trente minutes, le mardi. Prochaine étape : connexion technique avant le 2025-04-04.",
+      "summary": "Réunion de lancement. Trois phases calées : connexion et reprise de 12 mois d'historique, paramétrage métier, formation et mise en service. Prérequis techniques transmis à Damien. Point rassurant pour les utilisateurs : aucune double saisie, fonctionnement en parallèle pendant trois semaines.",
+      "crm_fields": [
+        {
+          "key": "Phase du projet",
+          "value": "Phase 2 — paramétrage métier"
+        },
+        {
+          "key": "Prérequis techniques",
+          "value": "Règles de pare-feu sortantes, machine virtuelle 2 vCPU / 4 Go"
+        },
+        {
+          "key": "Référent métier",
+          "value": "Bruno Le Gall"
+        },
+        {
+          "key": "Rythme de suivi",
+          "value": "Point hebdomadaire de 30 minutes, le mardi"
+        },
+        {
+          "key": "Prochaine échéance",
+          "value": "2025-04-06"
+        }
+      ]
+    },
+    {
+      "date": "2025-04-07",
+      "call_name": "Session de formation utilisateurs (1h30)",
+      "transcript": "CSM (Chloé Vidal): Bonjour à tous. Session de prise en main, une heure trente. Vous êtes 6 aujourd'hui.\n\nChef d'équipe maintenance (Bruno Le Gall): Toute l'équipe est là, plus deux personnes de l'équipe voisine qui voulaient voir.\n\nCSM (Chloé Vidal): Parfait. Je vous préviens : on ne fera pas le tour de toutes les fonctionnalités. On va faire les trois choses que vous ferez tous les jours.\n\nChef d'équipe maintenance (Bruno Le Gall): Bonne approche. La dernière formation qu'on a eue durait deux jours, on n'a rien retenu.\n\nCSM (Chloé Vidal): Première chose : votre vue du matin. Vous ouvrez, vous voyez les écarts de la veille, vous savez quoi traiter en priorité.\n\nChef d'équipe maintenance (Bruno Le Gall): Attendez — les écarts sont classés par ordre d'importance ?\n\nCSM (Chloé Vidal): Par impact estimé, oui. Et vous pouvez reclasser selon vos propres critères.\n\nChef d'équipe maintenance (Bruno Le Gall): Ah, ça c'est utile. Aujourd'hui on se marche dessus régulièrement.\n\nCSM (Chloé Vidal): Deuxième chose : le commentaire justement. Chaque écart peut être annoté. C'est ce qui construit votre mémoire collective.\n\nUtilisateur (Karine): Et les commentaires, ils restent combien de temps ?\n\nCSM (Chloé Vidal): Tout l'historique est conservé et cherchable. C'est souvent ce que les équipes finissent par préférer à la partie analytique.\n\nUtilisateur (Karine): Franchement, si ça marche comme ça, c'est déjà mieux que nos courriels.\n\nCSM (Chloé Vidal): Troisième chose : l'export pour vos réunions. Un bouton, un fichier, figé à la date. Plus de chiffres qui bougent entre deux réunions.\n\nChef d'équipe maintenance (Bruno Le Gall): Ce point-là seul justifie la formation, honnêtement.\n\nUtilisateur (Karine): Qu'est-ce qui se passe si je fais une fausse manipulation ?\n\nCSM (Chloé Vidal): Rien d'irréversible. Vous ne pouvez pas modifier les données sources, et tout ce que vous annotez est historisé avec votre nom et la date.\n\nUtilisateur (Karine): Historisé avec mon nom ? Ça veut dire qu'on peut voir qui a écrit quoi ?\n\nCSM (Chloé Vidal): C'est une trace de travail, pas une trace de surveillance. Aucun indicateur individuel n'est produit, et je peux vous le montrer dans les paramètres.\n\nChef d'équipe maintenance (Bruno Le Gall): Je préfère qu'on en parle maintenant plutôt que d'entendre des rumeurs ensuite.\n\nUtilisateur (Karine): Est-ce que ça marche sur téléphone ? Parce que je suis rarement à mon bureau.\n\nCSM (Chloé Vidal): Sur mobile, vous avez la vue du jour et les alertes. Le reste est pensé pour un écran large.\n\nUtilisateur (Karine): C'est déjà ce dont j'ai besoin. Merci pour l'honnêteté.\n\nChef d'équipe maintenance (Bruno Le Gall): Comment on fait quand quelqu'un arrive dans l'équipe ?\n\nCSM (Chloé Vidal): Le compte est créé automatiquement depuis votre annuaire. Pour la prise en main, il y a un parcours guidé de vingt minutes dans l'outil.\n\nChef d'équipe maintenance (Bruno Le Gall): Deux pages, c'est réaliste. Les manuels de cent pages, personne ne les lit.\n\nChef d'équipe maintenance (Bruno Le Gall): Une question qui fâche : si l'outil se trompe, qui est responsable ?\n\nCSM (Chloé Vidal): L'outil ne prend aucune décision à votre place. Il signale et il explique. La décision et la responsabilité restent de votre côté.\n\nChef d'équipe maintenance (Bruno Le Gall): Bien. Tant que je peux voir pourquoi il propose ça, ça me va.\n\nCSM (Chloé Vidal): Voilà, c'est tout pour aujourd'hui. Trois choses. Vous avez mon numéro, et je passe faire un point dans quinze jours.",
+      "summary": "Session de prise en main avec l'équipe de Bruno. Format volontairement resserré sur trois usages quotidiens plutôt qu'un tour complet des fonctionnalités. Les fonctions de commentaire et d'export figé ont été les plus appréciées.",
+      "crm_fields": [
+        {
+          "key": "Participants",
+          "value": "6 personnes de l'équipe Bruno"
+        },
+        {
+          "key": "Format de la session",
+          "value": "Prise en main sur trois cas d'usage quotidiens"
+        },
+        {
+          "key": "Retour des utilisateurs",
+          "value": "Positif, crainte de double saisie levée"
+        },
+        {
+          "key": "Prochaine session",
+          "value": "2025-05-06"
+        }
+      ]
+    }
+  ],
+  "emails": [
+    {
+      "date": "2025-01-09",
+      "subject": "Production d'énergies renouvelables : réduire l'écart moyen de prévision sans changer SCADA Ventis",
+      "content": "Bonjour Élodie Guérin,\n\nJe me permets de vous écrire car nous accompagnons plusieurs structures des énergies renouvelables confrontées à une difficulté récurrente : des écarts de prévision de production de 14 % qui coûtent cher sur le marché de l'équilibrage.\n\nChez la plupart d'entre elles, le constat était le même que celui que vous vivez probablement : SCADA Ventis reste la source de vérité, mais toute l'analyse se fait en dehors, sous tableur, avec un temps de retraitement considérable.\n\nNotre approche est volontairement peu intrusive : nous ne remplaçons aucun système existant et nous nous branchons en lecture seule. Sur un périmètre comparable au vôtre (62 éoliennes réparties sur 9 parcs), l'écart moyen de prévision est passé de 14 % à 6 % en six mois.\n\nAuriez-vous vingt minutes dans les prochains jours pour en discuter ?\n\nBien cordialement,\n\nMarc Lestrade\nCommercial | Solaria Data SAS"
+    },
+    {
+      "date": "2025-01-13",
+      "subject": "Relance : écart moyen de prévision chez Énergie Coopérative du Ponant",
+      "content": "Bonjour Élodie Guérin,\n\nJe reviens vers vous suite à mon message de la semaine dernière, resté sans réponse — ce que je comprends parfaitement compte tenu de la période.\n\nUn élément qui pourrait justifier un échange court : plusieurs de nos clients des énergies renouvelables ont engagé ce type de chantier en anticipation de le renouvellement du contrat d'agrégation en juillet, précisément pour éviter d'avoir à le traiter dans l'urgence.\n\nSi le sujet n'est pas prioritaire pour vous cette année, dites-le-moi simplement et je cesserai mes relances.\n\nBien cordialement,\n\nMarc Lestrade\nSolaria Data SAS"
+    },
+    {
+      "date": "2025-01-17",
+      "subject": "Confirmation : échange Solaria / Énergie Coopérative du Ponant",
+      "content": "Bonjour Élodie Guérin,\n\nJe vous confirme notre échange. Ordre du jour proposé :\n\n1. Votre fonctionnement actuel autour de SCADA Ventis\n2. Les difficultés rencontrées sur écart moyen de prévision\n3. Vos contraintes techniques et de conformité\n4. Les prochaines étapes si le sujet a du sens\n\nPas de présentation commerciale : l'objectif est de comprendre votre contexte.\n\nSi vous souhaitez associer Damien Coste à cet échange, n'hésitez pas à le convier.\n\nBien cordialement,\n\nMarc Lestrade\nSolaria Data SAS"
+    },
+    {
+      "date": "2025-01-21",
+      "subject": "Compte rendu de notre échange + éléments complémentaires",
+      "content": "Bonjour Élodie Guérin,\n\nMerci pour le temps accordé. Je reprends ci-dessous ce que j'ai retenu, corrigez-moi si je me trompe :\n\n— Difficulté principale : des écarts de prévision de production de 14 % qui coûtent cher sur le marché de l'équilibrage\n— Indicateur de référence : écart moyen de prévision, aujourd'hui à 14 %, objectif 6 %\n— Contrainte structurante : aucun remplacement de SCADA Ventis\n— Échéance : le renouvellement du contrat d'agrégation en juillet\n— Point de vigilance : l'adoption par les équipes de Bruno Le Gall\n\nComme convenu, je vous joins le dossier technique et un retour d'expérience mené dans un contexte proche du vôtre.\n\nProchaine étape proposée : un atelier technique avec Damien Coste.\n\nBien cordialement,\n\nMarc Lestrade\nSolaria Data SAS"
+    },
+    {
+      "date": "2025-01-25",
+      "subject": "Dossier d'architecture et de conformité — Solaria",
+      "content": "Bonjour Damien Coste,\n\nComme convenu lors de notre atelier, vous trouverez ci-joint :\n\n— le schéma d'architecture détaillé (flux HTTPS sortant, aucun flux entrant)\n— la description du connecteur et son dimensionnement (2 vCPU, 4 Go)\n— la politique de conservation des données, paramétrable par catégorie\n— la matrice des accès et le cloisonnement des sous-traitants\n— la procédure de réversibilité (CSV et Parquet, sous 30 jours)\n\nConcernant la directive NIS2 et les exigences RTE, l'hébergement est réalisé en France chez un opérateur qualifié et aucune donnée ne quitte l'Union européenne, sauvegardes comprises.\n\nLe rapport d'audit annuel peut vous être transmis sous accord de confidentialité : dites-moi si vous souhaitez que j'engage la démarche.\n\nBien cordialement,\n\nRachid Benali\nIngénieur avant-vente | Solaria Data SAS"
+    },
+    {
+      "date": "2025-01-30",
+      "subject": "Proposition commerciale — Énergie Coopérative du Ponant / Solaria Prévision",
+      "content": "Bonjour Élodie Guérin,\n\nVous trouverez ci-joint notre proposition, construite sur les éléments que vous nous avez communiqués.\n\nPérimètre : 62 éoliennes réparties sur 9 parcs, 12 utilisateurs, module Solaria Prévision.\nAbonnement annuel : 43 000 €.\nFrais de mise en service : 7 500 €, non récurrents.\n\nLe retour sur investissement repose sur vos propres chiffres : le passage de l'écart moyen de prévision de 14 % à 6 % représente environ 146 000 € par an, soit un amortissement en dix mois.\n\nJe reste disponible pour en discuter avec Jean-Paul Ruiz.\n\nBien cordialement,\n\nMarc Lestrade\nSolaria Data SAS"
+    },
+    {
+      "date": "2025-02-05",
+      "subject": "Proposition révisée suite à notre échange",
+      "content": "Bonjour Jean-Paul Ruiz,\n\nSuite à notre discussion, voici la proposition révisée :\n\n— Abonnement année 1 : 35 500 € (au lieu de 43 000 €)\n— Frais de mise en service réduits de 50 %\n— Engagement de 24 mois\n— Paiement à 60 jours fin de mois\n— Indexation annuelle plafonnée à 2 %\n— Clause de sortie à 12 mois en cas de non-respect des engagements de service\n\nCes conditions sont valables jusqu'à la fin du mois. Au-delà, je devrai les refaire valider en interne.\n\nBien cordialement,\n\nMarc Lestrade\nSolaria Data SAS"
+    },
+    {
+      "date": "2025-02-11",
+      "subject": "Version consolidée du contrat — points de rédaction",
+      "content": "Bonjour Maître,\n\nVous trouverez ci-joint la version consolidée intégrant nos échanges :\n\n— Plafond de responsabilité porté à deux fois le montant annuel (article 9.2)\n— Plafond distinct pour les manquements à la protection des données (article 9.3)\n— Délai de correction ramené à 10 jours pour les incidents majeurs, avec définition contractuelle en annexe 4\n— Réversibilité précisée : formats CSV et Parquet, dictionnaire de données, sous 30 jours calendaires (article 14)\n— Droit français, tribunal de commerce de Brest (article 18)\n\nLes modifications apparaissent en marques de révision.\n\nBien cordialement,\n\nMarc Lestrade\nSolaria Data SAS"
+    },
+    {
+      "date": "2025-02-15",
+      "subject": "Merci — démarrage du projet Solaria Prévision",
+      "content": "Bonjour Jean-Paul Ruiz, bonjour Élodie Guérin,\n\nLe contrat nous est bien parvenu signé. Merci de votre confiance.\n\nPoints administratifs : le bon de commande BC-2025-5128 figurera sur l'ensemble de nos factures, conformément à votre demande.\n\nChloé Vidal prend le relais à compter de cette semaine en tant que Customer Success Manager. Elle dispose déjà de l'historique complet du dossier : vous n'aurez pas à réexpliquer votre contexte.\n\nPremier jalon engagé : mesure de l'écart moyen de prévision à trois mois.\n\nBien cordialement,\n\nMarc Lestrade\nSolaria Data SAS"
+    },
+    {
+      "date": "2025-02-19",
+      "subject": "Lancement projet — calendrier et prérequis",
+      "content": "Bonjour à tous,\n\nSuite à notre réunion de lancement, voici le calendrier retenu :\n\nPhase 1 — Connexion à SCADA Ventis et reprise de 12 mois d'historique\nPhase 2 — Paramétrage métier avec Élodie Guérin\nPhase 3 — Formation des équipes de Bruno Le Gall et mise en service\n\nPrérequis à votre charge :\n— Règles de pare-feu sortantes (liste d'adresses en annexe)\n— Machine virtuelle 2 vCPU / 4 Go pour le connecteur\n— Transmission de vos règles de calcul actuelles, même sous forme de tableur\n\nPoint hebdomadaire de 30 minutes le mardi. Aucune double saisie ne sera demandée aux équipes : fonctionnement en parallèle pendant trois semaines, puis bascule.\n\nBien cordialement,\n\nChloé Vidal\nCustomer Success Manager | Solaria Data SAS"
+    },
+    {
+      "date": "2025-02-23",
+      "subject": "Suivi d'incident — cause et action corrective",
+      "content": "Bonjour Bruno Le Gall,\n\nComme convenu par téléphone, je vous confirme par écrit les éléments concernant l'incident de ce matin.\n\nCause identifiée : un changement de configuration intervenu côté environnement client, non signalé en amont. Aucune donnée n'a été perdue.\n\nAction corrective immédiate : rétablissement du service et vérification de l'intégralité des données de la période concernée.\n\nAction de fond : ajout d'une alerte automatique sur ce type d'événement, afin que nous soyons prévenus avant vous la prochaine fois.\n\nCe message est rédigé de façon à pouvoir être transmis tel quel à Élodie Guérin si vous le jugez utile.\n\nBien cordialement,\n\nChloé Vidal\nSolaria Data SAS"
+    },
+    {
+      "date": "2025-02-28",
+      "subject": "Compte rendu du point hebdomadaire",
+      "content": "Bonjour Élodie Guérin,\n\nSynthèse de notre point :\n\n— écart moyen de prévision : 10% (point de départ 14 %, cible 6 %)\n— Adoption : 84 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : adoption plus faible sur le site secondaire, session de rattrapage à programmer\n— Demande d'évolution remontée : filtrage par équipe\n\nPrécision importante : une partie de l'amélioration constatée relève d'un effet saisonnier. En le neutralisant, le gain réellement imputable au projet représente environ deux tiers de l'écart observé. Je préfère vous transmettre le chiffre prudent plutôt que le chiffre flatteur.\n\nBien cordialement,\n\nChloé Vidal\nSolaria Data SAS"
+    },
+    {
+      "date": "2025-03-04",
+      "subject": "Revue trimestrielle — ordre du jour",
+      "content": "Bonjour Jean-Paul Ruiz,\n\nJe vous propose l'ordre du jour suivant pour notre revue trimestrielle :\n\n1. Résultats mesurés sur l'écart moyen de prévision et gain estimé\n2. Adoption par équipe et par site\n3. Incidents du trimestre, y compris ceux qui nous sont imputables\n4. Plan d'action pour le trimestre à venir\n5. Pistes d'extension\n\nLe point 3 est volontairement à l'ordre du jour : je préfère que nous en parlions ouvertement plutôt que vous les découvriez.\n\nBien cordialement,\n\nChloé Vidal\nSolaria Data SAS"
+    },
+    {
+      "date": "2025-03-09",
+      "subject": "Extension de périmètre — l'ensemble des éoliennes",
+      "content": "Bonjour Élodie Guérin,\n\nSuite à votre demande, voici le chiffrage de l'extension à l'ensemble des éoliennes :\n\n— Montant annuel additionnel : 19 000 €\n— Intégration par avenant au contrat existant\n— Alignement sur la date anniversaire, afin d'éviter des échéances multiples\n— Aucun surcoût de mise en service : l'architecture est déjà en place\n\nLe déploiement peut être réalisé en trois semaines, sans nouvelle intervention de Damien Coste.\n\nBien cordialement,\n\nMarc Lestrade\nSolaria Data SAS"
+    },
+    {
+      "date": "2025-03-16",
+      "subject": "Échéance contractuelle — deux scénarios",
+      "content": "Bonjour Jean-Paul Ruiz,\n\nNotre contrat arrive à échéance. Je vous adresse deux scénarios en avance, afin que vous puissiez les instruire sereinement.\n\nScénario A — Reconduction 12 mois : 36 000 €, indexation plafonnée conformément au contrat.\nScénario B — Engagement 36 mois : gel du tarif la première année, puis indexation plafonnée à 2 %.\n\nRappel du bilan de l'année écoulée : L'écart moyen de prévision est passé de 14 % à 6 %, taux d'adoption de 84 %.\n\nSi vous le souhaitez, je peux intégrer l'extension à l'ensemble des éoliennes dans une proposition unique, pour éviter deux passages en comité.\n\nBien cordialement,\n\nChloé Vidal\nSolaria Data SAS"
+    },
+    {
+      "date": "2025-03-20",
+      "subject": "Retour d'expérience — contexte comparable au vôtre",
+      "content": "Bonjour Élodie Guérin,\n\nComme promis, voici le retour d'expérience évoqué au téléphone. Le contexte est proche du vôtre : même secteur, volumétrie comparable, et une contrainte identique de ne pas toucher au système existant.\n\nLes trois enseignements que j'en retiens pour votre cas :\n\n1. Le gain le plus rapide n'a pas été analytique mais organisationnel : les réunions ont cessé de porter sur la fiabilité des chiffres.\n2. L'adoption a été obtenue en démarrant sur un périmètre restreint, pas en déployant partout.\n3. Les deux premières semaines ont été consacrées à la fiabilisation des données. C'est incompressible, autant l'anticiper.\n\nJe peux organiser un échange direct avec leur responsable si vous le souhaitez.\n\nBien cordialement,\n\nMarc Lestrade\nSolaria Data SAS"
+    },
+    {
+      "date": "2025-03-25",
+      "subject": "Facturation — rappel des références",
+      "content": "Bonjour,\n\nPour la bonne exécution administrative du contrat, je vous confirme les références à faire figurer sur nos échanges :\n\n— Bon de commande : BC-2025-5128\n— Conditions de règlement : 60 jours fin de mois\n— Périodicité : facturation annuelle à la date anniversaire\n\nSans le numéro de bon de commande, vos services comptables rejettent les factures : nous veillons donc à ce qu'il soit systématiquement rappelé.\n\nBien cordialement,\n\nMarc Lestrade\nSolaria Data SAS"
+    },
+    {
+      "date": "2025-03-29",
+      "subject": "Compte rendu hebdomadaire — semaine 4 (2025-S04)",
+      "content": "Bonjour Élodie Guérin,\n\nSynthèse du point de la semaine 4 :\n\n— écart moyen de prévision : 14% (départ 14 %, cible 6 %)\n— Adoption : 52 % d'utilisateurs actifs hebdomadaires\n— Point de vigilance : écart entre la mesure hebdomadaire et le reporting mensuel\n— Demande d'évolution remontée : comparaison automatique avec le même mois de l'année précédente\n\nComme chaque semaine, je distingue ce qui relève du projet de ce qui relève du contexte : une partie de la variation tient à la saisonnalité, et je préfère vous transmettre le chiffre prudent.\n\nBien cordialement,\n\nChloé Vidal\nSolaria Data SAS"
+    },
+    {
+      "date": "2025-04-03",
+      "subject": "Ticket TIC-98960 — clôture, cause et action corrective",
+      "content": "Bonjour Bruno Le Gall,\n\nJe vous confirme par écrit la clôture du ticket TIC-98960, ouvert en semaine 5.\n\nCause identifiée : dépassement de la limite de lignes du format d'export.\nAucune donnée n'a été perdue ; les valeurs affichées pendant l'incident ont été recalculées et vérifiées.\nAction de fond : bascule vers un format sans limite.\n\nIndicateur au moment de la clôture — écart moyen de prévision : 14%.\n\nCe message est rédigé de façon à pouvoir être transmis tel quel à Élodie Guérin.\n\nBien cordialement,\n\nChloé Vidal\nSolaria Data SAS"
+    },
+    {
+      "date": "2025-04-07",
+      "subject": "Demande d'évolution 2025-S06 — suite donnée",
+      "content": "Bonjour Élodie Guérin,\n\nRetour sur la demande d'évolution enregistrée sous la référence 2025-S06 : ajout d'un seuil d'alerte personnalisable par utilisateur.\n\nElle a été instruite par notre équipe produit. Elle n'est pas retenue à court terme, et je préfère vous le dire clairement plutôt que de la laisser en attente indéfinie.\n\nPour mémoire, deux autres demandes issues de vos équipes restent ouvertes ; j'en fais le point complet au prochain comité de suivi.\n\nBien cordialement,\n\nChloé Vidal\nSolaria Data SAS"
+    }
+  ],
+  "account_id": 3
+}
