@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "image": { "value": "<registre>.azurecr.io/customer-agent:1" },
+    "registryServer": { "value": "<registre>.azurecr.io" },
+    "registryUsername": { "value": "<registre>" },
+    "registryPassword": { "value": "<az acr credential show -n <registre> --query passwords[0].value -o tsv>" },
+    "mongoUri": { "value": "mongodb+srv://<user>:<password>@<cluster>.mongodb.net/?retryWrites=true&w=majority" },
+    "jwtSecret": { "value": "<python -c \"import secrets; print(secrets.token_urlsafe(48))\">" },
+    "llmApiKey": { "value": "<clé Lightning AI>" },
+    "voyageApiKey": { "value": "<clé Voyage AI>" },
+    "exposeMcp": { "value": false }
+  }
+}
